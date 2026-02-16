@@ -235,8 +235,13 @@ You MUST return your findings as a JSON object with this exact structure:
   ]
 }
 
-CRITICAL: Return ONLY the JSON object, no markdown fences, no commentary before or after. The JSON must be valid and parseable.
-If no new intel is found at all, return the structure with empty arrays for newIntel, escalations, tierChanges, and needsReview, and list all players in noChange.`;
+CRITICAL RULES FOR OUTPUT:
+1. After completing all searches, you MUST output the JSON delta report as your FINAL text block.
+2. The JSON MUST be complete and valid. Do NOT get cut off mid-JSON.
+3. Do NOT write lengthy commentary. Keep search-phase text minimal. Save your token budget for the JSON output.
+4. The JSON must be the LAST thing you output. Return ONLY the JSON object in your final text block — no markdown fences, no commentary after.
+5. If no new intel is found at all, return the structure with empty arrays for newIntel, escalations, tierChanges, and needsReview, and list all players in noChange.
+6. Budget your searches wisely — prioritize players with active rumours and known interest, then do quick checks on others.`;
 
 // ── Build the user message ────────────────────────────────────────────────
 function buildUserMessage() {
@@ -313,13 +318,13 @@ async function runSweep() {
     // Use streaming — required for long-running web search operations
     const stream = client.messages.stream({
       model: MODEL,
-      max_tokens: 32000,
+      max_tokens: 16000,
       system: SYSTEM_PROMPT,
       tools: [
         {
           type: "web_search_20250305",
           name: "web_search",
-          max_uses: 250
+          max_uses: 100
         }
       ],
       messages: [{ role: "user", content: userMessage }]
