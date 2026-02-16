@@ -1,0 +1,106 @@
+name: Automated Transfer Sweep
+
+on:
+  schedule:
+    # Full sweep: Monday 08:00 UTC
+    - cron: "0 8 * * 1"
+    # Priority sweep: Wednesday + Friday 08:00 UTC
+    - cron: "0 8 * * 3"
+    - cron: "0 8 * * 5"
+
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      sweep_type:
+        description: "Sweep type"
+        required: true
+        default: "full"
+        type: choice
+        options:
+          - full
+          - priority
+          - flash
+      player_name:
+        description: "Player name (flash sweep only)"
+        required: false
+        type: string
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Determine sweep type
+        id: config
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "type=${{ github.event.inputs.sweep_type }}" >> "$GITHUB_OUTPUT"
+            echo "player=${{ github.event.inputs.player_name }}" >> "$GITHUB_OUTPUT"
+          else
+            # Scheduled: Monday = full, Wed/Fri = priority
+            DOW=$(date -u +%u)
+            if [ "$DOW" = "1" ]; then
+              echo "type=full" >> "$GITHUB_OUTPUT"
+            else
+              echo "type=priority" >> "$GITHUB_OUTPUT"
+            fi
+            echo "player=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run sweep
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          SWEEP_TYPE="${{ steps.config.outputs.type }}"
+          PLAYER="${{ steps.config.outputs.player }}"
+          ARGS="--type $SWEEP_TYPE --verbose"
+          if [ -n "$PLAYER" ]; then
+            ARGS="$ARGS --player \"$PLAYER\""
+          fi
+          echo "Running $SWEEP_TYPE sweep..."
+          node scripts/sweep.mjs $ARGS
+
+      - name: Check for data changes
+        id: changes
+        run: |
+          if git diff --quiet data/ dist/ index.html; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes detected."
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected:"
+            git diff --stat data/ dist/ index.html
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "Sweep Bot"
+          git config user.email "sweep-bot@users.noreply.github.com"
+          SWEEP_TYPE="${{ steps.config.outputs.type }}"
+          DATE=$(date -u +"%b %-d, %Y")
+          git add data/ dist/ index.html sweeps/
+          git commit -m "sweep($SWEEP_TYPE): $DATE — automated intel update"
+          git push
+
+      - name: Upload sweep report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sweep-report-${{ github.run_number }}
+          path: sweeps/
+          retention-days: 90

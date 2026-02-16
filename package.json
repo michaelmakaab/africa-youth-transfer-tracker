@@ -1,0 +1,17 @@
+{
+  "name": "africa-youth-transfer-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Africa Youth Transfer Intelligence Tracker with automated sweep system",
+  "scripts": {
+    "build": "bash build.sh",
+    "sweep": "node scripts/sweep.mjs --type full",
+    "sweep:priority": "node scripts/sweep.mjs --type priority",
+    "sweep:flash": "node scripts/sweep.mjs --type flash --player",
+    "sweep:dry": "node scripts/sweep.mjs --type full --dry-run --verbose"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}

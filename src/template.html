@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Africa Youth Transfer Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  min-height: 100vh;
+  background: #060911;
+  color: #E2E8F0;
+  font-family: 'DM Sans', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.mono { font-family: 'Space Mono', monospace; }
+.header {
+  background: linear-gradient(135deg, #0B1120 0%, #0F172A 50%, #0B1120 100%);
+  border-bottom: 1px solid #1E293B;
+  padding: 28px 32px 24px;
+}
+.header-inner { max-width: 1200px; margin: 0 auto; }
+.header-top { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 16px; }
+.brand-tag { font-size: 11px; color: #F59E0B; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 4px; }
+.brand-title { font-size: 28px; font-weight: 700; letter-spacing: -1px; color: #F8FAFC; line-height: 1.1; }
+.brand-sub { font-size: 13px; color: #475569; margin-top: 6px; }
+.stats { display: flex; gap: 24px; }
+.stat { text-align: right; }
+.stat-value { font-size: 26px; font-weight: 700; line-height: 1; }
+.stat-label { font-size: 10px; color: #475569; letter-spacing: 1px; margin-top: 4px; text-transform: uppercase; }
+.view-tabs { display: flex; gap: 0; margin-bottom: 16px; border-bottom: 1px solid #1E293B; }
+.view-tab {
+  padding: 10px 20px; background: transparent; border: none; border-bottom: 2px solid transparent;
+  color: #475569; font-size: 13px; font-weight: 700; font-family: 'Space Mono', monospace;
+  cursor: pointer; transition: all 0.15s; letter-spacing: 0.5px;
+}
+.view-tab:hover { color: #94A3B8; }
+.view-tab.active { color: #F59E0B; border-bottom-color: #F59E0B; }
+.feed-item {
+  display: grid; grid-template-columns: 140px 1fr; gap: 0;
+  padding: 14px 16px; border-bottom: 1px solid #1E293B; transition: background 0.15s;
+}
+.feed-item:hover { background: #0F172A; }
+.feed-meta { display: flex; flex-direction: column; gap: 4px; }
+.feed-date { font-size: 11px; color: #64748B; }
+.feed-player-name { font-size: 13px; font-weight: 700; color: #F1F5F9; }
+.feed-player-sub { font-size: 10px; color: #475569; }
+.feed-content { display: flex; flex-direction: column; gap: 4px; }
+.feed-club { font-size: 13px; color: #CBD5E1; font-weight: 600; }
+.feed-detail { font-size: 13px; color: #94A3B8; line-height: 1.5; }
+.feed-source { font-size: 11px; color: #64748B; display: flex; align-items: center; gap: 8px; }
+@media (max-width: 640px) { .feed-item { grid-template-columns: 1fr; gap: 8px; } }
+.filters { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.search-box { position: relative; flex: 1 1 260px; max-width: 320px; }
+.search-box input {
+  width: 100%; padding: 9px 14px 9px 36px; background: #0B1120;
+  border: 1px solid #1E293B; border-radius: 8px; color: #E2E8F0;
+  font-size: 13px; font-family: 'DM Sans', sans-serif; outline: none;
+}
+.search-box input:focus { border-color: #334155; }
+.search-box input::placeholder { color: #334155; }
+.search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #475569; font-size: 14px; pointer-events: none; }
+.filter-pills { display: flex; gap: 4px; flex-wrap: wrap; }
+.filter-pill {
+  padding: 7px 14px; border-radius: 8px; border: 1px solid #1E293B;
+  background: transparent; color: #475569; font-size: 12px; font-weight: 600;
+  font-family: 'DM Sans', sans-serif; cursor: pointer; transition: all 0.15s; white-space: nowrap;
+}
+.filter-pill:hover { border-color: #334155; color: #94A3B8; }
+.filter-pill.active { background: rgba(139,158,183,0.08); }
+.country-select {
+  padding: 8px 12px; background: #0B1120; border: 1px solid #1E293B;
+  border-radius: 8px; color: #94A3B8; font-size: 12px;
+  font-family: 'DM Sans', sans-serif; cursor: pointer; outline: none;
+}
+.country-select option { background: #0B1120; }
+.sort-bar { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.sort-label { font-size: 10px; color: #334155; letter-spacing: 1px; }
+.sort-btn {
+  padding: 5px 12px; border-radius: 6px; border: 1px solid #1E293B;
+  background: transparent; color: #475569; font-size: 11px; font-weight: 600;
+  font-family: 'Space Mono', monospace; cursor: pointer; transition: all 0.15s;
+  display: inline-flex; align-items: center; gap: 4px;
+}
+.sort-btn:hover { border-color: #334155; color: #94A3B8; }
+.sort-btn.active { border-color: #F59E0B66; background: #F59E0B15; color: #F59E0B; }
+.sort-arrow { font-size: 10px; }
+.tier-legend { max-width: 1200px; margin: 0 auto; padding: 14px 32px 0; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.tier-legend-label { font-size: 10px; color: #334155; letter-spacing: 1px; }
+.tier-legend-item { display: flex; align-items: center; gap: 5px; }
+.tier-dot { width: 7px; height: 7px; border-radius: 50%; }
+.tier-legend-text { font-size: 10px; color: #475569; }
+.player-list { max-width: 1200px; margin: 0 auto; padding: 16px 32px 40px; }
+.list-info { font-size: 11px; color: #334155; margin-bottom: 12px; }
+.player-card {
+  background: #0B1120; border: 1px solid rgba(30,41,59,0.5);
+  border-radius: 12px; overflow: hidden; margin-bottom: 10px; transition: border-color 0.2s;
+}
+.player-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 20px; cursor: pointer; transition: background 0.15s; user-select: none;
+}
+.player-header:hover { background: #0F172A; }
+.player-header.expanded { background: #0F172A; }
+.player-left { display: flex; align-items: center; gap: 14px; }
+.player-flag { font-size: 22px; }
+.player-name { font-weight: 700; font-size: 15px; color: #F1F5F9; letter-spacing: -0.3px; }
+.player-meta { font-size: 11px; color: #64748B; margin-top: 3px; }
+.player-right { display: flex; align-items: center; gap: 12px; }
+.rumor-count { font-size: 11px; color: #475569; }
+.chevron { color: #475569; font-size: 18px; transition: transform 0.2s; line-height: 1; display: inline-block; }
+.chevron.open { transform: rotate(180deg); }
+.new-badge {
+  display: inline-block; padding: 2px 8px; border-radius: 999px;
+  font-size: 9px; font-weight: 700; letter-spacing: 0.5px;
+  color: #38BDF8; background: #0C4A6E; border: 1px solid rgba(56,189,248,0.3);
+  margin-left: 8px; vertical-align: middle; animation: pulse-new 2s ease-in-out infinite;
+}
+@keyframes pulse-new { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
+.new-rumor-indicator {
+  width: 6px; height: 6px; border-radius: 50%; background: #38BDF8;
+  display: inline-block; margin-right: 6px; flex-shrink: 0;
+  animation: pulse-new 2s ease-in-out infinite;
+}
+.status-pill {
+  display: inline-block; padding: 3px 12px; border-radius: 999px;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.3px;
+}
+.status-confirmed { color: #34D399; background: #052E16; border: 1px solid rgba(52,211,153,0.25); }
+.status-active { color: #F59E0B; background: #422006; border: 1px solid rgba(245,158,11,0.25); }
+.status-monitoring { color: #A78BFA; background: #1E1B4B; border: 1px solid rgba(167,139,250,0.25); }
+.status-no_rumours { color: #6B7280; background: #1F2937; border: 1px solid rgba(75,85,99,0.25); }
+.tier-badge {
+  display: inline-flex; align-items: center; gap: 4px; padding: 2px 10px;
+  border-radius: 999px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; white-space: nowrap;
+}
+.tier-badge .dot { width: 6px; height: 6px; border-radius: 50%; }
+.tier-1 { color: #34D399; background: #052E16; border: 1px solid rgba(52,211,153,0.2); }
+.tier-1 .dot { background: #34D399; }
+.tier-2 { color: #FBBF24; background: #422006; border: 1px solid rgba(251,191,36,0.2); }
+.tier-2 .dot { background: #FBBF24; }
+.tier-3 { color: #FB923C; background: #431407; border: 1px solid rgba(251,146,60,0.2); }
+.tier-3 .dot { background: #FB923C; }
+.tier-4 { color: #F87171; background: #450A0A; border: 1px solid rgba(248,113,113,0.2); }
+.tier-4 .dot { background: #F87171; }
+.card-body { border-top: 1px solid #1E293B; }
+.col-headers {
+  display: grid; grid-template-columns: 110px 150px 1fr 180px 72px;
+  gap: 12px; padding: 8px 16px; border-bottom: 1px solid #1E293B; background: #060D1B;
+}
+.col-header { font-size: 9px; font-weight: 700; color: #334155; letter-spacing: 1.5px; }
+.col-header:last-child { text-align: right; }
+.section-toggle {
+  padding: 8px 16px; background: #0A0F1A; border-bottom: 1px solid #1E293B;
+  cursor: pointer; display: flex; align-items: center; gap: 8px; user-select: none;
+}
+.section-toggle:hover { background: #0D1321; }
+.section-arrow { color: #475569; font-size: 12px; transition: transform 0.15s; display: inline-block; }
+.section-arrow.open { transform: rotate(90deg); }
+.section-label-archive { font-size: 11px; color: #475569; font-weight: 700; letter-spacing: 0.5px; }
+.section-label-recent { font-size: 11px; color: #F59E0B; font-weight: 700; letter-spacing: 0.5px; padding: 8px 16px; background: #0A0F1A; border-bottom: 1px solid #1E293B; }
+.rumor-row {
+  display: grid; grid-template-columns: 110px 150px 1fr 180px 72px;
+  gap: 12px; padding: 10px 16px; border-bottom: 1px solid #1E293B;
+  font-size: 13px; line-height: 1.5; align-items: start; transition: background 0.15s;
+}
+.rumor-row:hover { background: #0F172A; }
+.rumor-row.archive { opacity: 0.5; }
+.rumor-date { color: #64748B; font-size: 11px; padding-top: 2px; }
+.rumor-club { color: #CBD5E1; font-weight: 500; }
+.rumor-detail { color: #94A3B8; }
+.rumor-source { color: #64748B; font-size: 11px; padding-top: 2px; }
+.rumor-tier { text-align: right; }
+.no-rumors { padding: 20px 16px; text-align: center; color: #334155; font-size: 13px; }
+.no-results { text-align: center; padding: 60px; color: #334155; font-size: 14px; }
+.intel-toggle {
+  padding: 8px 16px; background: #0A0F1A; border-bottom: 1px solid #1E293B;
+  cursor: pointer; display: flex; align-items: center; gap: 8px; user-select: none;
+}
+.intel-toggle:hover { background: #0D1321; }
+.intel-label { font-size: 11px; color: #38BDF8; font-weight: 700; letter-spacing: 0.5px; }
+.intel-panel { padding: 14px 16px 16px; background: #080E1C; border-bottom: 1px solid #1E293B; }
+.intel-row { display: flex; padding: 6px 0; border-bottom: 1px solid rgba(30,41,59,0.3); }
+.intel-row:last-child { border-bottom: none; }
+.intel-key {
+  width: 130px; min-width: 130px; font-size: 10px; font-weight: 700;
+  color: #475569; letter-spacing: 0.8px; text-transform: uppercase; padding-top: 2px;
+}
+.intel-val { font-size: 13px; color: #CBD5E1; line-height: 1.5; flex: 1; }
+.intel-section-title {
+  font-size: 10px; font-weight: 700; color: #38BDF8; letter-spacing: 1.5px;
+  text-transform: uppercase; padding: 10px 0 6px; border-bottom: 1px solid rgba(56,189,248,0.15);
+  margin-bottom: 2px;
+}
+.intel-section-title:first-child { padding-top: 0; }
+.intel-notes { font-size: 12px; color: #94A3B8; line-height: 1.6; padding: 8px 0 2px; font-style: italic; }
+.intel-gap { font-size: 11px; color: #334155; font-style: italic; }
+@media (max-width: 640px) { .intel-key { width: 100px; min-width: 100px; } }
+.hidden { display: none; }
+.rumor-mobile-label {
+  display: none; font-size: 9px; font-weight: 700; color: #334155;
+  letter-spacing: 1px; text-transform: uppercase; margin-bottom: 2px;
+}
+@media (max-width: 900px) {
+  .header { padding: 20px 16px 18px; }
+  .player-list { padding: 12px 16px 32px; }
+  .tier-legend { padding: 10px 16px 0; }
+  .col-headers, .rumor-row { grid-template-columns: 90px 120px 1fr 140px 64px; gap: 8px; }
+  .stats { gap: 16px; }
+  .stat-value { font-size: 20px; }
+}
+@media (max-width: 640px) {
+  .header-top { flex-direction: column; align-items: flex-start; }
+  .stats { align-self: flex-start; }
+  .col-headers { display: none; }
+  .rumor-row { grid-template-columns: 1fr; gap: 2px; padding: 12px 16px; }
+  .rumor-tier { text-align: left; }
+  .rumor-mobile-label { display: block; }
+  .sort-bar { flex-wrap: wrap; }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-inner">
+    <div class="header-top">
+      <div>
+        <div class="mono brand-tag">Africa Youth Intelligence</div>
+        <h1 class="brand-title">Transfer Tracker</h1>
+        <p class="mono brand-sub" id="sweepInfo"></p>
+      </div>
+      <div class="stats">
+        <div class="stat">
+          <div class="mono stat-value" style="color:#34D399" id="stat-confirmed">0</div>
+          <div class="mono stat-label">Confirmed</div>
+        </div>
+        <div class="stat">
+          <div class="mono stat-value" style="color:#F59E0B" id="stat-active">0</div>
+          <div class="mono stat-label">Active</div>
+        </div>
+        <div class="stat">
+          <div class="mono stat-value" style="color:#64748B" id="stat-total">0</div>
+          <div class="mono stat-label">Total Intel</div>
+        </div>
+      </div>
+    </div>
+    <div class="filters">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true">&#x2315;</span>
+        <input type="text" id="searchInput" placeholder="Search players, clubs, rumours..." aria-label="Search players, clubs and rumours">
+      </div>
+      <div class="filter-pills" id="statusFilters" role="group" aria-label="Filter by status">
+        <button class="filter-pill active" data-status="all">All Players</button>
+        <button class="filter-pill" data-status="confirmed">Confirmed</button>
+        <button class="filter-pill" data-status="active">Active Rumours</button>
+        <button class="filter-pill" data-status="monitoring">Monitoring</button>
+        <button class="filter-pill" data-status="no_rumours">No Rumours</button>
+      </div>
+      <select class="country-select" id="countryFilter" aria-label="Filter by country">
+        <option value="all">All Countries</option>
+      </select>
+    </div>
+  </div>
+</div>
+<div class="tier-legend mono" role="legend" aria-label="Tier reliability legend">
+  <span class="tier-legend-label">TIERS:</span>
+  <div class="tier-legend-item"><span class="tier-dot" style="background:#34D399" aria-hidden="true"></span><span class="tier-legend-text">Tier 1 &mdash; Official / Verified</span></div>
+  <div class="tier-legend-item"><span class="tier-dot" style="background:#FBBF24" aria-hidden="true"></span><span class="tier-legend-text">Tier 2 &mdash; Reliable Sources</span></div>
+  <div class="tier-legend-item"><span class="tier-dot" style="background:#FB923C" aria-hidden="true"></span><span class="tier-legend-text">Tier 3 &mdash; Developing</span></div>
+  <div class="tier-legend-item"><span class="tier-dot" style="background:#F87171" aria-hidden="true"></span><span class="tier-legend-text">Tier 4 &mdash; Speculative</span></div>
+</div>
+<div class="player-list">
+  <div class="view-tabs" role="tablist" aria-label="View mode">
+    <button class="view-tab active" id="tabPlayers" role="tab" aria-selected="true" aria-controls="playerView" onclick="switchView('players')">PLAYERS</button>
+    <button class="view-tab" id="tabFeed" role="tab" aria-selected="false" aria-controls="feedContainer" onclick="switchView('feed')">LATEST INTEL</button>
+  </div>
+  <div id="feedContainer" class="hidden" role="tabpanel" aria-labelledby="tabFeed"></div>
+  <div id="playerView" role="tabpanel" aria-labelledby="tabPlayers">
+    <div class="sort-bar" role="group" aria-label="Sort players">
+      <span class="mono sort-label">SORT:</span>
+      <button class="sort-btn active" data-sort="status" aria-pressed="true"><span class="sort-arrow" aria-hidden="true">&#9660;</span> Status</button>
+      <button class="sort-btn" data-sort="name" aria-pressed="false"><span class="sort-arrow" aria-hidden="true">&#9660;</span> Name</button>
+      <button class="sort-btn" data-sort="country" aria-pressed="false"><span class="sort-arrow" aria-hidden="true">&#9660;</span> Country</button>
+      <button class="sort-btn" data-sort="rumors" aria-pressed="false"><span class="sort-arrow" aria-hidden="true">&#9660;</span> Rumours</button>
+    </div>
+    <div class="mono list-info" id="listInfo" aria-live="polite"></div>
+    <div id="playerContainer" role="list"></div>
+  </div>
+</div>
+<script>
+// ── DATA (injected by build.sh) ──────────────────────────────────────
+/*__PLAYERS_DATA__*/
+/*__INTEL_DATA__*/
+
+// ── DERIVED DATA ─────────────────────────────────────────────────────
+const PLAYERS = PLAYERS_DATA.players;
+const INTEL = INTEL_DATA;
+const META = PLAYERS_DATA.meta;
+
+// Populate sweep info header
+document.getElementById("sweepInfo").textContent =
+  "Last updated: " + META.lastSweep + " (Sweep #" + META.sweepNumber + ") \u00b7 " + META.playerCount + " players tracked";
+
+// Populate country filter dynamically from data
+(function() {
+  const countries = [...new Set(PLAYERS.map(p => p.country))].sort();
+  const select = document.getElementById("countryFilter");
+  countries.forEach(c => {
+    const opt = document.createElement("option");
+    opt.value = c;
+    opt.textContent = c;
+    select.appendChild(opt);
+  });
+})();
+
+// ── STATE ─────────────────────────────────────────────────────────────
+let searchQuery = "";
+let statusFilter = "all";
+let countryFilter = "all";
+let expandedIds = new Set();
+let archiveOpen = {};
+let intelOpen = {};
+let currentView = "players";
+let currentSort = "status";
+let sortAscending = true;
+
+// ── LAST VISIT TRACKING ──────────────────────────────────────────────
+const STORAGE_KEY = "ayt_last_visit";
+const SEEN_RUMORS_KEY = "ayt_seen_rumors";
+let lastVisitDate = null;
+let seenRumorKeys = new Set();
+
+function initLastVisit() {
+  try {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) lastVisitDate = new Date(stored);
+    const seenStored = localStorage.getItem(SEEN_RUMORS_KEY);
+    if (seenStored) seenRumorKeys = new Set(JSON.parse(seenStored));
+  } catch(e) {}
+}
+
+function saveVisitTimestamp() {
+  try {
+    localStorage.setItem(STORAGE_KEY, new Date().toISOString());
+    const allKeys = [];
+    PLAYERS.forEach(p => { p.rumors.forEach(r => { allKeys.push(rumorKey(p.id, r)); }); });
+    localStorage.setItem(SEEN_RUMORS_KEY, JSON.stringify(allKeys));
+  } catch(e) {}
+}
+
+function rumorKey(playerId, rumor) { return playerId + ":" + rumor.date + ":" + rumor.club; }
+function isNewRumor(playerId, rumor) { return !seenRumorKeys.has(rumorKey(playerId, rumor)); }
+function playerHasNewRumors(player) { return player.rumors.some(r => isNewRumor(player.id, r)); }
+window.addEventListener("beforeunload", saveVisitTimestamp);
+
+// ── UTILITIES ────────────────────────────────────────────────────────
+function parseDate(str) {
+  const cleaned = str.replace("Mid-", "15 ");
+  const d = new Date(cleaned);
+  return isNaN(d.getTime()) ? new Date(0) : d;
+}
+
+function escapeHTML(str) {
+  const div = document.createElement("div");
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+// ── FILTERING & SORTING ──────────────────────────────────────────────
+function getFilteredPlayers() {
+  const q = searchQuery.toLowerCase();
+  return PLAYERS.filter(p => {
+    if (statusFilter !== "all" && p.status !== statusFilter) return false;
+    if (countryFilter !== "all" && p.country !== countryFilter) return false;
+    if (q) {
+      const inName = p.name.toLowerCase().includes(q);
+      const inClub = p.currentClub.toLowerCase().includes(q);
+      const inRumors = p.rumors.some(r =>
+        r.club.toLowerCase().includes(q) || r.detail.toLowerCase().includes(q)
+      );
+      if (!inName && !inClub && !inRumors) return false;
+    }
+    return true;
+  });
+}
+
+const STATUS_ORDER = { confirmed: 0, active: 1, monitoring: 2, no_rumours: 3 };
+
+function sortPlayers(players) {
+  const sorted = [...players];
+  sorted.sort((a, b) => {
+    let cmp = 0;
+    switch (currentSort) {
+      case "status":
+        cmp = (STATUS_ORDER[a.status] ?? 9) - (STATUS_ORDER[b.status] ?? 9);
+        if (cmp === 0) cmp = b.rumors.length - a.rumors.length;
+        break;
+      case "name": cmp = a.name.localeCompare(b.name); break;
+      case "country":
+        cmp = a.country.localeCompare(b.country);
+        if (cmp === 0) cmp = a.name.localeCompare(b.name);
+        break;
+      case "rumors": cmp = b.rumors.length - a.rumors.length; break;
+    }
+    return sortAscending ? cmp : -cmp;
+  });
+  return sorted;
+}
+
+function updateStats(filtered) {
+  document.getElementById("stat-confirmed").textContent = filtered.filter(p => p.status === "confirmed").length;
+  document.getElementById("stat-active").textContent = filtered.filter(p => p.status === "active").length;
+  document.getElementById("stat-total").textContent = filtered.reduce((sum, p) => sum + p.rumors.length, 0);
+}
+
+// ── DEEP LINKING ─────────────────────────────────────────────────────
+function getHashPlayerId() {
+  const hash = window.location.hash;
+  if (hash && hash.startsWith("#player-")) {
+    const id = parseInt(hash.replace("#player-", ""), 10);
+    if (!isNaN(id)) return id;
+  }
+  return null;
+}
+function updateHash(id) { if (id !== null) history.replaceState(null, "", "#player-" + id); }
+function clearHash() { history.replaceState(null, "", window.location.pathname + window.location.search); }
+window.addEventListener("hashchange", function() {
+  const id = getHashPlayerId();
+  if (id !== null && !expandedIds.has(id)) { expandedIds.add(id); render(); scrollToPlayer(id); }
+});
+function scrollToPlayer(id) {
+  requestAnimationFrame(() => {
+    const el = document.querySelector('[data-player-id="' + id + '"]');
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
+
+// ── VIEW SWITCHING ───────────────────────────────────────────────────
+function switchView(view) {
+  currentView = view;
+  document.getElementById("tabPlayers").classList.toggle("active", view === "players");
+  document.getElementById("tabFeed").classList.toggle("active", view === "feed");
+  document.getElementById("tabPlayers").setAttribute("aria-selected", view === "players");
+  document.getElementById("tabFeed").setAttribute("aria-selected", view === "feed");
+  document.getElementById("playerView").classList.toggle("hidden", view !== "players");
+  document.getElementById("feedContainer").classList.toggle("hidden", view !== "feed");
+  if (view === "feed") renderFeed(); else render();
+}
+
+// ── RENDER HELPERS ───────────────────────────────────────────────────
+function tierBadge(tier) {
+  return '<span class="mono tier-badge tier-' + tier + '"><span class="dot" aria-hidden="true"></span>Tier ' + tier + '</span>';
+}
+function statusPill(status) {
+  const labels = { confirmed:"CONFIRMED", active:"ACTIVE", monitoring:"MONITORING", no_rumours:"NO RUMOURS" };
+  return '<span class="mono status-pill status-' + status + '" role="status">' + (labels[status] || status) + '</span>';
+}
+function rumorRowHTML(r, isArchive, playerId) {
+  const isNew = isNewRumor(playerId, r);
+  return '<div class="rumor-row ' + (isArchive ? 'archive' : '') + '">' +
+    '<span class="mono rumor-date">' + (isNew ? '<span class="new-rumor-indicator" title="New since last visit"></span>' : '') +
+      '<span class="rumor-mobile-label">DATE</span>' + escapeHTML(r.date) + '</span>' +
+    '<span class="rumor-club"><span class="rumor-mobile-label">CLUB</span>' + escapeHTML(r.club) + '</span>' +
+    '<span class="rumor-detail"><span class="rumor-mobile-label">DETAILS</span>' + escapeHTML(r.detail) + '</span>' +
+    '<span class="mono rumor-source"><span class="rumor-mobile-label">SOURCE</span>' + escapeHTML(r.source) + '</span>' +
+    '<span class="rumor-tier"><span class="rumor-mobile-label">TIER</span>' + tierBadge(r.tier) + '</span></div>';
+}
+function intelRow(key, val) {
+  const display = (!val || val === "\u2014") ? '<span class="intel-gap">Not yet sourced</span>' : escapeHTML(val);
+  return '<div class="intel-row"><span class="mono intel-key">' + escapeHTML(key) + '</span><span class="intel-val">' + display + '</span></div>';
+}
+
+function playerCardHTML(p) {
+  const isExpanded = expandedIds.has(p.id);
+  const archiveRumors = p.rumors.filter(r => !r.recent);
+  const recentRumors = p.rumors.filter(r => r.recent);
+  const isArchiveOpen = archiveOpen[p.id] || false;
+  const isIntelOpen = intelOpen[p.id] || false;
+  const rumorCount = p.rumors.length;
+  const intel = INTEL[p.id];
+  const hasNew = playerHasNewRumors(p);
+  let body = "";
+  if (isExpanded) {
+    body += '<div class="card-body">';
+    if (intel) {
+      body += '<div class="intel-toggle" onclick="toggleIntel(' + p.id + ', event)" role="button" aria-expanded="' + isIntelOpen + '" tabindex="0" onkeydown="handleKeyToggle(event, function(){ toggleIntel(' + p.id + ', event) })">' +
+        '<span class="section-arrow ' + (isIntelOpen ? 'open' : '') + '" aria-hidden="true">\u25b8</span>' +
+        '<span class="mono intel-label">PLAYER INTEL</span></div>';
+      if (isIntelOpen) {
+        body += '<div class="intel-panel">';
+        body += '<div class="intel-section-title mono">Bio</div>';
+        body += intelRow("Height", intel.height) + intelRow("Foot", intel.foot) + intelRow("Contract", intel.contract) + intelRow("Previous Club", intel.previousClub);
+        body += '<div class="intel-section-title mono">Season & Standing</div>';
+        body += intelRow("Season Stats", intel.seasonStats) + intelRow("Club Standing", intel.clubStanding);
+        body += '<div class="intel-section-title mono">Scouting Notes</div>';
+        body += '<div class="intel-notes">' + escapeHTML(intel.notes) + '</div></div>';
+      }
+    }
+    body += '<div class="col-headers mono"><span class="col-header">DATE</span><span class="col-header">CLUB</span><span class="col-header">DETAILS</span><span class="col-header">SOURCE</span><span class="col-header">TIER</span></div>';
+    if (archiveRumors.length > 0) {
+      body += '<div class="section-toggle" onclick="toggleArchive(' + p.id + ', event)" role="button" aria-expanded="' + isArchiveOpen + '" tabindex="0" onkeydown="handleKeyToggle(event, function(){ toggleArchive(' + p.id + ', event) })">' +
+        '<span class="section-arrow ' + (isArchiveOpen ? 'open' : '') + '" aria-hidden="true">\u25b8</span>' +
+        '<span class="mono section-label-archive">ARCHIVE (' + archiveRumors.length + ')</span></div>';
+      if (isArchiveOpen) archiveRumors.forEach(r => { body += rumorRowHTML(r, true, p.id); });
+    }
+    if (recentRumors.length > 0) {
+      body += '<div class="mono section-label-recent">RECENT</div>';
+      recentRumors.forEach(r => { body += rumorRowHTML(r, false, p.id); });
+    } else if (archiveRumors.length === 0) {
+      body += '<div class="no-rumors">No transfer rumours found in last 60 days</div>';
+    }
+    body += '</div>';
+  }
+  return '<div class="player-card" data-player-id="' + p.id + '" style="border-color:' + (isExpanded ? '#1E293B' : 'rgba(30,41,59,0.5)') + '" role="listitem">' +
+    '<div class="player-header ' + (isExpanded ? 'expanded' : '') + '" onclick="togglePlayer(' + p.id + ')" role="button" aria-expanded="' + isExpanded + '" tabindex="0" onkeydown="handleKeyToggle(event, function(){ togglePlayer(' + p.id + ') })">' +
+      '<div class="player-left"><span class="player-flag" aria-label="' + escapeHTML(p.country) + ' flag">' + p.flag + '</span><div>' +
+        '<div class="player-name">' + escapeHTML(p.name) + (hasNew ? '<span class="new-badge">NEW</span>' : '') + '</div>' +
+        '<div class="mono player-meta">' + escapeHTML(p.position) + ' \u00b7 ' + p.birthYear + ' \u00b7 ' + escapeHTML(p.currentClub) + '</div>' +
+      '</div></div>' +
+      '<div class="player-right">' +
+        (rumorCount > 0 ? '<span class="mono rumor-count">' + rumorCount + ' rumour' + (rumorCount !== 1 ? 's' : '') + '</span>' : '') +
+        statusPill(p.status) +
+        '<span class="chevron ' + (isExpanded ? 'open' : '') + '" aria-hidden="true">\u25be</span>' +
+      '</div></div>' + body + '</div>';
+}
+
+function handleKeyToggle(event, callback) {
+  if (event.key === "Enter" || event.key === " ") { event.preventDefault(); callback(); }
+}
+
+// ── FEED VIEW ────────────────────────────────────────────────────────
+function renderFeed() {
+  const filtered = getFilteredPlayers();
+  updateStats(filtered);
+  const allItems = [];
+  filtered.forEach(p => { p.rumors.forEach(r => { allItems.push({ player: p, rumor: r }); }); });
+  allItems.sort((a, b) => parseDate(b.rumor.date) - parseDate(a.rumor.date));
+  if (allItems.length === 0) {
+    document.getElementById("feedContainer").innerHTML = '<div class="no-results">No intel items match your filters.</div>';
+    return;
+  }
+  let html = '<div class="mono list-info" style="margin-bottom:12px">' + allItems.length + ' intel items \u00b7 newest first</div>';
+  allItems.forEach(item => {
+    const r = item.rumor, p = item.player;
+    const isNew = isNewRumor(p.id, r);
+    html += '<div class="feed-item"><div class="feed-meta">' +
+      '<span class="mono feed-date">' + (isNew ? '<span class="new-rumor-indicator" title="New since last visit"></span>' : '') + r.date + '</span>' +
+      '<span class="feed-player-name">' + p.flag + ' ' + escapeHTML(p.name) + '</span>' +
+      '<span class="mono feed-player-sub">' + escapeHTML(p.position) + ' \u00b7 ' + p.birthYear + ' \u00b7 ' + escapeHTML(p.currentClub) + '</span>' +
+      '</div><div class="feed-content">' +
+      '<span class="feed-club">' + escapeHTML(r.club) + '</span>' +
+      '<span class="feed-detail">' + escapeHTML(r.detail) + '</span>' +
+      '<span class="mono feed-source">' + tierBadge(r.tier) + ' &nbsp;' + escapeHTML(r.source) + '</span>' +
+      '</div></div>';
+  });
+  document.getElementById("feedContainer").innerHTML = html;
+}
+
+// ── MAIN RENDER ──────────────────────────────────────────────────────
+function render() {
+  const filtered = getFilteredPlayers();
+  const sorted = sortPlayers(filtered);
+  updateStats(filtered);
+  document.getElementById("listInfo").textContent = filtered.length + " of " + PLAYERS.length + " players \u00b7 Click to expand";
+  const container = document.getElementById("playerContainer");
+  if (sorted.length === 0) {
+    container.innerHTML = '<div class="no-results">No players match your filters.</div>';
+  } else {
+    container.innerHTML = sorted.map(p => playerCardHTML(p)).join("");
+  }
+}
+
+// ── INTERACTIONS ─────────────────────────────────────────────────────
+function togglePlayer(id) {
+  if (expandedIds.has(id)) { expandedIds.delete(id); clearHash(); }
+  else { expandedIds.add(id); updateHash(id); }
+  render();
+}
+function toggleArchive(id, e) { e.stopPropagation(); archiveOpen[id] = !archiveOpen[id]; render(); }
+function toggleIntel(id, e) { e.stopPropagation(); intelOpen[id] = !intelOpen[id]; render(); }
+
+// ── EVENT LISTENERS ──────────────────────────────────────────────────
+document.getElementById("searchInput").addEventListener("input", function(e) {
+  searchQuery = e.target.value;
+  if (currentView === "feed") renderFeed(); else render();
+});
+
+const FILTER_COLORS = { all:"#8B9EB7", confirmed:"#34D399", active:"#F59E0B", monitoring:"#A78BFA", no_rumours:"#6B7280" };
+function applyPillStyles() {
+  document.querySelectorAll(".filter-pill").forEach(btn => {
+    if (btn.classList.contains("active")) {
+      const c = FILTER_COLORS[btn.dataset.status] || "#8B9EB7";
+      btn.style.borderColor = c + "66"; btn.style.background = c + "15"; btn.style.color = c;
+    } else { btn.style.borderColor = ""; btn.style.background = ""; btn.style.color = ""; }
+  });
+}
+document.querySelectorAll(".filter-pill").forEach(btn => {
+  btn.addEventListener("click", function() {
+    document.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
+    this.classList.add("active");
+    statusFilter = this.dataset.status;
+    applyPillStyles();
+    if (currentView === "feed") renderFeed(); else render();
+  });
+});
+document.getElementById("countryFilter").addEventListener("change", function() {
+  countryFilter = this.value;
+  if (currentView === "feed") renderFeed(); else render();
+});
+document.querySelectorAll(".sort-btn").forEach(btn => {
+  btn.addEventListener("click", function() {
+    const sort = this.dataset.sort;
+    if (currentSort === sort) sortAscending = !sortAscending;
+    else { currentSort = sort; sortAscending = true; }
+    document.querySelectorAll(".sort-btn").forEach(b => {
+      b.classList.remove("active"); b.setAttribute("aria-pressed", "false");
+      b.querySelector(".sort-arrow").innerHTML = "&#9660;";
+    });
+    this.classList.add("active"); this.setAttribute("aria-pressed", "true");
+    this.querySelector(".sort-arrow").innerHTML = sortAscending ? "&#9660;" : "&#9650;";
+    render();
+  });
+});
+
+// ── INIT ─────────────────────────────────────────────────────────────
+initLastVisit();
+applyPillStyles();
+const deepLinkId = getHashPlayerId();
+if (deepLinkId !== null) expandedIds.add(deepLinkId);
+render();
+if (deepLinkId !== null) scrollToPlayer(deepLinkId);
+</script>
+</body>
+</html>
