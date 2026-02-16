@@ -67,12 +67,12 @@ jobs:
         run: |
           SWEEP_TYPE="${{ steps.config.outputs.type }}"
           PLAYER="${{ steps.config.outputs.player }}"
-          ARGS="--type $SWEEP_TYPE --verbose"
-          if [ -n "$PLAYER" ]; then
-            ARGS="$ARGS --player \"$PLAYER\""
-          fi
           echo "Running $SWEEP_TYPE sweep..."
-          node scripts/sweep.mjs $ARGS
+          if [ -n "$PLAYER" ]; then
+            node scripts/sweep.mjs --type "$SWEEP_TYPE" --verbose --player "$PLAYER"
+          else
+            node scripts/sweep.mjs --type "$SWEEP_TYPE" --verbose
+          fi
 
       - name: Check for data changes
         id: changes
