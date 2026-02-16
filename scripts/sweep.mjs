@@ -310,7 +310,8 @@ async function runSweep() {
 
   let response;
   try {
-    response = await client.messages.create({
+    // Use streaming — required for long-running web search operations
+    const stream = client.messages.stream({
       model: MODEL,
       max_tokens: 32000,
       system: SYSTEM_PROMPT,
@@ -323,6 +324,21 @@ async function runSweep() {
       ],
       messages: [{ role: "user", content: userMessage }]
     });
+
+    // Log progress as chunks arrive
+    let searchCount = 0;
+    stream.on("event", (event) => {
+      if (event.type === "content_block_start" && event.content_block?.type === "web_search_tool_result") {
+        searchCount++;
+        process.stdout.write(`  [Search ${searchCount}] `);
+      }
+      if (event.type === "content_block_start" && event.content_block?.type === "text") {
+        process.stdout.write("\n  [Generating response...]\n");
+      }
+    });
+
+    response = await stream.finalMessage();
+    console.log(`\nCompleted ${searchCount} web searches.`);
   } catch (err) {
     console.error("API call failed:", err.message);
     if (err.status === 401) {
