@@ -63,7 +63,7 @@ jobs:
 
       - name: Run sweep
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.TT }}
         run: |
           SWEEP_TYPE="${{ steps.config.outputs.type }}"
           PLAYER="${{ steps.config.outputs.player }}"
