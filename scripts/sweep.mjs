@@ -2,12 +2,13 @@
 /**
  * ─── Africa Youth Transfer Tracker — Automated Sweep Runner ───
  *
- * Reads current data/players.json + data/intel.json, sends them to the
- * Anthropic API along with the Sweep Protocol v2.0 as the system prompt,
- * and asks Claude to perform a web-search-based sweep.
+ * Two-phase approach:
+ *   Phase 1 — Claude searches the web for transfer intel (web_search tool).
+ *   Phase 2 — A second Claude call takes the search findings and produces
+ *             a structured JSON delta (no tools, guaranteed output).
  *
- * Claude returns a structured JSON delta. If new intel is found, this script
- * patches the JSON files and triggers a rebuild via build.sh.
+ * This split ensures the JSON is always produced, even if searches are
+ * expensive. It also allows batching for full sweeps (groups of 5-7 players).
  *
  * Usage:
  *   ANTHROPIC_API_KEY=sk-... node scripts/sweep.mjs [--type full|priority|flash] [--player "Name"]
@@ -82,78 +83,124 @@ if (FLASH_PLAYER) console.log(`Flash target: ${FLASH_PLAYER}`);
 if (DRY_RUN) console.log(`DRY RUN — no files will be written`);
 console.log("");
 
-// ── Build baseline summary ────────────────────────────────────────────────
-function buildBaseline() {
-  const lines = [`BASELINE — ${today}`, ""];
-  const players = playersData.players;
-
-  for (const p of players) {
-    const latestDate = p.rumors && p.rumors.length > 0
-      ? p.rumors.reduce((max, r) => r.date > max ? r.date : max, "")
-      : "—";
-    const rumorCount = p.rumors ? p.rumors.length : 0;
-    const clubs = p.rumors
-      ? [...new Set(p.rumors.map(r => r.club))].join(", ")
-      : "—";
-    lines.push(
-      `#${p.id} ${p.name} | ${p.country} | ${p.position} | Tier ${p.sweepTier} | ` +
-      `Rumors: ${rumorCount} | Latest: ${latestDate} | Clubs: ${clubs} | Status: ${p.status}`
+// ── Get target players based on sweep type ────────────────────────────────
+function getTargetPlayers() {
+  if (SWEEP_TYPE === "flash" && FLASH_PLAYER) {
+    const targets = playersData.players.filter(
+      p => p.name.toLowerCase().includes(FLASH_PLAYER.toLowerCase())
     );
+    if (targets.length === 0) {
+      console.error(`ERROR: No player found matching "${FLASH_PLAYER}"`);
+      process.exit(1);
+    }
+    return targets;
+  } else if (SWEEP_TYPE === "priority") {
+    return playersData.players.filter(
+      p => p.sweepTier === "A" || p.sweepTier === "B"
+    );
+  } else {
+    return playersData.players;
   }
-
-  return lines.join("\n");
 }
 
-// ── Build the system prompt (Sweep Protocol v2.0 condensed) ───────────────
-const SYSTEM_PROMPT = `You are an automated transfer intelligence sweep agent for the Africa Youth Transfer Tracker.
-You follow the Sweep Protocol v2.0 precisely.
+// ── Build player detail string for a batch ────────────────────────────────
+function buildPlayerDetails(players) {
+  return players.map(p => {
+    const intel = intelData[String(p.id)] || {};
+    return `--- Player #${p.id}: ${p.name} ---
+Country: ${p.country} | Position: ${p.position} | Born: ${p.birthYear}
+Current Club: ${p.currentClub} | Status: ${p.status} | Tier: ${p.sweepTier}
+Alt Spellings: ${(p.altSpellings || []).join(", ") || "none"}
+Confusion Risk: ${p.confusionRisk || "none"}
+Contract: ${intel.contract || "—"} | Previous Club: ${intel.previousClub || "—"}
+Existing Rumors (${(p.rumors || []).length}):
+${(p.rumors || []).map(r => `  [${r.date}] ${r.club} — ${r.detail} (${r.source}, T${r.tier})`).join("\n") || "  none"}`;
+  }).join("\n\n");
+}
+
+// ── Phase 1: Search ──────────────────────────────────────────────────────
+// Claude uses web_search to find transfer intel. Returns raw text findings.
+async function phase1Search(client, players) {
+  const playerDetails = buildPlayerDetails(players);
+  const playerNames = players.map(p => p.name).join(", ");
+  const maxSearches = SWEEP_TYPE === "flash" ? 15 : Math.min(players.length * 5, 50);
+
+  const searchPrompt = `You are a football transfer research assistant. Search for the latest transfer news and rumours for these players. Today is ${today}.
+
+For EACH player below, run 3-5 web searches using their name + "transfer 2026", their name + club, and French variants for francophone players.
+
+IMPORTANT:
+- Search ALL players listed — do not skip any
+- For each search result, note the DATE, SOURCE, and KEY CLAIM
+- Be careful about identity: check birth year and nationality match
+- Only note genuinely new findings (not already in their existing rumors)
+- Keep your text output brief — just list findings per player
+
+PLAYERS TO SEARCH:
+${playerDetails}
+
+Search each player now. For each, write a brief summary of what you found (or "No new intel found").`;
+
+  console.log(`Phase 1: Searching for ${players.length} player(s): ${playerNames}`);
+  console.log(`  Max searches: ${maxSearches}\n`);
+
+  const stream = client.messages.stream({
+    model: MODEL,
+    max_tokens: 8000,
+    system: "You are a football transfer research agent. Search for transfer news and report findings concisely. Do NOT produce JSON — just describe what you found for each player.",
+    tools: [
+      {
+        type: "web_search_20250305",
+        name: "web_search",
+        max_uses: maxSearches
+      }
+    ],
+    messages: [{ role: "user", content: searchPrompt }]
+  });
+
+  let searchCount = 0;
+  stream.on("event", (event) => {
+    if (event.type === "content_block_start" && event.content_block?.type === "web_search_tool_result") {
+      searchCount++;
+      process.stdout.write(`  [Search ${searchCount}/${maxSearches}] `);
+    }
+  });
+
+  const response = await stream.finalMessage();
+  console.log(`\n  Phase 1 complete: ${searchCount} searches performed.`);
+
+  // Extract all text blocks (the research findings)
+  const textBlocks = response.content.filter(b => b.type === "text");
+  const findings = textBlocks.map(b => b.text).join("\n");
+
+  if (VERBOSE) {
+    console.log("\n=== PHASE 1 FINDINGS ===");
+    console.log(findings.substring(0, 3000) + (findings.length > 3000 ? "..." : ""));
+    console.log("");
+  }
+
+  return findings;
+}
+
+// ── Phase 2: Produce JSON delta ──────────────────────────────────────────
+// Takes search findings from Phase 1 and produces the structured JSON.
+// No web_search tool — guaranteed to produce output.
+async function phase2Produce(client, players, allFindings) {
+  const playerDetails = buildPlayerDetails(players);
+
+  const jsonPrompt = `You are the JSON formatter for the Africa Youth Transfer Tracker. Based on the research findings below, produce the structured delta JSON.
 
 TODAY'S DATE: ${today}
 
-## THE THREE LAWS OF SWEEPING
-LAW 1 — BASELINE BEFORE SEARCH. The baseline has been pre-extracted and provided to you below.
-LAW 2 — ONLY NEW INTEL GETS REPORTED. A finding is 'new' only if: (a) not present in baseline, (b) has specific date+source+claim, (c) passes identity verification.
-LAW 3 — EVERY PLAYER GETS SEARCHED (based on sweep type).
+## RULES
+1. Only include genuinely NEW intel not already in the player's existing rumors
+2. Apply date gating: ignore anything on or before each player's latest rumour date
+3. Verify identity: check birth year, club, nationality match our player
+4. Max 80 chars for "detail" field. Lead with the most important fact.
+5. Dates: "Feb 8, 2026" format. Never "Recently".
+6. Source tiers: T1 (Official/Romano/Transfermarkt), T2 (AfricaFoot/ESPN/Athletic), T3 (Regional), T4 (Speculative)
 
-## SEARCH DEPTH — EQUAL FOR ALL PLAYERS
-CRITICAL: Every player gets the FULL deep search pattern (6-10 searches). No player is deprioritised.
-The tier classification (A/B/C) is for tracking status only — it does NOT reduce search effort.
-A Tier C player with zero rumours today could be the one that breaks tomorrow. Search them all equally.
-
-## SEARCH PATTERNS (applied to EVERY player)
-Primary (always run):
-Search 1: "[Full Name] transfer 2026"
-Search 2: "[Full Name] [Current Club] transfer"
-Search 3: "[Full Name] [nationality] football"
-French language (all francophone players — Burkina Faso, Senegal, Ivory Coast, Mali):
-Search 4: "[Full Name] transfert 2026"
-Search 5: "[Full Name] AfricaFoot"
-Club-side (for each known interested club from baseline):
-Search 6: "[Interested Club] African signing 2026"
-Search 7: "[Interested Club] [player nationality] transfer"
-Alternative spellings (if applicable):
-Search 8: "[Alt spelling] transfer 2026"
-Social media:
-Search 9: "[Name] site:x.com transfer"
-Post-transfer (for confirmed/signed players — IN ADDITION to above):
-Search 10: "[Name] [New Club] debut OR loan OR injury 2026"
-
-## DELTA TEST (for every result)
-Q1: Is this player on the tracker? No → verify identity first
-Q2: Is this claim in the baseline? Yes → SKIP (recycled intel)
-Q3: Genuinely new? New club/status escalation/fee details/corroboration/confirmation → ADD. Same story different outlet → SKIP.
-
-## DATE GATING
-For ALL players with existing intel, only content AFTER their latest baseline date counts. This prevents re-reporting old intel.
-
-## SOURCE HIERARCHY
-T1 (Official): Club sites, Transfermarkt, Romano, Ornstein, Moretto
-T2 (Reliable): AfricaFoot, Africa Top Sports, Foot Africa, PanAfricaFootball, TEAMtalk, The Athletic, ESPN, Sky, L'Équipe, Bold.dk
-T3 (Regional): AfricaSoccer, Kawowo, Pulse Sports, BeSoccer, TransferFeed, scout Twitter
-T4 (Speculative): Unverified social, fan blogs, tabloids — only if specific + no better source
-
-## IDENTITY VERIFICATION
-Known confusion risks:
+## KNOWN CONFUSION RISKS
 - Souleymane Faye (b.2010) vs Souleymane Faye (b.2003, Sporting CP)
 - Mahamadou Traore (b.2009) vs Mamadou Traoré (b.1994, Dalian)
 - Ettienne Mendy (b.2008) vs Édouard Mendy (b.1992, Al-Ahli)
@@ -161,31 +208,20 @@ Known confusion risks:
 - Issouf Dabo (b.2009) vs Issouf Dayo (b.1992)
 - A.L. Tapsoba (b.2010) vs Edmond Tapsoba (b.1999, Leverkusen)
 
-## ALTERNATIVE SPELLINGS
-El Hadj Malick Cissé: El Hadji Cisse, Malik Cissé, Malick Cisse, El Hadj Cisse
-Mor Talla Ndiaye: El Hadji Mor Talla Ndiaye, Talla Ndiaye, Mor Talla
-Mahamadou Traore: Mamadou Traoré, Mahamadou Traoré
-A.L. Tapsoba: Asharaf Loukmane Tapsoba, Ashraf Loukman Tapsoba, Loukmane Tapsoba
-Yao Hubert: Hubert Yao
-Ettienne Mendy: Etienne Mendy
-Souleymane Doumbia: Soulaymane Doumbia
+## CURRENT PLAYER DATA
+${playerDetails}
 
-## WRITING RULES
-- Max 80 chars for detail line
-- Lead with most important fact
-- Never write 'reportedly' — Source field handles attribution
-- Use abbreviations: Man Utd, Barca, BVB, PSG, PL
-- Dates: "Feb 8, 2026" preferred. Acceptable: "Mid-Jan 2026". Never: "Recently"
-- Recent = within 60 days of sweep. Archive = older than 60 days.
+## RESEARCH FINDINGS FROM WEB SEARCH
+${allFindings}
 
-## OUTPUT FORMAT
-You MUST return your findings as a JSON object with this exact structure:
+## OUTPUT
+Return ONLY a valid JSON object with this exact structure (no markdown fences, no commentary):
 {
   "sweepDate": "${today}",
   "sweepType": "${SWEEP_TYPE}",
   "sweepNumber": ${playersData.meta.sweepNumber + 1},
-  "baselineItems": <total rumor count>,
-  "playersSearched": <count>,
+  "baselineItems": ${playersData.players.reduce((sum, p) => sum + (p.rumors?.length || 0), 0)},
+  "playersSearched": ${players.length},
   "newIntel": [
     {
       "playerId": <number>,
@@ -196,12 +232,10 @@ You MUST return your findings as a JSON object with this exact structure:
         "detail": "<max 80 chars>",
         "source": "<source name>",
         "tier": <1-4>,
-        "status": "<status string>",
+        "status": "<rumour|advanced|confirmed|official>",
         "recent": true
       },
-      "intelUpdates": {
-        // any fields to merge into data/intel.json for this player, or null
-      },
+      "intelUpdates": { <fields to update in intel.json, or null> },
       "reasoning": "<why this passed the delta test>"
     }
   ],
@@ -209,22 +243,14 @@ You MUST return your findings as a JSON object with this exact structure:
     {
       "playerId": <number>,
       "playerName": "<string>",
-      "field": "<what changed>",
-      "oldValue": "<previous>",
-      "newValue": "<new>",
+      "field": "status",
+      "oldValue": "<previous status>",
+      "newValue": "<new status>",
       "source": "<source>"
     }
   ],
-  "tierChanges": [
-    {
-      "playerId": <number>,
-      "playerName": "<string>",
-      "oldTier": "<A|B|C>",
-      "newTier": "<A|B|C>",
-      "reason": "<why>"
-    }
-  ],
-  "noChange": ["<player name>", "..."],
+  "tierChanges": [],
+  "noChange": [<names of players with no new intel>],
   "needsReview": [
     {
       "playerId": <number>,
@@ -235,148 +261,99 @@ You MUST return your findings as a JSON object with this exact structure:
   ]
 }
 
-CRITICAL RULES FOR OUTPUT:
-1. After completing all searches, you MUST output the JSON delta report as your FINAL text block.
-2. The JSON MUST be complete and valid. Do NOT get cut off mid-JSON.
-3. Do NOT write lengthy commentary. Keep search-phase text minimal. Save your token budget for the JSON output.
-4. The JSON must be the LAST thing you output. Return ONLY the JSON object in your final text block — no markdown fences, no commentary after.
-5. If no new intel is found at all, return the structure with empty arrays for newIntel, escalations, tierChanges, and needsReview, and list all players in noChange.
-6. Budget your searches wisely — prioritize players with active rumours and known interest, then do quick checks on others.`;
+If no new intel was found for any player, return empty arrays and list all names in noChange.
+Return ONLY the JSON — nothing else.`;
 
-// ── Build the user message ────────────────────────────────────────────────
-function buildUserMessage() {
-  const baseline = buildBaseline();
+  console.log("\nPhase 2: Producing structured JSON delta...");
 
-  // Filter players based on sweep type
-  let targetPlayers;
-  if (SWEEP_TYPE === "flash" && FLASH_PLAYER) {
-    targetPlayers = playersData.players.filter(
-      p => p.name.toLowerCase().includes(FLASH_PLAYER.toLowerCase())
-    );
-    if (targetPlayers.length === 0) {
-      console.error(`ERROR: No player found matching "${FLASH_PLAYER}"`);
-      process.exit(1);
-    }
-  } else if (SWEEP_TYPE === "priority") {
-    targetPlayers = playersData.players.filter(
-      p => p.sweepTier === "A" || p.sweepTier === "B"
-    );
-  } else {
-    targetPlayers = playersData.players;
-  }
+  const response = await client.messages.create({
+    model: MODEL,
+    max_tokens: 8000,
+    messages: [{ role: "user", content: jsonPrompt }]
+  });
 
-  const playerDetails = targetPlayers.map(p => {
-    const intel = intelData[String(p.id)] || {};
-    return `--- Player #${p.id}: ${p.name} ---
-Country: ${p.country} | Position: ${p.position} | Born: ${p.birthYear}
-Current Club: ${p.currentClub} | Status: ${p.status} | Tier: ${p.sweepTier}
-Alt Spellings: ${(p.altSpellings || []).join(", ") || "none"}
-Confusion Risk: ${p.confusionRisk || "none"}
-Intel: height=${intel.height || "—"}, foot=${intel.foot || "—"}, contract=${intel.contract || "—"}
-Previous Club: ${intel.previousClub || "—"}
-Season Stats: ${intel.seasonStats || "—"}
-Existing Rumors (${(p.rumors || []).length}):
-${(p.rumors || []).map(r => `  [${r.date}] ${r.club} — ${r.detail} (${r.source}, T${r.tier}, ${r.status})`).join("\n") || "  none"}`;
-  }).join("\n\n");
-
-  return `Run a ${SWEEP_TYPE.toUpperCase()} SWEEP for the Africa Youth Transfer Tracker.
-
-## BASELINE (pre-extracted)
-${baseline}
-
-## FULL PLAYER DATA FOR THIS SWEEP
-${playerDetails}
-
-## INSTRUCTIONS
-1. For each player in scope, run the appropriate search pattern for their tier.
-2. Apply the delta test to every result — only genuinely new intel passes.
-3. Use date gating: ignore results on or before each player's latest baseline date.
-4. Verify identity for any new findings (check birth year, club, nationality).
-5. Return the structured JSON delta report.
-
-Search each player now and report your findings.`;
-}
-
-// ── Call the API ──────────────────────────────────────────────────────────
-async function runSweep() {
-  const client = new Anthropic();
-
-  const userMessage = buildUserMessage();
+  const fullText = response.content
+    .filter(b => b.type === "text")
+    .map(b => b.text)
+    .join("\n");
 
   if (VERBOSE) {
-    console.log("=== SYSTEM PROMPT ===");
-    console.log(SYSTEM_PROMPT.substring(0, 500) + "...\n");
-    console.log("=== USER MESSAGE ===");
-    console.log(userMessage.substring(0, 1000) + "...\n");
+    console.log("=== PHASE 2 RAW OUTPUT ===");
+    console.log(fullText.substring(0, 2000) + (fullText.length > 2000 ? "..." : ""));
+    console.log("");
   }
 
-  console.log("Sending sweep request to Claude...");
-  console.log(`(This will take a while — Claude needs to search for all players)\n`);
+  return fullText;
+}
 
-  let response;
-  try {
-    // Use streaming — required for long-running web search operations
-    const stream = client.messages.stream({
-      model: MODEL,
-      max_tokens: 16000,
-      system: SYSTEM_PROMPT,
-      tools: [
-        {
-          type: "web_search_20250305",
-          name: "web_search",
-          max_uses: 100
-        }
-      ],
-      messages: [{ role: "user", content: userMessage }]
-    });
+// ── Run the sweep ────────────────────────────────────────────────────────
+async function runSweep() {
+  const client = new Anthropic();
+  const targetPlayers = getTargetPlayers();
 
-    // Log progress as chunks arrive
-    let searchCount = 0;
-    stream.on("event", (event) => {
-      if (event.type === "content_block_start" && event.content_block?.type === "web_search_tool_result") {
-        searchCount++;
-        process.stdout.write(`  [Search ${searchCount}] `);
-      }
-      if (event.type === "content_block_start" && event.content_block?.type === "text") {
-        process.stdout.write("\n  [Generating response...]\n");
-      }
-    });
+  console.log(`Target players: ${targetPlayers.length}`);
+  console.log(`Players: ${targetPlayers.map(p => p.name).join(", ")}\n`);
 
-    response = await stream.finalMessage();
-    console.log(`\nCompleted ${searchCount} web searches.`);
-  } catch (err) {
-    console.error("API call failed:", err.message);
-    if (err.status === 401) {
-      console.error("Check your ANTHROPIC_API_KEY.");
+  // Batch players for full sweeps (groups of 7), single batch for flash/priority
+  const BATCH_SIZE = 7;
+  let batches;
+  if (SWEEP_TYPE === "full" && targetPlayers.length > BATCH_SIZE) {
+    batches = [];
+    for (let i = 0; i < targetPlayers.length; i += BATCH_SIZE) {
+      batches.push(targetPlayers.slice(i, i + BATCH_SIZE));
     }
+    console.log(`Splitting into ${batches.length} batches of up to ${BATCH_SIZE} players each.\n`);
+  } else {
+    batches = [targetPlayers];
+  }
+
+  // Phase 1: Search each batch
+  let allFindings = "";
+  for (let i = 0; i < batches.length; i++) {
+    const batch = batches[i];
+    if (batches.length > 1) {
+      console.log(`\n─── Batch ${i + 1}/${batches.length} ───`);
+    }
+    try {
+      const findings = await phase1Search(client, batch);
+      allFindings += `\n=== Batch ${i + 1} findings ===\n${findings}\n`;
+    } catch (err) {
+      console.error(`Phase 1 batch ${i + 1} failed:`, err.message);
+      allFindings += `\n=== Batch ${i + 1}: SEARCH FAILED ===\n`;
+    }
+  }
+
+  // Save raw findings for debugging
+  fs.mkdirSync(DELTA_DIR, { recursive: true });
+  fs.writeFileSync(
+    path.join(DELTA_DIR, "last_raw_findings.txt"),
+    allFindings,
+    "utf-8"
+  );
+
+  // Phase 2: Produce JSON from all findings
+  let jsonText;
+  try {
+    jsonText = await phase2Produce(client, targetPlayers, allFindings);
+  } catch (err) {
+    console.error("Phase 2 failed:", err.message);
     process.exit(1);
   }
 
-  // ── Extract the text response ─────────────────────────────────────────
-  const textBlocks = response.content.filter(b => b.type === "text");
-  const fullText = textBlocks.map(b => b.text).join("\n");
-
-  if (VERBOSE) {
-    console.log("=== RAW RESPONSE ===");
-    console.log(fullText.substring(0, 2000) + "...\n");
-  }
-
-  // ── Parse the JSON delta ──────────────────────────────────────────────
+  // Parse the JSON delta
   let delta;
   try {
-    // Try to extract JSON from the response — it might be wrapped in markdown
-    const jsonMatch = fullText.match(/\{[\s\S]*\}/);
+    const jsonMatch = jsonText.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
-      throw new Error("No JSON object found in response");
+      throw new Error("No JSON object found in Phase 2 response");
     }
     delta = JSON.parse(jsonMatch[0]);
   } catch (err) {
     console.error("Failed to parse delta JSON:", err.message);
-    console.error("Raw response saved to sweeps/last_raw_response.txt");
-    fs.mkdirSync(DELTA_DIR, { recursive: true });
+    console.error("Raw Phase 2 response saved to sweeps/last_raw_response.txt");
     fs.writeFileSync(
       path.join(DELTA_DIR, "last_raw_response.txt"),
-      fullText,
+      jsonText,
       "utf-8"
     );
     process.exit(1);
@@ -385,14 +362,12 @@ async function runSweep() {
   // ── Validate the parsed delta ────────────────────────────────────
   console.log("\n=== VALIDATING SWEEP RESULTS ===");
 
-  // Validate each new intel item
   const validatedIntel = [];
   const rejectedIntel = [];
 
   for (const item of (delta.newIntel || [])) {
     const errors = [];
 
-    // Validate rumour schema
     if (item.rumor) {
       const rumourResult = validateRumour(item.rumor);
       if (!rumourResult.valid) errors.push(...rumourResult.errors);
@@ -400,11 +375,9 @@ async function runSweep() {
       errors.push("Missing rumor object");
     }
 
-    // Validate player identity
     const identityResult = validatePlayerIdentity(item, playersData);
     if (!identityResult.valid) errors.push(...identityResult.errors);
 
-    // Validate tier consistency (soft warnings — logged but not rejected)
     if (item.rumor) {
       const tierResult = validateTierConsistency(item.rumor);
       if (!tierResult.valid) {
@@ -419,7 +392,6 @@ async function runSweep() {
     }
   }
 
-  // Replace newIntel with only validated items
   delta.newIntel = validatedIntel;
 
   if (rejectedIntel.length > 0) {
@@ -427,7 +399,6 @@ async function runSweep() {
     rejectedIntel.forEach(r => {
       console.log(`  REJECTED: ${r.item.playerName || "Unknown"} — ${r.errors.join("; ")}`);
     });
-    // Add rejected items to needsReview
     if (!delta.needsReview) delta.needsReview = [];
     delta.needsReview.push(
       ...rejectedIntel.map(r => ({
@@ -439,7 +410,6 @@ async function runSweep() {
     );
   }
 
-  // Validate escalations
   if (delta.escalations && delta.escalations.length > 0) {
     delta.escalations = delta.escalations.filter(esc => {
       const result = validateEscalation(esc, playersData);
@@ -451,7 +421,6 @@ async function runSweep() {
     });
   }
 
-  // Validate tier changes
   if (delta.tierChanges && delta.tierChanges.length > 0) {
     delta.tierChanges = delta.tierChanges.filter(tc => {
       const result = validateTierChange(tc, playersData);
@@ -474,7 +443,6 @@ async function runSweep() {
 function applyDelta(delta) {
   let changed = false;
 
-  // Apply new intel (new rumors)
   if (delta.newIntel && delta.newIntel.length > 0) {
     console.log(`\n=== NEW INTEL (${delta.newIntel.length} items) ===`);
     for (const item of delta.newIntel) {
@@ -484,22 +452,18 @@ function applyDelta(delta) {
         continue;
       }
 
-      // Add the rumor
       if (item.rumor) {
         if (!player.rumors) player.rumors = [];
-        // Check for duplicates (normalized matching)
         const isDupe = isDuplicate(item.rumor, player.rumors);
         if (isDupe) {
           console.log(`  SKIP (dupe): ${item.playerName} — ${item.rumor.detail}`);
           continue;
         }
-        // Insert at the beginning (newest first)
         player.rumors.unshift(item.rumor);
         console.log(`  ADD: ${item.playerName} | ${item.rumor.date} | ${item.rumor.club} | ${item.rumor.detail}`);
         changed = true;
       }
 
-      // Merge intel updates
       if (item.intelUpdates && typeof item.intelUpdates === "object") {
         const key = String(item.playerId);
         if (!intelData[key]) intelData[key] = {};
@@ -510,13 +474,11 @@ function applyDelta(delta) {
     }
   }
 
-  // Apply escalations (status changes on existing players)
   if (delta.escalations && delta.escalations.length > 0) {
     console.log(`\n=== ESCALATIONS (${delta.escalations.length}) ===`);
     for (const esc of delta.escalations) {
       const player = playersData.players.find(p => p.id === esc.playerId);
       if (!player) continue;
-
       if (esc.field === "status") {
         player.status = esc.newValue;
         console.log(`  ${esc.playerName}: ${esc.oldValue} → ${esc.newValue}`);
@@ -525,7 +487,6 @@ function applyDelta(delta) {
     }
   }
 
-  // Apply tier changes
   if (delta.tierChanges && delta.tierChanges.length > 0) {
     console.log(`\n=== TIER CHANGES (${delta.tierChanges.length}) ===`);
     for (const tc of delta.tierChanges) {
@@ -537,13 +498,11 @@ function applyDelta(delta) {
     }
   }
 
-  // Log no-change players
   if (delta.noChange && delta.noChange.length > 0) {
     console.log(`\n=== NO CHANGE (${delta.noChange.length} players) ===`);
     console.log(`  ${delta.noChange.join(", ")}`);
   }
 
-  // Log needs-review items
   if (delta.needsReview && delta.needsReview.length > 0) {
     console.log(`\n=== NEEDS REVIEW (${delta.needsReview.length}) ===`);
     for (const nr of delta.needsReview) {
