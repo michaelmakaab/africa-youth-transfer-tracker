@@ -22,6 +22,14 @@ import fs from "node:fs";
 import path from "node:path";
 import { execSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import {
+  validateRumour,
+  validatePlayerIdentity,
+  isDuplicate,
+  validateTierConsistency,
+  validateEscalation,
+  validateTierChange
+} from "./validate.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -353,6 +361,91 @@ async function runSweep() {
     process.exit(1);
   }
 
+  // ── Validate the parsed delta ────────────────────────────────────
+  console.log("\n=== VALIDATING SWEEP RESULTS ===");
+
+  // Validate each new intel item
+  const validatedIntel = [];
+  const rejectedIntel = [];
+
+  for (const item of (delta.newIntel || [])) {
+    const errors = [];
+
+    // Validate rumour schema
+    if (item.rumor) {
+      const rumourResult = validateRumour(item.rumor);
+      if (!rumourResult.valid) errors.push(...rumourResult.errors);
+    } else {
+      errors.push("Missing rumor object");
+    }
+
+    // Validate player identity
+    const identityResult = validatePlayerIdentity(item, playersData);
+    if (!identityResult.valid) errors.push(...identityResult.errors);
+
+    // Validate tier consistency (soft warnings — logged but not rejected)
+    if (item.rumor) {
+      const tierResult = validateTierConsistency(item.rumor);
+      if (!tierResult.valid) {
+        tierResult.warnings.forEach(w => console.warn(`  TIER WARNING: ${item.playerName} — ${w}`));
+      }
+    }
+
+    if (errors.length > 0) {
+      rejectedIntel.push({ item, errors });
+    } else {
+      validatedIntel.push(item);
+    }
+  }
+
+  // Replace newIntel with only validated items
+  delta.newIntel = validatedIntel;
+
+  if (rejectedIntel.length > 0) {
+    console.log(`\n=== REJECTED INTEL (${rejectedIntel.length} items) ===`);
+    rejectedIntel.forEach(r => {
+      console.log(`  REJECTED: ${r.item.playerName || "Unknown"} — ${r.errors.join("; ")}`);
+    });
+    // Add rejected items to needsReview
+    if (!delta.needsReview) delta.needsReview = [];
+    delta.needsReview.push(
+      ...rejectedIntel.map(r => ({
+        playerId: r.item.playerId,
+        playerName: r.item.playerName || "Unknown",
+        detail: r.item.rumor?.detail || "Unknown",
+        reason: "Auto-rejected: " + r.errors.join("; ")
+      }))
+    );
+  }
+
+  // Validate escalations
+  if (delta.escalations && delta.escalations.length > 0) {
+    delta.escalations = delta.escalations.filter(esc => {
+      const result = validateEscalation(esc, playersData);
+      if (!result.valid) {
+        console.warn(`  REJECTED ESCALATION: ${esc.playerName} — ${result.errors.join("; ")}`);
+        return false;
+      }
+      return true;
+    });
+  }
+
+  // Validate tier changes
+  if (delta.tierChanges && delta.tierChanges.length > 0) {
+    delta.tierChanges = delta.tierChanges.filter(tc => {
+      const result = validateTierChange(tc, playersData);
+      if (!result.valid) {
+        console.warn(`  REJECTED TIER CHANGE: ${tc.playerName} — ${result.errors.join("; ")}`);
+        return false;
+      }
+      return true;
+    });
+  }
+
+  const totalValidated = validatedIntel.length;
+  const totalRejected = rejectedIntel.length;
+  console.log(`\nValidation complete: ${totalValidated} accepted, ${totalRejected} rejected`);
+
   return delta;
 }
 
@@ -373,12 +466,8 @@ function applyDelta(delta) {
       // Add the rumor
       if (item.rumor) {
         if (!player.rumors) player.rumors = [];
-        // Check for duplicates
-        const isDupe = player.rumors.some(
-          r => r.date === item.rumor.date &&
-               r.club === item.rumor.club &&
-               r.detail === item.rumor.detail
-        );
+        // Check for duplicates (normalized matching)
+        const isDupe = isDuplicate(item.rumor, player.rumors);
         if (isDupe) {
           console.log(`  SKIP (dupe): ${item.playerName} — ${item.rumor.detail}`);
           continue;
@@ -471,6 +560,13 @@ async function main() {
   // Update sweep metadata
   playersData.meta.lastSweep = today;
   playersData.meta.sweepNumber = delta.sweepNumber || playersData.meta.sweepNumber + 1;
+
+  // Backup current files before overwriting
+  const backupDir = path.join(ROOT, "sweeps", "backups");
+  fs.mkdirSync(backupDir, { recursive: true });
+  fs.copyFileSync(PLAYERS_PATH, path.join(backupDir, `players_pre_sweep_${timestamp}.json`));
+  fs.copyFileSync(INTEL_PATH, path.join(backupDir, `intel_pre_sweep_${timestamp}.json`));
+  console.log("Pre-sweep backups saved.");
 
   // Write updated JSON files
   fs.writeFileSync(PLAYERS_PATH, JSON.stringify(playersData, null, 2), "utf-8");

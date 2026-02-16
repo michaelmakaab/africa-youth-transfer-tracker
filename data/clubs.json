@@ -1,0 +1,24 @@
+{
+  "aliases": {
+    "San Pedro FC": ["FC San Pedro", "San Pedro"],
+    "FC Nordsjælland": ["FCN", "Nordsjaelland", "FC Nordsjelland", "Nordsjælland"],
+    "Réal du Faso": ["Real du Faso", "RdF"],
+    "Génération Foot": ["Generation Foot", "Gen Foot"],
+    "Diambars FC": ["Diambars"],
+    "AC Milan": ["Milan", "Milan Futuro"],
+    "Liverpool FC": ["Liverpool"],
+    "Eintracht Frankfurt": ["Frankfurt", "SGE"],
+    "Aarhus GF": ["AGF", "Aarhus"],
+    "Petro Luanda": ["Petro de Luanda"],
+    "Rahimo FC": ["Rahimo"],
+    "Casa Sports": ["Casa Sport"],
+    "AJEL Rufisque": ["AJEL"],
+    "Randers FC": ["Randers"]
+  },
+  "academyPipelines": {
+    "Right to Dream": "FC Nordsjælland",
+    "Génération Foot": "multiple European clubs",
+    "Diambars FC": "multiple European clubs",
+    "Be Sport Academy": "multiple European clubs"
+  }
+}
