@@ -118,6 +118,24 @@ ${(p.rumors || []).map(r => `  [${r.date}] ${r.club} — ${r.detail} (${r.source
   }).join("\n\n");
 }
 
+// ── Retry helper with exponential backoff ──────────────────────────────────
+async function withRetry(fn, label, maxRetries = 3) {
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      const isRateLimit = err.status === 429 || (err.message && err.message.includes("rate_limit"));
+      if (isRateLimit && attempt < maxRetries) {
+        const wait = attempt * 30; // 30s, 60s, 90s
+        console.log(`  Rate limited on ${label} (attempt ${attempt}/${maxRetries}). Waiting ${wait}s...`);
+        await new Promise(r => setTimeout(r, wait * 1000));
+      } else {
+        throw err;
+      }
+    }
+  }
+}
+
 // ── Phase 1: Search ──────────────────────────────────────────────────────
 // Claude uses web_search to find transfer intel. Returns raw text findings.
 async function phase1Search(client, players) {
@@ -144,34 +162,35 @@ Search each player now. For each, write a brief summary of what you found (or "N
   console.log(`Phase 1: Searching for ${players.length} player(s): ${playerNames}`);
   console.log(`  Max searches: ${maxSearches}\n`);
 
-  const stream = client.messages.stream({
-    model: MODEL,
-    max_tokens: 8000,
-    system: "You are a football transfer research agent. Search for transfer news and report findings concisely. Do NOT produce JSON — just describe what you found for each player.",
-    tools: [
-      {
-        type: "web_search_20250305",
-        name: "web_search",
-        max_uses: maxSearches
+  const findings = await withRetry(async () => {
+    const stream = client.messages.stream({
+      model: MODEL,
+      max_tokens: 8000,
+      system: "You are a football transfer research agent. Search for transfer news and report findings concisely. Do NOT produce JSON — just describe what you found for each player.",
+      tools: [
+        {
+          type: "web_search_20250305",
+          name: "web_search",
+          max_uses: maxSearches
+        }
+      ],
+      messages: [{ role: "user", content: searchPrompt }]
+    });
+
+    let searchCount = 0;
+    stream.on("event", (event) => {
+      if (event.type === "content_block_start" && event.content_block?.type === "web_search_tool_result") {
+        searchCount++;
+        process.stdout.write(`  [Search ${searchCount}/${maxSearches}] `);
       }
-    ],
-    messages: [{ role: "user", content: searchPrompt }]
-  });
+    });
 
-  let searchCount = 0;
-  stream.on("event", (event) => {
-    if (event.type === "content_block_start" && event.content_block?.type === "web_search_tool_result") {
-      searchCount++;
-      process.stdout.write(`  [Search ${searchCount}/${maxSearches}] `);
-    }
-  });
+    const response = await stream.finalMessage();
+    console.log(`\n  Phase 1 complete: ${searchCount} searches performed.`);
 
-  const response = await stream.finalMessage();
-  console.log(`\n  Phase 1 complete: ${searchCount} searches performed.`);
-
-  // Extract all text blocks (the research findings)
-  const textBlocks = response.content.filter(b => b.type === "text");
-  const findings = textBlocks.map(b => b.text).join("\n");
+    const textBlocks = response.content.filter(b => b.type === "text");
+    return textBlocks.map(b => b.text).join("\n");
+  }, "Phase 1 search");
 
   if (VERBOSE) {
     console.log("\n=== PHASE 1 FINDINGS ===");
@@ -266,16 +285,18 @@ Return ONLY the JSON — nothing else.`;
 
   console.log("\nPhase 2: Producing structured JSON delta...");
 
-  const response = await client.messages.create({
-    model: MODEL,
-    max_tokens: 8000,
-    messages: [{ role: "user", content: jsonPrompt }]
-  });
+  const fullText = await withRetry(async () => {
+    const response = await client.messages.create({
+      model: MODEL,
+      max_tokens: 8000,
+      messages: [{ role: "user", content: jsonPrompt }]
+    });
 
-  const fullText = response.content
-    .filter(b => b.type === "text")
-    .map(b => b.text)
-    .join("\n");
+    return response.content
+      .filter(b => b.type === "text")
+      .map(b => b.text)
+      .join("\n");
+  }, "Phase 2 JSON");
 
   if (VERBOSE) {
     console.log("=== PHASE 2 RAW OUTPUT ===");
