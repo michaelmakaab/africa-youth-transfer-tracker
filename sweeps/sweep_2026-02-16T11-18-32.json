@@ -1,0 +1,28 @@
+{
+  "sweepDate": "Feb 16, 2026",
+  "sweepType": "flash",
+  "sweepNumber": 6,
+  "baselineItems": 28,
+  "playersSearched": 1,
+  "newIntel": [
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Feb 14, 2026",
+        "club": "Fenerbahçe",
+        "detail": "Deal now in 'final stages'. AJEL still demanding €200k minimum fee",
+        "source": "Daily Sports",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Progression from 'advanced talks' to 'final stages' with fee confirmation represents new intel beyond existing rumors"
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [],
+  "needsReview": []
+}

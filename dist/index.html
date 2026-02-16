@@ -308,92 +308,789 @@ body {
 const PLAYERS_DATA = {
   "meta": {
     "lastSweep": "Feb 16, 2026",
-    "sweepNumber": 5,
+    "sweepNumber": 6,
     "playerCount": 21
   },
   "players": [
-    {"id":1,"name":"Issouf Dabo","country":"Burkina Faso","flag":"\ud83c\udde7\ud83c\uddeb","position":"CB","birthYear":2009,"currentClub":"New Stars FC","status":"active","sweepTier":"B","altSpellings":["Issouf Dabo"],"confusionRisk":"Issouf Dayo (b.1992, Stade Malien)","rumors":[
-      {"date":"Dec 5, 2025","club":"QPR","detail":"QPR launched concrete offensive after multiple scout observations \u2014 convinced by defensive maturity & 1.93m frame","source":"AfricaFoot (exclusive)","tier":2,"status":"Active Interest","recent":true},
-      {"date":"Dec 7, 2025","club":"Lorient / Leverkusen","detail":"Lorient and Bayer Leverkusen also closely following alongside QPR","source":"Africa Top Sports","tier":3,"status":"Monitoring","recent":true}
-    ]},
-    {"id":2,"name":"El Hadj Malick Ciss\u00e9","country":"Senegal","flag":"\ud83c\uddf8\ud83c\uddf3","position":"CB","birthYear":2008,"currentClub":"Be Sport Academy","status":"confirmed","sweepTier":"A","altSpellings":["El Hadji Cisse","Malik Ciss\u00e9","Malick Cisse","El Hadj Cisse"],"confusionRisk":null,"rumors":[
-      {"date":"Oct 25, 2025","club":"Burnley / Ipswich","detail":"Interest from Burnley and Ipswich at youth level","source":"AfricaSoccer.com","tier":3,"status":"Early Interest","recent":false},
-      {"date":"Jan 25, 2026","club":"AC Milan","detail":"La Gazzetta reports Milan close to signing for Milan Futuro. Barca & Leipzig also tracked","source":"La Gazzetta dello Sport","tier":2,"status":"Advanced Negotiations","recent":true},
-      {"date":"Jan 27, 2026","club":"AC Milan","detail":"Fabrizio Romano confirms deal sealed. Medical & signatures incoming","source":"Fabrizio Romano, Matteo Moretto","tier":1,"status":"CONFIRMED","recent":true},
-      {"date":"Jan 30, 2026","club":"AC Milan","detail":"Contract signed \u2014 Milan Futuro. Fee: \u20ac750k + bonuses up to \u20ac2m. 4.5yr deal until 2030","source":"AC Milan Official, MilanReports, AfricaFoot","tier":1,"status":"SIGNED","recent":true}
-    ]},
-    {"id":3,"name":"Toure Alassane","country":"Ivory Coast","flag":"\ud83c\udde8\ud83c\uddee","position":"FW","birthYear":2009,"currentClub":"RC Abidjan U19","status":"no_rumours","sweepTier":"C","altSpellings":[],"confusionRisk":null,"rumors":[]},
-    {"id":4,"name":"Yao Hubert","country":"Ivory Coast","flag":"\ud83c\udde8\ud83c\uddee","position":"FW/LW","birthYear":2009,"currentClub":"San Pedro FC","status":"active","sweepTier":"B","altSpellings":["Hubert Yao"],"confusionRisk":"Right to Dream pipeline players (FCN's Ghana academy \u2014 Yao Hubert is from San Pedro FC, Ivory Coast)","rumors":[
-      {"date":"Jan 15, 2026","club":"FC Nordsj\u00e6lland","detail":"Nordsj\u00e6lland close to signing. Explosive, direct \u2014 attacks with both feet. ~190cm. Brother of Gervinho","source":"AfricaFoot","tier":2,"status":"Advanced Negotiations","recent":true}
-    ]},
-    {"id":5,"name":"Asharaf Loukmane Tapsoba","country":"Burkina Faso","flag":"\ud83c\udde7\ud83c\uddeb","position":"ST","birthYear":2010,"currentClub":"R\u00e9al du Faso","status":"active","sweepTier":"B","altSpellings":["Ashraf Loukman Tapsoba","Loukmane Tapsoba"],"confusionRisk":"Edmond Tapsoba (b.1999, Bayer Leverkusen)","rumors":[
-      {"date":"Apr 10, 2025","club":"Hammarby / Leverkusen / Lille","detail":"Hammarby, Leverkusen, Lille & RS Berkane all tracking","source":"AfricaFoot (exclusive)","tier":2,"status":"Multiple Interest","recent":false},
-      {"date":"Jul 8, 2025","club":"Hammarby","detail":"Hammarby delegation visited Ouagadougou. Pre-contract sealed + partnership with R\u00e9al du Faso","source":"AfricaFoot (exclusive)","tier":2,"status":"Pre-contract","recent":false},
-      {"date":"Nov 7, 2025","club":"Man United","detail":"Man Utd closely monitoring at U17 World Cup","source":"AfricaFoot, Peoples Person","tier":2,"status":"Scouting","recent":false},
-      {"date":"Dec 5, 2025","club":"Chelsea","detail":"Chelsea stepped up campaign. Man Utd leading but Chelsea surging. Likened to Drogba","source":"TEAMtalk","tier":2,"status":"Long-term (2027)","recent":true},
-      {"date":"Dec 5, 2025","club":"Multiple (10+ clubs)","detail":"Arsenal, Liverpool, Spurs, Barca, Atletico, PSG, Marseille, Leipzig, BVB, Juve all scouting","source":"TEAMtalk","tier":2,"status":"Scouting","recent":true},
-      {"date":"Dec 5, 2025","club":"Chelsea","detail":"Chelsea also discussing teammate Mohamed Zongo (AM, b.2009)","source":"TEAMtalk","tier":2,"status":"Parallel Interest","recent":true}
-    ]},
-    {"id":6,"name":"Souleymane Faye","country":"Senegal","flag":"\ud83c\uddf8\ud83c\uddf3","position":"\u2014","birthYear":2010,"currentClub":"Sahel F.C","status":"no_rumours","sweepTier":"C","altSpellings":[],"confusionRisk":"Souleymane Faye (b.2003, Sporting CP)","rumors":[]},
-    {"id":7,"name":"Cheick Malo","country":"Ivory Coast","flag":"\ud83c\udde8\ud83c\uddee","position":"MF","birthYear":2009,"currentClub":"San Pedro FC","status":"no_rumours","sweepTier":"C","altSpellings":[],"confusionRisk":null,"rumors":[]},
-    {"id":8,"name":"Souleymane Doumbia","country":"Mali","flag":"\ud83c\uddf2\ud83c\uddf1","position":"DF","birthYear":2008,"currentClub":"Derby Academy","status":"no_rumours","sweepTier":"C","altSpellings":["Soulaymane Doumbia"],"confusionRisk":null,"rumors":[]},
-    {"id":9,"name":"Mahamadou Traore","country":"Mali","flag":"\ud83c\uddf2\ud83c\uddf1","position":"MF","birthYear":2009,"currentClub":"Players Dreams","status":"active","sweepTier":"B","altSpellings":["Mamadou Traor\u00e9","Mahamadou Traor\u00e9"],"confusionRisk":"Mamadou Traor\u00e9 (b.1994, Dalian Yingbo)","rumors":[
-      {"date":"Feb 8, 2026","club":"Randers FC","detail":"Randers FC (Denmark) invited Traore for trial. Villarreal & Monaco also interested","source":"AfricaFoot via Foot Africa","tier":2,"status":"Trial Invitation","recent":false},
-      {"date":"Feb 10, 2026","club":"Eintracht Frankfurt","detail":"Frankfurt have almost finalised deal \u2014 ~3yr contract. Traore heading to Bundesliga","source":"AfricaFoot (exclusive)","tier":2,"status":"Advanced Negotiations","recent":true},
-      {"date":"Feb 12, 2026","club":"Eintracht Frankfurt","detail":"Visa delays \u2014 Traore & camp actively seeking German visa. Will join Frankfurt U17 initially","source":"AfricaFoot (update)","tier":2,"status":"Pending Travel","recent":true}
-    ]},
-    {"id":10,"name":"Mor Talla Ndiaye","country":"Senegal","flag":"\ud83c\uddf8\ud83c\uddf3","position":"CB","birthYear":2008,"currentClub":"Liverpool FC U21s","status":"confirmed","sweepTier":"A","altSpellings":["El Hadji Mor Talla Ndiaye","Talla Ndiaye","Mor Talla"],"confusionRisk":"Multiple Ndiaye players in Senegalese football","rumors":[
-      {"date":"Jan 5, 2026","club":"Liverpool FC","detail":"Senegalese journalist reports Liverpool 'expected' to sign. Multiple PL clubs pursuing","source":"This Is Anfield, Saikou Seydi","tier":2,"status":"Advanced Negotiations","recent":true},
-      {"date":"Jan 10, 2026","club":"Liverpool FC","detail":"Liverpool complete signing from Amiti\u00e9 FC. Fee ~\u00a31m. 4.5yr contract","source":"LiverpoolFC.com, The Athletic","tier":1,"status":"SIGNED","recent":true},
-      {"date":"Jan 26, 2026","club":"Liverpool FC","detail":"Minor medical issue found \u2014 not expected on sidelines long. Missed U21s vs Leeds","source":"Liverpool.com","tier":2,"status":"Integration","recent":true}
-    ]},
-    {"id":11,"name":"El Hadj Yamar Ndiaye","country":"Senegal","flag":"\ud83c\uddf8\ud83c\uddf3","position":"FW","birthYear":2009,"currentClub":"Challenge F.C","status":"no_rumours","sweepTier":"C","altSpellings":[],"confusionRisk":null,"rumors":[]},
-    {"id":12,"name":"Ettienne Mendy","country":"Senegal","flag":"\ud83c\uddf8\ud83c\uddf3","position":"FW/RW","birthYear":2008,"currentClub":"Diambars FC","status":"monitoring","sweepTier":"C","altSpellings":["Etienne Mendy"],"confusionRisk":"\u00c9douard Mendy (b.1992, Al-Ahli)","rumors":[
-      {"date":"Sep 11, 2025","club":"Man United","detail":"Mendy on trial at Carrington. Eligible summer 2026. 'Extraordinarily effective dribbler'","source":"13football, Scouts Attending","tier":2,"status":"Trial","recent":false},
-      {"date":"Sep 12, 2025","club":"Man United","detail":"AfricaFoot rates as top 3 Senegal U17 prospect. Needs physical development","source":"United In Focus","tier":2,"status":"Assessment","recent":false}
-    ]},
-    {"id":13,"name":"James Bogere","country":"Uganda","flag":"\ud83c\uddfa\ud83c\uddec","position":"FW","birthYear":2008,"currentClub":"Aarhus GF U19","status":"confirmed","sweepTier":"A","altSpellings":[],"confusionRisk":null,"rumors":[
-      {"date":"Nov 21, 2025","club":"Multiple clubs","detail":"Man Utd, Brentford, Brighton, Genk & Aarhus monitoring","source":"Sportsboom","tier":3,"status":"Multiple Interest","recent":false},
-      {"date":"Dec 10, 2025","club":"Aarhus GF","detail":"Bogere & teammate sign professional contracts with Danish Superliga leaders AGF. Free transfer","source":"Kawowo, PanAfricaFootball","tier":1,"status":"CONFIRMED","recent":true},
-      {"date":"Feb 2, 2026","club":"Aarhus GF","detail":"Transfer officially registered. Contract until Jun 30, 2028. U19 Boys League","source":"AfricaSoccer, Pulse Sports","tier":1,"status":"SIGNED","recent":true}
-    ]},
-    {"id":14,"name":"Adama Some","country":"Ivory Coast","flag":"\ud83c\udde8\ud83c\uddee","position":"MF","birthYear":2009,"currentClub":"ISCA","status":"no_rumours","sweepTier":"C","altSpellings":[],"confusionRisk":null,"rumors":[]},
-    {"id":15,"name":"Delfim Luwawu","country":"Angola","flag":"\ud83c\udde6\ud83c\uddf4","position":"DM","birthYear":2008,"currentClub":"AFA","status":"no_rumours","sweepTier":"C","altSpellings":[],"confusionRisk":null,"rumors":[]},
-    {"id":16,"name":"Prince Hamed Ouedraogo","country":"Burkina Faso","flag":"\ud83c\udde7\ud83c\uddeb","position":"GK","birthYear":2009,"currentClub":"R\u00e9al du Faso","status":"no_rumours","sweepTier":"C","altSpellings":[],"confusionRisk":null,"rumors":[]},
-    {"id":17,"name":"Vincent Gomis","country":"Senegal","flag":"\ud83c\uddf8\ud83c\uddf3","position":"GK","birthYear":2008,"currentClub":"G\u00e9n\u00e9ration Foot","status":"no_rumours","sweepTier":"C","altSpellings":[],"confusionRisk":null,"rumors":[]},
-    {"id":18,"name":"Il\u00eddio Panda","country":"Angola","flag":"\ud83c\udde6\ud83c\uddf4","position":"FW","birthYear":2008,"currentClub":"Petro Luanda","status":"no_rumours","sweepTier":"C","altSpellings":[],"confusionRisk":null,"rumors":[]},
-    {"id":19,"name":"Ysso Donatien Bama","country":"Burkina Faso","flag":"\ud83c\udde7\ud83c\uddeb","position":"CB","birthYear":2007,"currentClub":"Rahimo FC","status":"no_rumours","sweepTier":"C","altSpellings":[],"confusionRisk":null,"rumors":[]},
-    {"id":20,"name":"Pape S\u00e9mou San\u00e9","country":"Senegal","flag":"\ud83c\uddf8\ud83c\uddf3","position":"FW/RW","birthYear":2007,"currentClub":"Casa Sports","status":"no_rumours","sweepTier":"C","altSpellings":[],"confusionRisk":null,"rumors":[]},
-    {"id":21,"name":"Mouhamed Diop","country":"Senegal","flag":"\ud83c\uddf8\ud83c\uddf3","position":"FW","birthYear":2009,"currentClub":"AJEL Rufisque","status":"active","sweepTier":"B","altSpellings":[],"confusionRisk":null,"rumors":[
-      {"date":"Dec 18, 2025","club":"ES S\u00e9tif","detail":"ES S\u00e9tif (Algeria) closely tracking. Top scorer in Senegalese Ligue 1","source":"AfricaFoot (exclusive)","tier":2,"status":"Scouting","recent":false},
-      {"date":"Dec 23, 2025","club":"ES S\u00e9tif","detail":"S\u00e9tif submit \u20ac70k offer. AJEL demanding \u20ac200k. Negotiations ongoing","source":"AfricaFoot (exclusive)","tier":2,"status":"Negotiations","recent":false},
-      {"date":"Feb 12, 2026","club":"Fenerbah\u00e7e","detail":"Fenerbah\u00e7e in advanced talks \u2014 supersedes S\u00e9tif. AJEL still want min \u20ac200k","source":"AfricaFoot (exclusive)","tier":2,"status":"Advanced Negotiations","recent":true},
-      {"date":"Feb 13, 2026","club":"Fenerbah\u00e7e","detail":"Turkish media corroborate. 12 apps, 4G 1A in Senegal L1. Near-finalised","source":"Sabah, FotoSpor (citing AfricaFoot)","tier":3,"status":"Corroborated","recent":true}
-    ]}
+    {
+      "id": 1,
+      "name": "Issouf Dabo",
+      "country": "Burkina Faso",
+      "flag": "🇧🇫",
+      "position": "CB",
+      "birthYear": 2009,
+      "currentClub": "New Stars FC",
+      "status": "active",
+      "sweepTier": "B",
+      "altSpellings": [
+        "Issouf Dabo"
+      ],
+      "confusionRisk": "Issouf Dayo (b.1992, Stade Malien)",
+      "rumors": [
+        {
+          "date": "Dec 5, 2025",
+          "club": "QPR",
+          "detail": "QPR launched concrete offensive after multiple scout observations — convinced by defensive maturity & 1.93m frame",
+          "source": "AfricaFoot (exclusive)",
+          "tier": 2,
+          "status": "Active Interest",
+          "recent": true
+        },
+        {
+          "date": "Dec 7, 2025",
+          "club": "Lorient / Leverkusen",
+          "detail": "Lorient and Bayer Leverkusen also closely following alongside QPR",
+          "source": "Africa Top Sports",
+          "tier": 3,
+          "status": "Monitoring",
+          "recent": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "El Hadj Malick Cissé",
+      "country": "Senegal",
+      "flag": "🇸🇳",
+      "position": "CB",
+      "birthYear": 2008,
+      "currentClub": "Be Sport Academy",
+      "status": "confirmed",
+      "sweepTier": "A",
+      "altSpellings": [
+        "El Hadji Cisse",
+        "Malik Cissé",
+        "Malick Cisse",
+        "El Hadj Cisse"
+      ],
+      "confusionRisk": null,
+      "rumors": [
+        {
+          "date": "Oct 25, 2025",
+          "club": "Burnley / Ipswich",
+          "detail": "Interest from Burnley and Ipswich at youth level",
+          "source": "AfricaSoccer.com",
+          "tier": 3,
+          "status": "Early Interest",
+          "recent": false
+        },
+        {
+          "date": "Jan 25, 2026",
+          "club": "AC Milan",
+          "detail": "La Gazzetta reports Milan close to signing for Milan Futuro. Barca & Leipzig also tracked",
+          "source": "La Gazzetta dello Sport",
+          "tier": 2,
+          "status": "Advanced Negotiations",
+          "recent": true
+        },
+        {
+          "date": "Jan 27, 2026",
+          "club": "AC Milan",
+          "detail": "Fabrizio Romano confirms deal sealed. Medical & signatures incoming",
+          "source": "Fabrizio Romano, Matteo Moretto",
+          "tier": 1,
+          "status": "CONFIRMED",
+          "recent": true
+        },
+        {
+          "date": "Jan 30, 2026",
+          "club": "AC Milan",
+          "detail": "Contract signed — Milan Futuro. Fee: €750k + bonuses up to €2m. 4.5yr deal until 2030",
+          "source": "AC Milan Official, MilanReports, AfricaFoot",
+          "tier": 1,
+          "status": "SIGNED",
+          "recent": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Toure Alassane",
+      "country": "Ivory Coast",
+      "flag": "🇨🇮",
+      "position": "FW",
+      "birthYear": 2009,
+      "currentClub": "RC Abidjan U19",
+      "status": "no_rumours",
+      "sweepTier": "C",
+      "altSpellings": [],
+      "confusionRisk": null,
+      "rumors": []
+    },
+    {
+      "id": 4,
+      "name": "Yao Hubert",
+      "country": "Ivory Coast",
+      "flag": "🇨🇮",
+      "position": "FW/LW",
+      "birthYear": 2009,
+      "currentClub": "San Pedro FC",
+      "status": "active",
+      "sweepTier": "B",
+      "altSpellings": [
+        "Hubert Yao"
+      ],
+      "confusionRisk": "Right to Dream pipeline players (FCN's Ghana academy — Yao Hubert is from San Pedro FC, Ivory Coast)",
+      "rumors": [
+        {
+          "date": "Jan 15, 2026",
+          "club": "FC Nordsjælland",
+          "detail": "Nordsjælland close to signing. Explosive, direct — attacks with both feet. ~190cm. Brother of Gervinho",
+          "source": "AfricaFoot",
+          "tier": 2,
+          "status": "Advanced Negotiations",
+          "recent": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Asharaf Loukmane Tapsoba",
+      "country": "Burkina Faso",
+      "flag": "🇧🇫",
+      "position": "ST",
+      "birthYear": 2010,
+      "currentClub": "Réal du Faso",
+      "status": "active",
+      "sweepTier": "B",
+      "altSpellings": [
+        "Ashraf Loukman Tapsoba",
+        "Loukmane Tapsoba"
+      ],
+      "confusionRisk": "Edmond Tapsoba (b.1999, Bayer Leverkusen)",
+      "rumors": [
+        {
+          "date": "Apr 10, 2025",
+          "club": "Hammarby / Leverkusen / Lille",
+          "detail": "Hammarby, Leverkusen, Lille & RS Berkane all tracking",
+          "source": "AfricaFoot (exclusive)",
+          "tier": 2,
+          "status": "Multiple Interest",
+          "recent": false
+        },
+        {
+          "date": "Jul 8, 2025",
+          "club": "Hammarby",
+          "detail": "Hammarby delegation visited Ouagadougou. Pre-contract sealed + partnership with Réal du Faso",
+          "source": "AfricaFoot (exclusive)",
+          "tier": 2,
+          "status": "Pre-contract",
+          "recent": false
+        },
+        {
+          "date": "Nov 7, 2025",
+          "club": "Man United",
+          "detail": "Man Utd closely monitoring at U17 World Cup",
+          "source": "AfricaFoot, Peoples Person",
+          "tier": 2,
+          "status": "Scouting",
+          "recent": false
+        },
+        {
+          "date": "Dec 5, 2025",
+          "club": "Chelsea",
+          "detail": "Chelsea stepped up campaign. Man Utd leading but Chelsea surging. Likened to Drogba",
+          "source": "TEAMtalk",
+          "tier": 2,
+          "status": "Long-term (2027)",
+          "recent": true
+        },
+        {
+          "date": "Dec 5, 2025",
+          "club": "Multiple (10+ clubs)",
+          "detail": "Arsenal, Liverpool, Spurs, Barca, Atletico, PSG, Marseille, Leipzig, BVB, Juve all scouting",
+          "source": "TEAMtalk",
+          "tier": 2,
+          "status": "Scouting",
+          "recent": true
+        },
+        {
+          "date": "Dec 5, 2025",
+          "club": "Chelsea",
+          "detail": "Chelsea also discussing teammate Mohamed Zongo (AM, b.2009)",
+          "source": "TEAMtalk",
+          "tier": 2,
+          "status": "Parallel Interest",
+          "recent": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Souleymane Faye",
+      "country": "Senegal",
+      "flag": "🇸🇳",
+      "position": "—",
+      "birthYear": 2010,
+      "currentClub": "Sahel F.C",
+      "status": "no_rumours",
+      "sweepTier": "C",
+      "altSpellings": [],
+      "confusionRisk": "Souleymane Faye (b.2003, Sporting CP)",
+      "rumors": []
+    },
+    {
+      "id": 7,
+      "name": "Cheick Malo",
+      "country": "Ivory Coast",
+      "flag": "🇨🇮",
+      "position": "MF",
+      "birthYear": 2009,
+      "currentClub": "San Pedro FC",
+      "status": "no_rumours",
+      "sweepTier": "C",
+      "altSpellings": [],
+      "confusionRisk": null,
+      "rumors": []
+    },
+    {
+      "id": 8,
+      "name": "Souleymane Doumbia",
+      "country": "Mali",
+      "flag": "🇲🇱",
+      "position": "DF",
+      "birthYear": 2008,
+      "currentClub": "Derby Academy",
+      "status": "no_rumours",
+      "sweepTier": "C",
+      "altSpellings": [
+        "Soulaymane Doumbia"
+      ],
+      "confusionRisk": null,
+      "rumors": []
+    },
+    {
+      "id": 9,
+      "name": "Mahamadou Traore",
+      "country": "Mali",
+      "flag": "🇲🇱",
+      "position": "MF",
+      "birthYear": 2009,
+      "currentClub": "Players Dreams",
+      "status": "active",
+      "sweepTier": "B",
+      "altSpellings": [
+        "Mamadou Traoré",
+        "Mahamadou Traoré"
+      ],
+      "confusionRisk": "Mamadou Traoré (b.1994, Dalian Yingbo)",
+      "rumors": [
+        {
+          "date": "Feb 8, 2026",
+          "club": "Randers FC",
+          "detail": "Randers FC (Denmark) invited Traore for trial. Villarreal & Monaco also interested",
+          "source": "AfricaFoot via Foot Africa",
+          "tier": 2,
+          "status": "Trial Invitation",
+          "recent": false
+        },
+        {
+          "date": "Feb 10, 2026",
+          "club": "Eintracht Frankfurt",
+          "detail": "Frankfurt have almost finalised deal — ~3yr contract. Traore heading to Bundesliga",
+          "source": "AfricaFoot (exclusive)",
+          "tier": 2,
+          "status": "Advanced Negotiations",
+          "recent": true
+        },
+        {
+          "date": "Feb 12, 2026",
+          "club": "Eintracht Frankfurt",
+          "detail": "Visa delays — Traore & camp actively seeking German visa. Will join Frankfurt U17 initially",
+          "source": "AfricaFoot (update)",
+          "tier": 2,
+          "status": "Pending Travel",
+          "recent": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Mor Talla Ndiaye",
+      "country": "Senegal",
+      "flag": "🇸🇳",
+      "position": "CB",
+      "birthYear": 2008,
+      "currentClub": "Liverpool FC U21s",
+      "status": "confirmed",
+      "sweepTier": "A",
+      "altSpellings": [
+        "El Hadji Mor Talla Ndiaye",
+        "Talla Ndiaye",
+        "Mor Talla"
+      ],
+      "confusionRisk": "Multiple Ndiaye players in Senegalese football",
+      "rumors": [
+        {
+          "date": "Jan 5, 2026",
+          "club": "Liverpool FC",
+          "detail": "Senegalese journalist reports Liverpool 'expected' to sign. Multiple PL clubs pursuing",
+          "source": "This Is Anfield, Saikou Seydi",
+          "tier": 2,
+          "status": "Advanced Negotiations",
+          "recent": true
+        },
+        {
+          "date": "Jan 10, 2026",
+          "club": "Liverpool FC",
+          "detail": "Liverpool complete signing from Amitié FC. Fee ~£1m. 4.5yr contract",
+          "source": "LiverpoolFC.com, The Athletic",
+          "tier": 1,
+          "status": "SIGNED",
+          "recent": true
+        },
+        {
+          "date": "Jan 26, 2026",
+          "club": "Liverpool FC",
+          "detail": "Minor medical issue found — not expected on sidelines long. Missed U21s vs Leeds",
+          "source": "Liverpool.com",
+          "tier": 2,
+          "status": "Integration",
+          "recent": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "El Hadj Yamar Ndiaye",
+      "country": "Senegal",
+      "flag": "🇸🇳",
+      "position": "FW",
+      "birthYear": 2009,
+      "currentClub": "Challenge F.C",
+      "status": "no_rumours",
+      "sweepTier": "C",
+      "altSpellings": [],
+      "confusionRisk": null,
+      "rumors": []
+    },
+    {
+      "id": 12,
+      "name": "Ettienne Mendy",
+      "country": "Senegal",
+      "flag": "🇸🇳",
+      "position": "FW/RW",
+      "birthYear": 2008,
+      "currentClub": "Diambars FC",
+      "status": "monitoring",
+      "sweepTier": "C",
+      "altSpellings": [
+        "Etienne Mendy"
+      ],
+      "confusionRisk": "Édouard Mendy (b.1992, Al-Ahli)",
+      "rumors": [
+        {
+          "date": "Sep 11, 2025",
+          "club": "Man United",
+          "detail": "Mendy on trial at Carrington. Eligible summer 2026. 'Extraordinarily effective dribbler'",
+          "source": "13football, Scouts Attending",
+          "tier": 2,
+          "status": "Trial",
+          "recent": false
+        },
+        {
+          "date": "Sep 12, 2025",
+          "club": "Man United",
+          "detail": "AfricaFoot rates as top 3 Senegal U17 prospect. Needs physical development",
+          "source": "United In Focus",
+          "tier": 2,
+          "status": "Assessment",
+          "recent": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "James Bogere",
+      "country": "Uganda",
+      "flag": "🇺🇬",
+      "position": "FW",
+      "birthYear": 2008,
+      "currentClub": "Aarhus GF U19",
+      "status": "confirmed",
+      "sweepTier": "A",
+      "altSpellings": [],
+      "confusionRisk": null,
+      "rumors": [
+        {
+          "date": "Nov 21, 2025",
+          "club": "Multiple clubs",
+          "detail": "Man Utd, Brentford, Brighton, Genk & Aarhus monitoring",
+          "source": "Sportsboom",
+          "tier": 3,
+          "status": "Multiple Interest",
+          "recent": false
+        },
+        {
+          "date": "Dec 10, 2025",
+          "club": "Aarhus GF",
+          "detail": "Bogere & teammate sign professional contracts with Danish Superliga leaders AGF. Free transfer",
+          "source": "Kawowo, PanAfricaFootball",
+          "tier": 1,
+          "status": "CONFIRMED",
+          "recent": true
+        },
+        {
+          "date": "Feb 2, 2026",
+          "club": "Aarhus GF",
+          "detail": "Transfer officially registered. Contract until Jun 30, 2028. U19 Boys League",
+          "source": "AfricaSoccer, Pulse Sports",
+          "tier": 1,
+          "status": "SIGNED",
+          "recent": true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Adama Some",
+      "country": "Ivory Coast",
+      "flag": "🇨🇮",
+      "position": "MF",
+      "birthYear": 2009,
+      "currentClub": "ISCA",
+      "status": "no_rumours",
+      "sweepTier": "C",
+      "altSpellings": [],
+      "confusionRisk": null,
+      "rumors": []
+    },
+    {
+      "id": 15,
+      "name": "Delfim Luwawu",
+      "country": "Angola",
+      "flag": "🇦🇴",
+      "position": "DM",
+      "birthYear": 2008,
+      "currentClub": "AFA",
+      "status": "no_rumours",
+      "sweepTier": "C",
+      "altSpellings": [],
+      "confusionRisk": null,
+      "rumors": []
+    },
+    {
+      "id": 16,
+      "name": "Prince Hamed Ouedraogo",
+      "country": "Burkina Faso",
+      "flag": "🇧🇫",
+      "position": "GK",
+      "birthYear": 2009,
+      "currentClub": "Réal du Faso",
+      "status": "no_rumours",
+      "sweepTier": "C",
+      "altSpellings": [],
+      "confusionRisk": null,
+      "rumors": []
+    },
+    {
+      "id": 17,
+      "name": "Vincent Gomis",
+      "country": "Senegal",
+      "flag": "🇸🇳",
+      "position": "GK",
+      "birthYear": 2008,
+      "currentClub": "Génération Foot",
+      "status": "no_rumours",
+      "sweepTier": "C",
+      "altSpellings": [],
+      "confusionRisk": null,
+      "rumors": []
+    },
+    {
+      "id": 18,
+      "name": "Ilídio Panda",
+      "country": "Angola",
+      "flag": "🇦🇴",
+      "position": "FW",
+      "birthYear": 2008,
+      "currentClub": "Petro Luanda",
+      "status": "no_rumours",
+      "sweepTier": "C",
+      "altSpellings": [],
+      "confusionRisk": null,
+      "rumors": []
+    },
+    {
+      "id": 19,
+      "name": "Ysso Donatien Bama",
+      "country": "Burkina Faso",
+      "flag": "🇧🇫",
+      "position": "CB",
+      "birthYear": 2007,
+      "currentClub": "Rahimo FC",
+      "status": "no_rumours",
+      "sweepTier": "C",
+      "altSpellings": [],
+      "confusionRisk": null,
+      "rumors": []
+    },
+    {
+      "id": 20,
+      "name": "Pape Sémou Sané",
+      "country": "Senegal",
+      "flag": "🇸🇳",
+      "position": "FW/RW",
+      "birthYear": 2007,
+      "currentClub": "Casa Sports",
+      "status": "no_rumours",
+      "sweepTier": "C",
+      "altSpellings": [],
+      "confusionRisk": null,
+      "rumors": []
+    },
+    {
+      "id": 21,
+      "name": "Mouhamed Diop",
+      "country": "Senegal",
+      "flag": "🇸🇳",
+      "position": "FW",
+      "birthYear": 2009,
+      "currentClub": "AJEL Rufisque",
+      "status": "active",
+      "sweepTier": "B",
+      "altSpellings": [],
+      "confusionRisk": null,
+      "rumors": [
+        {
+          "date": "Feb 14, 2026",
+          "club": "Fenerbahçe",
+          "detail": "Deal now in 'final stages'. AJEL still demanding €200k minimum fee",
+          "source": "Daily Sports",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
+        {
+          "date": "Dec 18, 2025",
+          "club": "ES Sétif",
+          "detail": "ES Sétif (Algeria) closely tracking. Top scorer in Senegalese Ligue 1",
+          "source": "AfricaFoot (exclusive)",
+          "tier": 2,
+          "status": "Scouting",
+          "recent": false
+        },
+        {
+          "date": "Dec 23, 2025",
+          "club": "ES Sétif",
+          "detail": "Sétif submit €70k offer. AJEL demanding €200k. Negotiations ongoing",
+          "source": "AfricaFoot (exclusive)",
+          "tier": 2,
+          "status": "Negotiations",
+          "recent": false
+        },
+        {
+          "date": "Feb 12, 2026",
+          "club": "Fenerbahçe",
+          "detail": "Fenerbahçe in advanced talks — supersedes Sétif. AJEL still want min €200k",
+          "source": "AfricaFoot (exclusive)",
+          "tier": 2,
+          "status": "Advanced Negotiations",
+          "recent": true
+        },
+        {
+          "date": "Feb 13, 2026",
+          "club": "Fenerbahçe",
+          "detail": "Turkish media corroborate. 12 apps, 4G 1A in Senegal L1. Near-finalised",
+          "source": "Sabah, FotoSpor (citing AfricaFoot)",
+          "tier": 3,
+          "status": "Corroborated",
+          "recent": true
+        }
+      ]
+    }
   ]
 };
 const INTEL_DATA = {
-  "1": {"height":"193cm","foot":"\u2014","contract":"\u2014","previousClub":"New Stars FC (academy)","seasonStats":"Key player for Burkina Faso U17 at 2025 FIFA U17 World Cup","clubStanding":"New Stars FC \u2014 Burkinab\u00e8 academy known for producing Ars\u00e8ne Kouassi (Lorient), Alio Souleymane (Nordsj\u00e6lland)","notes":"Imposing 1.93m frame with defensive maturity beyond his age. One of the standout defenders at the U17 World Cup in Qatar. Profile validated by multiple European scouts."},
-  "2": {"height":"\u2014","foot":"\u2014","contract":"4.5yr deal with AC Milan (until ~2030)","previousClub":"Be Sport Academy (Senegal)","seasonStats":"Played at youth level in Senegalese system before Milan move","clubStanding":"Signed to Milan Futuro (Serie D pathway). Fee: \u20ac750k + bonuses (up to \u20ac2m total)","notes":"Strong centre-back prospect. Attracted interest from Burnley, Ipswich, Barcelona, RB Leipzig, Lyon and Eintracht Frankfurt before Milan sealed the deal. Captain of Senegal U17 at the World Cup. Confirmed by Fabrizio Romano."},
-  "3": {"height":"\u2014","foot":"\u2014","contract":"\u2014","previousClub":"RC Abidjan U19 (academy product)","seasonStats":"Active in Ivorian U19 competition","clubStanding":"RC Abidjan \u2014 established Ivorian club","notes":"Forward on our watchlist. Limited public intel available \u2014 scouting network sourced."},
-  "4": {"height":"Imposing physical frame","foot":"Both feet","contract":"\u2014","previousClub":"San Pedro FC (Ivory Coast)","seasonStats":"Featured at 2025 FIFA U17 World Cup for Ivory Coast","clubStanding":"San Pedro FC \u2014 Ivorian Ligue 1 club","notes":"Explosive, direct winger who attacks his marker with both feet. Brother of Gervinho (ex-Arsenal, Roma). Modern winger profile \u2014 can cut inside, cross, and shoot from either side."},
-  "5": {"height":"\u2014","foot":"\u2014","contract":"Pre-contract with Hammarby (partnership deal with R\u00e9al du Faso)","previousClub":"R\u00e9al du Faso (academy)","seasonStats":"Starred at 2025 FIFA U17 World Cup \u2014 youngest player at the tournament (b. March 2010). Burkina Faso reached QF","clubStanding":"R\u00e9al du Faso \u2014 top Burkinab\u00e8 academy. Cannot move to Europe until March 2028 (turns 18)","notes":"Likened to Didier Drogba. Generational talent with 10+ elite clubs tracking. Chelsea leading charge over Man United. Hammarby hold a pre-contract + partnership with R\u00e9al du Faso. Long-term deal \u2014 earliest move 2027/2028."},
-  "6": {"height":"\u2014","foot":"\u2014","contract":"\u2014","previousClub":"Sahel F.C (Senegal)","seasonStats":"\u2014","clubStanding":"Sahel F.C","notes":"Young prospect (b.2010) on watchlist. Limited public intel \u2014 scouting network sourced."},
-  "7": {"height":"\u2014","foot":"\u2014","contract":"\u2014","previousClub":"San Pedro FC (Ivory Coast)","seasonStats":"Active in Ivorian Ligue 1","clubStanding":"San Pedro FC \u2014 same club as Yao Hubert","notes":"Midfielder on watchlist. Limited public intel available."},
-  "8": {"height":"\u2014","foot":"\u2014","contract":"\u2014","previousClub":"Derby Academy (Mali)","seasonStats":"\u2014","clubStanding":"Derby Academy \u2014 Malian formation centre","notes":"Defender on watchlist. Limited public intel available."},
-  "9": {"height":"\u2014","foot":"\u2014","contract":"~3yr deal with Eintracht Frankfurt (pending)","previousClub":"Acad\u00e9mie Football Players Dreams, Bamako (AFPD)","seasonStats":"Standout at 2025 CAF U17 AFCON and 2025 FIFA U17 World Cup for Mali. Wore #17","clubStanding":"Players Dreams \u2014 rising Malian academy that has produced several Europe-bound talents","notes":"Defensive midfielder known for his engagement and work rate. Initially headed for Randers FC trial, but Frankfurt swooped in. Villarreal and AS Monaco also expressed interest."},
-  "10": {"height":"188cm","foot":"Left","contract":"4.5yr deal with Liverpool FC (until ~2030)","previousClub":"Amiti\u00e9 FC (Thi\u00e8s, Senegal) \u2014 club president: Demba Ba","seasonStats":"4 appearances at 2025 FIFA U17 World Cup (all starts). Senegal reached R32","clubStanding":"Liverpool FC U21s under Rob Page. Fee ~\u00a31m + add-ons","notes":"Left-footed CB, 188cm. Compared to Kalidou Koulibaly \u2014 proactive defender who reads play. Strong in duels, comfortable playing out from the back. Minor medical issue on arrival \u2014 not long-term."},
-  "11": {"height":"\u2014","foot":"\u2014","contract":"\u2014","previousClub":"Challenge F.C (Senegal)","seasonStats":"\u2014","clubStanding":"Challenge F.C","notes":"Forward on watchlist. Limited public intel available."},
-  "12": {"height":"Needs physical development","foot":"\u2014","contract":"\u2014","previousClub":"Diambars FC (Senegal)","seasonStats":"Featured for Senegal at 2025 CAF U17 AFCON. Rated top 3 Senegal U17 prospect by AfricaFoot","clubStanding":"Diambars FC \u2014 elite Senegalese academy (also produced Sidy Barhama Ndiaye \u2192 Liverpool)","notes":"Extraordinarily effective dribbler. Very good in the last 30 metres. Trialled at Man Utd's Carrington (Sep 2025). Eligible for summer 2026 transfer. Needs to add physical size."},
-  "13": {"height":"\u2014","foot":"\u2014","contract":"Until Jun 30, 2028 with Aarhus GF","previousClub":"Ugandan youth system \u2192 Aarhus GF (free transfer)","seasonStats":"Playing in AGF U19 Boys League","clubStanding":"Aarhus GF \u2014 Danish Superliga leaders. Transfer officially registered Feb 2, 2026","notes":"Forward who attracted significant interest from PL and European clubs before signing professional terms with AGF. Free transfer."},
-  "14": {"height":"\u2014","foot":"\u2014","contract":"\u2014","previousClub":"ISCA (Ivory Coast)","seasonStats":"\u2014","clubStanding":"ISCA","notes":"Midfielder on watchlist. Limited public intel available."},
-  "15": {"height":"\u2014","foot":"\u2014","contract":"\u2014","previousClub":"AFA (Angola)","seasonStats":"\u2014","clubStanding":"AFA \u2014 Angolan formation academy","notes":"Defensive midfielder on watchlist. Limited public intel available."},
-  "16": {"height":"\u2014","foot":"\u2014","contract":"\u2014","previousClub":"R\u00e9al du Faso (Burkina Faso)","seasonStats":"\u2014","clubStanding":"R\u00e9al du Faso \u2014 same academy as Tapsoba","notes":"Goalkeeper on watchlist. Teammate of Asharaf Loukmane Tapsoba at R\u00e9al du Faso."},
-  "17": {"height":"\u2014","foot":"\u2014","contract":"\u2014","previousClub":"G\u00e9n\u00e9ration Foot (Senegal)","seasonStats":"\u2014","clubStanding":"G\u00e9n\u00e9ration Foot \u2014 one of Senegal's most renowned academies (produced Sadio Man\u00e9, Isma\u00efla Sarr)","notes":"Goalkeeper on watchlist. G\u00e9n\u00e9ration Foot pedigree is a strong indicator \u2014 the academy has an elite European pipeline."},
-  "18": {"height":"\u2014","foot":"\u2014","contract":"\u2014","previousClub":"Petro Luanda (Angola)","seasonStats":"\u2014","clubStanding":"Petro Luanda \u2014 one of Angola's biggest clubs","notes":"Forward on watchlist. Playing at a top-tier Angolan club \u2014 good platform for visibility."},
-  "19": {"height":"\u2014","foot":"\u2014","contract":"\u2014","previousClub":"Rahimo FC (Burkina Faso)","seasonStats":"\u2014","clubStanding":"Rahimo FC \u2014 Burkinab\u00e8 Ligue 1","notes":"Centre-back on watchlist (b.2007 \u2014 older in this cohort). Limited public intel available."},
-  "20": {"height":"\u2014","foot":"\u2014","contract":"\u2014","previousClub":"Casa Sports (Senegal)","seasonStats":"\u2014","clubStanding":"Casa Sports \u2014 Senegalese Ligue 1, based in Ziguinchor","notes":"Forward/right winger on watchlist (b.2007 \u2014 older in this cohort). Limited public intel available."},
-  "21": {"height":"189cm","foot":"Right","contract":"Until 2028 with AJEL Rufisque","previousClub":"Wally Daan FC (Thi\u00e8s) \u2014 scored 15 goals last season","seasonStats":"4 goals, 1 assist in 12 apps \u2014 top scorer in Senegalese Ligue 1 2025/26","clubStanding":"AJEL Rufisque \u2014 1st place in Senegalese Ligue 1 (24 pts after MD13)","notes":"Known as 'Jude'. DOB: 10 Jan 2009 (passport verified). Elegant and technically strong. Fenerbah\u00e7e in advanced talks (Feb 2026). AJEL valuation: \u20ac200k."}
+  "1": {
+    "height": "193cm",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "New Stars FC (academy)",
+    "seasonStats": "Key player for Burkina Faso U17 at 2025 FIFA U17 World Cup",
+    "clubStanding": "New Stars FC — Burkinabè academy known for producing Arsène Kouassi (Lorient), Alio Souleymane (Nordsjælland)",
+    "notes": "Imposing 1.93m frame with defensive maturity beyond his age. One of the standout defenders at the U17 World Cup in Qatar. Profile validated by multiple European scouts."
+  },
+  "2": {
+    "height": "—",
+    "foot": "—",
+    "contract": "4.5yr deal with AC Milan (until ~2030)",
+    "previousClub": "Be Sport Academy (Senegal)",
+    "seasonStats": "Played at youth level in Senegalese system before Milan move",
+    "clubStanding": "Signed to Milan Futuro (Serie D pathway). Fee: €750k + bonuses (up to €2m total)",
+    "notes": "Strong centre-back prospect. Attracted interest from Burnley, Ipswich, Barcelona, RB Leipzig, Lyon and Eintracht Frankfurt before Milan sealed the deal. Captain of Senegal U17 at the World Cup. Confirmed by Fabrizio Romano."
+  },
+  "3": {
+    "height": "—",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "RC Abidjan U19 (academy product)",
+    "seasonStats": "Active in Ivorian U19 competition",
+    "clubStanding": "RC Abidjan — established Ivorian club",
+    "notes": "Forward on our watchlist. Limited public intel available — scouting network sourced."
+  },
+  "4": {
+    "height": "Imposing physical frame",
+    "foot": "Both feet",
+    "contract": "—",
+    "previousClub": "San Pedro FC (Ivory Coast)",
+    "seasonStats": "Featured at 2025 FIFA U17 World Cup for Ivory Coast",
+    "clubStanding": "San Pedro FC — Ivorian Ligue 1 club",
+    "notes": "Explosive, direct winger who attacks his marker with both feet. Brother of Gervinho (ex-Arsenal, Roma). Modern winger profile — can cut inside, cross, and shoot from either side."
+  },
+  "5": {
+    "height": "—",
+    "foot": "—",
+    "contract": "Pre-contract with Hammarby (partnership deal with Réal du Faso)",
+    "previousClub": "Réal du Faso (academy)",
+    "seasonStats": "Starred at 2025 FIFA U17 World Cup — youngest player at the tournament (b. March 2010). Burkina Faso reached QF",
+    "clubStanding": "Réal du Faso — top Burkinabè academy. Cannot move to Europe until March 2028 (turns 18)",
+    "notes": "Likened to Didier Drogba. Generational talent with 10+ elite clubs tracking. Chelsea leading charge over Man United. Hammarby hold a pre-contract + partnership with Réal du Faso. Long-term deal — earliest move 2027/2028."
+  },
+  "6": {
+    "height": "—",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "Sahel F.C (Senegal)",
+    "seasonStats": "—",
+    "clubStanding": "Sahel F.C",
+    "notes": "Young prospect (b.2010) on watchlist. Limited public intel — scouting network sourced."
+  },
+  "7": {
+    "height": "—",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "San Pedro FC (Ivory Coast)",
+    "seasonStats": "Active in Ivorian Ligue 1",
+    "clubStanding": "San Pedro FC — same club as Yao Hubert",
+    "notes": "Midfielder on watchlist. Limited public intel available."
+  },
+  "8": {
+    "height": "—",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "Derby Academy (Mali)",
+    "seasonStats": "—",
+    "clubStanding": "Derby Academy — Malian formation centre",
+    "notes": "Defender on watchlist. Limited public intel available."
+  },
+  "9": {
+    "height": "—",
+    "foot": "—",
+    "contract": "~3yr deal with Eintracht Frankfurt (pending)",
+    "previousClub": "Académie Football Players Dreams, Bamako (AFPD)",
+    "seasonStats": "Standout at 2025 CAF U17 AFCON and 2025 FIFA U17 World Cup for Mali. Wore #17",
+    "clubStanding": "Players Dreams — rising Malian academy that has produced several Europe-bound talents",
+    "notes": "Defensive midfielder known for his engagement and work rate. Initially headed for Randers FC trial, but Frankfurt swooped in. Villarreal and AS Monaco also expressed interest."
+  },
+  "10": {
+    "height": "188cm",
+    "foot": "Left",
+    "contract": "4.5yr deal with Liverpool FC (until ~2030)",
+    "previousClub": "Amitié FC (Thiès, Senegal) — club president: Demba Ba",
+    "seasonStats": "4 appearances at 2025 FIFA U17 World Cup (all starts). Senegal reached R32",
+    "clubStanding": "Liverpool FC U21s under Rob Page. Fee ~£1m + add-ons",
+    "notes": "Left-footed CB, 188cm. Compared to Kalidou Koulibaly — proactive defender who reads play. Strong in duels, comfortable playing out from the back. Minor medical issue on arrival — not long-term."
+  },
+  "11": {
+    "height": "—",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "Challenge F.C (Senegal)",
+    "seasonStats": "—",
+    "clubStanding": "Challenge F.C",
+    "notes": "Forward on watchlist. Limited public intel available."
+  },
+  "12": {
+    "height": "Needs physical development",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "Diambars FC (Senegal)",
+    "seasonStats": "Featured for Senegal at 2025 CAF U17 AFCON. Rated top 3 Senegal U17 prospect by AfricaFoot",
+    "clubStanding": "Diambars FC — elite Senegalese academy (also produced Sidy Barhama Ndiaye → Liverpool)",
+    "notes": "Extraordinarily effective dribbler. Very good in the last 30 metres. Trialled at Man Utd's Carrington (Sep 2025). Eligible for summer 2026 transfer. Needs to add physical size."
+  },
+  "13": {
+    "height": "—",
+    "foot": "—",
+    "contract": "Until Jun 30, 2028 with Aarhus GF",
+    "previousClub": "Ugandan youth system → Aarhus GF (free transfer)",
+    "seasonStats": "Playing in AGF U19 Boys League",
+    "clubStanding": "Aarhus GF — Danish Superliga leaders. Transfer officially registered Feb 2, 2026",
+    "notes": "Forward who attracted significant interest from PL and European clubs before signing professional terms with AGF. Free transfer."
+  },
+  "14": {
+    "height": "—",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "ISCA (Ivory Coast)",
+    "seasonStats": "—",
+    "clubStanding": "ISCA",
+    "notes": "Midfielder on watchlist. Limited public intel available."
+  },
+  "15": {
+    "height": "—",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "AFA (Angola)",
+    "seasonStats": "—",
+    "clubStanding": "AFA — Angolan formation academy",
+    "notes": "Defensive midfielder on watchlist. Limited public intel available."
+  },
+  "16": {
+    "height": "—",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "Réal du Faso (Burkina Faso)",
+    "seasonStats": "—",
+    "clubStanding": "Réal du Faso — same academy as Tapsoba",
+    "notes": "Goalkeeper on watchlist. Teammate of Asharaf Loukmane Tapsoba at Réal du Faso."
+  },
+  "17": {
+    "height": "—",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "Génération Foot (Senegal)",
+    "seasonStats": "—",
+    "clubStanding": "Génération Foot — one of Senegal's most renowned academies (produced Sadio Mané, Ismaïla Sarr)",
+    "notes": "Goalkeeper on watchlist. Génération Foot pedigree is a strong indicator — the academy has an elite European pipeline."
+  },
+  "18": {
+    "height": "—",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "Petro Luanda (Angola)",
+    "seasonStats": "—",
+    "clubStanding": "Petro Luanda — one of Angola's biggest clubs",
+    "notes": "Forward on watchlist. Playing at a top-tier Angolan club — good platform for visibility."
+  },
+  "19": {
+    "height": "—",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "Rahimo FC (Burkina Faso)",
+    "seasonStats": "—",
+    "clubStanding": "Rahimo FC — Burkinabè Ligue 1",
+    "notes": "Centre-back on watchlist (b.2007 — older in this cohort). Limited public intel available."
+  },
+  "20": {
+    "height": "—",
+    "foot": "—",
+    "contract": "—",
+    "previousClub": "Casa Sports (Senegal)",
+    "seasonStats": "—",
+    "clubStanding": "Casa Sports — Senegalese Ligue 1, based in Ziguinchor",
+    "notes": "Forward/right winger on watchlist (b.2007 — older in this cohort). Limited public intel available."
+  },
+  "21": {
+    "height": "189cm",
+    "foot": "Right",
+    "contract": "Until 2028 with AJEL Rufisque",
+    "previousClub": "Wally Daan FC (Thiès) — scored 15 goals last season",
+    "seasonStats": "4 goals, 1 assist in 12 apps — top scorer in Senegalese Ligue 1 2025/26",
+    "clubStanding": "AJEL Rufisque — 1st place in Senegalese Ligue 1 (24 pts after MD13)",
+    "notes": "Known as 'Jude'. DOB: 10 Jan 2009 (passport verified). Elegant and technically strong. Fenerbahçe in advanced talks (Feb 2026). AJEL valuation: €200k."
+  }
 };
 
 // ── DERIVED DATA ─────────────────────────────────────────────────────
