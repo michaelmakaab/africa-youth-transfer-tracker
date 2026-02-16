@@ -2,11 +2,8 @@ name: Automated Transfer Sweep
 
 on:
   schedule:
-    # Full sweep: Monday 08:00 UTC
-    - cron: "0 8 * * 1"
-    # Priority sweep: Wednesday + Friday 08:00 UTC
-    - cron: "0 8 * * 3"
-    - cron: "0 8 * * 5"
+    # Full sweep: Monday, Wednesday, Friday 08:00 UTC
+    - cron: "0 8 * * 1,3,5"
 
   # Manual trigger
   workflow_dispatch:
@@ -51,13 +48,8 @@ jobs:
             echo "type=${{ github.event.inputs.sweep_type }}" >> "$GITHUB_OUTPUT"
             echo "player=${{ github.event.inputs.player_name }}" >> "$GITHUB_OUTPUT"
           else
-            # Scheduled: Monday = full, Wed/Fri = priority
-            DOW=$(date -u +%u)
-            if [ "$DOW" = "1" ]; then
-              echo "type=full" >> "$GITHUB_OUTPUT"
-            else
-              echo "type=priority" >> "$GITHUB_OUTPUT"
-            fi
+            # All scheduled runs are full sweeps
+            echo "type=full" >> "$GITHUB_OUTPUT"
             echo "player=" >> "$GITHUB_OUTPUT"
           fi
 
