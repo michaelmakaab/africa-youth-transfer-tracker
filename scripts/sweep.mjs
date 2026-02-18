@@ -65,6 +65,7 @@ if (!fs.existsSync(PLAYERS_PATH) || !fs.existsSync(INTEL_PATH)) {
 }
 
 const MODEL = process.env.SWEEP_MODEL || "claude-sonnet-4-20250514";
+const MODEL_PHASE2 = process.env.SWEEP_MODEL_PHASE2 || "claude-haiku-4-5-20241022";
 
 // ── Load current data ─────────────────────────────────────────────────────
 const IS_EUROPE = SWEEP_TYPE === "europe";
@@ -82,7 +83,8 @@ const today = new Date().toLocaleDateString("en-US", {
 console.log(`\n=== SWEEP RUNNER ===`);
 console.log(`Type: ${SWEEP_TYPE.toUpperCase()}`);
 console.log(`Date: ${today}`);
-console.log(`Model: ${MODEL}`);
+console.log(`Model (search): ${MODEL}`);
+console.log(`Model (JSON): ${MODEL_PHASE2}`);
 console.log(`Players: ${playersData.players.length}`);
 console.log(`Existing intel items: ${Object.values(intelData).length}`);
 if (FLASH_PLAYER) console.log(`Flash target: ${FLASH_PLAYER}`);
@@ -272,7 +274,7 @@ Return ONLY the JSON — nothing else.`;
 
   const fullText = await withRetry(async () => {
     const response = await client.messages.create({
-      model: MODEL,
+      model: MODEL_PHASE2,
       max_tokens: 8000,
       messages: [{ role: "user", content: jsonPrompt }]
     });
@@ -319,10 +321,7 @@ async function runEuropeSweep() {
   fs.mkdirSync(DELTA_DIR, { recursive: true });
   fs.writeFileSync(path.join(DELTA_DIR, "last_europe_findings.txt"), allFindings, "utf-8");
 
-  // Cooldown before Phase 2 to avoid rate limits
-  console.log("  Waiting 90s for rate limit cooldown before Phase 2...");
-  await new Promise(r => setTimeout(r, 90000));
-
+  // Phase 2 uses a different model (Haiku) so no rate limit conflict with Phase 1 (Sonnet)
   // Phase 2: Produce JSON
   let jsonText;
   try {
@@ -584,7 +583,7 @@ Return ONLY the JSON — nothing else.`;
 
   const fullText = await withRetry(async () => {
     const response = await client.messages.create({
-      model: MODEL,
+      model: MODEL_PHASE2,
       max_tokens: 8000,
       messages: [{ role: "user", content: jsonPrompt }]
     });
@@ -649,10 +648,7 @@ async function runSweep() {
     "utf-8"
   );
 
-  // Cooldown before Phase 2 to avoid rate limits
-  console.log("  Waiting 90s for rate limit cooldown before Phase 2...");
-  await new Promise(r => setTimeout(r, 90000));
-
+  // Phase 2 uses a different model (Haiku) so no rate limit conflict with Phase 1 (Sonnet)
   // Phase 2: Produce JSON from all findings
   let jsonText;
   try {
