@@ -65,7 +65,7 @@ if (!fs.existsSync(PLAYERS_PATH) || !fs.existsSync(INTEL_PATH)) {
 }
 
 const MODEL = process.env.SWEEP_MODEL || "claude-sonnet-4-20250514";
-const MODEL_PHASE2 = process.env.SWEEP_MODEL_PHASE2 || "claude-haiku-4-5-20241022";
+const MODEL_PHASE2 = process.env.SWEEP_MODEL_PHASE2 || "claude-haiku-4-5-20251001";
 
 // ── Load current data ─────────────────────────────────────────────────────
 const IS_EUROPE = SWEEP_TYPE === "europe";
