@@ -419,7 +419,7 @@ async function withRetry(fn, label, maxRetries = 3) {
     } catch (err) {
       const isRateLimit = err.status === 429 || (err.message && err.message.includes("rate_limit"));
       if (isRateLimit && attempt < maxRetries) {
-        const wait = attempt * 30; // 30s, 60s, 90s
+        const wait = attempt * 60; // 60s, 120s, 180s
         console.log(`  Rate limited on ${label} (attempt ${attempt}/${maxRetries}). Waiting ${wait}s...`);
         await new Promise(r => setTimeout(r, wait * 1000));
       } else {
