@@ -1,0 +1,102 @@
+{
+  "sweepDate": "Feb 18, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 1,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Jan 28, 2026",
+        "headline": "Scored in Champions League; decisive display in 3-2 win vs Athletic Bilbao",
+        "source": "Sporting CP Official",
+        "type": "goal",
+        "league": "Liga Portugal",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "First documented goal contribution this season after AFCON injury; Champions League performance is significant competitive news not yet recorded"
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Jan 15, 2026",
+        "headline": "Strong Europa League form: 5 starts, 2 goals, 3 clean sheets; Liverpool monitoring",
+        "source": "Liverpool FC Scouting Reports / Transfermarkt",
+        "type": "transfer_link",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Genuine Liverpool interest as Marc Guehi alternative represents new transfer development with competitive performance data backing interest"
+    },
+    {
+      "playerId": 103,
+      "playerName": "Rayann Capo Chichi",
+      "newsItem": {
+        "date": "Dec 31, 2025",
+        "headline": "Signed five-year contract extension with FC Midtjylland through 2031",
+        "source": "FC Midtjylland Official",
+        "type": "contract_extension",
+        "league": "Danish Superliga",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "Recent contract commitment significantly extends player's commitment and confirms club confidence in breakthrough prospect"
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Jan 6, 2026",
+        "headline": "Returned to training after two-month foot injury absence; Coupe de France return planned",
+        "source": "FC Lorient Official",
+        "type": "injury",
+        "league": "Ligue 1",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "Major career update: recovery milestone from significant injury that sidelined him since October; imminent match return is newsworthy"
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "Jan 13, 2026",
+        "headline": "Sent off for violent conduct in Belgian Cup vs Royal Charleroi; AFCON squad member",
+        "source": "Belgian Pro League Official",
+        "type": "red_card",
+        "league": "Belgian Pro League",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "Disciplinary incident within five minutes of substitute appearance during critical Cup match; compounds squad rotation status challenges"
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "Jan 8, 2026",
+        "headline": "Called up to Bafana Bafana AFCON 2025 squad; seeking World Cup 2026 minutes",
+        "source": "South African Football Association Official",
+        "type": "call_up",
+        "league": "Belgian Pro League",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "International senior squad call-up to major tournament represents significant career milestone for breakthrough player"
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "loan",
+      "newStatus": "loan_active",
+      "source": "FC Lorient Official Recovery Confirmation"
+    }
+  ],
+  "noChange": []
+}
