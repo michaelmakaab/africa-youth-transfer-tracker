@@ -319,6 +319,10 @@ async function runEuropeSweep() {
   fs.mkdirSync(DELTA_DIR, { recursive: true });
   fs.writeFileSync(path.join(DELTA_DIR, "last_europe_findings.txt"), allFindings, "utf-8");
 
+  // Cooldown before Phase 2 to avoid rate limits
+  console.log("  Waiting 90s for rate limit cooldown before Phase 2...");
+  await new Promise(r => setTimeout(r, 90000));
+
   // Phase 2: Produce JSON
   let jsonText;
   try {
@@ -644,6 +648,10 @@ async function runSweep() {
     allFindings,
     "utf-8"
   );
+
+  // Cooldown before Phase 2 to avoid rate limits
+  console.log("  Waiting 90s for rate limit cooldown before Phase 2...");
+  await new Promise(r => setTimeout(r, 90000));
 
   // Phase 2: Produce JSON from all findings
   let jsonText;
