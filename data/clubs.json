@@ -13,7 +13,12 @@
     "Rahimo FC": ["Rahimo"],
     "Casa Sports": ["Casa Sport"],
     "AJEL Rufisque": ["AJEL"],
-    "Randers FC": ["Randers"]
+    "Randers FC": ["Randers"],
+    "Sporting CP": ["Sporting Lisbon", "SCP", "Sporting"],
+    "FC Midtjylland": ["Midtjylland", "FCM"],
+    "Bayer Leverkusen": ["Leverkusen", "B04", "Bayer 04"],
+    "FC Lorient": ["Lorient"],
+    "Club Brugge": ["Club Bruges", "Brugge", "Club Brugge KV"]
   },
   "academyPipelines": {
     "Right to Dream": "FC Nordsjælland",

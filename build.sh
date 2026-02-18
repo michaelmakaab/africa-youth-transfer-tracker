@@ -10,7 +10,7 @@ DATA_DIR="$SCRIPT_DIR/data"
 TEMPLATE="$SCRIPT_DIR/src/template.html"
 DIST_DIR="$SCRIPT_DIR/dist"
 
-for f in "$DATA_DIR/players.json" "$DATA_DIR/intel.json" "$TEMPLATE"; do
+for f in "$DATA_DIR/players.json" "$DATA_DIR/intel.json" "$DATA_DIR/europe.json" "$TEMPLATE"; do
   if [ ! -f "$f" ]; then
     echo "ERROR: $f not found. Cannot build."
     exit 1
@@ -21,6 +21,7 @@ mkdir -p "$DIST_DIR"
 
 PLAYERS_JSON=$(cat "$DATA_DIR/players.json")
 INTEL_JSON=$(cat "$DATA_DIR/intel.json")
+EUROPE_JSON=$(cat "$DATA_DIR/europe.json")
 
 echo "Building tracker..."
 
@@ -30,6 +31,8 @@ echo "Building tracker..."
       echo "const PLAYERS_DATA = $PLAYERS_JSON;"
     elif [[ "$line" == *"/*__INTEL_DATA__*/"* ]]; then
       echo "const INTEL_DATA = $INTEL_JSON;"
+    elif [[ "$line" == *"/*__EUROPE_DATA__*/"* ]]; then
+      echo "const EUROPE_DATA = $EUROPE_JSON;"
     else
       echo "$line"
     fi

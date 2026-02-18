@@ -17,6 +17,7 @@ on:
           - full
           - priority
           - flash
+          - europe
       player_name:
         description: "Player name (flash sweep only)"
         required: false
@@ -67,6 +68,15 @@ jobs:
             node scripts/sweep.mjs --type "$SWEEP_TYPE" --verbose
           fi
 
+      - name: Run Europe sweep
+        if: steps.config.outputs.type == 'full'
+        timeout-minutes: 10
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.TT }}
+        run: |
+          echo "Running Europe Watch sweep..."
+          node scripts/sweep.mjs --type europe --verbose || echo "Europe sweep failed (non-fatal)"
+
       - name: Check for data changes
         id: changes
         run: |
@@ -95,13 +105,20 @@ jobs:
           git commit -m "sweep($SWEEP_TYPE): $DATE — automated intel update"
           git push -u origin "$BRANCH"
 
-          # Count new intel and review items from latest sweep report
+          # Count new intel from transfer sweep
           SWEEP_FILE=$(ls -t sweeps/sweep_*.json 2>/dev/null | head -1)
           NEW_COUNT=0
           REVIEW_COUNT=0
           if [ -n "$SWEEP_FILE" ]; then
             NEW_COUNT=$(node -e "const d=JSON.parse(require('fs').readFileSync('$SWEEP_FILE','utf-8')); console.log((d.newIntel||[]).length)" 2>/dev/null || echo 0)
             REVIEW_COUNT=$(node -e "const d=JSON.parse(require('fs').readFileSync('$SWEEP_FILE','utf-8')); console.log((d.needsReview||[]).length)" 2>/dev/null || echo 0)
+          fi
+
+          # Count new items from Europe sweep
+          EUROPE_FILE=$(ls -t sweeps/europe_*.json 2>/dev/null | head -1)
+          EUROPE_COUNT=0
+          if [ -n "$EUROPE_FILE" ]; then
+            EUROPE_COUNT=$(node -e "const d=JSON.parse(require('fs').readFileSync('$EUROPE_FILE','utf-8')); console.log((d.newNews||[]).length)" 2>/dev/null || echo 0)
           fi
 
           gh pr create \
@@ -112,6 +129,7 @@ jobs:
           **Type:** $SWEEP_TYPE
           **Date:** $DATE
           **New intel items:** $NEW_COUNT
+          **Europe news items:** $EUROPE_COUNT
           **Needs review:** $REVIEW_COUNT
 
           ### Review checklist

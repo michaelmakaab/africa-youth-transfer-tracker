@@ -206,6 +206,34 @@ body {
 .intel-notes { font-size: 12px; color: #94A3B8; line-height: 1.6; padding: 8px 0 2px; font-style: italic; }
 .intel-gap { font-size: 11px; color: #334155; font-style: italic; }
 @media (max-width: 640px) { .intel-key { width: 100px; min-width: 100px; } }
+.news-type-badge {
+  display: inline-block; padding: 2px 8px; border-radius: 999px;
+  font-size: 9px; font-weight: 700; letter-spacing: 0.5px; white-space: nowrap;
+}
+.status-regular_starter { color: #34D399; background: #052E16; border: 1px solid rgba(52,211,153,0.25); }
+.status-squad_rotation { color: #F59E0B; background: #422006; border: 1px solid rgba(245,158,11,0.25); }
+.status-breakthrough { color: #38BDF8; background: #0C4A6E; border: 1px solid rgba(56,189,248,0.25); }
+.status-loan { color: #A78BFA; background: #1E1B4B; border: 1px solid rgba(167,139,250,0.25); }
+.status-injury { color: #F87171; background: #450A0A; border: 1px solid rgba(248,113,113,0.25); }
+.status-bench { color: #6B7280; background: #1F2937; border: 1px solid rgba(75,85,99,0.25); }
+.status-suspended { color: #FB923C; background: #431407; border: 1px solid rgba(251,146,60,0.25); }
+.europe-news-row {
+  padding: 12px 16px; border-bottom: 1px solid #1E293B; transition: background 0.15s;
+  display: flex; align-items: flex-start; gap: 12px;
+}
+.europe-news-row:hover { background: #0F172A; }
+.europe-news-date { font-size: 11px; color: #64748B; min-width: 100px; padding-top: 2px; }
+.europe-news-content { flex: 1; }
+.europe-news-headline { font-size: 13px; color: #CBD5E1; line-height: 1.5; }
+.europe-news-source { font-size: 11px; color: #64748B; margin-top: 4px; }
+.europe-player-meta-extra { font-size: 11px; color: #475569; margin-top: 2px; }
+.europe-contract-info {
+  display: flex; gap: 16px; padding: 10px 16px; background: #0A0F1A;
+  border-bottom: 1px solid #1E293B; flex-wrap: wrap;
+}
+.europe-contract-item { font-size: 11px; }
+.europe-contract-label { color: #475569; font-weight: 700; letter-spacing: 0.5px; }
+.europe-contract-val { color: #CBD5E1; margin-left: 6px; }
 .hidden { display: none; }
 .rumor-mobile-label {
   display: none; font-size: 9px; font-weight: 700; color: #334155;
@@ -289,8 +317,10 @@ body {
   <div class="view-tabs" role="tablist" aria-label="View mode">
     <button class="view-tab active" id="tabPlayers" role="tab" aria-selected="true" aria-controls="playerView" onclick="switchView('players')">PLAYERS</button>
     <button class="view-tab" id="tabFeed" role="tab" aria-selected="false" aria-controls="feedContainer" onclick="switchView('feed')">LATEST INTEL</button>
+    <button class="view-tab" id="tabEurope" role="tab" aria-selected="false" aria-controls="europeContainer" onclick="switchView('europe')">EUROPE WATCH</button>
   </div>
   <div id="feedContainer" class="hidden" role="tabpanel" aria-labelledby="tabFeed"></div>
+  <div id="europeContainer" class="hidden" role="tabpanel" aria-labelledby="tabEurope"></div>
   <div id="playerView" role="tabpanel" aria-labelledby="tabPlayers">
     <div class="sort-bar" role="group" aria-label="Sort players">
       <span class="mono sort-label">SORT:</span>
@@ -307,11 +337,14 @@ body {
 // ── DATA (injected by build.sh) ──────────────────────────────────────
 /*__PLAYERS_DATA__*/
 /*__INTEL_DATA__*/
+/*__EUROPE_DATA__*/
 
 // ── DERIVED DATA ─────────────────────────────────────────────────────
 const PLAYERS = PLAYERS_DATA.players;
 const INTEL = INTEL_DATA;
 const META = PLAYERS_DATA.meta;
+const EUROPE_PLAYERS = EUROPE_DATA.players;
+const EUROPE_META = EUROPE_DATA.meta;
 
 // Populate sweep info header
 document.getElementById("sweepInfo").textContent =
@@ -478,11 +511,22 @@ function switchView(view) {
   currentView = view;
   document.getElementById("tabPlayers").classList.toggle("active", view === "players");
   document.getElementById("tabFeed").classList.toggle("active", view === "feed");
+  document.getElementById("tabEurope").classList.toggle("active", view === "europe");
   document.getElementById("tabPlayers").setAttribute("aria-selected", view === "players");
   document.getElementById("tabFeed").setAttribute("aria-selected", view === "feed");
+  document.getElementById("tabEurope").setAttribute("aria-selected", view === "europe");
   document.getElementById("playerView").classList.toggle("hidden", view !== "players");
   document.getElementById("feedContainer").classList.toggle("hidden", view !== "feed");
-  if (view === "feed") renderFeed(); else render();
+  document.getElementById("europeContainer").classList.toggle("hidden", view !== "europe");
+  // Hide transfer-specific UI when on Europe tab
+  document.querySelector(".tier-legend").classList.toggle("hidden", view === "europe");
+  document.querySelector(".filters").style.display = view === "europe" ? "none" : "";
+  // Update header stats
+  if (view === "europe") updateEuropeStats();
+  else { restoreMainStats(); updateStats(getFilteredPlayers()); }
+  if (view === "feed") renderFeed();
+  else if (view === "europe") renderEurope();
+  else render();
   saveFilterState();
 }
 
@@ -596,6 +640,111 @@ function renderFeed() {
   document.getElementById("feedContainer").innerHTML = html;
 }
 
+// ── EUROPE VIEW ─────────────────────────────────────────────────────
+function newsTypeBadge(type) {
+  const config = {
+    goal: { label: "GOAL", color: "#34D399" },
+    assist: { label: "ASSIST", color: "#34D399" },
+    appearance: { label: "APPEARANCE", color: "#64748B" },
+    injury: { label: "INJURY", color: "#F87171" },
+    red_card: { label: "RED CARD", color: "#F87171" },
+    call_up: { label: "CALL-UP", color: "#38BDF8" },
+    contract_extension: { label: "CONTRACT", color: "#A78BFA" },
+    transfer_link: { label: "TRANSFER LINK", color: "#F59E0B" },
+    award: { label: "AWARD", color: "#FBBF24" },
+    media: { label: "MEDIA", color: "#94A3B8" },
+    loan_update: { label: "LOAN", color: "#A78BFA" }
+  };
+  const c = config[type] || { label: type.toUpperCase().replace("_", " "), color: "#64748B" };
+  return '<span class="mono news-type-badge" style="color:' + c.color + ';border:1px solid ' + c.color + '44;background:' + c.color + '15">' + c.label + '</span>';
+}
+
+function europeStatusPill(status) {
+  const labels = {
+    regular_starter: "STARTER", squad_rotation: "ROTATION", breakthrough: "BREAKTHROUGH",
+    loan: "ON LOAN", injury: "INJURED", bench: "BENCH", suspended: "SUSPENDED"
+  };
+  return '<span class="mono status-pill status-' + status + '">' + (labels[status] || status) + '</span>';
+}
+
+function updateEuropeStats() {
+  document.getElementById("stat-confirmed").textContent = EUROPE_PLAYERS.length;
+  document.querySelector('#stat-confirmed + .stat-label').textContent = "Players";
+  document.getElementById("stat-active").textContent = EUROPE_PLAYERS.reduce((sum, p) => sum + (p.news || []).length, 0);
+  document.querySelector('#stat-active + .stat-label').textContent = "News Items";
+  const leagues = [...new Set(EUROPE_PLAYERS.map(p => p.league.replace(" (loan)", "")))];
+  document.getElementById("stat-total").textContent = leagues.length;
+  document.querySelector('#stat-total + .stat-label').textContent = "Leagues";
+}
+
+function restoreMainStats() {
+  document.querySelector('#stat-confirmed + .stat-label').textContent = "Confirmed";
+  document.querySelector('#stat-active + .stat-label').textContent = "Active";
+  document.querySelector('#stat-total + .stat-label').textContent = "Rumours";
+}
+
+function europeNewsRowHTML(item) {
+  return '<div class="europe-news-row">' +
+    '<span class="mono europe-news-date">' + escapeHTML(item.date) + '</span>' +
+    '<div class="europe-news-content">' +
+      newsTypeBadge(item.type) + ' ' +
+      '<span class="europe-news-headline">' + escapeHTML(item.headline) + '</span>' +
+      '<div class="europe-news-source">' + escapeHTML(item.source) +
+        (item.league ? ' &middot; ' + escapeHTML(item.league) : '') + '</div>' +
+    '</div></div>';
+}
+
+function europePlayerCardHTML(p) {
+  const isExpanded = expandedIds.has(p.id);
+  const newsCount = (p.news || []).length;
+  let body = "";
+  if (isExpanded) {
+    body += '<div class="card-body">';
+    body += '<div class="europe-contract-info mono">';
+    body += '<div class="europe-contract-item"><span class="europe-contract-label">CONTRACT</span><span class="europe-contract-val">' + escapeHTML(p.contract || "\u2014") + '</span></div>';
+    if (p.releaseClause) body += '<div class="europe-contract-item"><span class="europe-contract-label">CLAUSE</span><span class="europe-contract-val">' + escapeHTML(p.releaseClause) + '</span></div>';
+    if (p.marketValue) body += '<div class="europe-contract-item"><span class="europe-contract-label">VALUE</span><span class="europe-contract-val">' + escapeHTML(p.marketValue) + '</span></div>';
+    if (p.loanClub) body += '<div class="europe-contract-item"><span class="europe-contract-label">LOAN AT</span><span class="europe-contract-val">' + escapeHTML(p.loanClub) + '</span></div>';
+    body += '</div>';
+    if (newsCount > 0) {
+      (p.news || []).forEach(item => { body += europeNewsRowHTML(item); });
+    } else {
+      body += '<div class="no-rumors">No news items yet \u2014 first sweep will populate</div>';
+    }
+    body += '</div>';
+  }
+  return '<div class="player-card" data-player-id="' + p.id + '" style="border-color:' + (isExpanded ? '#1E293B' : 'rgba(30,41,59,0.5)') + '" role="listitem">' +
+    '<div class="player-header ' + (isExpanded ? 'expanded' : '') + '" onclick="toggleEuropePlayer(' + p.id + ')" role="button" aria-expanded="' + isExpanded + '" tabindex="0" onkeydown="handleKeyToggle(event, function(){ toggleEuropePlayer(' + p.id + ') })">' +
+      '<div class="player-left"><span class="player-flag" aria-label="' + escapeHTML(p.country) + ' flag">' + p.flag + '</span><div>' +
+        '<div class="player-name">' + escapeHTML(p.name) + '</div>' +
+        '<div class="mono player-meta">' + escapeHTML(p.position) + ' \u00b7 ' + p.birthYear + ' \u00b7 ' + escapeHTML(p.currentClub) + '</div>' +
+        '<div class="mono europe-player-meta-extra">' + p.leagueFlag + ' ' + escapeHTML(p.league) + '</div>' +
+      '</div></div>' +
+      '<div class="player-right">' +
+        (newsCount > 0 ? '<span class="mono rumor-count">' + newsCount + ' update' + (newsCount !== 1 ? 's' : '') + '</span>' : '') +
+        europeStatusPill(p.careerStatus) +
+        '<span class="chevron ' + (isExpanded ? 'open' : '') + '" aria-hidden="true">\u25be</span>' +
+      '</div></div>' + body + '</div>';
+}
+
+function toggleEuropePlayer(id) {
+  if (expandedIds.has(id)) expandedIds.delete(id); else expandedIds.add(id);
+  renderEurope();
+}
+
+function renderEurope() {
+  const container = document.getElementById("europeContainer");
+  updateEuropeStats();
+  let html = '<div class="mono list-info" style="margin-bottom:12px">' +
+    EUROPE_PLAYERS.length + ' players tracked in European leagues';
+  if (EUROPE_META.lastSweep && EUROPE_META.lastSweep !== "\u2014") {
+    html += ' \u00b7 Last updated: ' + EUROPE_META.lastSweep;
+  }
+  html += '</div>';
+  EUROPE_PLAYERS.forEach(p => { html += europePlayerCardHTML(p); });
+  container.innerHTML = html;
+}
+
 // ── MAIN RENDER ──────────────────────────────────────────────────────
 function render() {
   const filtered = getFilteredPlayers();
@@ -620,17 +769,22 @@ function toggleArchive(id, e) { e.stopPropagation(); archiveOpen[id] = !archiveO
 function toggleIntel(id, e) { e.stopPropagation(); intelOpen[id] = !intelOpen[id]; render(); }
 
 // ── EVENT LISTENERS ──────────────────────────────────────────────────
+function renderCurrentView() {
+  if (currentView === "feed") renderFeed();
+  else if (currentView === "europe") renderEurope();
+  else render();
+}
 document.getElementById("searchInput").addEventListener("input", function(e) {
   searchQuery = e.target.value;
   document.getElementById("searchClear").classList.toggle("hidden", !e.target.value);
-  if (currentView === "feed") renderFeed(); else render();
+  renderCurrentView();
   saveFilterState();
 });
 document.getElementById("searchClear").addEventListener("click", function() {
   document.getElementById("searchInput").value = "";
   searchQuery = "";
   this.classList.add("hidden");
-  if (currentView === "feed") renderFeed(); else render();
+  renderCurrentView();
   saveFilterState();
 });
 
@@ -649,13 +803,13 @@ document.querySelectorAll(".filter-pill").forEach(btn => {
     this.classList.add("active");
     statusFilter = this.dataset.status;
     applyPillStyles();
-    if (currentView === "feed") renderFeed(); else render();
+    renderCurrentView();
     saveFilterState();
   });
 });
 document.getElementById("countryFilter").addEventListener("change", function() {
   countryFilter = this.value;
-  if (currentView === "feed") renderFeed(); else render();
+  renderCurrentView();
   saveFilterState();
 });
 document.querySelectorAll(".sort-btn").forEach(btn => {
@@ -689,19 +843,29 @@ document.querySelectorAll(".sort-btn").forEach(btn => {
   btn.setAttribute("aria-pressed", isActive);
   if (isActive) btn.querySelector(".sort-arrow").innerHTML = sortAscending ? "&#9660;" : "&#9650;";
 });
-if (currentView === "feed") {
+if (currentView === "feed" || currentView === "europe") {
   document.getElementById("tabPlayers").classList.remove("active");
-  document.getElementById("tabFeed").classList.add("active");
   document.getElementById("tabPlayers").setAttribute("aria-selected", "false");
-  document.getElementById("tabFeed").setAttribute("aria-selected", "true");
   document.getElementById("playerView").classList.add("hidden");
-  document.getElementById("feedContainer").classList.remove("hidden");
+  if (currentView === "feed") {
+    document.getElementById("tabFeed").classList.add("active");
+    document.getElementById("tabFeed").setAttribute("aria-selected", "true");
+    document.getElementById("feedContainer").classList.remove("hidden");
+  } else {
+    document.getElementById("tabEurope").classList.add("active");
+    document.getElementById("tabEurope").setAttribute("aria-selected", "true");
+    document.getElementById("europeContainer").classList.remove("hidden");
+    document.querySelector(".tier-legend").classList.add("hidden");
+    document.querySelector(".filters").style.display = "none";
+  }
 }
 
 applyPillStyles();
 const deepLinkId = getHashPlayerId();
 if (deepLinkId !== null) expandedIds.add(deepLinkId);
-if (currentView === "feed") renderFeed(); else render();
+if (currentView === "europe") { updateEuropeStats(); renderEurope(); }
+else if (currentView === "feed") renderFeed();
+else render();
 if (deepLinkId !== null) scrollToPlayer(deepLinkId);
 </script>
 </body>
