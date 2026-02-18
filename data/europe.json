@@ -15,23 +15,86 @@
       "currentClub": "Sporting CP",
       "league": "Liga Portugal",
       "leagueFlag": "🇵🇹",
-      "careerStatus": "regular_starter",
+      "careerStatus": "injury",
       "contract": "Until Jun 2030",
       "releaseClause": "€80M",
-      "marketValue": "€40M",
+      "marketValue": "€45M",
       "altSpellings": [
         "Diomande"
       ],
       "confusionRisk": null,
       "news": [
         {
+          "date": "Feb 11, 2026",
+          "headline": "Missed Sporting vs PSG (UCL MD7) through injury; Sporting won 2-1 without him",
+          "source": "Sporting CP Official",
+          "type": "injury",
+          "league": "Champions League",
+          "tier": 1,
+          "recent": true
+        },
+        {
+          "date": "Feb 3, 2026",
+          "headline": "Man Utd preparing €60M bid; Amorim in direct contact to convince him to join",
+          "source": "A Bola / Sky Sports",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "Jan 30, 2026",
+          "headline": "Chelsea remain firm in pursuit; PSG also weighing €45M offer",
+          "source": "CaughtOffside / TNT Sports",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
+        {
           "date": "Jan 28, 2026",
           "headline": "Scored in Champions League; decisive display in 3-2 win vs Athletic Bilbao",
-          "source": "Sporting CP Official",
+          "source": "Africa Top Sports / Sporting CP Official",
           "type": "goal",
+          "league": "Champions League",
+          "tier": 1,
+          "recent": true
+        },
+        {
+          "date": "Jan 25, 2026",
+          "headline": "Returned from AFCON with injury; ruled out of league match, doubt for UCL vs PSG",
+          "source": "RotoWire / Talking Sporting",
+          "type": "injury",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "Jan 23, 2026",
+          "headline": "Signed contract extension with Sporting CP until June 2030",
+          "source": "Sporting CP Official",
+          "type": "contract_extension",
           "league": "Liga Portugal",
           "tier": 1,
           "recent": true
+        },
+        {
+          "date": "Dec 21, 2025",
+          "headline": "Named in Ivory Coast 26-man AFCON 2025 squad as defending champions head to Morocco",
+          "source": "CAF Official",
+          "type": "call_up",
+          "league": "International",
+          "tier": 1,
+          "recent": false
+        },
+        {
+          "date": "Dec 18, 2025",
+          "headline": "Market value updated to €45M by Transfermarkt; Sporting demanding €80M release clause",
+          "source": "Transfermarkt",
+          "type": "media",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": false
         }
       ]
     },
@@ -48,20 +111,56 @@
       "careerStatus": "regular_starter",
       "contract": "Until Jun 2029",
       "releaseClause": null,
-      "marketValue": "€5M",
+      "marketValue": "€10M",
       "altSpellings": [
         "Diao"
       ],
       "confusionRisk": null,
       "news": [
         {
-          "date": "Jan 15, 2026",
-          "headline": "Strong Europa League form: 5 starts, 2 goals, 3 clean sheets; Liverpool monitoring",
-          "source": "Liverpool FC Scouting Reports / Transfermarkt",
+          "date": "Feb 5, 2026",
+          "headline": "Diao confirms desire to play in England; mentioned playing with Ekitike in future",
+          "source": "Anfield Watch / Empire of the Kop",
+          "type": "transfer_link",
+          "league": "Danish Superliga",
+          "tier": 3,
+          "recent": true
+        },
+        {
+          "date": "Jan 16, 2026",
+          "headline": "Liverpool monitoring with genuine intent after Guehi moved to Man City; emerging as top target",
+          "source": "PL BOLD / Empire of the Kop",
           "type": "transfer_link",
           "league": "Danish Superliga",
           "tier": 2,
           "recent": true
+        },
+        {
+          "date": "Jan 15, 2026",
+          "headline": "Strong Europa League form: 5 starts, 2 goals, 3 clean sheets; 67% aerial duel win rate",
+          "source": "UEFA / Transfermarkt",
+          "type": "appearance",
+          "league": "Europa League",
+          "tier": 1,
+          "recent": true
+        },
+        {
+          "date": "Jan 10, 2026",
+          "headline": "8 Superliga starts, 1 goal, 1 assist, 85% pass completion; Midtjylland won't block move",
+          "source": "Anfield Index / Yahoo Sports",
+          "type": "media",
+          "league": "Danish Superliga",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "Dec 14, 2025",
+          "headline": "Called up to Senegal AFCON 2025 squad for tournament in Morocco",
+          "source": "Senegalese Football Federation",
+          "type": "call_up",
+          "league": "International",
+          "tier": 1,
+          "recent": false
         }
       ]
     },
@@ -86,13 +185,40 @@
       "confusionRisk": null,
       "news": [
         {
+          "date": "Jan 7, 2026",
+          "headline": "Started with FC Midtjylland U19 team for spring season preparations",
+          "source": "FC Midtjylland Official",
+          "type": "appearance",
+          "league": "Danish Superliga",
+          "tier": 1,
+          "recent": true
+        },
+        {
           "date": "Dec 31, 2025",
-          "headline": "Signed five-year contract extension with FC Midtjylland through 2031",
+          "headline": "Signed five-year contract with FC Midtjylland through 2031; joins from FC San Pedro",
           "source": "FC Midtjylland Official",
           "type": "contract_extension",
           "league": "Danish Superliga",
           "tier": 1,
           "recent": true
+        },
+        {
+          "date": "Dec 22, 2025",
+          "headline": "FCM sporting director: 'One of the most exciting African CBs of his generation'",
+          "source": "Campo.dk / Bold.dk",
+          "type": "media",
+          "league": "Danish Superliga",
+          "tier": 2,
+          "recent": false
+        },
+        {
+          "date": "Dec 22, 2025",
+          "headline": "Ivory Coast U20 international; played CAF Cup matches for FC San Pedro before transfer",
+          "source": "Sport-Ivoire.ci",
+          "type": "media",
+          "league": "International",
+          "tier": 3,
+          "recent": false
         }
       ]
     },
@@ -117,13 +243,49 @@
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
         {
+          "date": "Feb 7, 2026",
+          "headline": "Back in Ligue 1 squad; Lorient face Brest with Faye available after full recovery",
+          "source": "FotMob / Flashscore",
+          "type": "appearance",
+          "league": "Ligue 1",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "Jan 10, 2026",
+          "headline": "Named in squad for Coupe de France vs Andrézieux; coach Pantaloni targets match fitness",
+          "source": "Score.fr / Wiwsport",
+          "type": "appearance",
+          "league": "Coupe de France",
+          "tier": 2,
+          "recent": true
+        },
+        {
           "date": "Jan 6, 2026",
-          "headline": "Returned to training after two-month foot injury absence; Coupe de France return planned",
-          "source": "FC Lorient Official",
+          "headline": "Returned to training after two-month foot injury; completed rehab in Germany",
+          "source": "Wiwsport / FC Lorient Official",
           "type": "injury",
           "league": "Ligue 1",
           "tier": 1,
           "recent": true
+        },
+        {
+          "date": "Dec 20, 2025",
+          "headline": "Season stats before injury: 5 Ligue 1 apps (3 starts), 405 mins, undisputed starter",
+          "source": "Transfermarkt / FotMob",
+          "type": "media",
+          "league": "Ligue 1",
+          "tier": 2,
+          "recent": false
+        },
+        {
+          "date": "Oct 24, 2025",
+          "headline": "Foot injury relapse; sent back to Leverkusen for treatment, ruled out until 2026",
+          "source": "Wiwsport / Ouest France",
+          "type": "injury",
+          "league": "Ligue 1",
+          "tier": 2,
+          "recent": false
         }
       ]
     },
@@ -147,22 +309,76 @@
       "confusionRisk": null,
       "news": [
         {
-          "date": "Jan 8, 2026",
-          "headline": "Called up to Bafana Bafana AFCON 2025 squad; seeking World Cup 2026 minutes",
-          "source": "South African Football Association Official",
-          "type": "call_up",
+          "date": "Feb 1, 2026",
+          "headline": "Returned to Club Brugge post-AFCON; meeting new coach Ivan Leko for first time",
+          "source": "Kick Off",
+          "type": "media",
           "league": "Belgian Pro League",
+          "tier": 3,
+          "recent": true
+        },
+        {
+          "date": "Jan 21, 2026",
+          "headline": "Featured off bench in Club Brugge 4-1 Champions League win vs Kairat Almaty",
+          "source": "Good Things Guy / UEFA",
+          "type": "appearance",
+          "league": "Champions League",
           "tier": 1,
           "recent": true
         },
         {
-          "date": "Jan 13, 2026",
-          "headline": "Sent off for violent conduct in Belgian Cup vs Royal Charleroi; AFCON squad member",
-          "source": "Belgian Pro League Official",
-          "type": "red_card",
+          "date": "Jan 20, 2026",
+          "headline": "Hugo Broos criticises Club Brugge for delayed AFCON release; 'always on the bench'",
+          "source": "Yahoo Sports / Kick Off",
+          "type": "media",
           "league": "Belgian Pro League",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "Jan 15, 2026",
+          "headline": "AFCON 2025: did not see game time for Bafana Bafana; Broos says 'not ready for lions'",
+          "source": "Kick Off / SA People",
+          "type": "call_up",
+          "league": "International",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "Jan 13, 2026",
+          "headline": "Red card for violent conduct in Belgian Cup QF vs Charleroi; Brugge lost 2-0",
+          "source": "Goal.com SA / iDiski Times",
+          "type": "red_card",
+          "league": "Belgian Cup",
           "tier": 1,
           "recent": true
+        },
+        {
+          "date": "Jan 8, 2026",
+          "headline": "Called up to Bafana Bafana AFCON 2025 squad; maiden senior call-up",
+          "source": "South African Football Association",
+          "type": "call_up",
+          "league": "International",
+          "tier": 1,
+          "recent": true
+        },
+        {
+          "date": "Dec 20, 2025",
+          "headline": "Season stats: 7 Pro League apps (1 goal), 2 UCL apps (16 min), 5 reserve apps (2 goals)",
+          "source": "Transfermarkt / FotMob",
+          "type": "media",
+          "league": "Belgian Pro League",
+          "tier": 2,
+          "recent": false
+        },
+        {
+          "date": "Dec 15, 2025",
+          "headline": "Won Belgian Super Cup 2025/26 with Club Brugge; second career title",
+          "source": "Club Brugge Official",
+          "type": "award",
+          "league": "Belgian Pro League",
+          "tier": 1,
+          "recent": false
         }
       ]
     }
