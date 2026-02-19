@@ -1,0 +1,41 @@
+{
+  "sweepDate": "Feb 19, 2026",
+  "sweepType": "full",
+  "sweepNumber": 7,
+  "baselineItems": 29,
+  "playersSearched": 21,
+  "newIntel": [],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "All search results return Souleymane Faye (b.2003, Sporting CP), recently transferred Jan 2026 for €6.5m. No results for b.2010 Sahel F.C player.",
+      "reason": "Identity confusion risk flagged — possible duplicate record or name collision with established player. Recommend verification of Sahel F.C player's existence and alternative spellings."
+    }
+  ]
+}
