@@ -1,0 +1,43 @@
+{
+  "sweepDate": "Feb 19, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 2,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Feb 19, 2026",
+        "headline": "Diao prefers Chelsea move; Midtjylland exploring contract extension talks",
+        "source": "Empire of the Kop / Danish media",
+        "type": "transfer_link",
+        "league": "Danish Superliga",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "New intelligence on Diao's club preference (Chelsea confirmed) and Midtjylland's proactive contract extension approach not in existing Feb 5 transfer_link news"
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "Jan 13, 2026",
+        "headline": "Campbell sent off for violent conduct in Belgian Cup vs Charleroi; 2-0 defeat",
+        "source": "Goal.com SA / iDiski Times",
+        "type": "red_card",
+        "league": "Belgian Pro League",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Red card incident on Jan 13 already exists in current news. No new news found for Campbell beyond existing items."
+    }
+  ],
+  "statusChanges": [],
+  "noChange": [
+    "Ousmane Diomande",
+    "Rayann Capo Chichi",
+    "Abdoulaye Faye",
+    "Shandre Campbell"
+  ]
+}
