@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Feb 19, 2026",
-    "sweepNumber": 2,
+    "lastSweep": "Feb 23, 2026",
+    "sweepNumber": 3,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,24 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Feb 22, 2026",
+          "headline": "Diomande dreams of playing in England; Chelsea approaches representatives",
+          "source": "Record",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "Feb 22, 2026",
+          "headline": "Crystal Palace join Arsenal & Chelsea in summer pursuit of €45M Diomande",
+          "source": "Record",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Feb 11, 2026",
           "headline": "Missed Sporting vs PSG (UCL MD7) through injury; Sporting won 2-1 without him",
@@ -317,6 +335,24 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Feb 15, 2026",
+          "headline": "Campbell 23 mins in 2-1 win away at Cercle Brugge; returning to match rhythm",
+          "source": "FotMob",
+          "type": "appearance",
+          "league": "Belgian Pro League",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "Feb 18, 2026",
+          "headline": "Campbell impact off bench in 3-2 UCL draw vs Atletico Madrid at Jan Breydel",
+          "source": "UEFA",
+          "type": "appearance",
+          "league": "Belgian Pro League",
+          "tier": 1,
+          "recent": true
+        },
         {
           "date": "Jan 13, 2026",
           "headline": "Campbell sent off for violent conduct in Belgian Cup vs Charleroi; 2-0 defeat",

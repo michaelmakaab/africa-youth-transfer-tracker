@@ -1,0 +1,78 @@
+{
+  "sweepDate": "Feb 23, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 3,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Feb 22, 2026",
+        "headline": "Crystal Palace join Arsenal & Chelsea in summer pursuit of €45M Diomande",
+        "source": "Record",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New transfer interest from Crystal Palace not in existing news; Record is T2 Portuguese outlet; date Feb 22 is new"
+    },
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Feb 22, 2026",
+        "headline": "Diomande dreams of playing in England; Chelsea approaches representatives",
+        "source": "Record",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Direct quote about Diomande's personal preference for English football is new; distinguishes from previous generic transfer links"
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "Feb 18, 2026",
+        "headline": "Campbell impact off bench in 3-2 UCL draw vs Atletico Madrid at Jan Breydel",
+        "source": "UEFA",
+        "type": "appearance",
+        "league": "Belgian Pro League",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "New Champions League appearance on Feb 18 (after existing Jan 21 UCL news); came on 82nd min vs Atletico, causing havoc in final third"
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "Feb 15, 2026",
+        "headline": "Campbell 23 mins in 2-1 win away at Cercle Brugge; returning to match rhythm",
+        "source": "FotMob",
+        "type": "appearance",
+        "league": "Belgian Pro League",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New appearance Feb 15, 2026 not in existing news; confirms Campbell has returned from Jan 13 red card suspension"
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "oldStatus": "squad_rotation",
+      "newStatus": "regular_appearance",
+      "source": "FotMob / UEFA"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Abdoulaye Faye"
+  ]
+}

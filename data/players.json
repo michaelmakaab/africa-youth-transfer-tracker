@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Feb 16, 2026",
-    "sweepNumber": 6,
+    "lastSweep": "Feb 23, 2026",
+    "sweepNumber": 7,
     "playerCount": 21
   },
   "players": [
@@ -502,7 +502,17 @@
       "sweepTier": "C",
       "altSpellings": [],
       "confusionRisk": null,
-      "rumors": []
+      "rumors": [
+        {
+          "date": "Feb 13, 2026",
+          "club": "FC Porto",
+          "detail": "Porto actively pursuing 17yo Angolan FW. Release clause ~€300k. Top prospect.",
+          "source": "Yahoo Sports / Foot Africa",
+          "tier": 3,
+          "status": "rumour",
+          "recent": true
+        }
+      ]
     },
     {
       "id": 19,
@@ -545,6 +555,15 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Feb 15, 2026",
+          "club": "Fenerbahçe",
+          "detail": "Finalization imminent. Supersedes ES Sétif. AJEL seeking min €200k fee. Expected weeks.",
+          "source": "AfricaFoot, Daily Sports, FotoSpor",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Feb 14, 2026",
           "club": "Fenerbahçe",
