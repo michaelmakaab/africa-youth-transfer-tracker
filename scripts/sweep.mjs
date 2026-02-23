@@ -164,8 +164,9 @@ WHAT TO LOOK FOR:
 
 IMPORTANT:
 - Search ALL players listed — do not skip any
-- Note the DATE, SOURCE, SOURCE URL, and KEY FINDING for each result
+- Note the ARTICLE PUBLICATION DATE, SOURCE, SOURCE URL, and KEY FINDING for each result
 - Always include the full URL of the article/page where you found the information
+- IMPORTANT: Use the article's actual publication date, NOT today's date
 - Only note genuinely new findings (not already in existing news items)
 - Be careful about player identity — check birth year and nationality
 
@@ -223,7 +224,7 @@ TODAY'S DATE: ${today}
 2. Apply date gating: ignore anything already listed in existing news
 3. Verify identity: check birth year, club, nationality match our player
 4. Max 100 chars for "headline" field. Lead with the most important fact.
-5. Dates: "Feb 8, 2026" format. Never "Recently".
+5. CRITICAL — Dates: Use the ORIGINAL ARTICLE PUBLICATION DATE, NOT today's date. Format: "Feb 8, 2026". Never use "Recently" or today's sweep date. If the article was published on Jan 17, the date must be "Jan 17, 2026" even if the sweep runs on Feb 23.
 6. News types: goal, assist, appearance, injury, red_card, call_up, contract_extension, transfer_link, award, media, loan_update
 7. Source tiers: T1 (Official club/UEFA), T2 (ESPN/Transfermarkt/major media), T3 (Regional), T4 (Social media/blogs)
 8. Include sourceUrl: provide the full URL of the article where the news was found. Use null if no URL is available.
@@ -448,8 +449,9 @@ For EACH player below, run 3-5 web searches using their name + "transfer 2026", 
 
 IMPORTANT:
 - Search ALL players listed — do not skip any
-- For each search result, note the DATE, SOURCE, SOURCE URL, and KEY CLAIM
+- For each search result, note the ARTICLE PUBLICATION DATE, SOURCE, SOURCE URL, and KEY CLAIM
 - Always include the full URL of the article/page where you found the information
+- IMPORTANT: Use the article's actual publication date, NOT today's date
 - Be careful about identity: check birth year and nationality match
 - Only note genuinely new findings (not already in their existing rumors)
 - Keep your text output brief — just list findings per player
@@ -516,7 +518,7 @@ TODAY'S DATE: ${today}
 2. Apply date gating: ignore anything on or before each player's latest rumour date
 3. Verify identity: check birth year, club, nationality match our player
 4. Max 80 chars for "detail" field. Lead with the most important fact.
-5. Dates: "Feb 8, 2026" format. Never "Recently".
+5. CRITICAL — Dates: Use the ORIGINAL ARTICLE PUBLICATION DATE, NOT today's date. Format: "Feb 8, 2026". Never use "Recently" or today's sweep date. If the article was published on Jan 17, the date must be "Jan 17, 2026" even if the sweep runs on Feb 23.
 6. Source tiers: T1 (Official/Romano/Transfermarkt), T2 (AfricaFoot/ESPN/Athletic), T3 (Regional), T4 (Speculative)
 7. Include sourceUrl: provide the full URL of the article where the intel was found. Use null if no URL is available.
 
