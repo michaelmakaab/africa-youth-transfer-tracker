@@ -1,0 +1,127 @@
+{
+  "sweepDate": "Feb 23, 2026",
+  "sweepType": "full",
+  "sweepNumber": 10,
+  "baselineItems": 33,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Feb 9, 2026",
+        "club": "Eintracht Frankfurt",
+        "detail": "Deal almost finalized. ~3yr contract. Visa delays ongoing for German documents.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/mahamadou-traore-en-passe-de-sengager-avec-leintracht-francfort/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "advanced"
+      },
+      "reasoning": "Publication date Feb 9, 2026 is after latest existing rumor (Feb 12, 2026 is actually newer — checking: Feb 12 existing rumor shows visa delays already documented). This Feb 9 date predates Feb 12 existing rumor. NO DELTA — skip this."
+    },
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "Feb 17, 2026",
+        "club": "Liverpool FC",
+        "detail": "Medical issue resolved. Back on grass. Rob Page confirms no major concern, manageable.",
+        "source": "This Is Anfield",
+        "sourceUrl": "https://www.thisisanfield.com/2026/02/mor-talla-ndiaye-injury-update-after-medical-issue/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Latest existing rumor is Jan 26, 2026. This Feb 17 update is genuinely new, post-injury update on medical status. Passes date gate and is NEW intel on his recovery timeline."
+    },
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "rumor": {
+        "date": "Feb 23, 2026",
+        "club": "Galatasaray",
+        "detail": "Galatasaray actively pursuing post-Man Utd trial. Scouts tracking intensively.",
+        "source": "Foot Africa",
+        "sourceUrl": "https://foot-africa.com/en/news/tienne-mendy-is-on-galatasarays-radar-970961/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Article states Nov 21, 2025 publication, but player database shows Feb 23, 2026 rumor already logged. Verifying: existing rumor shows 'Feb 23, 2026 Galatasaray' already in system. NO DELTA — this is duplicate."
+    },
+    {
+      "playerId": 18,
+      "playerName": "Ilídio Panda",
+      "rumor": {
+        "date": "Feb 13, 2026",
+        "club": "FC Porto",
+        "detail": "Porto pursuing 17yo FW. Release clause ~€300k. Top Angolan prospect on radar.",
+        "source": "Yahoo Sports / Foot Africa",
+        "sourceUrl": "https://sports.yahoo.com/articles/mercato-angolan-wonderkid-sends-fc-100500377.html",
+        "tier": 3,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "monitoring"
+      },
+      "reasoning": "Existing rumor shows Feb 13, 2026 Porto interest already documented. This is exact duplicate. NO DELTA — skip."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Feb 16, 2026",
+        "club": "Fenerbahçe",
+        "detail": "Deal in very advanced stages. AJEL demanding min €200k. Signature imminent.",
+        "source": "Daily Sports / AfricaFoot",
+        "sourceUrl": "https://dailysports.net/news/two-young-senegalese-players-set-to-sign-with-fenerbahche/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Latest existing rumor is Feb 16, 2026 (same date — already in system). Exact duplicate. NO DELTA."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "El Hadj Yamar Ndiaye",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Birth year 2010 + Sahel F.C does not match any public transfer records. Found different Souleymane Faye (b.2003, Sporting CP).",
+      "reason": "Identity verification failed. Player profile may contain error or be too junior for public coverage. Cannot gate-check rumors reliably."
+    },
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "detail": "Foot Africa article showing Nov 21, 2025 date in search results, but player database shows Feb 23, 2026 Galatasaray rumor already logged.",
+      "reason": "Timestamp discrepancy. May have been updated rumor vs. original. Existing database entry appears to supersede web findings."
+    }
+  ]
+}

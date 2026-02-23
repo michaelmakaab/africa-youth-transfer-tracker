@@ -1,0 +1,59 @@
+{
+  "sweepDate": "Feb 23, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 6,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Feb 20, 2026",
+        "headline": "Diomande has £70M release clause in Sporting contract signed last month",
+        "source": "SportsView",
+        "sourceUrl": "https://www.sofascore.com/football/player/diomande-ousmane/1394342",
+        "type": "media",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New contract clause detail not previously reported in existing news items; official release clause confirmation from February 20, 2026"
+    },
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Feb 23, 2026",
+        "headline": "Diomande: 868 minutes, 7.17 FotMob rating, 3 yellows in Liga Portugal 2025/26",
+        "source": "FotMob",
+        "sourceUrl": "https://www.sofascore.com/football/player/diomande-ousmane/1394342",
+        "type": "media",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Updated seasonal performance stats for 2025/26 Liga Portugal campaign; new statistical data not in existing news"
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Jan 17, 2026",
+        "headline": "Liverpool monitoring Midtjylland CB Diao with genuine intent, not casual interest",
+        "source": "Yahoo Sports",
+        "sourceUrl": "https://www.sofascore.com/football/player/diao-ousmane/1465159",
+        "type": "transfer_link",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Earlier version of Liverpool interest reported Jan 16; this Jan 17 source clarifies 'genuine intent' vs casual monitoring distinction—new reporting angle not in existing news"
+    }
+  ],
+  "statusChanges": [],
+  "noChange": [
+    "Rayann Capo Chichi",
+    "Abdoulaye Faye",
+    "Shandre Campbell"
+  ]
+}

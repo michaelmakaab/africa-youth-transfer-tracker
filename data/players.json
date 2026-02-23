@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "Feb 23, 2026",
-    "sweepNumber": 9,
+    "sweepNumber": 10,
     "playerCount": 21
   },
   "players": [
@@ -269,6 +269,16 @@
       "confusionRisk": "Mamadou Traoré (b.1994, Dalian Yingbo)",
       "rumors": [
         {
+          "date": "Feb 9, 2026",
+          "club": "Eintracht Frankfurt",
+          "detail": "Deal almost finalized. ~3yr contract. Visa delays ongoing for German documents.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/mahamadou-traore-en-passe-de-sengager-avec-leintracht-francfort/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
+        {
           "date": "Feb 8, 2026",
           "club": "Randers FC",
           "detail": "Randers FC (Denmark) invited Traore for trial. Villarreal & Monaco also interested",
@@ -314,6 +324,16 @@
       ],
       "confusionRisk": "Multiple Ndiaye players in Senegalese football",
       "rumors": [
+        {
+          "date": "Feb 17, 2026",
+          "club": "Liverpool FC",
+          "detail": "Medical issue resolved. Back on grass. Rob Page confirms no major concern, manageable.",
+          "source": "This Is Anfield",
+          "sourceUrl": "https://www.thisisanfield.com/2026/02/mor-talla-ndiaye-injury-update-after-medical-issue/",
+          "tier": 2,
+          "status": "confirmed",
+          "recent": true
+        },
         {
           "date": "Jan 5, 2026",
           "club": "Liverpool FC",
