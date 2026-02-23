@@ -144,22 +144,13 @@ jobs:
             --base main \
             --head "$BRANCH"
 
-      - name: Auto-merge if no new intel
+      - name: Auto-merge sweep PR
         if: steps.changes.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          SWEEP_FILE=$(ls -t sweeps/sweep_*.json 2>/dev/null | head -1)
-          NEW_COUNT=0
-          if [ -n "$SWEEP_FILE" ]; then
-            NEW_COUNT=$(node -e "const d=JSON.parse(require('fs').readFileSync('$SWEEP_FILE','utf-8')); console.log((d.newIntel||[]).length)" 2>/dev/null || echo 0)
-          fi
-          if [ "$NEW_COUNT" = "0" ]; then
-            echo "No new intel — auto-merging metadata-only update"
-            gh pr merge --auto --squash || true
-          else
-            echo "$NEW_COUNT new intel items — requires manual review"
-          fi
+          echo "Auto-merging sweep PR..."
+          gh pr merge --auto --squash || true
 
       - name: Upload sweep report
         if: always()
