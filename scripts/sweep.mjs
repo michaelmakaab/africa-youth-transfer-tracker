@@ -64,7 +64,7 @@ if (!fs.existsSync(PLAYERS_PATH) || !fs.existsSync(INTEL_PATH)) {
   process.exit(1);
 }
 
-const MODEL = process.env.SWEEP_MODEL || "claude-sonnet-4-20250514";
+const MODEL = process.env.SWEEP_MODEL || "claude-haiku-4-5-20251001";
 const MODEL_PHASE2 = process.env.SWEEP_MODEL_PHASE2 || "claude-haiku-4-5-20251001";
 
 // ── Load current data ─────────────────────────────────────────────────────
@@ -145,7 +145,7 @@ ${(p.news || []).map(n => `  [${n.date}] ${n.type}: ${n.headline} (${n.source})`
 async function phase1EuropeSearch(client, players) {
   const playerDetails = buildEuropePlayerDetails(players);
   const playerNames = players.map(p => p.name).join(", ");
-  const maxSearches = Math.min(players.length * 5, 30);
+  const maxSearches = Math.min(players.length * 2, 12);
 
   const searchPrompt = `You are a football career news research assistant. Search for the latest news about these African players currently at European clubs. Today is ${today}.
 
@@ -179,7 +179,7 @@ Search each player now. For each, write a brief summary of what you found (or "N
   const findings = await withRetry(async () => {
     const stream = client.messages.stream({
       model: MODEL,
-      max_tokens: 8000,
+      max_tokens: 4000,
       system: "You are a football career news research agent. Search for performance updates, injuries, call-ups, and career news. Do NOT produce JSON — just describe findings for each player.",
       tools: [{ type: "web_search_20250305", name: "web_search", max_uses: maxSearches }],
       messages: [{ role: "user", content: searchPrompt }]
@@ -275,7 +275,7 @@ Return ONLY the JSON — nothing else.`;
   const fullText = await withRetry(async () => {
     const response = await client.messages.create({
       model: MODEL_PHASE2,
-      max_tokens: 8000,
+      max_tokens: 4000,
       messages: [{ role: "user", content: jsonPrompt }]
     });
 
@@ -321,7 +321,7 @@ async function runEuropeSweep() {
   fs.mkdirSync(DELTA_DIR, { recursive: true });
   fs.writeFileSync(path.join(DELTA_DIR, "last_europe_findings.txt"), allFindings, "utf-8");
 
-  // Phase 2 uses a different model (Haiku) so no rate limit conflict with Phase 1 (Sonnet)
+  // Both phases use Haiku for cost efficiency
   // Phase 2: Produce JSON
   let jsonText;
   try {
@@ -437,7 +437,7 @@ async function withRetry(fn, label, maxRetries = 3) {
 async function phase1Search(client, players) {
   const playerDetails = buildPlayerDetails(players);
   const playerNames = players.map(p => p.name).join(", ");
-  const maxSearches = SWEEP_TYPE === "flash" ? 15 : Math.min(players.length * 5, 50);
+  const maxSearches = SWEEP_TYPE === "flash" ? 10 : Math.min(players.length * 2, 25);
 
   const searchPrompt = `You are a football transfer research assistant. Search for the latest transfer news and rumours for these players. Today is ${today}.
 
@@ -461,7 +461,7 @@ Search each player now. For each, write a brief summary of what you found (or "N
   const findings = await withRetry(async () => {
     const stream = client.messages.stream({
       model: MODEL,
-      max_tokens: 8000,
+      max_tokens: 4000,
       system: "You are a football transfer research agent. Search for transfer news and report findings concisely. Do NOT produce JSON — just describe what you found for each player.",
       tools: [
         {
@@ -584,7 +584,7 @@ Return ONLY the JSON — nothing else.`;
   const fullText = await withRetry(async () => {
     const response = await client.messages.create({
       model: MODEL_PHASE2,
-      max_tokens: 8000,
+      max_tokens: 4000,
       messages: [{ role: "user", content: jsonPrompt }]
     });
 
@@ -648,7 +648,7 @@ async function runSweep() {
     "utf-8"
   );
 
-  // Phase 2 uses a different model (Haiku) so no rate limit conflict with Phase 1 (Sonnet)
+  // Both phases use Haiku for cost efficiency
   // Phase 2: Produce JSON from all findings
   let jsonText;
   try {
