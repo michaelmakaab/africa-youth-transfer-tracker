@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "Feb 23, 2026",
-    "sweepNumber": 5,
+    "sweepNumber": 6,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,26 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Feb 23, 2026",
+          "headline": "Diomande: 868 minutes, 7.17 FotMob rating, 3 yellows in Liga Portugal 2025/26",
+          "source": "FotMob",
+          "sourceUrl": "https://www.sofascore.com/football/player/diomande-ousmane/1394342",
+          "type": "media",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "Feb 20, 2026",
+          "headline": "Diomande has £70M release clause in Sporting contract signed last month",
+          "source": "SportsView",
+          "sourceUrl": "https://www.sofascore.com/football/player/diomande-ousmane/1394342",
+          "type": "media",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Feb 23, 2026",
           "headline": "Arsenal preparing €70M+ bid for Diomande; PSG, Real Madrid also monitoring",
@@ -155,6 +175,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Jan 17, 2026",
+          "headline": "Liverpool monitoring Midtjylland CB Diao with genuine intent, not casual interest",
+          "source": "Yahoo Sports",
+          "sourceUrl": "https://www.sofascore.com/football/player/diao-ousmane/1465159",
+          "type": "transfer_link",
+          "league": "Danish Superliga",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Feb 23, 2026",
           "headline": "Liverpool genuine top target after Guehi departure; strong Europa League form noted",
