@@ -1,0 +1,64 @@
+{
+  "sweepDate": "Feb 23, 2026",
+  "sweepType": "full",
+  "sweepNumber": 8,
+  "baselineItems": 31,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Feb 16, 2026",
+        "club": "Fenerbahçe",
+        "detail": "Deal in very advanced stages. AJEL demanding minimum €200k. Expected imminent signature.",
+        "source": "Daily Sports / AfricaFoot",
+        "sourceUrl": "https://dailysports.net/news/two-young-senegalese-players-set-to-sign-with-fenerbahce/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "advanced"
+      },
+      "reasoning": "Date (Feb 16) is after latest existing rumor (Feb 15). Provides stronger confirmation of deal progression with 'very advanced stages' language. Supersedes earlier ES Sétif interest."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "detail": "Transfermarkt shows different Mouhamed Diop (b.2000, age 25 at ESTAC Troyes). Web sources confirm young AJEL player heading to Fenerbahçe but identity verification needed.",
+      "reason": "Name collision with older player on Transfermarkt. Birth year 2009 vs 2000 mismatch. Confirm AJEL Rufisque FW is correct target."
+    },
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "detail": "Galatasaray actively positioning to sign Mendy from Diambars. Eligible summer 2026.",
+      "reason": "Auto-rejected: Date format invalid: \"Nov 2025\" — expected \"Mon DD, YYYY\""
+    }
+  ]
+}

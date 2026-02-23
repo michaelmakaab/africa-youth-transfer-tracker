@@ -1,0 +1,95 @@
+{
+  "sweepDate": "Feb 23, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 4,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Feb 23, 2026",
+        "headline": "Diomande achieves 94% pass completion in Liga Portugal; dominant defensive stats",
+        "source": "Transfermarkt",
+        "sourceUrl": null,
+        "type": "media",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New performance data not previously listed: 94% pass completion, 3.6 long balls per appearance, 5.7 recoveries and 4 clearances per league game this season"
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Feb 23, 2026",
+        "headline": "Diao records 1 goal, 1 assist, 932 minutes; 7.34 FotMob rating in 2025/26 season",
+        "source": "FotMob",
+        "sourceUrl": null,
+        "type": "media",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New season statistics not previously documented: cumulative 2025/26 performance data including minutes played and FotMob rating"
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Feb 23, 2026",
+        "headline": "Faye market value updated to €4.7M; 574 Ligue 1 minutes in 2025/26 season",
+        "source": "Transfermarkt",
+        "sourceUrl": null,
+        "type": "media",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Updated market valuation (€4.7M vs €3M) and cumulative season statistics (574 minutes, 0 goals, 0 assists, 5 yellow cards, 6.31 FotMob rating) not previously listed"
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "Feb 18, 2026",
+        "headline": "Campbell 8 mins impact off bench in 3-3 UCL draw vs Atletico Madrid; influential appearance",
+        "source": "UEFA",
+        "sourceUrl": null,
+        "type": "appearance",
+        "league": "Belgian Pro League",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "New match appearance on Feb 18, 2026 not previously listed. Campbell came on in 82nd minute and contributed to comeback draw against Spanish giants Atletico Madrid in Champions League"
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "Feb 8, 2026",
+        "headline": "Campbell 5 mins in Club Brugge's 3-0 win vs Standard Liege; returning to action",
+        "source": "FotMob",
+        "sourceUrl": null,
+        "type": "appearance",
+        "league": "Belgian Pro League",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New match appearance on Feb 8, 2026 not previously documented. Campbell appeared off bench in domestic league victory"
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "loan",
+      "newStatus": "loan",
+      "source": "Transfermarkt / FotMob"
+    }
+  ],
+  "noChange": [
+    "Rayann Capo Chichi"
+  ]
+}
