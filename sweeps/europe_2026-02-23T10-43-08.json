@@ -1,0 +1,44 @@
+{
+  "sweepDate": "Feb 23, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 5,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Feb 23, 2026",
+        "headline": "Arsenal preparing €70M+ bid for Diomande; PSG, Real Madrid also monitoring",
+        "source": "Record / The Detroit Bureau",
+        "sourceUrl": "https://www.thedetroitbureau.com/today-report/ousmane-diomande-breaking-down-the-transfer-buzz-1764803939",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New transfer development: Arsenal now preparing substantial bid (€70M+), escalating beyond previous Chelsea/Man Utd interest. This is materially new information not in existing news items dated Feb 22."
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Feb 23, 2026",
+        "headline": "Liverpool genuine top target after Guehi departure; strong Europa League form noted",
+        "source": "PL BOLD / Yahoo Sports",
+        "sourceUrl": "https://sports.yahoo.com/articles/report-liverpool-considering-move-sign-132000286.html",
+        "type": "transfer_link",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Confirms Liverpool's status elevation from 'monitoring with genuine intent' (Jan 16) to 'top target' post-Guehi. Reiterates Europa League stats (5 starts, 2 goals, 3 clean sheets, 67% aerial win rate) as supporting evidence. New framing of Liverpool's priority level."
+    }
+  ],
+  "statusChanges": [],
+  "noChange": [
+    "Rayann Capo Chichi",
+    "Abdoulaye Faye",
+    "Shandre Campbell"
+  ]
+}

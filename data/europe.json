@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "Feb 23, 2026",
-    "sweepNumber": 4,
+    "sweepNumber": 5,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Feb 23, 2026",
+          "headline": "Arsenal preparing €70M+ bid for Diomande; PSG, Real Madrid also monitoring",
+          "source": "Record / The Detroit Bureau",
+          "sourceUrl": "https://www.thedetroitbureau.com/today-report/ousmane-diomande-breaking-down-the-transfer-buzz-1764803939",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Feb 23, 2026",
           "headline": "Diomande achieves 94% pass completion in Liga Portugal; dominant defensive stats",
@@ -145,6 +155,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Feb 23, 2026",
+          "headline": "Liverpool genuine top target after Guehi departure; strong Europa League form noted",
+          "source": "PL BOLD / Yahoo Sports",
+          "sourceUrl": "https://sports.yahoo.com/articles/report-liverpool-considering-move-sign-132000286.html",
+          "type": "transfer_link",
+          "league": "Danish Superliga",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Feb 23, 2026",
           "headline": "Diao records 1 goal, 1 assist, 932 minutes; 7.34 FotMob rating in 2025/26 season",

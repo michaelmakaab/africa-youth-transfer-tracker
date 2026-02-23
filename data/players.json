@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "Feb 23, 2026",
-    "sweepNumber": 8,
+    "sweepNumber": 9,
     "playerCount": 21
   },
   "players": [
@@ -372,6 +372,16 @@
       ],
       "confusionRisk": "Édouard Mendy (b.1992, Al-Ahli)",
       "rumors": [
+        {
+          "date": "Feb 23, 2026",
+          "club": "Galatasaray",
+          "detail": "Galatasaray actively pursuing Mendy post-Man Utd trial. Scouts tracking",
+          "source": "Foot Africa",
+          "sourceUrl": "https://foot-africa.com/en/news/tienne-mendy-is-on-galatasarays-radar-970961/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
         {
           "date": "Sep 11, 2025",
           "club": "Man United",
