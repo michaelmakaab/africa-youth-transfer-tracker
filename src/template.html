@@ -234,6 +234,14 @@ body {
 .europe-contract-item { font-size: 11px; }
 .europe-contract-label { color: #475569; font-weight: 700; letter-spacing: 0.5px; }
 .europe-contract-val { color: #CBD5E1; margin-left: 6px; }
+.europe-sub-tabs { display: flex; gap: 0; margin-bottom: 16px; border-bottom: 1px solid #1E293B; }
+.europe-sub-tab {
+  padding: 8px 16px; background: transparent; border: none; border-bottom: 2px solid transparent;
+  color: #475569; font-size: 11px; font-weight: 700; font-family: 'Space Mono', monospace;
+  cursor: pointer; transition: all 0.15s; letter-spacing: 0.5px;
+}
+.europe-sub-tab:hover { color: #94A3B8; }
+.europe-sub-tab.active { color: #F59E0B; border-bottom-color: #F59E0B; }
 .hidden { display: none; }
 .rumor-mobile-label {
   display: none; font-size: 9px; font-weight: 700; color: #334155;
@@ -370,6 +378,7 @@ let expandedIds = new Set();
 let archiveOpen = {};
 let intelOpen = {};
 let currentView = "players";
+let europeSubView = "players";
 let currentSort = "status";
 let sortAscending = true;
 
@@ -738,6 +747,11 @@ function toggleEuropePlayer(id) {
   renderEurope();
 }
 
+function switchEuropeView(sub) {
+  europeSubView = sub;
+  renderEurope();
+}
+
 function renderEurope() {
   const container = document.getElementById("europeContainer");
   updateEuropeStats();
@@ -747,8 +761,42 @@ function renderEurope() {
     html += ' \u00b7 Last updated: ' + EUROPE_META.lastSweep;
   }
   html += '</div>';
-  EUROPE_PLAYERS.forEach(p => { html += europePlayerCardHTML(p); });
+  // Sub-toggle: PLAYERS / LATEST NEWS
+  html += '<div class="europe-sub-tabs">' +
+    '<button class="europe-sub-tab' + (europeSubView === "players" ? ' active' : '') + '" onclick="switchEuropeView(\'players\')">PLAYERS</button>' +
+    '<button class="europe-sub-tab' + (europeSubView === "feed" ? ' active' : '') + '" onclick="switchEuropeView(\'feed\')">LATEST NEWS</button>' +
+    '</div>';
+  if (europeSubView === "feed") {
+    html += renderEuropeFeedHTML();
+  } else {
+    EUROPE_PLAYERS.forEach(p => { html += europePlayerCardHTML(p); });
+  }
   container.innerHTML = html;
+}
+
+function renderEuropeFeedHTML() {
+  const allItems = [];
+  EUROPE_PLAYERS.forEach(p => {
+    (p.news || []).forEach(n => { allItems.push({ player: p, newsItem: n }); });
+  });
+  allItems.sort((a, b) => parseDate(b.newsItem.date) - parseDate(a.newsItem.date));
+  if (allItems.length === 0) {
+    return '<div class="no-results">No Europe news items yet.</div>';
+  }
+  let html = '<div class="mono list-info" style="margin-bottom:12px">' + allItems.length + ' news items \u00b7 newest first</div>';
+  allItems.forEach(item => {
+    const n = item.newsItem, p = item.player;
+    html += '<div class="feed-item"><div class="feed-meta">' +
+      '<span class="mono feed-date">' + escapeHTML(n.date) + '</span>' +
+      '<span class="feed-player-name">' + p.flag + ' ' + escapeHTML(p.name) + '</span>' +
+      '<span class="mono feed-player-sub">' + escapeHTML(p.position) + ' \u00b7 ' + p.birthYear + ' \u00b7 ' + escapeHTML(p.currentClub) + '</span>' +
+      '</div><div class="feed-content">' +
+      '<span class="feed-club">' + newsTypeBadge(n.type) + (n.league ? ' <span style="color:#475569;font-size:11px">' + escapeHTML(n.league) + '</span>' : '') + '</span>' +
+      '<span class="feed-detail">' + escapeHTML(n.headline) + '</span>' +
+      '<span class="mono feed-source">' + tierBadge(n.tier) + ' &nbsp;' + sourceHTML(n.source, n.sourceUrl) + '</span>' +
+      '</div></div>';
+  });
+  return html;
 }
 
 // ── MAIN RENDER ──────────────────────────────────────────────────────
