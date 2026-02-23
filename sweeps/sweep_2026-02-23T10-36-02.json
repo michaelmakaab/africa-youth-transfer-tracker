@@ -1,0 +1,71 @@
+{
+  "sweepDate": "Feb 23, 2026",
+  "sweepType": "full",
+  "sweepNumber": 9,
+  "baselineItems": 32,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "rumor": {
+        "date": "Feb 23, 2026",
+        "club": "Galatasaray",
+        "detail": "Galatasaray actively pursuing Mendy post-Man Utd trial. Scouts tracking",
+        "source": "Foot Africa",
+        "sourceUrl": "https://foot-africa.com/en/news/tienne-mendy-is-on-galatasarays-radar-970961/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New club interest (Galatasaray) post-dates existing Man Utd trial rumors (Sep 2025). Confirms active monitoring from Turkish club after failed PL academy route."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "field": "healthStatus",
+      "oldValue": "Minor medical issue — not expected on sidelines long",
+      "newValue": "Recovered; returned to training. 3 U21 appearances as starter post-medical",
+      "source": "This Is Anfield (Feb 2026)"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "El Hadj Yamar Ndiaye",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye (b.Feb 8, 2003) who joined Sporting CP Jan 21, 2026 (€6.5m from Granada, 4.5yr deal). Your record shows b.2010 at Sahel F.C.",
+      "reason": "Birth year mismatch (2003 vs 2010) and club mismatch (Sporting CP vs Sahel F.C). Likely two different players sharing same name. Verify which Souleymane Faye your database should track."
+    },
+    {
+      "playerId": 14,
+      "playerName": "Adama Some",
+      "detail": "No player profile found matching Adama Some, MF, ISCA (Ivory Coast), b.2009 in any major database.",
+      "reason": "Identity cannot be verified. Player may not exist in public databases, may be using alternate name, or club/birth year data may be incorrect. Recommend removing or requesting clarification."
+    }
+  ]
+}
