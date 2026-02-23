@@ -1,0 +1,76 @@
+{
+  "sweepDate": "Feb 23, 2026",
+  "sweepType": "full",
+  "sweepNumber": 7,
+  "baselineItems": 29,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 18,
+      "playerName": "Ilídio Panda",
+      "rumor": {
+        "date": "Feb 13, 2026",
+        "club": "FC Porto",
+        "detail": "Porto actively pursuing 17yo Angolan FW. Release clause ~€300k. Top prospect.",
+        "source": "Yahoo Sports / Foot Africa",
+        "tier": 3,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "First concrete transfer intel for this player. Date Feb 13 is after today's sweep (new intel). Identity verified (Angola, FW, b.2008, Petro Luanda). No existing rumors to gate against."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Feb 15, 2026",
+        "club": "Fenerbahçe",
+        "detail": "Finalization imminent. Supersedes ES Sétif. AJEL seeking min €200k fee. Expected weeks.",
+        "source": "AfricaFoot, Daily Sports, FotoSpor",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "existingRumorDate": "Feb 14, 2026",
+        "detail": "Updated to 'finalization imminent' language reflecting Feb 15+ developments"
+      },
+      "reasoning": "Latest update to existing Fenerbahçe rumor (Feb 14 already logged). Feb 15-17 regional sources now confirm imminent finalization—escalates status from 'advanced talks' to 'advanced/near-final'. Passes date gate (after Feb 14). New detail on timeline & supersession of Sétif track."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye b.2003 (Sporting CP, transferred Jan 21, 2026). Listed player is b.2010 (Sahel F.C). Different player.",
+      "reason": "Identity mismatch: birth year off by 7 years. Confusion risk flagged in rules. Verify which Faye is tracked in system."
+    },
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "detail": "Turkish club Galatasaray actively monitoring young RW. Rival to Man Utd interest.",
+      "reason": "Auto-rejected: Date format invalid: \"Nov 2025\" — expected \"Mon DD, YYYY\""
+    }
+  ]
+}
