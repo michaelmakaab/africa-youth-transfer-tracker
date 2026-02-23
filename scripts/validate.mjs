@@ -74,6 +74,19 @@ export function validateRumour(rumour) {
     errors.push("Missing source");
   }
 
+  // sourceUrl is optional — validate format only if present
+  if (rumour.sourceUrl !== undefined && rumour.sourceUrl !== null) {
+    if (typeof rumour.sourceUrl !== "string") {
+      errors.push("sourceUrl must be a string or null");
+    } else if (rumour.sourceUrl.length > 0) {
+      try {
+        new URL(rumour.sourceUrl);
+      } catch {
+        errors.push(`sourceUrl is not a valid URL: "${rumour.sourceUrl}"`);
+      }
+    }
+  }
+
   if (rumour.tier === undefined || rumour.tier === null) {
     errors.push("Missing tier");
   } else if (!Number.isInteger(rumour.tier) || rumour.tier < 1 || rumour.tier > 4) {

@@ -436,6 +436,12 @@ function escapeHTML(str) {
   div.textContent = str;
   return div.innerHTML;
 }
+function sourceHTML(source, sourceUrl) {
+  if (sourceUrl) {
+    return '<a href="' + escapeHTML(sourceUrl) + '" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px">' + escapeHTML(source) + '</a>';
+  }
+  return escapeHTML(source);
+}
 
 // ── FILTERING & SORTING ──────────────────────────────────────────────
 function getFilteredPlayers() {
@@ -545,7 +551,7 @@ function rumorRowHTML(r, isArchive, playerId) {
       '<span class="rumor-mobile-label">DATE</span>' + escapeHTML(r.date) + '</span>' +
     '<span class="rumor-club"><span class="rumor-mobile-label">CLUB</span>' + escapeHTML(r.club) + '</span>' +
     '<span class="rumor-detail"><span class="rumor-mobile-label">DETAILS</span>' + escapeHTML(r.detail) + '</span>' +
-    '<span class="mono rumor-source"><span class="rumor-mobile-label">SOURCE</span>' + escapeHTML(r.source) + '</span>' +
+    '<span class="mono rumor-source"><span class="rumor-mobile-label">SOURCE</span>' + sourceHTML(r.source, r.sourceUrl) + '</span>' +
     '<span class="rumor-tier"><span class="rumor-mobile-label">TIER</span>' + tierBadge(r.tier) + '</span></div>';
 }
 function intelRow(key, val) {
@@ -634,7 +640,7 @@ function renderFeed() {
       '</div><div class="feed-content">' +
       '<span class="feed-club">' + escapeHTML(r.club) + '</span>' +
       '<span class="feed-detail">' + escapeHTML(r.detail) + '</span>' +
-      '<span class="mono feed-source">' + tierBadge(r.tier) + ' &nbsp;' + escapeHTML(r.source) + '</span>' +
+      '<span class="mono feed-source">' + tierBadge(r.tier) + ' &nbsp;' + sourceHTML(r.source, r.sourceUrl) + '</span>' +
       '</div></div>';
   });
   document.getElementById("feedContainer").innerHTML = html;
@@ -689,7 +695,7 @@ function europeNewsRowHTML(item) {
     '<div class="europe-news-content">' +
       newsTypeBadge(item.type) + ' ' +
       '<span class="europe-news-headline">' + escapeHTML(item.headline) + '</span>' +
-      '<div class="europe-news-source">' + escapeHTML(item.source) +
+      '<div class="europe-news-source">' + sourceHTML(item.source, item.sourceUrl) +
         (item.league ? ' &middot; ' + escapeHTML(item.league) : '') + '</div>' +
     '</div></div>';
 }

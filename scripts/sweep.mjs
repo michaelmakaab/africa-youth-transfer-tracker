@@ -164,7 +164,8 @@ WHAT TO LOOK FOR:
 
 IMPORTANT:
 - Search ALL players listed — do not skip any
-- Note the DATE, SOURCE, and KEY FINDING for each result
+- Note the DATE, SOURCE, SOURCE URL, and KEY FINDING for each result
+- Always include the full URL of the article/page where you found the information
 - Only note genuinely new findings (not already in existing news items)
 - Be careful about player identity — check birth year and nationality
 
@@ -225,6 +226,7 @@ TODAY'S DATE: ${today}
 5. Dates: "Feb 8, 2026" format. Never "Recently".
 6. News types: goal, assist, appearance, injury, red_card, call_up, contract_extension, transfer_link, award, media, loan_update
 7. Source tiers: T1 (Official club/UEFA), T2 (ESPN/Transfermarkt/major media), T3 (Regional), T4 (Social media/blogs)
+8. Include sourceUrl: provide the full URL of the article where the news was found. Use null if no URL is available.
 
 ## CURRENT PLAYER DATA
 ${playerDetails}
@@ -247,6 +249,7 @@ Return ONLY a valid JSON object with this exact structure (no markdown fences, n
         "date": "<Mon DD, YYYY>",
         "headline": "<max 100 chars>",
         "source": "<source name>",
+        "sourceUrl": "<full URL of the source article, or null if not available>",
         "type": "<news type>",
         "league": "<league name>",
         "tier": <1-4>,
@@ -445,7 +448,8 @@ For EACH player below, run 3-5 web searches using their name + "transfer 2026", 
 
 IMPORTANT:
 - Search ALL players listed — do not skip any
-- For each search result, note the DATE, SOURCE, and KEY CLAIM
+- For each search result, note the DATE, SOURCE, SOURCE URL, and KEY CLAIM
+- Always include the full URL of the article/page where you found the information
 - Be careful about identity: check birth year and nationality match
 - Only note genuinely new findings (not already in their existing rumors)
 - Keep your text output brief — just list findings per player
@@ -514,6 +518,7 @@ TODAY'S DATE: ${today}
 4. Max 80 chars for "detail" field. Lead with the most important fact.
 5. Dates: "Feb 8, 2026" format. Never "Recently".
 6. Source tiers: T1 (Official/Romano/Transfermarkt), T2 (AfricaFoot/ESPN/Athletic), T3 (Regional), T4 (Speculative)
+7. Include sourceUrl: provide the full URL of the article where the intel was found. Use null if no URL is available.
 
 ## KNOWN CONFUSION RISKS
 - Souleymane Faye (b.2010) vs Souleymane Faye (b.2003, Sporting CP)
@@ -546,6 +551,7 @@ Return ONLY a valid JSON object with this exact structure (no markdown fences, n
         "club": "<club name>",
         "detail": "<max 80 chars>",
         "source": "<source name>",
+        "sourceUrl": "<full URL of the source article, or null if not available>",
         "tier": <1-4>,
         "status": "<rumour|advanced|confirmed|official>",
         "recent": true
