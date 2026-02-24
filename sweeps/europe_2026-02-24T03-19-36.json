@@ -1,0 +1,38 @@
+{
+  "sweepDate": "Feb 24, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 7,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Feb 15, 2026",
+        "headline": "Faye among injured players unavailable for Lorient vs Angers",
+        "source": "Legal Bet",
+        "sourceUrl": "https://legalbet.com/game-center/lorient-angers-15-02-2026/",
+        "type": "injury",
+        "league": "Ligue 1",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "New injury update from Feb 15, 2026 not in existing news. Previous recovery report was Feb 7; this indicates setback."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "regular_starter",
+      "newStatus": "injury",
+      "source": "Legal Bet (Feb 15, 2026)"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}

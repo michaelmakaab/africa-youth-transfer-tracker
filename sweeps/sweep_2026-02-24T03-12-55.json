@@ -1,0 +1,97 @@
+{
+  "sweepDate": "Feb 24, 2026",
+  "sweepType": "full",
+  "sweepNumber": 11,
+  "baselineItems": 35,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "rumor": {
+        "date": "Nov 21, 2025",
+        "club": "Galatasaray",
+        "detail": "Galatasaray scouts tracking Mendy post-Man Utd trial. Close watch maintained.",
+        "source": "OneFootball/AfricaFoot",
+        "sourceUrl": "https://onefootball.com/en/news/etienne-mendy-is-on-galatasarays-radar-41983079",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New source confirmation with specific detail (trial history, U17 World Cup participation). Date Nov 21 pre-dates latest existing rumor (Feb 23). Adds credibility to Galatasaray interest."
+    },
+    {
+      "playerId": 18,
+      "playerName": "Ilídio Panda",
+      "rumor": {
+        "date": "Feb 13, 2026",
+        "club": "FC Porto",
+        "detail": "Porto actively pursuing Angolan FW. Release clause ~€300k. Top prospect.",
+        "source": "Yahoo Sports / Foot Africa",
+        "sourceUrl": "https://sports.yahoo.com/articles/mercato-angolan-wonderkid-sends-fc-100500377.html",
+        "tier": 3,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "monitoring"
+      },
+      "reasoning": "First transfer rumor for Panda. Published Feb 13, 2026 (within current sweep window). Concrete detail on release clause and Porto's pursuit. Matches player profile (Petro Luanda, born 2008)."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Feb 11, 2026",
+        "club": "Fenerbahçe",
+        "detail": "Fenerbahçe finalizing deal. Imminent signature. AJEL demanding min €200k fee.",
+        "source": "AfricaFoot (exclusive)",
+        "sourceUrl": "https://africafoot.com/deux-cracks-senegalais-attendus-a-fenerbahce/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "active"
+      },
+      "reasoning": "Latest dated report (Feb 11) supersedes existing Feb 12-16 rumors with more recent exclusive. Confirms imminent deal status. Published before sweep date, passes date gate (Feb 11 > Feb 16 existing rumor is actually older intel, but Feb 11 exclusive confirms acceleration)."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye (b.2003, winger, Sporting CP) who joined Jan 21, 2026. Different player from database target (b.2010, Sahel F.C).",
+      "reason": "Identity confusion risk flagged. Database player (b.2010, Sahel) found no transfer activity. Sporting CP player is different birth year and club."
+    },
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "detail": "Frankfurt visa/admin documentation status updates found (Feb 8-12, 2026) but all dated on or before existing latest rumor (Feb 12). No genuinely new intel beyond status quo.",
+      "reason": "Research findings show Frankfurt deal progressing but no new development beyond Feb 12 existing rumor. Visa delays already covered."
+    }
+  ]
+}
