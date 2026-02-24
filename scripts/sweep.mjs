@@ -157,6 +157,7 @@ For EACH player below, run 3-5 web searches:
 WHAT TO LOOK FOR:
 - Match performances: goals, assists, appearances, clean sheets, ratings
 - Injuries, suspensions, red cards
+- RECOVERY FROM INJURY: If a player's current status is "injury" or "suspended", check if they have returned to playing. Note any match appearances or training return.
 - National team selections or call-ups
 - Contract extensions or new transfer speculation
 - Loan updates (especially for players on loan)
@@ -169,6 +170,7 @@ IMPORTANT:
 - IMPORTANT: Use the article's actual publication date, NOT today's date
 - Only note genuinely new findings (not already in existing news items)
 - Be careful about player identity — check birth year and nationality
+- PAY ATTENTION TO STALE STATUSES: If a player is marked as "injury" or "suspended" but you find evidence they are now playing, flag this explicitly
 
 PLAYERS TO SEARCH:
 ${playerDetails}
@@ -228,6 +230,7 @@ TODAY'S DATE: ${today}
 6. News types: goal, assist, appearance, injury, red_card, call_up, contract_extension, transfer_link, award, media, loan_update
 7. Source tiers: T1 (Official club/UEFA), T2 (ESPN/Transfermarkt/major media), T3 (Regional), T4 (Social media/blogs)
 8. Include sourceUrl: provide the full URL of the article where the news was found. Use null if no URL is available.
+9. CRITICAL — Status corrections: Review each player's current careerStatus. If a player is marked "injury" or "suspended" but the research shows they are now playing again, you MUST include a statusChange to update them (e.g. injury → regular_starter). Statuses must reflect CURRENT reality, not past events. Valid statuses: regular_starter, squad_rotation, breakthrough, loan, injury, bench, suspended.
 
 ## CURRENT PLAYER DATA
 ${playerDetails}
