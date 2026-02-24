@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Feb 23, 2026",
-    "sweepNumber": 6,
+    "lastSweep": "Feb 24, 2026",
+    "sweepNumber": 7,
     "playerCount": 5
   },
   "players": [
@@ -329,7 +329,7 @@
       "currentClub": "Bayer Leverkusen",
       "league": "Ligue 1 (loan)",
       "leagueFlag": "🇫🇷",
-      "careerStatus": "loan",
+      "careerStatus": "injury",
       "contract": "Until Jun 2030 (Leverkusen)",
       "releaseClause": null,
       "marketValue": "€3M",
@@ -339,6 +339,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Feb 15, 2026",
+          "headline": "Faye among injured players unavailable for Lorient vs Angers",
+          "source": "Legal Bet",
+          "sourceUrl": "https://legalbet.com/game-center/lorient-angers-15-02-2026/",
+          "type": "injury",
+          "league": "Ligue 1",
+          "tier": 3,
+          "recent": true
+        },
         {
           "date": "Feb 23, 2026",
           "headline": "Faye market value updated to €4.7M; 574 Ligue 1 minutes in 2025/26 season",

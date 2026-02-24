@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Feb 23, 2026",
-    "sweepNumber": 10,
+    "lastSweep": "Feb 24, 2026",
+    "sweepNumber": 11,
     "playerCount": 21
   },
   "players": [
@@ -393,6 +393,16 @@
       "confusionRisk": "Édouard Mendy (b.1992, Al-Ahli)",
       "rumors": [
         {
+          "date": "Nov 21, 2025",
+          "club": "Galatasaray",
+          "detail": "Galatasaray scouts tracking Mendy post-Man Utd trial. Close watch maintained.",
+          "source": "OneFootball/AfricaFoot",
+          "sourceUrl": "https://onefootball.com/en/news/etienne-mendy-is-on-galatasarays-radar-41983079",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
+        {
           "date": "Feb 23, 2026",
           "club": "Galatasaray",
           "detail": "Galatasaray actively pursuing Mendy post-Man Utd trial. Scouts tracking",
@@ -585,6 +595,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Feb 11, 2026",
+          "club": "Fenerbahçe",
+          "detail": "Fenerbahçe finalizing deal. Imminent signature. AJEL demanding min €200k fee.",
+          "source": "AfricaFoot (exclusive)",
+          "sourceUrl": "https://africafoot.com/deux-cracks-senegalais-attendus-a-fenerbahce/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Feb 16, 2026",
           "club": "Fenerbahçe",
