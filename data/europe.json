@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "Feb 25, 2026",
-    "sweepNumber": 8,
+    "sweepNumber": 9,
     "playerCount": 5
   },
   "players": [
@@ -349,6 +349,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Feb 23, 2026",
+          "headline": "Faye accumulates 574 Ligue 1 minutes; market value updated to €4.7M",
+          "source": "Transfermarkt",
+          "sourceUrl": "https://www.transfermarkt.com",
+          "type": "media",
+          "league": "Ligue 1",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Feb 7, 2026",
           "headline": "Faye returns to Ligue 1 squad; back available after full recovery from foot injury",
