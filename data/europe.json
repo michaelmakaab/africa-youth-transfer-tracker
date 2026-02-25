@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Feb 24, 2026",
-    "sweepNumber": 7,
+    "lastSweep": "Feb 25, 2026",
+    "sweepNumber": 8,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Feb 24, 2026",
+          "headline": "Crystal Palace abandon Diomande pursuit; focus shifts to other targets",
+          "source": "Tribuna",
+          "sourceUrl": "https://tribuna.com/en/news/2026-02-24-crystal-palace-give-up-on-ousmane-diomande-in-search-for-marc-guehi-replacement-reports/",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Feb 23, 2026",
           "headline": "Diomande: 868 minutes, 7.17 FotMob rating, 3 yellows in Liga Portugal 2025/26",
@@ -329,7 +339,7 @@
       "currentClub": "Bayer Leverkusen",
       "league": "Ligue 1 (loan)",
       "leagueFlag": "🇫🇷",
-      "careerStatus": "injury",
+      "careerStatus": "squad_rotation",
       "contract": "Until Jun 2030 (Leverkusen)",
       "releaseClause": null,
       "marketValue": "€3M",
@@ -339,6 +349,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Feb 7, 2026",
+          "headline": "Faye returns to Ligue 1 squad; back available after full recovery from foot injury",
+          "source": "FotMob / Flashscore",
+          "sourceUrl": "https://www.fotmob.com/",
+          "type": "appearance",
+          "league": "Ligue 1",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Feb 15, 2026",
           "headline": "Faye among injured players unavailable for Lorient vs Angers",

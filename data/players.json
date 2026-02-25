@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Feb 24, 2026",
-    "sweepNumber": 11,
+    "lastSweep": "Feb 25, 2026",
+    "sweepNumber": 12,
     "playerCount": 21
   },
   "players": [
@@ -324,6 +324,16 @@
       ],
       "confusionRisk": "Multiple Ndiaye players in Senegalese football",
       "rumors": [
+        {
+          "date": "Feb 17, 2026",
+          "club": "Liverpool FC",
+          "detail": "Medical issue resolved. Back on grass training. No major concern, manageable",
+          "source": "This Is Anfield",
+          "sourceUrl": "https://www.thisisanfield.com/2026/02/mor-talla-ndiaye-injury-update-after-medical-issue/",
+          "tier": 2,
+          "status": "confirmed",
+          "recent": true
+        },
         {
           "date": "Feb 17, 2026",
           "club": "Liverpool FC",
