@@ -1,0 +1,38 @@
+{
+  "sweepDate": "Feb 25, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 9,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Feb 23, 2026",
+        "headline": "Faye accumulates 574 Ligue 1 minutes; market value updated to €4.7M",
+        "source": "Transfermarkt",
+        "sourceUrl": "https://www.transfermarkt.com",
+        "type": "media",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Confirms Faye's successful return to competitive play with substantial minutes accumulated this season, validating injury recovery status"
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "squad_rotation",
+      "source": "Transfermarkt (Feb 23, 2026) / FotMob"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}

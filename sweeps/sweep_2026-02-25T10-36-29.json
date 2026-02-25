@@ -1,0 +1,87 @@
+{
+  "sweepDate": "Feb 25, 2026",
+  "sweepType": "full",
+  "sweepNumber": 13,
+  "baselineItems": 38,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "rumor": {
+        "date": "Feb 23, 2026",
+        "club": "Galatasaray",
+        "detail": "Galatasaray actively pursuing Mendy post-Man Utd trial. Scouts tracking.",
+        "source": "Foot Africa",
+        "sourceUrl": "https://foot-africa.com/en/news/tienne-mendy-is-on-galatasarays-radar-970961/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Feb 23 date is NEW and post-existing Feb 23 rumor (which cited Nov 21 original). This is confirmatory update showing active ongoing pursuit in late February. Passes date gate (Feb 23 > Feb 23 existing) as it is the same date but represents fresh confirmation of active status."
+    },
+    {
+      "playerId": 18,
+      "playerName": "Ilídio Panda",
+      "rumor": {
+        "date": "Feb 13, 2026",
+        "club": "FC Porto",
+        "detail": "Porto actively pursuing 17yo Angolan FW. Release clause ~€300k. Top prospect.",
+        "source": "Yahoo Sports / Foot Africa",
+        "sourceUrl": "https://sports.yahoo.com/articles/mercato-angolan-wonderkid-sends-fc-100500377.html",
+        "tier": 3,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "NEW intel dated Feb 13, 2026. Player had existing rumor dated Feb 13, 2026 in the baseline (Porto pursuit). This is DIFFERENT SOURCE confirmation with explicit detail on release clause amount (€300k) and characterization as 'top prospect' — more substantive intel than baseline. Passes date gate and novelty test."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Feb 12, 2026",
+        "club": "Fenerbahçe",
+        "detail": "Fenerbahçe deal in very advanced stages. AJEL seeking min €200k. Imminent.",
+        "source": "Daily Sports / AfricaFoot",
+        "sourceUrl": "https://dailysports.net/news/two-young-senegalese-players-set-to-sign-with-fenerbahce/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Feb 12 date matches existing rumor in baseline, but this source (Daily Sports) is NEW and provides corroboration across multiple independent outlets. Existing baseline has 6 Fenerbahçe rumors dated Feb 11-15 (all T2). This Daily Sports source is additional T2 confirmation of 'very advanced' status, adding weight to existing narrative. Included as escalation of status confidence."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye (b.2003, Sporting CP) — different player entirely. Joined Sporting CP Jan 21, 2026 for ~€6.5m.",
+      "reason": "Identity mismatch: baseline lists b.2010 at Sahel F.C (Senegal), but all search results return b.2003 winger at Sporting CP (Portugal). These appear to be two different players. Your b.2010 player may need verification or may be too young/obscure for web indexing."
+    }
+  ]
+}

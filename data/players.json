@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "Feb 25, 2026",
-    "sweepNumber": 12,
+    "sweepNumber": 13,
     "playerCount": 21
   },
   "players": [
@@ -605,6 +605,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Feb 12, 2026",
+          "club": "Fenerbahçe",
+          "detail": "Fenerbahçe deal in very advanced stages. AJEL seeking min €200k. Imminent.",
+          "source": "Daily Sports / AfricaFoot",
+          "sourceUrl": "https://dailysports.net/news/two-young-senegalese-players-set-to-sign-with-fenerbahce/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Feb 11, 2026",
           "club": "Fenerbahçe",
