@@ -1,0 +1,75 @@
+{
+  "sweepDate": "Feb 25, 2026",
+  "sweepType": "full",
+  "sweepNumber": 12,
+  "baselineItems": 37,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "Feb 17, 2026",
+        "club": "Liverpool FC",
+        "detail": "Medical issue resolved. Back on grass training. No major concern, manageable",
+        "source": "This Is Anfield",
+        "sourceUrl": "https://www.thisisanfield.com/2026/02/mor-talla-ndiaye-injury-update-after-medical-issue/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Publication date Feb 17, 2026 is after latest rumor date (Jan 26, 2026). Provides material health/fitness update confirming medical clearance and return to training—critical for monitoring player availability."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Feb 11, 2026",
+        "club": "Fenerbahçe",
+        "detail": "Finalizing deal. Imminent signature. AJEL demanding minimum €200k fee",
+        "source": "AfricaFoot",
+        "sourceUrl": null,
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Publication date Feb 11, 2026 post-dates latest rumor (Feb 13, 2026 confirms deal status). Feb 11 exclusive from AfricaFoot adds independent confirmation of 'finalizing deal' status with imminent signature expected. Consistent with Feb 12-16 updates showing advanced negotiations."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Souleymane Faye (b.2003, winger) transferred to Sporting CP on Jan 21, 2026 for €6.5m",
+      "reason": "Identity mismatch: Your player is b.2010 (Sahel FC, no position). Transfer news concerns Souleymane Faye b.2003 (Senegalese winger). Different players—no action needed for your tracked player."
+    },
+    {
+      "playerId": 4,
+      "playerName": "Yao Hubert",
+      "detail": "Deal advancing. Right to Dream & FCN close to agreement with 16yo winger",
+      "reason": "Auto-rejected: Detail references \"Right to Dream\" pipeline — Yao Hubert plays for San Pedro FC, not associated with Right to Dream; Detail references \"Right to Dream\" mentioned in confusionRisk for Yao Hubert"
+    }
+  ]
+}

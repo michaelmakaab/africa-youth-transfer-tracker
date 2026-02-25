@@ -1,0 +1,52 @@
+{
+  "sweepDate": "Feb 25, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 8,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Feb 24, 2026",
+        "headline": "Crystal Palace abandon Diomande pursuit; focus shifts to other targets",
+        "source": "Tribuna",
+        "sourceUrl": "https://tribuna.com/en/news/2026-02-24-crystal-palace-give-up-on-ousmane-diomande-in-search-for-marc-guehi-replacement-reports/",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New development: Palace backing away from pursuit after Arsenal & Chelsea interest. Previous news (Feb 23) only reported them joining the race; this update shows they're withdrawing."
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Feb 7, 2026",
+        "headline": "Faye returns to Ligue 1 squad; back available after full recovery from foot injury",
+        "source": "FotMob / Flashscore",
+        "sourceUrl": "https://www.fotmob.com/",
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Status confirmation: Faye marked as injury but Feb 7 source confirms he's back in squad and available. This validates the statusChange from injury to regular_starter based on recovery evidence."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "squad_rotation",
+      "source": "FotMob / Flashscore (Feb 7, 2026) - Returned to squad after two-month foot injury rehab; available for Ligue 1 matches"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
