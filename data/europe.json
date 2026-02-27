@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Feb 25, 2026",
-    "sweepNumber": 9,
+    "lastSweep": "Feb 27, 2026",
+    "sweepNumber": 10,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Feb 26, 2026",
+          "headline": "Sporting CP willing to listen to €40-50M offers for Diomande this summer",
+          "source": "Yahoo Sports",
+          "sourceUrl": "https://sports.yahoo.com/articles/crystal-palace-sporting-cp-determined-160000726.html",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Feb 24, 2026",
           "headline": "Crystal Palace abandon Diomande pursuit; focus shifts to other targets",

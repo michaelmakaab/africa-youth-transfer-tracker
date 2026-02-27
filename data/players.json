@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Feb 25, 2026",
-    "sweepNumber": 13,
+    "lastSweep": "Feb 27, 2026",
+    "sweepNumber": 14,
     "playerCount": 21
   },
   "players": [
@@ -268,6 +268,16 @@
       ],
       "confusionRisk": "Mamadou Traoré (b.1994, Dalian Yingbo)",
       "rumors": [
+        {
+          "date": "Feb 12, 2026",
+          "club": "Eintracht Frankfurt",
+          "detail": "Visa delays persist. Frankfurt U17 move imminent once German docs received.",
+          "source": "AfricaFoot (exclusive)",
+          "sourceUrl": "https://africafoot.com/mahamadou-traore-en-passe-de-sengager-avec-leintracht-francfort/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Feb 9, 2026",
           "club": "Eintracht Frankfurt",
@@ -556,6 +566,16 @@
         {
           "date": "Feb 13, 2026",
           "club": "FC Porto",
+          "detail": "Porto top target. Release clause confirmed ~€300k. Imminent pursuit intensifies.",
+          "source": "Yahoo Sports / Foot Africa",
+          "sourceUrl": "https://sports.yahoo.com/articles/mercato-angolan-wonderkid-sends-fc-100500377.html",
+          "tier": 3,
+          "status": "advanced",
+          "recent": true
+        },
+        {
+          "date": "Feb 13, 2026",
+          "club": "FC Porto",
           "detail": "Porto actively pursuing 17yo Angolan FW. Release clause ~€300k. Top prospect.",
           "source": "Yahoo Sports / Foot Africa",
           "tier": 3,
@@ -605,6 +625,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Feb 15, 2026",
+          "club": "Fenerbahçe",
+          "detail": "Deal finalization imminent. AJEL demanding €200k minimum. Expected weeks.",
+          "source": "AfricaFoot (exclusive)",
+          "sourceUrl": "https://africafoot.com/deux-cracks-senegalais-attendus-a-fenerbahce/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Feb 12, 2026",
           "club": "Fenerbahçe",

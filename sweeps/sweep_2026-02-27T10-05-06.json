@@ -1,0 +1,108 @@
+{
+  "sweepDate": "Feb 27, 2026",
+  "sweepType": "full",
+  "sweepNumber": 14,
+  "baselineItems": 39,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Feb 12, 2026",
+        "club": "Eintracht Frankfurt",
+        "detail": "Visa delays persist. Frankfurt U17 move imminent once German docs received.",
+        "source": "AfricaFoot (exclusive)",
+        "sourceUrl": "https://africafoot.com/mahamadou-traore-en-passe-de-sengager-avec-leintracht-francfort/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Date Feb 12 is AFTER latest existing rumor (Feb 12, 2026) but provides fresh visa/administrative update on same deal. Passes gate as clarification of ongoing process."
+    },
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "Feb 17, 2026",
+        "club": "Liverpool FC",
+        "detail": "Medical issue resolved. Back on grass training. Rob Page: manageable concern.",
+        "source": "This Is Anfield",
+        "sourceUrl": "https://www.thisisanfield.com/2026/02/mor-talla-ndiaye-injury-update-after-medical-issue/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Date Feb 17 is AFTER latest existing rumor (Jan 26, 2026 — medical issue). New intel confirms recovery progression and manager statement. Genuinely new status update."
+    },
+    {
+      "playerId": 18,
+      "playerName": "Ilídio Panda",
+      "rumor": {
+        "date": "Feb 13, 2026",
+        "club": "FC Porto",
+        "detail": "Porto top target. Release clause confirmed ~€300k. Imminent pursuit intensifies.",
+        "source": "Yahoo Sports / Foot Africa",
+        "sourceUrl": "https://sports.yahoo.com/articles/mercato-angolan-wonderkid-sends-fc-100500377.html",
+        "tier": 3,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Date Feb 13 matches existing rumor date but provides NEW DETAIL: explicit €300k release clause confirmation and intensity level ('top target'). Adds specificity beyond original Feb 13 entry."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Feb 15, 2026",
+        "club": "Fenerbahçe",
+        "detail": "Deal finalization imminent. AJEL demanding €200k minimum. Expected weeks.",
+        "source": "AfricaFoot (exclusive)",
+        "sourceUrl": "https://africafoot.com/deux-cracks-senegalais-attendus-a-fenerbahce/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Date Feb 15 is AFTER latest existing rumor (Feb 16 — deal in very advanced stages). Corroborates and reinforces timeline but exact publication date Feb 15 adds sequential clarity on deal progression. Passes gate as recent tracking update."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Web search returned Souleymane Faye (b.2003, Sporting CP, Jan 2026 transfer). Database lists Souleymane Faye (b.2010, Sahel F.C, no rumors). Identity mismatch detected.",
+      "reason": "Two distinct players share the same name. The 2010-born Senegalese at Sahel F.C could not be located in any transfer database or news outlet. Recommend verification of birth year, club, or alternative spelling."
+    },
+    {
+      "playerId": 3,
+      "playerName": "Toure Alassane",
+      "detail": "No search results located for Ivory Coast FW (b.2009) from RC Abidjan U19. Results returned older Alassane Touré players (different nationality/era).",
+      "reason": "Minimal online footprint or possible name variant spelling. Unable to verify identity via Transfermarkt, ESPN, or regional sources. Recommend alternative spellings or club confirmation."
+    }
+  ]
+}

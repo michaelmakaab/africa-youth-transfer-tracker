@@ -1,0 +1,38 @@
+{
+  "sweepDate": "Feb 27, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 10,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Feb 26, 2026",
+        "headline": "Sporting CP willing to listen to €40-50M offers for Diomande this summer",
+        "source": "Yahoo Sports",
+        "sourceUrl": "https://sports.yahoo.com/articles/crystal-palace-sporting-cp-determined-160000726.html",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New information: Sporting CP gentleman's agreement to consider €40-50M offers differs from previous €80M release clause reporting. Crystal Palace deemed out of reach. Date-gated: Feb 26 is after existing Feb 24 news."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "oldStatus": "regular_starter",
+      "newStatus": "regular_starter",
+      "source": "Yahoo Sports / Research findings confirm 17 appearances, injury resolved"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Abdoulaye Faye",
+    "Shandre Campbell"
+  ]
+}
