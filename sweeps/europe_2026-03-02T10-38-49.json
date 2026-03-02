@@ -1,0 +1,38 @@
+{
+  "sweepDate": "Mar 2, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 11,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Jan 10, 2026",
+        "headline": "Faye features in Coupe de France; returns to competitive action after injury",
+        "source": "Score.fr / Wiwsport",
+        "sourceUrl": null,
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "Research confirms Faye has returned to competitive action by January 2026 after foot injury setback, contradicting current injury status. This appearance record validates recovery and supports status change from injury to squad_rotation."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "squad_rotation",
+      "source": "Jan 10, 2026 Coupe de France appearance; Feb 7, 2026 Ligue 1 return confirmation"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}

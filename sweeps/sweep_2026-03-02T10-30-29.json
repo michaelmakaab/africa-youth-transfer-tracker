@@ -1,0 +1,65 @@
+{
+  "sweepDate": "Mar 2, 2026",
+  "sweepType": "full",
+  "sweepNumber": 15,
+  "baselineItems": 42,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Feb 7, 2026",
+        "club": "Randers FC",
+        "detail": "Randers FC in pole position. Trial invite sent. Expected to sign after trial.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/randers-fc-en-pole-position-pour-signer-mahamadou-traore/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Publication date Feb 7, 2026 is after latest rumor (Feb 12 Frankfurt visa update). New intel: Randers competing alongside Frankfurt; trial phase now confirmed. Passes date gate and genuinely new detail on trial logistics."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "field": "status",
+      "oldValue": "confirmed",
+      "newValue": "confirmed",
+      "source": "This Is Anfield (Feb 17, 2026) — medical cleared, training resumed"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "detail": "Search results returned Mouhamed Diop (b.2000, midfielder, Troyes). Existing rumors reference correct player (b.2009, FW, AJEL). Cannot verify fresh intel due to name collision.",
+      "reason": "Common Senegalese name. Multiple players in database. Existing Feb 11-16 rumors (Fenerbahçe €200k+) appear credible but require source-direct verification to confirm no updates past Feb 16."
+    }
+  ]
+}
