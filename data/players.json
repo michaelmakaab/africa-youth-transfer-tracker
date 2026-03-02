@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Feb 27, 2026",
-    "sweepNumber": 14,
+    "lastSweep": "Mar 2, 2026",
+    "sweepNumber": 15,
     "playerCount": 21
   },
   "players": [
@@ -268,6 +268,16 @@
       ],
       "confusionRisk": "Mamadou Traoré (b.1994, Dalian Yingbo)",
       "rumors": [
+        {
+          "date": "Feb 7, 2026",
+          "club": "Randers FC",
+          "detail": "Randers FC in pole position. Trial invite sent. Expected to sign after trial.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/randers-fc-en-pole-position-pour-signer-mahamadou-traore/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Feb 12, 2026",
           "club": "Eintracht Frankfurt",

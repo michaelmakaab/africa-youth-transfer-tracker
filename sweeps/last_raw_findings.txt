@@ -1,276 +1,230 @@
 
 === Batch 1 findings ===
-I'll search for transfer news on each of these players. Let me start with comprehensive searches across all seven.
-The search for Toure Alassane returned results for different players (older players). Let me search more specifically for the Ivory Coast youth player.
-Based on my searches, I've identified a critical issue: **Souleymane Faye (born 2003) is NOT the player listed in your database.** The player you listed is born 2010 and plays for Sahel F.C in Senegal. The search results return a different Souleymane Faye (born 2003, now at Sporting CP). Let me provide comprehensive findings for all seven players:
+I'll search for the latest transfer news on each of these players. Let me start with comprehensive searches.
+Now let me search for the remaining players:
+Based on my searches, here's what I found for each player:
 
 ---
 
-## TRANSFER RESEARCH SUMMARY — Feb 27, 2026
+## PLAYER #1: Issouf Dabo (CB, Burkina Faso, b.2009)
+**No new intel found** beyond existing rumors. The December 5, 2025 AfricaFoot reporting and the December 7 follow-up remain the latest credible news. No fresh transfer updates in the 2026 cycle were located.
 
 ---
 
-### **Player #1: Issouf Dabo (Burkina Faso, CB, b.2009)**
-**Status:** Confirmed identity verified (born May 26, 2009, New Stars FC).
-
-**Findings:** No new intel found since existing rumors from Dec 5-7, 2025. Most recent confirmation via Transfermarkt profile shows him at New Stars FC U17. No February 2026 transfer updates located.
-
-**URLs checked:**
-- https://www.transfermarkt.us/issouf-dabo/profil/spieler/1391756
-- https://africafoot.com/queens-park-rangers-fonce-sur-issouf-dabo/ (Dec 5, 2025 — existing rumor)
-
----
-
-### **Player #2: El Hadj Malick Cissé (Senegal, CB, b.2008)**
-**Status:** DEAL COMPLETED (as per existing rumors).
-
-**Findings:** Deal officially finalized. 
-AC Milan announced the signing of El Hadj Malick Cissè to join the Milan Futuro Project
- on January 30, 2026. 
-The deal stands at €750,000 as a fixed fee, plus bonuses that could take the total up to €2 million
+## PLAYER #2: El Hadj Malick Cissé (CB, Senegal, b.2008)
+**TRANSFER COMPLETED** — 
+AC Milan announced the signing of El Hadj Malick Cissè, who joined the Milan Futuro Project (January 30, 2026)
 . 
-Cisse signed a four-and-a-half-year contract with Milan, terms until 2030
+
+**Key Details:**
+- 
+Fee: €750,000 fixed + bonuses up to €2 million (January 30, 2026)
+
+- 
+Contract runs until 2030
+
+- 
+Integrated into Milan Futuro squad under Massimo Oddo
+
+- **Source:** AC Milan Official (acmilan.com) — January 30, 2026
+
+---
+
+## PLAYER #3: Toure Alassane (FW, Ivory Coast, b.2009)
+**No new intel found.** Searches returned results for other players named Touré but no specific news on Alassane from RC Abidjan U19.
+
+---
+
+## PLAYER #4: Yao Hubert (FW/LW, Ivory Coast, b.2009)
+**Developments on Nordsjælland move:**
+
+
+FC Nordsjælland is close to recruiting 16-year-old Ivorian talent Hubert Yao from San Pedro FC (AfricaFoot, January 14, 2026)
 .
 
-**URLs:**
-- https://www.acmilan.com/en/news/articles/media/2026-01-30/official-statement-el-hadj-malick-cisse (Jan 30, 2026 — AC Milan Official)
-- https://milanreports.com/2026/01/30/who-is-el-hadji-malick-cisse-milan/ (Jan 30, 2026)
+
+FC Nordsjælland and the Right to Dream academy are near agreement with the 16-year-old winger from Ivory Coast (Bold.dk, January 13, 2026)
+.
+
+**Sources:**
+- AfricaFoot — January 14, 2026: https://africafoot.com/hubert-yao-se-rapproche-a-grands-pas-de-nordsjaelland/
+- Bold.dk — January 13, 2026: https://bold.dk/fodbold/klubber/fc-nordsjaelland/nyheder/fcn-taet-pa-aftale-med-gervinhos-lillebror
 
 ---
 
-### **Player #3: Toure Alassane (Ivory Coast, FW, b.2009)**
-**Status:** Identity unclear — no specific transfer intel found.
-
-**Findings:** Web searches returned results for older/different players named Alassane Touré (French CB, b.1989) and other players. Could not locate specific youth forward Toure Alassane from RC Abidjan U19 (born 2009). No transfer rumors identified.
-
-**Note:** Requires more specific search parameters or alternative name spelling.
+## PLAYER #5: Asharaf Loukmane Tapsoba (ST, Burkina Faso, b.2010)
+**No new intel found** post-December 2025. 
+He participated in the U-17 Africa Cup of Nations in April 2025
+, but no fresh transfer rumours beyond the existing December scouting reports.
 
 ---
 
-### **Player #4: Yao Hubert (Ivory Coast, FW/LW, b.2009)**
-**Status:** Identity confirmed (born Nov 5, 2009, San Pedro FC).
-
-**Findings:** No new intel found since existing Jan 15, 2026 rumor about FC Nordsjælland. Database profiles confirm player exists at San Pedro U17, matches criteria (1.90m height, 2009 birth year). No February 2026 updates on Nordsjælland deal located.
-
-**URLs checked:**
-- https://www.transfermarkt.co.in/hubert-yao/profil/spieler/1476005
-- https://www.espn.com/soccer/player/_/id/413830/hubert-yao
+## PLAYER #6: Souleymane Faye (Senegal, b.2010)
+**Identity issue identified:** The player found is 
+Souleymane Faye (b.2003), a Senegalese professional winger playing for Sporting CP
+, not the b.2010 player from Sahel FC. **No news found on the correct player (b.2010).**
 
 ---
 
-### **Player #5: Asharaf Loukmane Tapsoba (Burkina Faso, ST, b.2010)**
-**Status:** Hammarby interest remains active (no recent deal finalized).
-
-**Findings:** 
-The young Burkinabè prodigy is on the radar of Hammarby, with representatives from the Swedish club in Ouagadougou to finalize a deal with the young player's camp
- (reported July 9, 2025). Most recent concrete update is from April 2025. 
-Tapsoba was revealed during the 2025 U17 Africa Cup of Nations held in Morocco
-. No February 2026 deal finalization reported.
-
-**URLs:**
-- https://foot-africa.com/en/news/5-things-to-know-about-asharaf-loukman-tapsoba-the-burkinabe-gem-791021/ (July 9, 2025)
-- https://en.wikipedia.org/wiki/Asharaf_Tapsoba (Nov 9, 2025)
-
----
-
-### **Player #6: Souleymane Faye (Senegal, pos unknown, b.2010)**
-**CRITICAL ISSUE — IDENTITY MISMATCH DETECTED**
-
-The Souleymane Faye in your database (b.2010, Sahel F.C) could NOT be located. Web searches consistently returned **Souleymane Faye born Feb 8, 2003** who plays for Sporting CP — a different player entirely. 
-
-**For the 2003-born Faye:** 
-On January 21, 2026, Faye moved to Portugal, joining Primeira Liga club Sporting CP on a four-and-a-half-year contract for a fee reported to be around €6.5 million
- (transferred from Granada CF).
-
-**URLs:**
-- https://en.wikipedia.org/wiki/Souleymane_Faye_(footballer) (Jan 2026 update)
-- https://www.sporting.pt/en/news/football/main-team/2026-01-22/souleymane-faye-signs-sporting-cp (Jan 22, 2026 — Sporting Official)
-
-**Recommendation:** Verify the 2010-born Faye's correct club/position. The 2003-born player is a professional, not a youth prospect.
-
----
-
-### **Player #7: Cheick Malo (Ivory Coast, MF, b.2009)**
-**Status:** Identity confirmed but no transfer activity.
-
-**Findings:** 
-Cheick Ahmed Tijane Malo, born July 26, 2009, plays for FC San Pedro U17 as a Central Midfielder
-. No transfer rumors or interest reported. Player appears in U17 AFCON 2025 records (2 appearances). No February 2026 transfer intel located.
-
-**URLs:**
-- https://www.transfermarkt.co.uk/cheick-malo/profil/spieler/1392949
-
----
-
-## SUMMARY TABLE
-
-| Player | New Intel | Status | Source URL |
-|--------|-----------|--------|------------|
-| Issouf Dabo | None | Tracking only | TransferMarkt |
-| El Hadj Malick Cissé | DEAL DONE (Jan 30) | Milan Futuro ✓ | acmilan.com |
-| Toure Alassane | Unable to locate | Identity unclear | — |
-| Yao Hubert | None new | Tracking (FCN) | TransferMarkt ESPN |
-| Asharaf Tapsoba | None recent | Hammarby pending | Foot-Africa |
-| Souleymane Faye | **MISMATCH** | Wrong player in DB | Wikipedia/Sporting.pt |
-| Cheick Malo | None | No activity | TransferMarkt |
+## PLAYER #7: Cheick Malo (MF, Ivory Coast, b.2009)
+**No new intel found.** 
+Cheick Ahmed Tijane Malo, 16, currently plays for FC San Pedro U17
+. No transfer activity or interest detected in search results.
 
 === Batch 2 findings ===
-I'll search for transfer news on each of these 14 players. Let me start with comprehensive searches for all of them.
-Now let me continue with the remaining players:
-I notice the search for "Adama Some" returned results for "Adama Traoré" (born 1990, left-back) from a different context. Let me search more specifically for Adama Some from Ivory Coast (born 2009):
-Based on my comprehensive search of these 14 players, here are my findings:
+I'll search for transfer news on each of these players. Let me start with comprehensive searches across all of them.
+Good start. Now let me continue searching for the remaining players: El Hadj Yamar Ndiaye, Ettienne Mendy, James Bogere, and Adama Some.
+Good! Now let me search specifically for Adama Some from Ivory Coast, ISCA:
+Perfect. Now I have searched all the players. Let me compile the findings with the URLs and publication dates.
+
+## TRANSFER RESEARCH FINDINGS — March 2, 2026
 
 ---
 
-## **TRANSFER SEARCH FINDINGS – Feb 27, 2026**
+### **PLAYER #8: Souleymane Doumbia** (Mali, DF, b.2008)
+**No new intel found.**
 
-### **Player #8: Souleymane Doumbia (Mali, DF, b.2008, Derby Académie)**
-**No new intel found**  
-Confirmed in U17 Mali squad for recent tournaments. Playing at Derby Académie in Bamako. No transfer activity detected beyond existing status as academy player.
-- Source: Yahoo Sports (U17 World Cup squad list, Nov 5, 2025)
+Search results returned only information about different players named Souleymane Doumbia (basketball player at TCU; adult professional defender from Ivory Coast/France at Standard Liège loaned to Charlotte FC in 2025). No current transfer activity or rumours for the 17-year-old Mali defender at Derby Academy.
 
 ---
 
-### **Player #9: Mahamadou Traore (Mali, MF, b.2009, Players Dreams)**
-**BREAKING UPDATE – Deal Progressing with Eintracht Frankfurt**
+### **PLAYER #9: Mahamadou Traore** (Mali, MF, b.2009)
+**NEW INTEL — Randers FC Update**
 
 
-Mahamadou Traoré is advancing toward an agreement with Eintracht Frankfurt following an imminent deal with AFPD Bamako, with the German club and Académie Football Players Dreams nearly finalizing a contract for the versatile midfielder
-. 
-The contract will be approximately three years
-. 
-Although he was close to joining Randers FC, the young Malian talent will ultimately move to Frankfurt
-.
+According to AfricaFoot (February 7, 2026), Randers Football Club has manifested strong interest in young Malian midfielder Mahamadou Traore and has sent an official invitation to the player from Académie Football Players Dreams (AFPD) in Bamako.
 
 
-The international will travel to Germany once administrative documents are received; the player and his team are currently actively seeking a visa to enter Germany, with some difficulties being encountered in obtaining it but remaining determined
-. 
-The young talent will join Eintracht Frankfurt's U17 team in the coming days pending receipt of necessary documents for his professional career progression
-.
 
-- **Publication Date:** Feb 12, 2026 (approximately 2 weeks ago)  
-- **Source:** AfricaFoot (exclusive)  
-- **URL:** https://africafoot.com/mahamadou-traore-en-passe-de-sengager-avec-leintracht-francfort/
+AfricaFoot reports Traore is expected to soon join Denmark for a trial with Randers FC, after which he will sign with the Superliga club.
+ 
+Despite interests from Villarreal, AS Monaco, and other European clubs, Randers is in pole position to secure the player.
+
+
+**Publication:** February 7, 2026 | **Source:** AfricaFoot (exclusive) | **URL:** https://africafoot.com/randers-fc-en-pole-position-pour-signer-mahamadou-traore/
 
 ---
 
-### **Player #10: Mor Talla Ndiaye (Senegal, CB, b.2008, Liverpool U21s)**
-**RECENT UPDATE – Medical Issue Improving, Back on Grass Training**
+### **PLAYER #10: Mor Talla Ndiaye** (Senegal, CB, b.2008)
+**UPDATE — Medical Issue Resolution**
 
 
-It has not been ideal at the start of life on Merseyside for Ndiaye, but he is now back on grass preparing to kickstart his career, with a minor issue found in his medical that caused him to be shut down for the first few weeks
-. 
-"Mor is on the grass," said U21s coach Rob Page, explaining they had to shut him down initially because of something flagged in his medical, but nothing too significant to worry about, just something to manage
-.
+After a slight issue was found in his medical, Mor Talla Ndiaye is now closing in on a return, having been shut down for the first few weeks but is now back "on the grass" preparing to kickstart his career.
 
-- **Publication Date:** Feb 17, 2026 (one week ago)  
-- **Source:** This Is Anfield  
-- **URL:** https://www.thisisanfield.com/2026/02/mor-talla-ndiaye-injury-update-after-medical-issue/
 
----
 
-### **Player #11: El Hadj Yamar Ndiaye (Senegal, FW, b.2009, Challenge F.C)**
-**No new intel found**  
-No transfer activity or interest detected. Minimal online presence. Listed as player at Challenge F.C in Senegal with no rumored moves.
+U-21s coach Rob Page confirmed: "Mor is on the grass. We had to shut him down for the first few weeks that he was in, just because of something that was flagged up. Nothing too significant to worry about, but just something that we had to manage."
+
+
+**Publication:** February 17, 2026 | **Source:** This Is Anfield | **URL:** https://www.thisisanfield.com/2026/02/mor-talla-ndiaye-injury-update-after-medical-issue/
 
 ---
 
-### **Player #12: Ettienne Mendy (Senegal, FW/RW, b.2008, Diambars FC)**
-**UPDATE – Galatasaray Actively Pursuing Post-Man Utd Trial**
+### **PLAYER #11: El Hadj Yamar Ndiaye** (Senegal, FW, b.2009)
+**No new intel found.**
 
-
-The young attacking midfielder Étienne Mendy (known as "Ndo") from Diambars Academy is on Galatasaray's radar; while the football world awaits the outcome of his trial with Manchester United, Galatasaray is actively positioning itself in the race to secure his signature and making moves to lure the young prodigy away from his current home at Diambars Academy in Saly
-.
-
-
-Galatasaray's scouts have been meticulously tracking Mendy's development for some time; his credentials include representing Senegal at the U17 World Cup in Qatar
-.
-
-**Note:** The player profile lists Mendy as born 2008 (Transfermarkt shows Jul 25, 2008, age 17). Your database lists him as FW/RW (winger), but sources confirm he is an attacking midfielder, not primarily a winger – this may be a position discrepancy to verify.
-
-- **Publication Date:** Nov 21, 2025  
-- **Source:** OneFootball / Foot Africa (AfricaFoot exclusive)  
-- **URL:** https://foot-africa.com/en/news/tienne-mendy-is-on-galatasarays-radar-970961/
+No search results returned any current transfer news or rumours for this player. Player appears to have limited online football database presence.
 
 ---
 
-### **Player #13: James Bogere (Uganda, FW, b.2008, Aarhus GF U19)**
-**CONFIRMED – Transfer Officially Completed to Aarhus GF U19**
+### **PLAYER #12: Ettienne Mendy** (Senegal, FW/RW, b.2008)
+**No new intel found.**
 
-
-Promising Ugandan striker James Bogere has secured a move to European football, joining the U19 squad of Danish side Aarhus GF on a free transfer, with the 18-year-old signing a contract that will keep him at the club until June 30, 2028
-. 
-Bogere makes the switch from Ugandan club Masaka Sunshine, and this transfer marks a significant step in his career, taking him from the Ugandan football scene directly into Denmark's competitive U19 Boys League
-.
-
-- **Publication Date:** Feb 3, 2026 (official registration/confirmation date)  
-- **Source:** Pulse Sports / AfricaSoccer  
-- **URL:** https://www.pulsesports.ug/football/story/promising-uganda-cranes-striker-james-bogere-joins-danish-giants-2026020309275577657
+Search results returned information about Édouard Mendy (b.1992, goalkeeper at Al-Ahli, age 33), not Ettienne Mendy (b.2008, winger at Diambars FC). No updated transfer news for the younger player beyond existing February 23 Galatasaray rumour.
 
 ---
 
-### **Player #14: Adama Some (Ivory Coast, MF, b.2009, ISCA)**
-**No new intel found**  
-Extremely limited online presence. No transfer news, rumours, or club updates detected for a midfielder at ISCA (Ivory Coast academy level).
+### **PLAYER #13: James Bogere** (Uganda, FW, b.2008)
+**CONFIRMATION — Aarhus GF Transfer Completed**
+
+
+James Bogere has landed in Aarhus and is now ready to participate in the U19 season and Superliga team's training in spring 2026.
+ 
+The 18-year-old has signed with AGF alongside teammate Hamza Sengooba. Bogere, who has made his debut for Uganda's A-national team, has already attracted attention from major clubs and scored a hat-trick in his unofficial debut during a training camp with the senior team.
+
+
+**Publication:** January 30, 2026 (approx.) | **Source:** KSDH.dk | **URL:** https://ksdh.dk/nyheder/james-bogere-praesenteret-i-aarhus/
 
 ---
 
-## **SUMMARY**
+### **PLAYER #14: Adama Some** (Ivory Coast, MF, b.2009)
+**No new intel found.**
 
-- **2 players with new transfer intel:** Mahamadou Traore (Frankfurt deal progressing), Ettienne Mendy (Galatasaray pursuing)
-- **1 player with medical update:** Mor Talla Ndiaye (recovery on track)
-- **1 player with confirmation:** James Bogere (Aarhus deal finalized Feb 2026)
-- **3 players with no new information:** Souleymane Doumbia, El Hadj Yamar Ndiaye, Adama Some
+
+Transfermarkt confirms Adama Some (b. March 16, 2009) plays for ISCA (Inova Sporting Club Association) in Côte d'Ivoire and is a defensive midfielder with 7 caps for Ivory Coast U17.
+ No transfer rumours or activity detected.
+
+---
+
+**Summary:** Most players have no recent transfer activity. Key updates: Mahamadou Traore advancing towards Randers FC trial (Feb 7), Mor Talla Ndiaye medically cleared to return (Feb 17), and James Bogere confirmed at Aarhus GF training.
 
 === Batch 3 findings ===
-I'll search for transfer news on each of these players. Let me start with comprehensive searches for all six players.
-Now let me search for the remaining three players: Ilídio Panda, Ysso Donatien Bama, Pape Sémou Sané, and Mouhamed Diop.
-Based on my searches, here's what I found for each player:
+I'll search for transfer news on each of these players. Let me start with comprehensive searches.
+Let me continue searching for the remaining players.
+The last search returned college football results. Let me search more specifically for the African players.
+Based on my searches, I notice the Mouhamed Diop results are showing a player born in 2000 (25 years old) playing for Troyes, not the 17-year-old from AJEL Rufisque. Let me clarify the findings:
+
+---
 
 ## TRANSFER RESEARCH FINDINGS
 
-**Player #15: Delfim Luwawu (Angola, DM, born 2008)**
+### Player #15: Delfim Luwawu
+**Country:** Angola | **Position:** DM | **Born:** 2008 | **Club:** AFA
 
-No new transfer intel found. Database entries confirm he is a 16-year-old midfielder at AFA, recently played in AFCON U17 2025. No recent transfer reports or rumors beyond scout coverage.
+**No new transfer intel found.** Only found: 
+Delfim Betuela Luwawu noted as favourite talent from AFCON U17 2025
+ (Medium article, July 23, 2025). He remains a youth prospect with no documented transfer activity beyond his domestic academy play.
 
-**Player #16: Prince Hamed Ouedraogo (Burkina Faso, GK, born 2009)**
+---
 
-No new transfer intel found. Confirmed 15-year-old goalkeeper at Réal du Faso. Recent competition history shows he played in U17 Africa Cup of Nations 2025, but no transfer activity reported.
+### Player #16: Prince Hamed Ouedraogo
+**Country:** Burkina Faso | **Position:** GK | **Born:** 2009 | **Club:** Réal du Faso
 
-**Player #17: Vincent Gomis (Senegal, GK, born 2008)**
+**No new transfer intel found.** Verified identity matches data (born Dec 31, 2009, Burkina Faso goalkeeper at Réal du Faso). Most recent activity shows youth tournament participation but no transfer rumours detected.
 
-No new transfer intel found. Confirmed 17-year-old goalkeeper at Génération Foot. Scout reports from May 2025 praised his potential for top-5 league football, but no active transfer rumors detected. Contract runs until June 2027 per FM26 data.
+---
 
-**Player #18: Ilídio Panda (Angola, FW, born 2008)**
+### Player #17: Vincent Gomis
+**Country:** Senegal | **Position:** GK | **Born:** 2008 | **Club:** Génération Foot
 
-**NEW INTEL - Publication: Feb 13, 2026**
+**No new transfer intel found.** 
+Vincent Gomis is a 17-year-old goalkeeper who plays for Generation Foot and Senegal U-17
+ (Target Scouting scout report, May 9, 2025). No transfer activity documented beyond his current club.
 
-FC Porto is pulling out all the stops to secure the services of Angolan prodigy Ilídio Panda, and the Portuguese giants have made him their top target with his release clause not exceeding €300,000.
+---
 
-- Source: Yahoo Sports / Foot Africa
-- URL: https://sports.yahoo.com/articles/mercato-angolan-wonderkid-sends-fc-100500377.html
-- Date: February 13, 2026
+### Player #18: Ilídio Panda
+**Country:** Angola | **Position:** FW | **Born:** 2008 | **Club:** Petro Luanda
 
-This corroborates existing rumors (from Feb 13 in your database) but adds detail about Porto's intensity and the exact release clause amount.
+**UPDATED INTEL (February 13, 2026):** 
+FC Porto is pulling out all the stops to secure the services of Angolan prodigy Ilídio Panda. At just 17 years old, the young Petro Luanda forward is already being touted as one of Angolan football's brightest prospects
+ (Yahoo Sports, Feb 13, 2026 - https://sports.yahoo.com/articles/mercato-angolan-wonderkid-sends-fc-100500377.html). 
+The Portuguese giants have made the Angolan sensation their top target for the upcoming transfer window, especially since his release clause is a bargain, not exceeding 300,000 euros
+ (Foot Africa - https://foot-africa.com/en/news/mercato-an-angolan-wonderkid-sends-fc-porto-into-a-frenzy-1084385/). This confirms existing Porto rumours.
 
-**Player #19: Ysso Donatien Bama (Burkina Faso, CB, born 2007)**
+---
 
-No new transfer intel found. Minimal online presence; player profile found on Flashscore but no transfer activity reported.
+### Player #19: Ysso Donatien Bama
+**Country:** Burkina Faso | **Position:** CB | **Born:** 2007 | **Club:** Rahimo FC
 
-**Player #20: Pape Sémou Sané (Senegal, FW/RW, born 2007)**
+**No new transfer intel found.** Player verified as defender at Rahimo FC (squad listing from 2025 season). No documented transfer interest or rumours detected.
 
-No new transfer intel found. Confirmed 18-year-old right winger at Casa Sports (birthdate Sep 18, 2007). No transfer rumors detected in available sources.
+---
 
-**Player #21: Mouhamed Diop (Senegal, FW, born 2009)**
+### Player #20: Pape Sémou Sané
+**Country:** Senegal | **Position:** FW/RW | **Born:** 2007 | **Club:** Casa Sports
 
-**UPDATED INTEL - Publication: ~Feb 15, 2026**
+**No new transfer intel found.** 
+Pape Sémou Sané, 18 years old, position Attack - Right Winger, plays for Casa Sports
+ (Transfermarkt). No transfer activity documented.
 
-Fenerbahçe is preparing to finalize the arrivals of Mouhamed Diop (AJEL Rufisque) and Victor Étienne Mendy (AS Bambey).
+---
 
-- Source: AfricaFoot (exclusive)
-- URL: https://africafoot.com/deux-cracks-senegalais-attendus-a-fenerbahce/
-- Publication date: ~February 15, 2026 (estimated from "2 weeks ago" on Feb 27)
+### Player #21: Mouhamed Diop
+**Country:** Senegal | **Position:** FW | **Born:** 2009 | **Club:** AJEL Rufisque
 
+**IDENTITY CLARIFICATION NEEDED:** Search results returned a different player — 
+Mouhamed Diop (born 30 September 2000) is a Senegalese professional footballer who plays as a midfielder for French club Troyes
+. This is a 25-year-old midfielder, NOT the 17-year-old forward from AJEL. Your data shows this player as **17 years old** with active Fenerbahçe interest (€200k+). The generic search results are returning the wrong Mouhamed Diop. Your existing rumours (Feb 11-16, 2026) appear credible based on the 2-week-old news cycle, but cannot confirm fresh updates with standard search.
 
-Fenerbahçe is in very advanced discussions with AJEL Rufisque's top scorer, with the club demanding at least €200,000 for the player.
- This aligns with your existing rumors showing the deal in "very advanced stages" as of Feb 12-16.
+**RECOMMENDATION:** Requires direct source verification for the correct young Mouhamed Diop (AJEL Rufisque, born 2009).
