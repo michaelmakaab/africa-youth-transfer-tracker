@@ -1,0 +1,80 @@
+{
+  "sweepDate": "Mar 4, 2026",
+  "sweepType": "full",
+  "sweepNumber": 16,
+  "baselineItems": 43,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "rumor": {
+        "date": "Nov 21, 2025",
+        "club": "Galatasaray",
+        "detail": "Galatasaray scouts actively tracking Mendy's development post-Man Utd trial.",
+        "source": "Foot Africa / AfricaFoot",
+        "sourceUrl": "https://foot-africa.com/en/news/tienne-mendy-is-on-galatasarays-radar-970961/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Article from Nov 21, 2025. Existing rumor (Nov 21, 2025 Galatasaray) conflicts with Feb 23, 2026 rumor (same club). This confirms earlier activity; Feb 23 entry appears duplicate of same story. Validates Nov monitoring."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Found Souleymane Faye (b.2003, Sporting CP) signed Jan 25, 2026 from Granada (~€6.5m). Your listed Faye is b.2010 from Sahel F.C.",
+      "reason": "Birth year mismatch (2003 vs 2010). Different identity — professional vs academy-level youth. Cannot confirm your Faye (b.2010) has any transfer activity."
+    },
+    {
+      "playerId": 5,
+      "playerName": "Asharaf Loukmane Tapsoba",
+      "detail": "Search confirmed Dec 5, 2025 Chelsea/Man Utd interest already in existing rumor base. No fresh intel beyond existing list.",
+      "reason": "All findings match already-documented Dec 5, 2025 TEAMtalk entry. No date-gated new intel after Dec 5."
+    },
+    {
+      "playerId": 18,
+      "playerName": "Ilídio Panda",
+      "detail": "Feb 13, 2026 Porto interest found matching existing rumor entries (Feb 13 duplicates in current data).",
+      "reason": "Search results echo already-documented Feb 13, 2026 rumor. No new intel beyond existing pair."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "detail": "Feb 15, 2026 Fenerbahçe finalization status found matching existing rumor entries (multiple Feb 12-16 duplicates in current data).",
+      "reason": "Search results confirm Feb 15, 2026 timeline already captured in existing rumors (Feb 11-16 cluster). No incremental new intel beyond documented window."
+    },
+    {
+      "playerId": 4,
+      "playerName": "Yao Hubert",
+      "detail": "Nordsjælland finalizing recruitment. Path via Right to Dream academy confirmed.",
+      "reason": "Auto-rejected: Detail references \"Right to Dream\" pipeline — Yao Hubert plays for San Pedro FC, not associated with Right to Dream; Detail references \"Right to Dream\" mentioned in confusionRisk for Yao Hubert"
+    }
+  ]
+}
