@@ -1,0 +1,80 @@
+{
+  "sweepDate": "Mar 4, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 12,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Feb 26, 2026",
+        "headline": "Diomande set to leave Sporting; Palace & Newcastle target €40-50M deal",
+        "source": "The Hard Tackle",
+        "sourceUrl": "https://thehardtackle.com/transfer-news/2026/02/26/crystal-palace-newcastle-united-told-to-pay-e40-50-million-to-sign-ousmane-diomande/",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New source (The Hard Tackle) with updated Newcastle United interest and specific negotiation details (€40-50M despite €80M clause). Confirms Sporting willingness to negotiate below release clause. Not in existing news."
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Feb 12, 2026",
+        "headline": "Midtjylland contract talks with Diao ongoing; no agreement yet reached",
+        "source": "Campo.dk",
+        "sourceUrl": "https://campo.dk/2026/02/12/afsloerer-min-agent-har-talt-med-fcm/",
+        "type": "transfer_link",
+        "league": "Danish Superliga",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "New article revealing specific contract extension negotiations between Midtjylland and Diao's agent (contract until 2029). Details disagreement on terms. Not previously listed in existing news."
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Jan 6, 2026",
+        "headline": "Faye completes rehabilitation in Germany; returns to Lorient training",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/01/06/fc-lorient-abdoulaye-faye-de-retour-a-lentrainement-apres-plus-de-deux-mois-dabsence/",
+        "type": "injury",
+        "league": "Ligue 1",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "Recovery milestone confirming completion of rehab program in Germany. While injury recovery was tracked, this specific source and completion detail is new and validates his current playing status."
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "Feb 18, 2026",
+        "headline": "Campbell impactful in 82nd min as Brugge hold Atletico Madrid 3-3 in UCL",
+        "source": "SA People",
+        "sourceUrl": "https://www.sapeople.com/sport/south-africans-abroad-campbells-club-brugge-hold-atleti/",
+        "type": "appearance",
+        "league": "Belgian Pro League",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "New appearance detail: Campbell came on in 82nd minute (not just 'off bench') in UCL draw vs Atletico Madrid and was 'influential' causing havoc in final third. Regional source with specific match context not in existing news items."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "squad_rotation",
+      "source": "Wiwsport (Jan 6, 2026) + Transfermarkt (Feb 23, 2026 showing 574 Ligue 1 minutes)"
+    }
+  ],
+  "noChange": [
+    "Rayann Capo Chichi"
+  ]
+}
