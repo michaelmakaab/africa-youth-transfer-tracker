@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 4, 2026",
-    "sweepNumber": 16,
+    "lastSweep": "Mar 5, 2026",
+    "sweepNumber": 17,
     "playerCount": 21
   },
   "players": [
@@ -205,6 +205,16 @@
           "tier": 2,
           "status": "Parallel Interest",
           "recent": true
+        },
+        {
+          "date": "Feb 25, 2026",
+          "club": "RS Berkane",
+          "detail": "RS Berkane (Morocco) very interested — could secure player this summer and sign when he turns 18. Hammarby also still in picture",
+          "source": "PanAfricaFootball",
+          "sourceUrl": "https://www.panafricafootball.com/post/burkina-faso-u-17-star-ashraf-tapsoba-targeted-by-rs-berkane/",
+          "tier": 2,
+          "status": "Interest",
+          "recent": true
         }
       ]
     },
@@ -345,23 +355,13 @@
       "confusionRisk": "Multiple Ndiaye players in Senegalese football",
       "rumors": [
         {
-          "date": "Feb 17, 2026",
+          "date": "Mar 4, 2026",
           "club": "Liverpool FC",
-          "detail": "Medical issue resolved. Back on grass training. No major concern, manageable",
+          "detail": "Close to U21s debut. Rob Page: 'He should feature before end of season.' Returned to training after 6-week shutdown for minor medical issue",
           "source": "This Is Anfield",
-          "sourceUrl": "https://www.thisisanfield.com/2026/02/mor-talla-ndiaye-injury-update-after-medical-issue/",
+          "sourceUrl": "https://www.thisisanfield.com/2026/03/jayden-danns-liverpool-training-return-injury-update-march-2026/",
           "tier": 2,
-          "status": "confirmed",
-          "recent": true
-        },
-        {
-          "date": "Feb 17, 2026",
-          "club": "Liverpool FC",
-          "detail": "Medical issue resolved. Back on grass. Rob Page confirms no major concern, manageable.",
-          "source": "This Is Anfield",
-          "sourceUrl": "https://www.thisisanfield.com/2026/02/mor-talla-ndiaye-injury-update-after-medical-issue/",
-          "tier": 2,
-          "status": "confirmed",
+          "status": "Integration",
           "recent": true
         },
         {
@@ -510,6 +510,16 @@
           "source": "AfricaSoccer, Pulse Sports",
           "tier": 1,
           "status": "SIGNED",
+          "recent": true
+        },
+        {
+          "date": "Feb 26, 2026",
+          "club": "Aarhus GF",
+          "detail": "Injury setback delayed U19 debut. Came off during match vs Vejgaard. Now back in training, being assessed for fitness",
+          "source": "Campo.dk",
+          "sourceUrl": "https://campo.dk/2026/02/26/bogere-ude-med-skade-her-er-seneste-nyt-om-kometen/",
+          "tier": 2,
+          "status": "Integration",
           "recent": true
         }
       ]

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 4, 2026",
-    "sweepNumber": 12,
+    "lastSweep": "Mar 5, 2026",
+    "sweepNumber": 13,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Mar 3, 2026",
+          "headline": "Arsenal approach Sporting directly — negotiating clause down from €80M toward €50-60M. Chelsea also serious. Bayern's Eberl visited Portugal personally",
+          "source": "FootballTransfers / Arsenal Station",
+          "sourceUrl": "https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/02/arsenal-transfer-news-ousmane-diomande-crystal-palace-sporting-cp",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Feb 26, 2026",
           "headline": "Diomande set to leave Sporting; Palace & Newcastle target €40-50M deal",
@@ -226,6 +236,16 @@
           "recent": true
         },
         {
+          "date": "Mar 1, 2026",
+          "headline": "Season form continues: 10 Superliga apps (1G 1A), 6 Europa League apps (2G, 3 clean sheets). FotMob 7.34 avg. Scouts from multiple clubs visiting regularly",
+          "source": "FotMob / FBref / Anfield Index",
+          "sourceUrl": "https://www.fotmob.com/players/1525187/ousmane-diao",
+          "type": "appearance",
+          "league": "Danish Superliga",
+          "tier": 2,
+          "recent": true
+        },
+        {
           "date": "Feb 23, 2026",
           "headline": "Liverpool genuine top target after Guehi departure; strong Europa League form noted",
           "source": "PL BOLD / Yahoo Sports",
@@ -369,16 +389,26 @@
       "currentClub": "Bayer Leverkusen",
       "league": "Ligue 1 (loan)",
       "leagueFlag": "🇫🇷",
-      "careerStatus": "squad_rotation",
+      "careerStatus": "regular_starter",
       "contract": "Until Jun 2030 (Leverkusen)",
       "releaseClause": null,
-      "marketValue": "€3M",
+      "marketValue": "€4.7M",
       "loanClub": "FC Lorient",
       "altSpellings": [
         "A. Faye"
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Mar 1, 2026",
+          "headline": "Fully reintegrated at Lorient: 7 Ligue 1 apps, 573 mins in 2025/26. Market value up to €4.7M",
+          "source": "Transfermarkt / FotMob",
+          "sourceUrl": "https://www.transfermarkt.us/abdoulaye-faye/profil/spieler/1182738",
+          "type": "appearance",
+          "league": "Ligue 1",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Jan 6, 2026",
           "headline": "Faye completes rehabilitation in Germany; returns to Lorient training",
@@ -505,6 +535,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Mar 1, 2026",
+          "headline": "Season totals: 3 goals, 1 assist across all comps. 7 Pro League apps, 3 UCL apps (25 mins). Pushing for more first-team minutes",
+          "source": "FBref / FotMob",
+          "sourceUrl": "https://fbref.com/en/players/79fc3546/Shandre-Campbell",
+          "type": "appearance",
+          "league": "Belgian Pro League",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Feb 18, 2026",
           "headline": "Campbell impactful in 82nd min as Brugge hold Atletico Madrid 3-3 in UCL",
