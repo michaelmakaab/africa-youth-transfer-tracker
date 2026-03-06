@@ -1,0 +1,78 @@
+{
+  "sweepDate": "Mar 6, 2026",
+  "sweepType": "full",
+  "sweepNumber": 18,
+  "baselineItems": 45,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "Feb 2, 2026",
+        "club": "Liverpool FC",
+        "detail": "Back on grass after medical shutdown. Imminent U21s debut expected.",
+        "source": "This Is Anfield",
+        "sourceUrl": "https://www.thisisanfield.com/2026/02/mor-talla-ndiaye-injury-update-after-medical-issue/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New update after latest rumor (Jan 26, 2026). Details recovery progress & imminent return to action. Passes date gate (Feb 2 > Jan 26)."
+    },
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "Feb 2, 2026",
+        "club": "Aarhus GF",
+        "detail": "Integration into U19 & Superliga pathway confirmed. Hat-trick in debut.",
+        "source": "KSDH.dk (AGF Official)",
+        "sourceUrl": "https://ksdh.dk/nyheder/james-bogere-praesenteret-i-aarhus/",
+        "tier": 1,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New detail beyond existing Feb 2 registration. Confirms U19/senior pathway integration & hat-trick performance. Passes date gate (Feb 2 = Feb 2 but new detail about integration pathway)."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Souleymane Faye (b.2003, winger) transferred to Sporting CP on Jan 21, 2026 for €6.5m",
+      "reason": "Birth year mismatch: Database lists b.2010 (Sahel F.C); transfer news is for b.2003 player. Likely different player. Verify identity before adding."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "detail": "Latest Fenerbahçe update (mid-Feb 2026): Deal in final stages. Diop scored 8 goals as of Mar 1, 2026. AJEL demanding min €200k.",
+      "reason": "Multiple Feb 15-16 rumors already in database capture imminent deal status. New info is recent goal tally (8 goals) & confirmation deal still in 'final stages' but no new club interest. Borderline—already covered by Feb 15-16 'imminent' designation."
+    }
+  ]
+}
