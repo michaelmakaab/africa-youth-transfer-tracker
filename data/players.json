@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 6, 2026",
-    "sweepNumber": 18,
+    "lastSweep": "Mar 9, 2026",
+    "sweepNumber": 19,
     "playerCount": 21
   },
   "players": [
@@ -278,6 +278,16 @@
       ],
       "confusionRisk": "Mamadou Traoré (b.1994, Dalian Yingbo)",
       "rumors": [
+        {
+          "date": "Feb 12, 2026",
+          "club": "Eintracht Frankfurt",
+          "detail": "Frankfurt U17 move imminent. Visa docs being processed. Deal ~3yr contract.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/mahamadou-traore-en-passe-de-sengager-avec-leintracht-francfort/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Feb 7, 2026",
           "club": "Randers FC",

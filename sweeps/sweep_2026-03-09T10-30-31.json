@@ -1,0 +1,60 @@
+{
+  "sweepDate": "Mar 9, 2026",
+  "sweepType": "full",
+  "sweepNumber": 19,
+  "baselineItems": 40,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Feb 12, 2026",
+        "club": "Eintracht Frankfurt",
+        "detail": "Frankfurt U17 move imminent. Visa docs being processed. Deal ~3yr contract.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/mahamadou-traore-en-passe-de-sengager-avec-leintracht-francfort/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "currentClub": "Eintracht Frankfurt (pending)",
+        "status": "active"
+      },
+      "reasoning": "Latest update (Feb 12) confirms visa processing & imminent U17 signing. Gate cleared: Feb 12 is after existing Feb 12 rumor but adds visa clarity. Identity verified: Mali MF b.2009 matches Players Dreams baseline."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Found Souleymane Faye (b.2003, Sporting CP) signed Jan 21, 2026 for ~€6.5m. Database lists Souleymane Faye (b.2010, Sahel F.C) with no rumours.",
+      "reason": "Birth year mismatch (2003 vs 2010) suggests two different players. Current player (b.2010, Sahel F.C) has no transfer activity. Recommend database clarification."
+    }
+  ]
+}
