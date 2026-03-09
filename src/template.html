@@ -24,7 +24,11 @@ body {
 .header-top { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 16px; }
 .brand-tag { font-size: 11px; color: #F59E0B; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 4px; }
 .brand-title { font-size: 28px; font-weight: 700; letter-spacing: -1px; color: #F8FAFC; line-height: 1.1; }
-.brand-sub { font-size: 13px; color: #475569; margin-top: 6px; }
+.brand-sub { font-size: 13px; color: #94A3B8; margin-top: 6px; }
+.freshness-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+.freshness-fresh { background: #22C55E; }
+.freshness-recent { background: #F59E0B; }
+.freshness-stale { background: #EF4444; }
 .stats { display: flex; gap: 24px; }
 .stat { text-align: right; }
 .stat-value { font-size: 26px; font-weight: 700; line-height: 1; }
@@ -354,9 +358,17 @@ const META = PLAYERS_DATA.meta;
 const EUROPE_PLAYERS = EUROPE_DATA.players;
 const EUROPE_META = EUROPE_DATA.meta;
 
-// Populate sweep info header
-document.getElementById("sweepInfo").textContent =
-  "Last updated: " + META.lastSweep + " (Sweep #" + META.sweepNumber + ") \u00b7 " + META.playerCount + " players tracked";
+// Populate sweep info header with freshness indicator
+(function() {
+  var sweepDate = new Date(META.lastSweep);
+  var now = new Date();
+  var daysDiff = Math.floor((now - sweepDate) / (1000 * 60 * 60 * 24));
+  var dotClass = daysDiff <= 1 ? "freshness-fresh" : daysDiff <= 3 ? "freshness-recent" : "freshness-stale";
+  var label = daysDiff === 0 ? "Today" : daysDiff === 1 ? "Yesterday" : daysDiff + " days ago";
+  document.getElementById("sweepInfo").innerHTML =
+    '<span class="freshness-dot ' + dotClass + '"></span>' +
+    label + " \u00b7 " + META.lastSweep + " (Sweep #" + META.sweepNumber + ") \u00b7 " + META.playerCount + " players tracked";
+})();
 
 // Populate country filter dynamically from data
 (function() {

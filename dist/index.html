@@ -24,7 +24,11 @@ body {
 .header-top { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 16px; }
 .brand-tag { font-size: 11px; color: #F59E0B; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 4px; }
 .brand-title { font-size: 28px; font-weight: 700; letter-spacing: -1px; color: #F8FAFC; line-height: 1.1; }
-.brand-sub { font-size: 13px; color: #475569; margin-top: 6px; }
+.brand-sub { font-size: 13px; color: #94A3B8; margin-top: 6px; }
+.freshness-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+.freshness-fresh { background: #22C55E; }
+.freshness-recent { background: #F59E0B; }
+.freshness-stale { background: #EF4444; }
 .stats { display: flex; gap: 24px; }
 .stat { text-align: right; }
 .stat-value { font-size: 26px; font-weight: 700; line-height: 1; }
@@ -780,28 +784,8 @@ const PLAYERS_DATA = {
         {
           "date": "Nov 21, 2025",
           "club": "Galatasaray",
-          "detail": "Galatasaray scouts actively tracking Mendy's development post-Man Utd trial.",
-          "source": "Foot Africa / AfricaFoot",
-          "sourceUrl": "https://foot-africa.com/en/news/tienne-mendy-is-on-galatasarays-radar-970961/",
-          "tier": 2,
-          "status": "rumour",
-          "recent": true
-        },
-        {
-          "date": "Nov 21, 2025",
-          "club": "Galatasaray",
-          "detail": "Galatasaray scouts tracking Mendy post-Man Utd trial. Close watch maintained.",
-          "source": "OneFootball/AfricaFoot",
-          "sourceUrl": "https://onefootball.com/en/news/etienne-mendy-is-on-galatasarays-radar-41983079",
-          "tier": 2,
-          "status": "rumour",
-          "recent": true
-        },
-        {
-          "date": "Feb 23, 2026",
-          "club": "Galatasaray",
-          "detail": "Galatasaray actively pursuing Mendy post-Man Utd trial. Scouts tracking",
-          "source": "Foot Africa",
+          "detail": "Galatasaray scouts actively tracking Mendy's development post-Man Utd trial. Close watch maintained",
+          "source": "Foot Africa / OneFootball / AfricaFoot",
           "sourceUrl": "https://foot-africa.com/en/news/tienne-mendy-is-on-galatasarays-radar-970961/",
           "tier": 2,
           "status": "rumour",
@@ -953,7 +937,7 @@ const PLAYERS_DATA = {
       "position": "FW",
       "birthYear": 2008,
       "currentClub": "Petro Luanda",
-      "status": "no_rumours",
+      "status": "active",
       "sweepTier": "C",
       "altSpellings": [],
       "confusionRisk": null,
@@ -1023,69 +1007,32 @@ const PLAYERS_DATA = {
         {
           "date": "Feb 15, 2026",
           "club": "Fenerbahçe",
-          "detail": "Deal finalization imminent. AJEL demanding €200k minimum. Expected weeks.",
-          "source": "AfricaFoot (exclusive)",
+          "detail": "Deal finalization imminent. Supersedes ES Sétif. AJEL demanding €200k minimum",
+          "source": "AfricaFoot / Daily Sports / FotoSpor",
           "sourceUrl": "https://africafoot.com/deux-cracks-senegalais-attendus-a-fenerbahce/",
           "tier": 2,
           "status": "advanced",
           "recent": true
         },
         {
-          "date": "Feb 12, 2026",
+          "date": "Feb 13, 2026",
           "club": "Fenerbahçe",
-          "detail": "Fenerbahçe deal in very advanced stages. AJEL seeking min €200k. Imminent.",
-          "source": "Daily Sports / AfricaFoot",
-          "sourceUrl": "https://dailysports.net/news/two-young-senegalese-players-set-to-sign-with-fenerbahce/",
-          "tier": 2,
+          "detail": "Turkish media corroborate deal. 12 apps, 4G 1A in Senegal L1. Near-finalised",
+          "source": "Sabah, FotoSpor (citing AfricaFoot)",
+          "sourceUrl": null,
+          "tier": 3,
           "status": "advanced",
           "recent": true
         },
         {
           "date": "Feb 11, 2026",
           "club": "Fenerbahçe",
-          "detail": "Fenerbahçe finalizing deal. Imminent signature. AJEL demanding min €200k fee.",
+          "detail": "Fenerbahçe enter race — advanced talks, superseding ES Sétif. AJEL want min €200k",
           "source": "AfricaFoot (exclusive)",
           "sourceUrl": "https://africafoot.com/deux-cracks-senegalais-attendus-a-fenerbahce/",
           "tier": 2,
           "status": "advanced",
           "recent": true
-        },
-        {
-          "date": "Feb 16, 2026",
-          "club": "Fenerbahçe",
-          "detail": "Deal in very advanced stages. AJEL demanding minimum €200k. Expected imminent signature.",
-          "source": "Daily Sports / AfricaFoot",
-          "sourceUrl": "https://dailysports.net/news/two-young-senegalese-players-set-to-sign-with-fenerbahce/",
-          "tier": 2,
-          "status": "advanced",
-          "recent": true
-        },
-        {
-          "date": "Feb 15, 2026",
-          "club": "Fenerbahçe",
-          "detail": "Finalization imminent. Supersedes ES Sétif. AJEL seeking min €200k fee. Expected weeks.",
-          "source": "AfricaFoot, Daily Sports, FotoSpor",
-          "tier": 2,
-          "status": "advanced",
-          "recent": true
-        },
-        {
-          "date": "Feb 14, 2026",
-          "club": "Fenerbahçe",
-          "detail": "Deal now in 'final stages'. AJEL still demanding €200k minimum fee",
-          "source": "Daily Sports",
-          "tier": 2,
-          "status": "advanced",
-          "recent": true
-        },
-        {
-          "date": "Dec 18, 2025",
-          "club": "ES Sétif",
-          "detail": "ES Sétif (Algeria) closely tracking. Top scorer in Senegalese Ligue 1",
-          "source": "AfricaFoot (exclusive)",
-          "tier": 2,
-          "status": "Scouting",
-          "recent": false
         },
         {
           "date": "Dec 23, 2025",
@@ -1093,26 +1040,17 @@ const PLAYERS_DATA = {
           "detail": "Sétif submit €70k offer. AJEL demanding €200k. Negotiations ongoing",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "Negotiations",
+          "status": "interest",
           "recent": false
         },
         {
-          "date": "Feb 12, 2026",
-          "club": "Fenerbahçe",
-          "detail": "Fenerbahçe in advanced talks — supersedes Sétif. AJEL still want min €200k",
+          "date": "Dec 18, 2025",
+          "club": "ES Sétif",
+          "detail": "ES Sétif (Algeria) closely tracking. Top scorer in Senegalese Ligue 1",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "Advanced Negotiations",
-          "recent": true
-        },
-        {
-          "date": "Feb 13, 2026",
-          "club": "Fenerbahçe",
-          "detail": "Turkish media corroborate. 12 apps, 4G 1A in Senegal L1. Near-finalised",
-          "source": "Sabah, FotoSpor (citing AfricaFoot)",
-          "tier": 3,
-          "status": "Corroborated",
-          "recent": true
+          "status": "interest",
+          "recent": false
         }
       ]
     }
@@ -2001,9 +1939,17 @@ const META = PLAYERS_DATA.meta;
 const EUROPE_PLAYERS = EUROPE_DATA.players;
 const EUROPE_META = EUROPE_DATA.meta;
 
-// Populate sweep info header
-document.getElementById("sweepInfo").textContent =
-  "Last updated: " + META.lastSweep + " (Sweep #" + META.sweepNumber + ") \u00b7 " + META.playerCount + " players tracked";
+// Populate sweep info header with freshness indicator
+(function() {
+  var sweepDate = new Date(META.lastSweep);
+  var now = new Date();
+  var daysDiff = Math.floor((now - sweepDate) / (1000 * 60 * 60 * 24));
+  var dotClass = daysDiff <= 1 ? "freshness-fresh" : daysDiff <= 3 ? "freshness-recent" : "freshness-stale";
+  var label = daysDiff === 0 ? "Today" : daysDiff === 1 ? "Yesterday" : daysDiff + " days ago";
+  document.getElementById("sweepInfo").innerHTML =
+    '<span class="freshness-dot ' + dotClass + '"></span>' +
+    label + " \u00b7 " + META.lastSweep + " (Sweep #" + META.sweepNumber + ") \u00b7 " + META.playerCount + " players tracked";
+})();
 
 // Populate country filter dynamically from data
 (function() {
