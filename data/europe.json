@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 5, 2026",
-    "sweepNumber": 13,
+    "lastSweep": "Mar 9, 2026",
+    "sweepNumber": 14,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,26 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Feb 26, 2026",
+          "headline": "Sporting willing to listen to €40-50M offers for Diomande this summer",
+          "source": "The Hard Tackle",
+          "sourceUrl": "https://thehardtackle.com/transfer-news/2026/02/26/crystal-palace-newcastle-united-told-to-pay-e40-50-million-to-sign-ousmane-diomande/",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "Feb 24, 2026",
+          "headline": "Crystal Palace withdraw from Diomande pursuit; focus shifts to other targets",
+          "source": "Caught Offside",
+          "sourceUrl": "https://www.caughtoffside.com/2026/02/23/crystal-palace-ousmane-diomande-transfer-sporting/",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Mar 3, 2026",
           "headline": "Arsenal approach Sporting directly — negotiating clause down from €80M toward €50-60M. Chelsea also serious. Bayern's Eberl visited Portugal personally",
@@ -216,6 +236,16 @@
       "confusionRisk": null,
       "news": [
         {
+          "date": "Jan 30, 2026",
+          "headline": "Diao opens scoring in Europa League fixture for Midtjylland",
+          "source": "FotMob",
+          "sourceUrl": "https://www.fotmob.com/players/1525187/ousmane-diao",
+          "type": "goal",
+          "league": "Danish Superliga",
+          "tier": 2,
+          "recent": true
+        },
+        {
           "date": "Feb 12, 2026",
           "headline": "Midtjylland contract talks with Diao ongoing; no agreement yet reached",
           "source": "Campo.dk",
@@ -399,6 +429,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Jan 6, 2026",
+          "headline": "Faye returns to collective training at Lorient after foot injury rehabilitation",
+          "source": "Wiwsport",
+          "sourceUrl": "https://wiwsport.com/2026/01/06/fc-lorient-abdoulaye-faye-de-retour-a-lentrainement-apres-plus-de-deux-mois-dabsence/",
+          "type": "injury",
+          "league": "Ligue 1",
+          "tier": 3,
+          "recent": true
+        },
         {
           "date": "Mar 1, 2026",
           "headline": "Fully reintegrated at Lorient: 7 Ligue 1 apps, 573 mins in 2025/26. Market value up to €4.7M",

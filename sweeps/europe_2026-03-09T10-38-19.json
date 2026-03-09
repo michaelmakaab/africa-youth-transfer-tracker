@@ -1,0 +1,88 @@
+{
+  "sweepDate": "Mar 9, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 14,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Feb 24, 2026",
+        "headline": "Crystal Palace withdraw from Diomande pursuit; focus shifts to other targets",
+        "source": "Caught Offside",
+        "sourceUrl": "https://www.caughtoffside.com/2026/02/23/crystal-palace-ousmane-diomande-transfer-sporting/",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Palace withdrawal is new detail not in existing Feb 24 entry; provides updated transfer landscape context distinct from previous reporting"
+    },
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Feb 26, 2026",
+        "headline": "Sporting willing to listen to €40-50M offers for Diomande this summer",
+        "source": "The Hard Tackle",
+        "sourceUrl": "https://thehardtackle.com/transfer-news/2026/02/26/crystal-palace-newcastle-united-told-to-pay-e40-50-million-to-sign-ousmane-diomande/",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Confirms gentleman's agreement detail; Newcastle's involvement is new reporting not previously listed"
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Jan 30, 2026",
+        "headline": "Diao opens scoring in Europa League fixture for Midtjylland",
+        "source": "FotMob",
+        "sourceUrl": "https://www.fotmob.com/players/1525187/ousmane-diao",
+        "type": "goal",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New goal contribution in Europa League not previously recorded in existing news items; demonstrates continued excellence in continental competition"
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Jan 6, 2026",
+        "headline": "Faye returns to collective training at Lorient after foot injury rehabilitation",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/01/06/fc-lorient-abdoulaye-faye-de-retour-a-lentrainement-apres-plus-de-deux-mois-dabsence/",
+        "type": "injury",
+        "league": "Ligue 1",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "New detail on rehabilitation completion and return to collective training; distinguishes from earlier injury updates and confirms recovery trajectory"
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "FotMob / Sporting CP Official; Jan 28, 2026 Champions League goal confirms full recovery and match participation"
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Wiwsport / FotMob; Jan 6 return to training, Jan 10 Coupe de France appearance, Feb 7 back in Ligue 1 squad confirm full recovery"
+    }
+  ],
+  "noChange": [
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
