@@ -122,6 +122,7 @@ body {
 .player-meta { font-size: 11px; color: #64748B; margin-top: 3px; }
 .player-right { display: flex; align-items: center; gap: 12px; }
 .rumor-count { font-size: 11px; color: #475569; }
+.last-activity { font-size: 10px; color: #334155; white-space: nowrap; }
 .chevron { color: #475569; font-size: 18px; transition: transform 0.2s; line-height: 1; display: inline-block; }
 .chevron.open { transform: rotate(180deg); }
 .new-badge {
@@ -238,6 +239,14 @@ body {
 .europe-contract-item { font-size: 11px; }
 .europe-contract-label { color: #475569; font-weight: 700; letter-spacing: 0.5px; }
 .europe-contract-val { color: #CBD5E1; margin-left: 6px; }
+.europe-news-filters { display: flex; gap: 4px; flex-wrap: wrap; padding: 0 0 12px; }
+.europe-news-filter {
+  padding: 5px 10px; border-radius: 6px; border: 1px solid #1E293B;
+  background: transparent; color: #475569; font-size: 10px; font-weight: 700;
+  font-family: 'Space Mono', monospace; cursor: pointer; transition: all 0.15s; white-space: nowrap;
+}
+.europe-news-filter:hover { border-color: #334155; color: #94A3B8; }
+.europe-news-filter.active { border-color: #F59E0B66; background: #F59E0B15; color: #F59E0B; }
 .europe-sub-tabs { display: flex; gap: 0; margin-bottom: 16px; border-bottom: 1px solid #1E293B; }
 .europe-sub-tab {
   padding: 8px 16px; background: transparent; border: none; border-bottom: 2px solid transparent;
@@ -375,7 +384,7 @@ const PLAYERS_DATA = {
           "detail": "QPR launched concrete offensive after multiple scout observations — convinced by defensive maturity & 1.93m frame",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "Active Interest",
+          "status": "rumour",
           "recent": true
         },
         {
@@ -384,7 +393,7 @@ const PLAYERS_DATA = {
           "detail": "Lorient and Bayer Leverkusen also closely following alongside QPR",
           "source": "Africa Top Sports",
           "tier": 3,
-          "status": "Monitoring",
+          "status": "rumour",
           "recent": true
         }
       ]
@@ -413,7 +422,7 @@ const PLAYERS_DATA = {
           "detail": "Interest from Burnley and Ipswich at youth level",
           "source": "AfricaSoccer.com",
           "tier": 3,
-          "status": "Early Interest",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -422,7 +431,7 @@ const PLAYERS_DATA = {
           "detail": "La Gazzetta reports Milan close to signing for Milan Futuro. Barca & Leipzig also tracked",
           "source": "La Gazzetta dello Sport",
           "tier": 2,
-          "status": "Advanced Negotiations",
+          "status": "advanced",
           "recent": true
         },
         {
@@ -431,7 +440,7 @@ const PLAYERS_DATA = {
           "detail": "Fabrizio Romano confirms deal sealed. Medical & signatures incoming",
           "source": "Fabrizio Romano, Matteo Moretto",
           "tier": 1,
-          "status": "CONFIRMED",
+          "status": "confirmed",
           "recent": true
         },
         {
@@ -440,7 +449,7 @@ const PLAYERS_DATA = {
           "detail": "Contract signed — Milan Futuro. Fee: €750k + bonuses up to €2m. 4.5yr deal until 2030",
           "source": "AC Milan Official, MilanReports, AfricaFoot",
           "tier": 1,
-          "status": "SIGNED",
+          "status": "official",
           "recent": true
         }
       ]
@@ -480,7 +489,7 @@ const PLAYERS_DATA = {
           "detail": "Nordsjælland close to signing. Explosive, direct — attacks with both feet. ~190cm. Brother of Gervinho",
           "source": "AfricaFoot",
           "tier": 2,
-          "status": "Advanced Negotiations",
+          "status": "advanced",
           "recent": true
         }
       ]
@@ -507,7 +516,7 @@ const PLAYERS_DATA = {
           "detail": "Hammarby, Leverkusen, Lille & RS Berkane all tracking",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "Multiple Interest",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -516,7 +525,7 @@ const PLAYERS_DATA = {
           "detail": "Hammarby delegation visited Ouagadougou. Pre-contract sealed + partnership with Réal du Faso",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "Pre-contract",
+          "status": "advanced",
           "recent": false
         },
         {
@@ -525,7 +534,7 @@ const PLAYERS_DATA = {
           "detail": "Man Utd closely monitoring at U17 World Cup",
           "source": "AfricaFoot, Peoples Person",
           "tier": 2,
-          "status": "Scouting",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -534,7 +543,7 @@ const PLAYERS_DATA = {
           "detail": "Chelsea stepped up campaign. Man Utd leading but Chelsea surging. Likened to Drogba",
           "source": "TEAMtalk",
           "tier": 2,
-          "status": "Long-term (2027)",
+          "status": "rumour",
           "recent": true
         },
         {
@@ -543,7 +552,7 @@ const PLAYERS_DATA = {
           "detail": "Arsenal, Liverpool, Spurs, Barca, Atletico, PSG, Marseille, Leipzig, BVB, Juve all scouting",
           "source": "TEAMtalk",
           "tier": 2,
-          "status": "Scouting",
+          "status": "rumour",
           "recent": true
         },
         {
@@ -552,7 +561,7 @@ const PLAYERS_DATA = {
           "detail": "Chelsea also discussing teammate Mohamed Zongo (AM, b.2009)",
           "source": "TEAMtalk",
           "tier": 2,
-          "status": "Parallel Interest",
+          "status": "rumour",
           "recent": true
         },
         {
@@ -562,7 +571,7 @@ const PLAYERS_DATA = {
           "source": "PanAfricaFootball",
           "sourceUrl": "https://www.panafricafootball.com/post/burkina-faso-u-17-star-ashraf-tapsoba-targeted-by-rs-berkane/",
           "tier": 2,
-          "status": "Interest",
+          "status": "rumour",
           "recent": true
         }
       ]
@@ -663,7 +672,7 @@ const PLAYERS_DATA = {
           "detail": "Randers FC (Denmark) invited Traore for trial. Villarreal & Monaco also interested",
           "source": "AfricaFoot via Foot Africa",
           "tier": 2,
-          "status": "Trial Invitation",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -672,7 +681,7 @@ const PLAYERS_DATA = {
           "detail": "Frankfurt have almost finalised deal — ~3yr contract. Traore heading to Bundesliga",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "Advanced Negotiations",
+          "status": "advanced",
           "recent": true
         },
         {
@@ -681,7 +690,7 @@ const PLAYERS_DATA = {
           "detail": "Visa delays — Traore & camp actively seeking German visa. Will join Frankfurt U17 initially",
           "source": "AfricaFoot (update)",
           "tier": 2,
-          "status": "Pending Travel",
+          "status": "advanced",
           "recent": true
         }
       ]
@@ -720,7 +729,7 @@ const PLAYERS_DATA = {
           "source": "This Is Anfield",
           "sourceUrl": "https://www.thisisanfield.com/2026/03/jayden-danns-liverpool-training-return-injury-update-march-2026/",
           "tier": 2,
-          "status": "Integration",
+          "status": "confirmed",
           "recent": true
         },
         {
@@ -729,7 +738,7 @@ const PLAYERS_DATA = {
           "detail": "Senegalese journalist reports Liverpool 'expected' to sign. Multiple PL clubs pursuing",
           "source": "This Is Anfield, Saikou Seydi",
           "tier": 2,
-          "status": "Advanced Negotiations",
+          "status": "advanced",
           "recent": true
         },
         {
@@ -738,7 +747,7 @@ const PLAYERS_DATA = {
           "detail": "Liverpool complete signing from Amitié FC. Fee ~£1m. 4.5yr contract",
           "source": "LiverpoolFC.com, The Athletic",
           "tier": 1,
-          "status": "SIGNED",
+          "status": "official",
           "recent": true
         },
         {
@@ -747,7 +756,7 @@ const PLAYERS_DATA = {
           "detail": "Minor medical issue found — not expected on sidelines long. Missed U21s vs Leeds",
           "source": "Liverpool.com",
           "tier": 2,
-          "status": "Integration",
+          "status": "confirmed",
           "recent": true
         }
       ]
@@ -797,7 +806,7 @@ const PLAYERS_DATA = {
           "detail": "Mendy on trial at Carrington. Eligible summer 2026. 'Extraordinarily effective dribbler'",
           "source": "13football, Scouts Attending",
           "tier": 2,
-          "status": "Trial",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -806,7 +815,7 @@ const PLAYERS_DATA = {
           "detail": "AfricaFoot rates as top 3 Senegal U17 prospect. Needs physical development",
           "source": "United In Focus",
           "tier": 2,
-          "status": "Assessment",
+          "status": "rumour",
           "recent": false
         }
       ]
@@ -840,7 +849,7 @@ const PLAYERS_DATA = {
           "detail": "Man Utd, Brentford, Brighton, Genk & Aarhus monitoring",
           "source": "Sportsboom",
           "tier": 3,
-          "status": "Multiple Interest",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -849,7 +858,7 @@ const PLAYERS_DATA = {
           "detail": "Bogere & teammate sign professional contracts with Danish Superliga leaders AGF. Free transfer",
           "source": "Kawowo, PanAfricaFootball",
           "tier": 1,
-          "status": "CONFIRMED",
+          "status": "confirmed",
           "recent": true
         },
         {
@@ -858,7 +867,7 @@ const PLAYERS_DATA = {
           "detail": "Transfer officially registered. Contract until Jun 30, 2028. U19 Boys League",
           "source": "AfricaSoccer, Pulse Sports",
           "tier": 1,
-          "status": "SIGNED",
+          "status": "official",
           "recent": true
         },
         {
@@ -868,7 +877,7 @@ const PLAYERS_DATA = {
           "source": "Campo.dk",
           "sourceUrl": "https://campo.dk/2026/02/26/bogere-ude-med-skade-her-er-seneste-nyt-om-kometen/",
           "tier": 2,
-          "status": "Integration",
+          "status": "confirmed",
           "recent": true
         }
       ]
@@ -1040,7 +1049,7 @@ const PLAYERS_DATA = {
           "detail": "Sétif submit €70k offer. AJEL demanding €200k. Negotiations ongoing",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "interest",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -1049,7 +1058,7 @@ const PLAYERS_DATA = {
           "detail": "ES Sétif (Algeria) closely tracking. Top scorer in Senegalese Ligue 1",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "interest",
+          "status": "rumour",
           "recent": false
         }
       ]
@@ -1972,6 +1981,7 @@ let archiveOpen = {};
 let intelOpen = {};
 let currentView = "players";
 let europeSubView = "players";
+let europeNewsFilter = "all";
 let currentSort = "status";
 let sortAscending = true;
 
@@ -2031,6 +2041,22 @@ function parseDate(str) {
   const cleaned = str.replace("Mid-", "15 ");
   const d = new Date(cleaned);
   return isNaN(d.getTime()) ? new Date(0) : d;
+}
+
+function latestRumorDate(player) {
+  if (!player.rumors || player.rumors.length === 0) return null;
+  var latest = player.rumors.reduce(function(best, r) {
+    var d = parseDate(r.date);
+    return d > best ? d : best;
+  }, new Date(0));
+  if (latest.getTime() === 0) return null;
+  var now = new Date();
+  var days = Math.floor((now - latest) / (1000 * 60 * 60 * 24));
+  if (days === 0) return "Today";
+  if (days === 1) return "Yesterday";
+  if (days < 30) return days + "d ago";
+  var months = Math.floor(days / 30);
+  return months + "mo ago";
 }
 
 function escapeHTML(str) {
@@ -2210,6 +2236,7 @@ function playerCardHTML(p) {
       '</div></div>' +
       (p.confusionRisk && isExpanded ? '<div class="confusion-risk">\u26a0 Not to be confused with: ' + escapeHTML(p.confusionRisk) + '</div>' : '') +
       '<div class="player-right">' +
+        (function() { var ago = latestRumorDate(p); return ago ? '<span class="mono last-activity">' + ago + '</span>' : ''; })() +
         (rumorCount > 0 ? '<span class="mono rumor-count">' + rumorCount + ' rumour' + (rumorCount !== 1 ? 's' : '') + '</span>' : '') +
         statusPill(p.status) +
         '<span class="chevron ' + (isExpanded ? 'open' : '') + '" aria-hidden="true">\u25be</span>' +
@@ -2342,6 +2369,11 @@ function toggleEuropePlayer(id) {
 
 function switchEuropeView(sub) {
   europeSubView = sub;
+  europeNewsFilter = "all";
+  renderEurope();
+}
+function setEuropeNewsFilter(type) {
+  europeNewsFilter = type;
   renderEurope();
 }
 
@@ -2376,8 +2408,20 @@ function renderEuropeFeedHTML() {
   if (allItems.length === 0) {
     return '<div class="no-results">No Europe news items yet.</div>';
   }
-  let html = '<div class="mono list-info" style="margin-bottom:12px">' + allItems.length + ' news items \u00b7 newest first</div>';
-  allItems.forEach(item => {
+  // Collect unique news types for filter pills
+  var types = {};
+  allItems.forEach(function(item) { types[item.newsItem.type] = (types[item.newsItem.type] || 0) + 1; });
+  var html = '<div class="europe-news-filters">';
+  html += '<button class="europe-news-filter mono' + (europeNewsFilter === "all" ? ' active' : '') + '" onclick="setEuropeNewsFilter(\'all\')">ALL (' + allItems.length + ')</button>';
+  Object.keys(types).sort().forEach(function(t) {
+    var label = t.toUpperCase().replace("_", " ");
+    html += '<button class="europe-news-filter mono' + (europeNewsFilter === t ? ' active' : '') + '" onclick="setEuropeNewsFilter(\'' + t + '\')">' + label + ' (' + types[t] + ')</button>';
+  });
+  html += '</div>';
+  // Apply filter
+  var filtered = europeNewsFilter === "all" ? allItems : allItems.filter(function(item) { return item.newsItem.type === europeNewsFilter; });
+  html += '<div class="mono list-info" style="margin-bottom:12px">' + filtered.length + ' news items \u00b7 newest first</div>';
+  filtered.forEach(item => {
     const n = item.newsItem, p = item.player;
     html += '<div class="feed-item"><div class="feed-meta">' +
       '<span class="mono feed-date">' + escapeHTML(n.date) + '</span>' +
@@ -2421,11 +2465,13 @@ function renderCurrentView() {
   else if (currentView === "europe") renderEurope();
   else render();
 }
+// Debounce helper — delays render until user stops typing
+let _searchTimer = null;
 document.getElementById("searchInput").addEventListener("input", function(e) {
   searchQuery = e.target.value;
   document.getElementById("searchClear").classList.toggle("hidden", !e.target.value);
-  renderCurrentView();
-  saveFilterState();
+  clearTimeout(_searchTimer);
+  _searchTimer = setTimeout(function() { renderCurrentView(); saveFilterState(); }, 200);
 });
 document.getElementById("searchClear").addEventListener("click", function() {
   document.getElementById("searchInput").value = "";

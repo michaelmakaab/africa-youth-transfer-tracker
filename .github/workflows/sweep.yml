@@ -150,8 +150,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "Auto-merging sweep PR..."
-          sleep 5
-          gh pr merge --squash --delete-branch || true
+          sleep 10
+          gh pr merge --squash --delete-branch
 
       - name: Upload sweep report
         if: always()

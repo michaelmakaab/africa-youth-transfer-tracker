@@ -26,7 +26,7 @@
           "detail": "QPR launched concrete offensive after multiple scout observations — convinced by defensive maturity & 1.93m frame",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "Active Interest",
+          "status": "rumour",
           "recent": true
         },
         {
@@ -35,7 +35,7 @@
           "detail": "Lorient and Bayer Leverkusen also closely following alongside QPR",
           "source": "Africa Top Sports",
           "tier": 3,
-          "status": "Monitoring",
+          "status": "rumour",
           "recent": true
         }
       ]
@@ -64,7 +64,7 @@
           "detail": "Interest from Burnley and Ipswich at youth level",
           "source": "AfricaSoccer.com",
           "tier": 3,
-          "status": "Early Interest",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -73,7 +73,7 @@
           "detail": "La Gazzetta reports Milan close to signing for Milan Futuro. Barca & Leipzig also tracked",
           "source": "La Gazzetta dello Sport",
           "tier": 2,
-          "status": "Advanced Negotiations",
+          "status": "advanced",
           "recent": true
         },
         {
@@ -82,7 +82,7 @@
           "detail": "Fabrizio Romano confirms deal sealed. Medical & signatures incoming",
           "source": "Fabrizio Romano, Matteo Moretto",
           "tier": 1,
-          "status": "CONFIRMED",
+          "status": "confirmed",
           "recent": true
         },
         {
@@ -91,7 +91,7 @@
           "detail": "Contract signed — Milan Futuro. Fee: €750k + bonuses up to €2m. 4.5yr deal until 2030",
           "source": "AC Milan Official, MilanReports, AfricaFoot",
           "tier": 1,
-          "status": "SIGNED",
+          "status": "official",
           "recent": true
         }
       ]
@@ -131,7 +131,7 @@
           "detail": "Nordsjælland close to signing. Explosive, direct — attacks with both feet. ~190cm. Brother of Gervinho",
           "source": "AfricaFoot",
           "tier": 2,
-          "status": "Advanced Negotiations",
+          "status": "advanced",
           "recent": true
         }
       ]
@@ -158,7 +158,7 @@
           "detail": "Hammarby, Leverkusen, Lille & RS Berkane all tracking",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "Multiple Interest",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -167,7 +167,7 @@
           "detail": "Hammarby delegation visited Ouagadougou. Pre-contract sealed + partnership with Réal du Faso",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "Pre-contract",
+          "status": "advanced",
           "recent": false
         },
         {
@@ -176,7 +176,7 @@
           "detail": "Man Utd closely monitoring at U17 World Cup",
           "source": "AfricaFoot, Peoples Person",
           "tier": 2,
-          "status": "Scouting",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -185,7 +185,7 @@
           "detail": "Chelsea stepped up campaign. Man Utd leading but Chelsea surging. Likened to Drogba",
           "source": "TEAMtalk",
           "tier": 2,
-          "status": "Long-term (2027)",
+          "status": "rumour",
           "recent": true
         },
         {
@@ -194,7 +194,7 @@
           "detail": "Arsenal, Liverpool, Spurs, Barca, Atletico, PSG, Marseille, Leipzig, BVB, Juve all scouting",
           "source": "TEAMtalk",
           "tier": 2,
-          "status": "Scouting",
+          "status": "rumour",
           "recent": true
         },
         {
@@ -203,7 +203,7 @@
           "detail": "Chelsea also discussing teammate Mohamed Zongo (AM, b.2009)",
           "source": "TEAMtalk",
           "tier": 2,
-          "status": "Parallel Interest",
+          "status": "rumour",
           "recent": true
         },
         {
@@ -213,7 +213,7 @@
           "source": "PanAfricaFootball",
           "sourceUrl": "https://www.panafricafootball.com/post/burkina-faso-u-17-star-ashraf-tapsoba-targeted-by-rs-berkane/",
           "tier": 2,
-          "status": "Interest",
+          "status": "rumour",
           "recent": true
         }
       ]
@@ -314,7 +314,7 @@
           "detail": "Randers FC (Denmark) invited Traore for trial. Villarreal & Monaco also interested",
           "source": "AfricaFoot via Foot Africa",
           "tier": 2,
-          "status": "Trial Invitation",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -323,7 +323,7 @@
           "detail": "Frankfurt have almost finalised deal — ~3yr contract. Traore heading to Bundesliga",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "Advanced Negotiations",
+          "status": "advanced",
           "recent": true
         },
         {
@@ -332,7 +332,7 @@
           "detail": "Visa delays — Traore & camp actively seeking German visa. Will join Frankfurt U17 initially",
           "source": "AfricaFoot (update)",
           "tier": 2,
-          "status": "Pending Travel",
+          "status": "advanced",
           "recent": true
         }
       ]
@@ -371,7 +371,7 @@
           "source": "This Is Anfield",
           "sourceUrl": "https://www.thisisanfield.com/2026/03/jayden-danns-liverpool-training-return-injury-update-march-2026/",
           "tier": 2,
-          "status": "Integration",
+          "status": "confirmed",
           "recent": true
         },
         {
@@ -380,7 +380,7 @@
           "detail": "Senegalese journalist reports Liverpool 'expected' to sign. Multiple PL clubs pursuing",
           "source": "This Is Anfield, Saikou Seydi",
           "tier": 2,
-          "status": "Advanced Negotiations",
+          "status": "advanced",
           "recent": true
         },
         {
@@ -389,7 +389,7 @@
           "detail": "Liverpool complete signing from Amitié FC. Fee ~£1m. 4.5yr contract",
           "source": "LiverpoolFC.com, The Athletic",
           "tier": 1,
-          "status": "SIGNED",
+          "status": "official",
           "recent": true
         },
         {
@@ -398,7 +398,7 @@
           "detail": "Minor medical issue found — not expected on sidelines long. Missed U21s vs Leeds",
           "source": "Liverpool.com",
           "tier": 2,
-          "status": "Integration",
+          "status": "confirmed",
           "recent": true
         }
       ]
@@ -448,7 +448,7 @@
           "detail": "Mendy on trial at Carrington. Eligible summer 2026. 'Extraordinarily effective dribbler'",
           "source": "13football, Scouts Attending",
           "tier": 2,
-          "status": "Trial",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -457,7 +457,7 @@
           "detail": "AfricaFoot rates as top 3 Senegal U17 prospect. Needs physical development",
           "source": "United In Focus",
           "tier": 2,
-          "status": "Assessment",
+          "status": "rumour",
           "recent": false
         }
       ]
@@ -491,7 +491,7 @@
           "detail": "Man Utd, Brentford, Brighton, Genk & Aarhus monitoring",
           "source": "Sportsboom",
           "tier": 3,
-          "status": "Multiple Interest",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -500,7 +500,7 @@
           "detail": "Bogere & teammate sign professional contracts with Danish Superliga leaders AGF. Free transfer",
           "source": "Kawowo, PanAfricaFootball",
           "tier": 1,
-          "status": "CONFIRMED",
+          "status": "confirmed",
           "recent": true
         },
         {
@@ -509,7 +509,7 @@
           "detail": "Transfer officially registered. Contract until Jun 30, 2028. U19 Boys League",
           "source": "AfricaSoccer, Pulse Sports",
           "tier": 1,
-          "status": "SIGNED",
+          "status": "official",
           "recent": true
         },
         {
@@ -519,7 +519,7 @@
           "source": "Campo.dk",
           "sourceUrl": "https://campo.dk/2026/02/26/bogere-ude-med-skade-her-er-seneste-nyt-om-kometen/",
           "tier": 2,
-          "status": "Integration",
+          "status": "confirmed",
           "recent": true
         }
       ]
@@ -691,7 +691,7 @@
           "detail": "Sétif submit €70k offer. AJEL demanding €200k. Negotiations ongoing",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "interest",
+          "status": "rumour",
           "recent": false
         },
         {
@@ -700,7 +700,7 @@
           "detail": "ES Sétif (Algeria) closely tracking. Top scorer in Senegalese Ligue 1",
           "source": "AfricaFoot (exclusive)",
           "tier": 2,
-          "status": "interest",
+          "status": "rumour",
           "recent": false
         }
       ]

@@ -93,8 +93,11 @@ export function validateRumour(rumour) {
     errors.push(`Invalid tier: ${rumour.tier} — must be 1-4`);
   }
 
+  const VALID_RUMOUR_STATUSES = ["rumour", "advanced", "confirmed", "official"];
   if (!rumour.status || typeof rumour.status !== "string") {
     errors.push("Missing status");
+  } else if (!VALID_RUMOUR_STATUSES.includes(rumour.status)) {
+    errors.push(`Invalid rumour status "${rumour.status}" — must be one of: ${VALID_RUMOUR_STATUSES.join(", ")}`);
   }
 
   if (typeof rumour.recent !== "boolean") {
@@ -195,24 +198,50 @@ export function validatePlayerIdentity(intelItem, playersData) {
 }
 
 // ── 3. Improved duplicate detection ──────────────────────────────────
+
+// Helper: parse a date string into a Date (shared with other modules)
+function parseDateStr(str) {
+  const cleaned = str.replace("Mid-", "15 ");
+  const d = new Date(cleaned);
+  return isNaN(d.getTime()) ? null : d;
+}
+
+// Helper: compute word overlap ratio between two strings
+function wordOverlap(a, b) {
+  const wordsA = new Set(a.toLowerCase().split(/\s+/).filter(w => w.length > 2));
+  const wordsB = new Set(b.toLowerCase().split(/\s+/).filter(w => w.length > 2));
+  const overlap = [...wordsA].filter(w => wordsB.has(w)).length;
+  const maxLen = Math.max(wordsA.size, wordsB.size);
+  return maxLen > 0 ? overlap / maxLen : 0;
+}
+
 export function isDuplicate(newRumour, existingRumours) {
   const normNewClub = normalizeClub(newRumour.club);
+  const newDate = parseDateStr(newRumour.date);
 
   return existingRumours.some(r => {
-    // Exact match
+    // Exact match (all fields identical)
     if (r.date === newRumour.date && r.club === newRumour.club && r.detail === newRumour.detail) {
       return true;
     }
 
-    // Normalized match: same date + same club (after normalization)
     const normExistClub = normalizeClub(r.club);
-    if (r.date === newRumour.date && normNewClub === normExistClub) {
-      // Check detail word overlap (>60% = likely duplicate)
-      const newWords = new Set(newRumour.detail.toLowerCase().split(/\s+/).filter(w => w.length > 2));
-      const existWords = new Set(r.detail.toLowerCase().split(/\s+/).filter(w => w.length > 2));
-      const overlap = [...newWords].filter(w => existWords.has(w)).length;
-      const maxLen = Math.max(newWords.size, existWords.size);
-      if (maxLen > 0 && (overlap / maxLen) > 0.6) return true;
+    const sameClub = normNewClub === normExistClub;
+
+    // Same date + same club → check word overlap (>60%)
+    if (r.date === newRumour.date && sameClub) {
+      if (wordOverlap(newRumour.detail, r.detail) > 0.6) return true;
+    }
+
+    // Cross-date check: same club within 7-day window → check higher overlap (>75%)
+    if (sameClub && newDate) {
+      const existDate = parseDateStr(r.date);
+      if (existDate) {
+        const daysDiff = Math.abs(newDate - existDate) / (1000 * 60 * 60 * 24);
+        if (daysDiff > 0 && daysDiff <= 7) {
+          if (wordOverlap(newRumour.detail, r.detail) > 0.75) return true;
+        }
+      }
     }
 
     return false;
