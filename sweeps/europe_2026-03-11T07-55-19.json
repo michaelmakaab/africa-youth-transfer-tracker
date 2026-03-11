@@ -1,0 +1,38 @@
+{
+  "sweepDate": "Mar 11, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 15,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Mar 1, 2026",
+        "headline": "Faye fully reintegrated: 7 Ligue 1 apps, 573 mins in 2025/26 season",
+        "source": "Transfermarkt",
+        "sourceUrl": "https://www.transfermarkt.com",
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Confirms Faye's full return to competitive action post-injury recovery. This is genuinely new as it documents his current season involvement (7 apps, 573 mins) which supersedes all previous injury-focused entries."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Transfermarkt (Mar 1, 2026)"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
