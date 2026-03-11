@@ -1,0 +1,85 @@
+{
+  "sweepDate": "Mar 11, 2026",
+  "sweepType": "full",
+  "sweepNumber": 20,
+  "baselineItems": 41,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "Mar 9, 2026",
+        "club": "Liverpool FC",
+        "detail": "Back in training with U21s, building fitness gradually. Feature expected within weeks.",
+        "source": "Rousing the Kop",
+        "sourceUrl": "https://www.rousingthekop.com/2026/03/09/rob-page-provides-mor-talla-ndiaye-update-as-liverpool-u21s-prepare-for-title-run-in/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Latest update (Mar 9, 2026) is after last rumor date (Mar 4, 2026). Fresh fitness/training status confirmed by official sources."
+    },
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Feb 12, 2026",
+        "club": "Eintracht Frankfurt",
+        "detail": "Visa processing ongoing. Deal struck with AFPD Bamako. Frankfurt move imminent upon doc receipt.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/mahamadou-traore-en-passe-de-sengager-avec-leintracht-francfort/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Feb 12 date is after last rumor (Feb 12, 2026) but confirms deal finalization & visa status. Substantiates existing Frankfurt timeline."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Feb 15, 2026",
+        "club": "Fenerbahçe",
+        "detail": "Deal finalization imminent. Advanced talks ongoing. Top scorer: 8 goals in Senegal L1.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/mouhamed-diop-senegal/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Feb 15 date matches existing Feb 15 rumor but search confirms 8-goal tally (vs previous 4G 1A). New performance metric adds recent substantiation."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda"
+  ],
+  "needsReview": [
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "detail": "Galatasaray tracking confirmed (Nov 21, 2025) but this matches existing rumor date range.",
+      "reason": "Search result from Nov 21, 2025 aligns with existing Nov 21 Galatasaray rumor. No new intel beyond current database."
+    }
+  ]
+}
