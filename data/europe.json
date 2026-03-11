@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "Mar 11, 2026",
-    "sweepNumber": 15,
+    "sweepNumber": 16,
     "playerCount": 5
   },
   "players": [
@@ -429,6 +429,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Dec 29, 2025",
+          "headline": "Faye returns to training after ankle injury; progressive recovery completed",
+          "source": "FootballKO",
+          "sourceUrl": "https://footballko.com/2025/12/30/fc-lorient-abdoulaye-faye-de-retour-a-lentrainement/",
+          "type": "injury",
+          "league": "Ligue 1",
+          "tier": 3,
+          "recent": true
+        },
         {
           "date": "Mar 1, 2026",
           "headline": "Faye fully reintegrated: 7 Ligue 1 apps, 573 mins in 2025/26 season",

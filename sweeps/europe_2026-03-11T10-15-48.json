@@ -1,0 +1,38 @@
+{
+  "sweepDate": "Mar 11, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 16,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Dec 29, 2025",
+        "headline": "Faye returns to training after ankle injury; progressive recovery completed",
+        "source": "FootballKO",
+        "sourceUrl": "https://footballko.com/2025/12/30/fc-lorient-abdoulaye-faye-de-retour-a-lentrainement/",
+        "type": "injury",
+        "league": "Ligue 1",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "New injury recovery update not in existing news. Documents Faye's return to collective training after ankle injury absence, with field work completed under fitness coaching. Critical for status verification."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "FootballKO (Dec 29, 2025) + Transfermarkt (Mar 1, 2026 appearance data)"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
