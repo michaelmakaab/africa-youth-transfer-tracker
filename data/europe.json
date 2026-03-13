@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 11, 2026",
-    "sweepNumber": 16,
+    "lastSweep": "Mar 13, 2026",
+    "sweepNumber": 17,
     "playerCount": 5
   },
   "players": [
@@ -235,6 +235,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Mar 12, 2026",
+          "headline": "Diao assists Midtjylland's stunning 1-0 Europa League win at Nottingham Forest",
+          "source": "Sportingpedia",
+          "sourceUrl": "https://www.sportingpedia.com/2026/03/13/midtjylland-achieve-another-europe-league-away-win-over-nottingham-forest/",
+          "type": "assist",
+          "league": "UEFA Europa League",
+          "tier": 3,
+          "recent": true
+        },
         {
           "date": "Jan 30, 2026",
           "headline": "Diao opens scoring in Europa League fixture for Midtjylland",

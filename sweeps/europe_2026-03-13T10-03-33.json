@@ -1,0 +1,37 @@
+{
+  "sweepDate": "Mar 13, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 17,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Mar 12, 2026",
+        "headline": "Diao assists Midtjylland's stunning 1-0 Europa League win at Nottingham Forest",
+        "source": "Sportingpedia",
+        "sourceUrl": "https://www.sportingpedia.com/2026/03/13/midtjylland-achieve-another-europe-league-away-win-over-nottingham-forest/",
+        "type": "assist",
+        "league": "UEFA Europa League",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "New assist contribution not in existing news. March 12, 2026 publication date represents fresh competitive action in Europa League Round of 16 with Cho Gue-Sung's winner following Diao's pinpoint cross."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Wiwsport / Transfermarkt / FotMob"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
