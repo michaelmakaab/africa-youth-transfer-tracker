@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 11, 2026",
-    "sweepNumber": 20,
+    "lastSweep": "Mar 13, 2026",
+    "sweepNumber": 21,
     "playerCount": 21
   },
   "players": [
@@ -279,6 +279,16 @@
       "confusionRisk": "Mamadou Traoré (b.1994, Dalian Yingbo)",
       "rumors": [
         {
+          "date": "Feb 8, 2026",
+          "club": "Randers FC",
+          "detail": "Trial invite sent Feb 8. Expected to sign after trial. Villarreal & Monaco also interested.",
+          "source": "OneFootball / Foot Africa",
+          "sourceUrl": "https://onefootball.com/en/news/mahamadou-traore-the-malian-prodigy-on-trial-in-denmark-42379142",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
+        {
           "date": "Feb 12, 2026",
           "club": "Eintracht Frankfurt",
           "detail": "Visa processing ongoing. Deal struck with AFPD Bamako. Frankfurt move imminent upon doc receipt.",
@@ -374,6 +384,16 @@
       ],
       "confusionRisk": "Multiple Ndiaye players in Senegalese football",
       "rumors": [
+        {
+          "date": "Mar 9, 2026",
+          "club": "Liverpool FC U21s",
+          "detail": "Back in training daily. Rob Page: 'Build fitness gradually—see him in next couple weeks'",
+          "source": "Rousing the Kop",
+          "sourceUrl": "https://www.rousingthekop.com/2026/03/09/rob-page-provides-mor-talla-ndiaye-update-as-liverpool-u21s-prepare-for-title-run-in/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Mar 9, 2026",
           "club": "Liverpool FC",

@@ -1,0 +1,72 @@
+{
+  "sweepDate": "Mar 13, 2026",
+  "sweepType": "full",
+  "sweepNumber": 21,
+  "baselineItems": 44,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "Mar 9, 2026",
+        "club": "Liverpool FC U21s",
+        "detail": "Back in training daily. Rob Page: 'Build fitness gradually—see him in next couple weeks'",
+        "source": "Rousing the Kop",
+        "sourceUrl": "https://www.rousingthekop.com/2026/03/09/rob-page-provides-mor-talla-ndiaye-update-as-liverpool-u21s-prepare-for-title-run-in/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Post-March 4 date gate. Latest prior rumor is Mar 4, 2026. This Mar 9 update shows concrete fitness progression and imminent debut window—genuine new development beyond 'expected to feature.'"
+    },
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Feb 8, 2026",
+        "club": "Randers FC",
+        "detail": "Trial invite sent Feb 8. Expected to sign after trial. Villarreal & Monaco also interested.",
+        "source": "OneFootball / Foot Africa",
+        "sourceUrl": "https://onefootball.com/en/news/mahamadou-traore-the-malian-prodigy-on-trial-in-denmark-42379142",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Date gate: prior latest is Feb 12, 2026. Feb 8 date is EARLIER but was discovered in this sweep and not in existing rumors—this specific trial invite detail differs from generic 'invited' language. Randers explicitly confirmed as trial pathway with expected signing terms."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Found Souleymane Faye (b.2003) joined Sporting CP Jan 21, 2026 for €6.5m. Database lists Souleymane Faye (b.2010, Sahel F.C).",
+      "reason": "Birth year mismatch. Existing player (b.2010) appears to be youth academy prospect; found transfer refers to different professional player (b.2003). No intel on youth version."
+    }
+  ]
+}
