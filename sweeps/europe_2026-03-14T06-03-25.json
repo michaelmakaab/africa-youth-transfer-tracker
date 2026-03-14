@@ -1,0 +1,52 @@
+{
+  "sweepDate": "Mar 14, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 18,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Mar 12, 2026",
+        "headline": "Diao delivers pinpoint cross for Midtjylland's 1-0 Europa League win at Nottingham",
+        "source": "Wiwsport",
+        "sourceUrl": "https://www.wiwsport.com",
+        "type": "assist",
+        "league": "UEFA Europa League",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "New match performance from Mar 12, 2026 not in existing news. Diao's assist in Europa League last 16 first leg vs Nottingham Forest confirms continued excellence beyond the Mar 12 appearance already listed (which was just an assist note). This provides specific match context."
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "Feb 18, 2026",
+        "headline": "Campbell influential off bench as Brugge draw 3-3 with Atletico Madrid in UCL",
+        "source": "SA People",
+        "sourceUrl": "https://www.sapeople.com",
+        "type": "appearance",
+        "league": "UEFA Champions League",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "Existing news shows Campbell played in 3-2 UCL draw vs Atletico on Feb 18, but this research confirms it was a 3-3 draw and emphasizes his influential impact in 82nd minute when trailing. More complete match context than existing entry."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "oldStatus": "suspended",
+      "newStatus": "squad_rotation",
+      "source": "FotMob match appearances Feb 8-18, 2026 post-red card"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Rayann Capo Chichi",
+    "Abdoulaye Faye"
+  ]
+}
