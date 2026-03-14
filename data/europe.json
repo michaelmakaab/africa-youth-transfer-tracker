@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 13, 2026",
-    "sweepNumber": 17,
+    "lastSweep": "Mar 14, 2026",
+    "sweepNumber": 18,
     "playerCount": 5
   },
   "players": [
@@ -235,6 +235,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Mar 12, 2026",
+          "headline": "Diao delivers pinpoint cross for Midtjylland's 1-0 Europa League win at Nottingham",
+          "source": "Wiwsport",
+          "sourceUrl": "https://www.wiwsport.com",
+          "type": "assist",
+          "league": "UEFA Europa League",
+          "tier": 3,
+          "recent": true
+        },
         {
           "date": "Mar 12, 2026",
           "headline": "Diao assists Midtjylland's stunning 1-0 Europa League win at Nottingham Forest",
@@ -605,6 +615,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Feb 18, 2026",
+          "headline": "Campbell influential off bench as Brugge draw 3-3 with Atletico Madrid in UCL",
+          "source": "SA People",
+          "sourceUrl": "https://www.sapeople.com",
+          "type": "appearance",
+          "league": "UEFA Champions League",
+          "tier": 3,
+          "recent": true
+        },
         {
           "date": "Mar 1, 2026",
           "headline": "Season totals: 3 goals, 1 assist across all comps. 7 Pro League apps, 3 UCL apps (25 mins). Pushing for more first-team minutes",

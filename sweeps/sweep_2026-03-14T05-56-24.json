@@ -1,0 +1,105 @@
+{
+  "sweepDate": "Mar 14, 2026",
+  "sweepType": "full",
+  "sweepNumber": 22,
+  "baselineItems": 46,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Feb 10, 2026",
+        "club": "Eintracht Frankfurt",
+        "detail": "Visa/docs processing ongoing. Frankfurt U17 move imminent once German paperwork received.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/mahamadou-traore-en-passe-de-sengager-avec-leintracht-francfort/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Date Feb 10, 2026 is after latest existing rumour (Feb 12 visa update). Clarifies current status of Frankfurt move with fresh confirmation of visa delays and imminent U17 integration."
+    },
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "Mar 9, 2026",
+        "club": "Liverpool FC",
+        "detail": "Rob Page: Building fitness gradually, expect to see him in next couple weeks in U21s.",
+        "source": "Rousing the Kop",
+        "sourceUrl": "https://www.rousingthekop.com/2026/03/09/rob-page-provides-mor-talla-ndiaye-update-as-liverpool-u21s-prepare-for-title-run-in/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Mar 9, 2026 is after latest existing rumour (Mar 9 training update). Direct quote from Rob Page provides concrete timeline (next 2 weeks) for U21s debut—more definitive than previous medical-focused reports."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Mar 12, 2026",
+        "club": "Watford FC",
+        "detail": "Watford leading race. Club official visited Senegal this week. Sétif, Fenerbahçe interest fading.",
+        "source": "Wiwsport / Foot Mercato",
+        "sourceUrl": "https://wiwsport.com/2026/03/12/mercato-watford-a-fond-sur-lactuel-meilleur-buteur-de-la-ligue-1-mouhamed-diop-ajel/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "currentStatus": "actively_pursued_by_PL_club"
+      },
+      "reasoning": "Mar 12, 2026 is after latest existing rumour (Feb 15 Fenerbahçe). Major shift: Watford now leads race with official delegation visit this week, superseding previous Fenerbahçe momentum from February. Significant competitive development."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Mar 14, 2026",
+        "club": "Multiple (Sétif, Fenerbahçe, Watford, Guingamp)",
+        "detail": "8 goals/1 assist in 17 L1 apps. Fenerbahçe, Watford, Guingamp, Sétif all pursuing summer move.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/mouhamed-diop-affole-leurope-cheikh-sidy-ba-donne-son-avis/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Mar 14, 2026 (published 13 hours ago) is most recent and confirms expanded club interest. Adds Guingamp as new pursuing club and updates goal tally (8G/1A in 17 apps). Broader competitive landscape than previous Feb 15 Fenerbahçe-only focus."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye (b.2003, Sporting CP left winger), not b.2010 from Sahel F.C",
+      "reason": "Possible player identity mismatch. Listed player (b.2010) does not appear in transfer databases. Recommend verification with Sahel F.C directly."
+    }
+  ]
+}

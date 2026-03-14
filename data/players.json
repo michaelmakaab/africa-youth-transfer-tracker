@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 13, 2026",
-    "sweepNumber": 21,
+    "lastSweep": "Mar 14, 2026",
+    "sweepNumber": 22,
     "playerCount": 21
   },
   "players": [
@@ -279,6 +279,16 @@
       "confusionRisk": "Mamadou Traoré (b.1994, Dalian Yingbo)",
       "rumors": [
         {
+          "date": "Feb 10, 2026",
+          "club": "Eintracht Frankfurt",
+          "detail": "Visa/docs processing ongoing. Frankfurt U17 move imminent once German paperwork received.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/mahamadou-traore-en-passe-de-sengager-avec-leintracht-francfort/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
+        {
           "date": "Feb 8, 2026",
           "club": "Randers FC",
           "detail": "Trial invite sent Feb 8. Expected to sign after trial. Villarreal & Monaco also interested.",
@@ -384,6 +394,16 @@
       ],
       "confusionRisk": "Multiple Ndiaye players in Senegalese football",
       "rumors": [
+        {
+          "date": "Mar 9, 2026",
+          "club": "Liverpool FC",
+          "detail": "Rob Page: Building fitness gradually, expect to see him in next couple weeks in U21s.",
+          "source": "Rousing the Kop",
+          "sourceUrl": "https://www.rousingthekop.com/2026/03/09/rob-page-provides-mor-talla-ndiaye-update-as-liverpool-u21s-prepare-for-title-run-in/",
+          "tier": 2,
+          "status": "confirmed",
+          "recent": true
+        },
         {
           "date": "Mar 9, 2026",
           "club": "Liverpool FC U21s",
@@ -705,6 +725,26 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Mar 14, 2026",
+          "club": "Multiple (Sétif, Fenerbahçe, Watford, Guingamp)",
+          "detail": "8 goals/1 assist in 17 L1 apps. Fenerbahçe, Watford, Guingamp, Sétif all pursuing summer move.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/mouhamed-diop-affole-leurope-cheikh-sidy-ba-donne-son-avis/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
+        {
+          "date": "Mar 12, 2026",
+          "club": "Watford FC",
+          "detail": "Watford leading race. Club official visited Senegal this week. Sétif, Fenerbahçe interest fading.",
+          "source": "Wiwsport / Foot Mercato",
+          "sourceUrl": "https://wiwsport.com/2026/03/12/mercato-watford-a-fond-sur-lactuel-meilleur-buteur-de-la-ligue-1-mouhamed-diop-ajel/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Feb 15, 2026",
           "club": "Fenerbahçe",
