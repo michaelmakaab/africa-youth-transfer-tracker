@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 14, 2026",
-    "sweepNumber": 22,
+    "lastSweep": "Mar 16, 2026",
+    "sweepNumber": 23,
     "playerCount": 21
   },
   "players": [
@@ -725,6 +725,26 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Mar 13, 2026",
+          "club": "Multiple (Fenerbahçe, Watford, Guingamp, Sétif)",
+          "detail": "Fenerbahçe has not finalized; multiple clubs in summer race. Watford leading.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/mouhamed-diop-affole-leurope-cheikh-sidy-ba-donne-son-avis/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
+        {
+          "date": "Mar 14, 2026",
+          "club": "Watford FC",
+          "detail": "Watford FC made formal €500k offer. Club official visited Senegal this week.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/watford-fait-une-offre-pour-mouhamed-diop-burley-a-laffut/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Mar 14, 2026",
           "club": "Multiple (Sétif, Fenerbahçe, Watford, Guingamp)",
