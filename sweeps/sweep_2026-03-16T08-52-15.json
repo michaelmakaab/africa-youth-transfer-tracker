@@ -1,0 +1,66 @@
+{
+  "sweepDate": "Mar 16, 2026",
+  "sweepType": "full",
+  "sweepNumber": 23,
+  "baselineItems": 50,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Mar 14, 2026",
+        "club": "Watford FC",
+        "detail": "Watford FC made formal €500k offer. Club official visited Senegal this week.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/watford-fait-une-offre-pour-mouhamed-diop-burley-a-laffut/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "latestRumorDate": "Mar 14, 2026"
+      },
+      "reasoning": "Publication date Mar 14, 2026 is after latest rumor (Mar 12, 2026). Concrete €500k offer + official visit to Senegal is new intel not in existing rumors. Passes date gate and genuineness test."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Mar 13, 2026",
+        "club": "Multiple (Fenerbahçe, Watford, Guingamp, Sétif)",
+        "detail": "Fenerbahçe has not finalized; multiple clubs in summer race. Watford leading.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/mouhamed-diop-affole-leurope-cheikh-sidy-ba-donne-son-avis/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Mar 13, 2026 publication date after latest (Mar 12). Confirms Fenerbahçe still active (prior rumors suggested deal imminent). New detail: multiple clubs in summer race, not winter finalization."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda"
+  ],
+  "needsReview": []
+}

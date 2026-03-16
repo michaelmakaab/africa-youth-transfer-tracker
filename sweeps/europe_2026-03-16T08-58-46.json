@@ -1,0 +1,64 @@
+{
+  "sweepDate": "Mar 16, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 19,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Mar 12, 2026",
+        "headline": "Diao crosses for Midtjylland's 1-0 Europa League win at Nottingham Forest",
+        "source": "FotMob",
+        "sourceUrl": null,
+        "type": "assist",
+        "league": "UEFA Europa League",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New assist achievement on Mar 12 (different from previous Mar 12 reports which only mentioned delivery/assist generally; this confirms the specific assist statistic and build detail)"
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Dec 29, 2025",
+        "headline": "Faye returns to training after ankle injury; full recovery underway",
+        "source": "FootballKO",
+        "sourceUrl": null,
+        "type": "injury",
+        "league": "Ligue 1",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "Dec 29 return-to-training event is more recent than Jan 6 collective training date in existing news; confirms progression from foot injury to ankle injury recovery milestone"
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "FotMob / Transfermarkt (recent match statistics showing consistent 90-minute appearances since late February 2026)"
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "FootballKO / Transfermarkt (574 Ligue 1 minutes in 2025/26; fully reintegrated training as of Dec 29, 2025)"
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "oldStatus": "suspended",
+      "newStatus": "squad_rotation",
+      "source": "UEFA / FotMob (red card served; returned to competitive action by Feb 15, 2026 and beyond)"
+    }
+  ],
+  "noChange": [
+    "Rayann Capo Chichi"
+  ]
+}

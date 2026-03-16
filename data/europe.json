@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 14, 2026",
-    "sweepNumber": 18,
+    "lastSweep": "Mar 16, 2026",
+    "sweepNumber": 19,
     "playerCount": 5
   },
   "players": [
@@ -237,6 +237,16 @@
       "news": [
         {
           "date": "Mar 12, 2026",
+          "headline": "Diao crosses for Midtjylland's 1-0 Europa League win at Nottingham Forest",
+          "source": "FotMob",
+          "sourceUrl": null,
+          "type": "assist",
+          "league": "UEFA Europa League",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "Mar 12, 2026",
           "headline": "Diao delivers pinpoint cross for Midtjylland's 1-0 Europa League win at Nottingham",
           "source": "Wiwsport",
           "sourceUrl": "https://www.wiwsport.com",
@@ -449,6 +459,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Dec 29, 2025",
+          "headline": "Faye returns to training after ankle injury; full recovery underway",
+          "source": "FootballKO",
+          "sourceUrl": null,
+          "type": "injury",
+          "league": "Ligue 1",
+          "tier": 3,
+          "recent": true
+        },
         {
           "date": "Dec 29, 2025",
           "headline": "Faye returns to training after ankle injury; progressive recovery completed",
