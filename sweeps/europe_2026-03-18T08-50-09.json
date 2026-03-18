@@ -1,0 +1,103 @@
+{
+  "sweepDate": "Mar 18, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 20,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Mar 17, 2026",
+        "headline": "Diomande: 1,048 Liga Portugal mins, 7.2 FotMob rating; €39.2M market value",
+        "source": "FotMob",
+        "sourceUrl": "https://www.fotmob.com/players/1425182/ousmane-diomande",
+        "type": "media",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Updated season statistics (1,048 mins vs 868 mins in Feb 23 entry) and revised market value (€39.2M vs €45M) as of Mar 17, 2026 — new aggregate data not previously recorded."
+    },
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Mar 17, 2026",
+        "headline": "Diomande: 7 UCL matches, 436 mins, 1 goal in 2025/26 Champions League campaign",
+        "source": "UEFA.com",
+        "sourceUrl": "https://www.uefa.com",
+        "type": "appearance",
+        "league": "UEFA Champions League",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "UEFA Champions League season stats as of Mar 17, 2026 (7 matches, 436 mins, 1 goal) are new; confirms continued participation and performance data not in existing news."
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Mar 12, 2026",
+        "headline": "Diao: 7 Europa League matches, 545 mins, 2 goals, 81.43% passing accuracy",
+        "source": "FotMob",
+        "sourceUrl": "https://www.fotmob.com",
+        "type": "appearance",
+        "league": "UEFA Europa League",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Updated Europa League aggregate stats (7 matches, 545 mins, 2 goals) as of Mar 12, 2026 exceed previous data (6 apps); reflects continued strong performance in European competition not previously captured."
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Mar 12, 2026",
+        "headline": "Diao: 1,112 Superligaen minutes, 7.35 FotMob rating; market value €9.9M",
+        "source": "FotMob",
+        "sourceUrl": "https://www.fotmob.com",
+        "type": "media",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Updated aggregate season statistics (1,112 mins vs 932 mins in Feb 23 entry; 7.35 rating) and market value (€9.9M) as of Mar 12, 2026 — new comprehensive data not previously listed."
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Dec 30, 2025",
+        "headline": "Faye returns to training post-ankle injury; gradual recovery under fitness coach",
+        "source": "Football KO",
+        "sourceUrl": "https://footballko.com/2025/12/30/",
+        "type": "injury",
+        "league": "Ligue 1",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "Dec 30, 2025 update showing Faye's return to training (laps with fitness coach) is newer than most injury entries and contradicts Feb 15 'unavailable' note; marks transition point in recovery trajectory not previously captured."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "oldStatus": "regular_starter",
+      "newStatus": "regular_starter",
+      "source": "No change required — confirmed playing regularly; status validated by 1,048 Liga Portugal minutes and 7 UCL appearances as of Mar 17, 2026."
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "squad_rotation",
+      "source": "FotMob / Wiwsport / FC Lorient. Faye returned to collective training Dec 29, 2025, and has accumulated 574 Ligue 1 minutes across 7 appearances in 2025/26 season. No longer sidelined; actively in squad rotation as of Mar 1, 2026."
+    }
+  ],
+  "noChange": [
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}

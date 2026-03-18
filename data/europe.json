@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 16, 2026",
-    "sweepNumber": 19,
+    "lastSweep": "Mar 18, 2026",
+    "sweepNumber": 20,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,26 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Mar 17, 2026",
+          "headline": "Diomande: 7 UCL matches, 436 mins, 1 goal in 2025/26 Champions League campaign",
+          "source": "UEFA.com",
+          "sourceUrl": "https://www.uefa.com",
+          "type": "appearance",
+          "league": "UEFA Champions League",
+          "tier": 1,
+          "recent": true
+        },
+        {
+          "date": "Mar 17, 2026",
+          "headline": "Diomande: 1,048 Liga Portugal mins, 7.2 FotMob rating; €39.2M market value",
+          "source": "FotMob",
+          "sourceUrl": "https://www.fotmob.com/players/1425182/ousmane-diomande",
+          "type": "media",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Feb 26, 2026",
           "headline": "Sporting willing to listen to €40-50M offers for Diomande this summer",
@@ -235,6 +255,26 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Mar 12, 2026",
+          "headline": "Diao: 1,112 Superligaen minutes, 7.35 FotMob rating; market value €9.9M",
+          "source": "FotMob",
+          "sourceUrl": "https://www.fotmob.com",
+          "type": "media",
+          "league": "Danish Superliga",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "Mar 12, 2026",
+          "headline": "Diao: 7 Europa League matches, 545 mins, 2 goals, 81.43% passing accuracy",
+          "source": "FotMob",
+          "sourceUrl": "https://www.fotmob.com",
+          "type": "appearance",
+          "league": "UEFA Europa League",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Mar 12, 2026",
           "headline": "Diao crosses for Midtjylland's 1-0 Europa League win at Nottingham Forest",
@@ -449,7 +489,7 @@
       "currentClub": "Bayer Leverkusen",
       "league": "Ligue 1 (loan)",
       "leagueFlag": "🇫🇷",
-      "careerStatus": "regular_starter",
+      "careerStatus": "squad_rotation",
       "contract": "Until Jun 2030 (Leverkusen)",
       "releaseClause": null,
       "marketValue": "€4.7M",
@@ -459,6 +499,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Dec 30, 2025",
+          "headline": "Faye returns to training post-ankle injury; gradual recovery under fitness coach",
+          "source": "Football KO",
+          "sourceUrl": "https://footballko.com/2025/12/30/",
+          "type": "injury",
+          "league": "Ligue 1",
+          "tier": 3,
+          "recent": true
+        },
         {
           "date": "Dec 29, 2025",
           "headline": "Faye returns to training after ankle injury; full recovery underway",
