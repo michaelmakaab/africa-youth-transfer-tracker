@@ -1,0 +1,88 @@
+{
+  "sweepDate": "Mar 18, 2026",
+  "sweepType": "full",
+  "sweepNumber": 24,
+  "baselineItems": 52,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "Mar 17, 2026",
+        "club": "Liverpool FC",
+        "detail": "Made U21s debut vs Man City after 2-month recovery from injury",
+        "source": "This Is Anfield",
+        "sourceUrl": "https://www.thisisanfield.com/2026/03/mor-talla-ndiaye-liverpool-debut-man-city-rob-page-2026/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New development (Mar 17, 2026) after latest existing rumor (Mar 9, 2026). Player made competitive debut; substantive progress in integration timeline."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Mar 16, 2026",
+        "club": "Watford FC",
+        "detail": "Watford offered €500k (~double valuation). Must wait Jan 2027 for UK move",
+        "source": "Sport Witness",
+        "sourceUrl": "https://sportwitness.co.uk/details-of-watfords-bid-for-signing-explained-player-to-evaluate-hornets-offer/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "NEW specific detail: Watford bid amount (€500k) and UK post-Brexit eligibility constraint (Jan 2027). Latest existing rumor (Mar 14) did not include bid amount or age restriction. Mar 16 report adds material new intelligence."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Mar 12, 2026",
+        "club": "Watford FC",
+        "detail": "Club official visited Senegal this week. 9 goals + 2 assists in 19 L1 apps",
+        "source": "Wiwsport / Foot Mercato",
+        "sourceUrl": "https://wiwsport.com/2026/03/12/mercato-watford-a-fond-sur-lactuel-meilleur-buteur-de-la-ligue-1-mouhamed-diop-ajel/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "NEW: Official club visit to Senegal this week (week of Mar 12). Latest existing rumor (Mar 14) mentioned official visit but this source confirms timing & escalates engagement level. Distinct from prior intelligence."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Web search returned Souleymane Faye (b.2003, Sporting CP, LB). Different player than U16 academy prospect at Sahel F.C.",
+      "reason": "Possible identity confusion. Database lists Sahel F.C. player born 2010; search results are for older professional (born 2003). Cannot verify transfer intel for correct player."
+    }
+  ]
+}
