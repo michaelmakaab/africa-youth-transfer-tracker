@@ -1,0 +1,72 @@
+{
+  "sweepDate": "Mar 20, 2026",
+  "sweepType": "full",
+  "sweepNumber": 25,
+  "baselineItems": 55,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "Mar 17, 2026",
+        "club": "Liverpool FC",
+        "detail": "Made U21s debut vs Man City as LCB substitute. Rob Page: 'absolute class'",
+        "source": "This Is Anfield",
+        "sourceUrl": "https://www.thisisanfield.com/2026/03/mor-talla-ndiaye-liverpool-debut-man-city-rob-page-2026/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Mar 17 debut is genuinely new intel—post-dates latest existing rumor (Mar 17 debut vs Man City confirmed). Fulfills actual competitive fixture milestone."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Mar 13, 2026",
+        "club": "Marseille",
+        "detail": "Marseille made late-minute attempt to join race but failed. Watford leading",
+        "source": "Wiwsport / Foot Mercato",
+        "sourceUrl": "https://wiwsport.com/2026/03/13/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Mar 13 entry shows Marseille's failed late push—new development post-dating existing Mar 14-16 Watford intel. Clarifies competitive landscape shift."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search results show Souleymane Faye born Feb 8, 2003 (age 23) at Sporting CP. Your record lists b.2010 at Sahel F.C",
+      "reason": "Significant birth year mismatch (13-year gap). Likely different players. Your b.2010 Sahel F.C. player has no verifiable online presence for transfer activity."
+    }
+  ]
+}

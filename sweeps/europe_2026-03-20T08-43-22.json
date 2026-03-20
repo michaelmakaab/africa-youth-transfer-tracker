@@ -1,0 +1,38 @@
+{
+  "sweepDate": "Mar 20, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 21,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Mar 12, 2026",
+        "headline": "Faye delivers assist in Lorient's 1-0 Europa League win at Nottingham Forest",
+        "source": "FotMob",
+        "sourceUrl": "https://www.fotmob.com/players/1599319/abdoulaye-faye",
+        "type": "assist",
+        "league": "Ligue 1 (loan)",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New assist performance not in existing news. Confirms Faye is actively playing post-injury recovery."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "squad_rotation",
+      "source": "FotMob match data (Mar 1-12, 2026)"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}

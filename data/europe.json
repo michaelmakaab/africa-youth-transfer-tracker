@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 18, 2026",
-    "sweepNumber": 20,
+    "lastSweep": "Mar 20, 2026",
+    "sweepNumber": 21,
     "playerCount": 5
   },
   "players": [
@@ -499,6 +499,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Mar 12, 2026",
+          "headline": "Faye delivers assist in Lorient's 1-0 Europa League win at Nottingham Forest",
+          "source": "FotMob",
+          "sourceUrl": "https://www.fotmob.com/players/1599319/abdoulaye-faye",
+          "type": "assist",
+          "league": "Ligue 1 (loan)",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Dec 30, 2025",
           "headline": "Faye returns to training post-ankle injury; gradual recovery under fitness coach",
