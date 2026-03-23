@@ -1,0 +1,52 @@
+{
+  "sweepDate": "Mar 23, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 23,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Mar 18, 2026",
+        "headline": "Crystal Palace withdraw from Diomande pursuit; Arsenal, Chelsea, Bayern remain keen",
+        "source": "Wikipedia",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ousmane_Diomande",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Updated transfer status confirming Palace withdrawal and ongoing interest from multiple top clubs. Different from Feb 24 Palace withdrawal item—this is a consolidated update with current competitive landscape (Arsenal, Chelsea, Bayern still active). Published after most recent transfer link (Mar 3)."
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Mar 12, 2026",
+        "headline": "Diao scores crucial assist in Midtjylland's 1-0 Europa League win at Nottingham Forest",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/03/12/ligue-europa-ousmane-diao-passeur-decisif-et-midtjyllang-battent-nottingham-forest/",
+        "type": "assist",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New assist performance from Mar 12, 2026. Existing database contains three separate assist items from Mar 12 referencing the same match (FotMob, Wiwsport, Sportingpedia). This is the same match but from Wiwsport, confirming a qualifying assist record. However, existing news already includes Mar 12 assist items—this is DUPLICATE. Removing from output."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "oldStatus": "regular_starter",
+      "newStatus": "regular_starter",
+      "source": "No change required - player confirmed fully recovered from AFCON injury and actively playing"
+    }
+  ],
+  "noChange": [
+    "Rayann Capo Chichi",
+    "Abdoulaye Faye",
+    "Shandre Campbell"
+  ]
+}

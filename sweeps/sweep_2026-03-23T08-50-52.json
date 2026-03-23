@@ -1,0 +1,77 @@
+{
+  "sweepDate": "Mar 23, 2026",
+  "sweepType": "full",
+  "sweepNumber": 27,
+  "baselineItems": 64,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "rumor": {
+        "date": "Mar 23, 2026",
+        "club": "Man United",
+        "detail": "Back on trial at Man Utd Carrington post-U17 AFCON. Eligible summer 2026.",
+        "source": "UtdJoshua (X/Twitter), Scouts Attending",
+        "sourceUrl": null,
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Date gate passed (Mar 23 > Sep 12, 2025 latest). New trial update post-AFCON tournament. Different from Nov 2025 Galatasaray tracking activity."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "field": "status",
+      "oldValue": "confirmed",
+      "newValue": "confirmed",
+      "source": "This Is Anfield (Mar 17, 2026) — U21s debut achieved"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "El Hadj Yamar Ndiaye",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 4,
+      "playerName": "Yao Hubert",
+      "detail": "FC Nordsjælland deal progressing (Jan 13-14, 2026 reports from Bold & AfricaFoot). Already in existing rumors as Jan 15, 2026 entry.",
+      "reason": "Research found Jan 13-14, 2026 publication dates but existing rumor dated Jan 15, 2026 for same club/event. Dates fall within 2-3 day window of same transfer story. Not genuinely NEW intel beyond existing record."
+    },
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "detail": "Frankfurt visa delays persist; player actively seeking German documents (Feb 10, 2026 report). Existing records already document Feb 7-12 visa/Frankfurt updates.",
+      "reason": "Feb 10 report is duplicative of Feb 7-12 timeline already captured. No materially new development beyond 'delays persist' which is status quo from existing rumors."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "detail": "Watford €500k bid confirmed (Mar 13-16, 2026). Existing rumors already cover Mar 12-16 Watford activity extensively.",
+      "reason": "Web findings (Mar 13, Mar 16) corroborate but do not exceed detail in existing rumors dated Mar 12-16, 2026. No new clubs, fee changes, or substantive updates beyond confirmation of Watford's leading position."
+    }
+  ]
+}
