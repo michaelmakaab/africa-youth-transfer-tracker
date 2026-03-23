@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "Mar 23, 2026",
-    "sweepNumber": 26,
+    "sweepNumber": 27,
     "playerCount": 21
   },
   "players": [
@@ -553,6 +553,16 @@
         {
           "date": "Mar 23, 2026",
           "club": "Man United",
+          "detail": "Back on trial at Man Utd Carrington post-U17 AFCON. Eligible summer 2026.",
+          "source": "UtdJoshua (X/Twitter), Scouts Attending",
+          "sourceUrl": null,
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
+        {
+          "date": "Mar 23, 2026",
+          "club": "Man United",
           "detail": "Back on trial at Man Utd Carrington post-U17 AFCON. Played 4 matches at U17 World Cup (1 assist). Also played U17 AFCON 2025 in Morocco (Senegal reached QF). Eligible summer 2026.",
           "source": "UtdJoshua (X/Twitter), Scouts Attending",
           "tier": 2,
@@ -761,7 +771,9 @@
       "currentClub": "Rahimo FC",
       "status": "monitoring",
       "sweepTier": "C",
-      "altSpellings": ["Donatien Bama"],
+      "altSpellings": [
+        "Donatien Bama"
+      ],
       "confusionRisk": null,
       "rumors": []
     },
@@ -775,7 +787,9 @@
       "currentClub": "Casa Sports",
       "status": "monitoring",
       "sweepTier": "C",
-      "altSpellings": ["Pape Semou Sane"],
+      "altSpellings": [
+        "Pape Semou Sane"
+      ],
       "confusionRisk": "Multiple 'Pape Sané' players exist (b.1992 Rodez, b.2002 Lorient)",
       "rumors": []
     },

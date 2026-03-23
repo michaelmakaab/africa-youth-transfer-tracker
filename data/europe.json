@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "Mar 23, 2026",
-    "sweepNumber": 22,
+    "sweepNumber": 23,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Mar 18, 2026",
+          "headline": "Crystal Palace withdraw from Diomande pursuit; Arsenal, Chelsea, Bayern remain keen",
+          "source": "Wikipedia",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ousmane_Diomande",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Mar 17, 2026",
           "headline": "Diomande: 7 UCL matches, 436 mins, 1 goal in 2025/26 Champions League campaign",
@@ -255,6 +265,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Mar 12, 2026",
+          "headline": "Diao scores crucial assist in Midtjylland's 1-0 Europa League win at Nottingham Forest",
+          "source": "Wiwsport",
+          "sourceUrl": "https://wiwsport.com/2026/03/12/ligue-europa-ousmane-diao-passeur-decisif-et-midtjyllang-battent-nottingham-forest/",
+          "type": "assist",
+          "league": "Danish Superliga",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Mar 23, 2026",
           "headline": "Season totals: 44 apps across all comps, 5 goals, 2 assists. Market value €9.9M (was €3M at signing). Contract until 2029.",
