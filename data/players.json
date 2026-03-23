@@ -145,7 +145,7 @@
       "birthYear": 2010,
       "currentClub": "Réal du Faso",
       "status": "active",
-      "sweepTier": "B",
+      "sweepTier": "A",
       "altSpellings": [
         "Ashraf Loukman Tapsoba",
         "Loukmane Tapsoba"
@@ -213,6 +213,15 @@
           "source": "PanAfricaFootball",
           "sourceUrl": "https://www.panafricafootball.com/post/burkina-faso-u-17-star-ashraf-tapsoba-targeted-by-rs-berkane/",
           "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
+        {
+          "date": "Apr 19, 2026",
+          "club": "Multiple (stock rising)",
+          "detail": "U17 AFCON 2025 joint top scorer with 7 goals (equal with Ivory Coast's Haidara). Hat-trick vs Zambia (QF, 6-1), brace vs Cameroon (2-1). Named MOTM twice (vs Egypt & Cameroon). 62.5% shooting accuracy — best in tournament. Burkina Faso reached semi-finals.",
+          "source": "CAF Official, PanAfricaFootball",
+          "tier": 1,
           "status": "rumour",
           "recent": true
         }
@@ -374,6 +383,15 @@
           "tier": 2,
           "status": "advanced",
           "recent": true
+        },
+        {
+          "date": "Apr 2026",
+          "club": "Mali U17 NT / Frankfurt pending",
+          "detail": "Scored 2nd goal in Mali's 2-0 semi-final win vs Burkina Faso at U17 AFCON 2025 (header, 74th min). Mali reached U17 AFCON final. Still hasn't joined Frankfurt — visa issues ongoing.",
+          "source": "CAF Official",
+          "tier": 1,
+          "status": "advanced",
+          "recent": true
         }
       ]
     },
@@ -525,13 +543,22 @@
       "position": "FW/RW",
       "birthYear": 2008,
       "currentClub": "Diambars FC",
-      "status": "monitoring",
-      "sweepTier": "C",
+      "status": "active",
+      "sweepTier": "B",
       "altSpellings": [
         "Etienne Mendy"
       ],
-      "confusionRisk": "Édouard Mendy (b.1992, Al-Ahli)",
+      "confusionRisk": "Édouard Mendy (b.1992, Al-Ahli). Also: 'Victor Étienne Mendy' (AS Bambey → Fenerbahçe) is a DIFFERENT player",
       "rumors": [
+        {
+          "date": "Mar 23, 2026",
+          "club": "Man United",
+          "detail": "Back on trial at Man Utd Carrington post-U17 AFCON. Played 4 matches at U17 World Cup (1 assist). Also played U17 AFCON 2025 in Morocco (Senegal reached QF). Eligible summer 2026.",
+          "source": "UtdJoshua (X/Twitter), Scouts Attending",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
         {
           "date": "Nov 21, 2025",
           "club": "Galatasaray",
@@ -619,6 +646,16 @@
           "source": "Campo.dk",
           "sourceUrl": "https://campo.dk/2026/02/26/bogere-ude-med-skade-her-er-seneste-nyt-om-kometen/",
           "tier": 2,
+          "status": "confirmed",
+          "recent": true
+        },
+        {
+          "date": "Dec 20, 2025",
+          "club": "Uganda Senior NT",
+          "detail": "Called up to senior AFCON 2025 squad (Morocco). 2nd youngest player EVER at AFCON (17y 10m). Made 2+ sub appearances (vs Tunisia & Tanzania). Coach Put: 'great talent with huge potential.' 14 goals in 15 U17 caps career record. Youngest Ugandan at AFCON since 1974.",
+          "source": "FUFA, Pulse Sports Uganda, ChimpReports, CAF",
+          "sourceUrl": "https://www.pulsesports.ug/afcon-2025/story/james-bogere-eyes-senior-glory-as-he-joins-uganda-afcon-2025-squad-2025121811534087782",
+          "tier": 1,
           "status": "confirmed",
           "recent": true
         }
@@ -722,9 +759,9 @@
       "position": "CB",
       "birthYear": 2007,
       "currentClub": "Rahimo FC",
-      "status": "no_rumours",
+      "status": "monitoring",
       "sweepTier": "C",
-      "altSpellings": [],
+      "altSpellings": ["Donatien Bama"],
       "confusionRisk": null,
       "rumors": []
     },
@@ -736,10 +773,10 @@
       "position": "FW/RW",
       "birthYear": 2007,
       "currentClub": "Casa Sports",
-      "status": "no_rumours",
+      "status": "monitoring",
       "sweepTier": "C",
-      "altSpellings": [],
-      "confusionRisk": null,
+      "altSpellings": ["Pape Semou Sane"],
+      "confusionRisk": "Multiple 'Pape Sané' players exist (b.1992 Rodez, b.2002 Lorient)",
       "rumors": []
     },
     {
@@ -751,7 +788,7 @@
       "birthYear": 2009,
       "currentClub": "AJEL Rufisque",
       "status": "active",
-      "sweepTier": "B",
+      "sweepTier": "A",
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
