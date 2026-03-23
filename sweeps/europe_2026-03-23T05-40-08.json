@@ -1,0 +1,37 @@
+{
+  "sweepDate": "Mar 23, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 22,
+  "playersSearched": 5,
+  "newNews": [],
+  "statusChanges": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "oldStatus": "regular_starter",
+      "newStatus": "regular_starter",
+      "source": "Existing news confirms return to full playing status post-injury; no status change needed as already marked regular_starter"
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "squad_rotation",
+      "newStatus": "squad_rotation",
+      "source": "Research confirms full recovery and return to competitive play; status remains appropriate as squad_rotation reflects his loan reintegration phase"
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "oldStatus": "squad_rotation",
+      "newStatus": "squad_rotation",
+      "source": "Red card suspension served; returned to action Jan 21–Feb 18; status remains squad_rotation as existing news reflects current playing pattern"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Abdoulaye Faye",
+    "Shandre Campbell"
+  ]
+}

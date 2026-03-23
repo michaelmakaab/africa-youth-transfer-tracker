@@ -1,0 +1,74 @@
+{
+  "sweepDate": "Mar 23, 2026",
+  "sweepType": "full",
+  "sweepNumber": 26,
+  "baselineItems": 57,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "Mar 17, 2026",
+        "club": "Liverpool FC U21s",
+        "detail": "Made U21s debut vs Man City as LCB substitute. Rob Page praised adjustment as absolute class",
+        "source": "This Is Anfield",
+        "sourceUrl": "https://www.thisisanfield.com/2026/03/mor-talla-ndiaye-liverpool-debut-man-city-rob-page-2026/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "confirmed"
+      },
+      "reasoning": "Mar 17 debut is NEW intel after latest existing rumor (Mar 9, 2026). Confirms progression from training to official U21s match appearance."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Mar 16, 2026",
+        "club": "Watford FC",
+        "detail": "Watford bid €500k confirmed. Must wait Jan 2027 for UK move due to work permit rules",
+        "source": "Sport Witness",
+        "sourceUrl": "https://sportwitness.co.uk/details-of-watfords-bid-for-signing-explained-player-to-evaluate-hornets-offer/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Mar 16 article provides official confirmation of Watford's €500k bid structure & work permit constraint. Clarifies timeline beyond Mar 14 existing rumor. NEW contextual detail on bid legality/timing."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search results returned b.2003 Sporting CP player (€6.5m transfer Jan 21, 2026), NOT b.2010 Sahel F.C player",
+      "reason": "Severe identity mismatch. Listed player (b.2010, Sahel F.C, Senegal) does not match any search results. Requires database correction or clarification."
+    }
+  ]
+}
