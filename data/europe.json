@@ -256,6 +256,16 @@
       "confusionRisk": null,
       "news": [
         {
+          "date": "Mar 23, 2026",
+          "headline": "Season totals: 44 apps across all comps, 5 goals, 2 assists. Market value €9.9M (was €3M at signing). Contract until 2029.",
+          "source": "FotMob / Transfermarkt / Sofascore",
+          "sourceUrl": "https://www.fotmob.com/players/1525187/ousmane-diao",
+          "type": "appearance",
+          "league": "Danish Superliga",
+          "tier": 2,
+          "recent": true
+        },
+        {
           "date": "Mar 12, 2026",
           "headline": "Diao: 1,112 Superligaen minutes, 7.35 FotMob rating; market value €9.9M",
           "source": "FotMob",
@@ -499,6 +509,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Mar 23, 2026",
+          "headline": "Faye now at 20 Ligue 1 appearances, 574 mins. 0G 0A, 5 yellows. FotMob rating 6.31. Loan expires Jun 2026 — returns to Leverkusen. Market value €4.7M",
+          "source": "Flashscore / Transfermarkt",
+          "sourceUrl": "https://www.flashscore.com/player/abdoulaye-faye/nTW39FD2/",
+          "type": "appearance",
+          "league": "Ligue 1 (loan)",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Mar 12, 2026",
           "headline": "Faye delivers assist in Lorient's 1-0 Europa League win at Nottingham Forest",
