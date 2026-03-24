@@ -873,10 +873,9 @@ async function main() {
 
     const hasChanges = applyEuropeDelta(delta);
 
-    if (!hasChanges) {
-      console.log("\n--- No Europe changes detected. ---");
-      process.exit(0);
-    }
+    // Always update lastSweep so users know a sweep was attempted
+    europeData.meta.lastSweep = today;
+    europeData.meta.sweepNumber = (europeData.meta.sweepNumber || 0) + 1;
 
     if (DRY_RUN) {
       console.log("\n--- DRY RUN: Europe changes detected but not written. ---");
@@ -915,10 +914,9 @@ async function main() {
 
     const hasChanges = applyDelta(delta);
 
-    if (!hasChanges) {
-      console.log("\n--- No changes detected. Tracker is up to date. ---");
-      process.exit(0);
-    }
+    // Always update lastSweep so users know a sweep was attempted
+    playersData.meta.lastSweep = today;
+    playersData.meta.sweepNumber = delta.sweepNumber || playersData.meta.sweepNumber + 1;
 
     if (DRY_RUN) {
       console.log("\n--- DRY RUN: Changes detected but not written. ---");
