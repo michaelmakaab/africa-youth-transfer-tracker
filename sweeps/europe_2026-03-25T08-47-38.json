@@ -1,0 +1,38 @@
+{
+  "sweepDate": "Mar 25, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 24,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Mar 23, 2026",
+        "headline": "Faye reaches 20 Ligue 1 apps, 574 mins; loan expires Jun 2026",
+        "source": "Transfermarkt / Flashscore",
+        "sourceUrl": "https://www.transfermarkt.com/abdoulaye-faye/leistungsdaten/spieler/1555492",
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New season totals (20 apps, 574 mins) confirm full recovery and ongoing regular playing time. Previous news only reported 7 apps as of Mar 1. Confirms injury → regular_starter status change."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "squad_rotation",
+      "newStatus": "regular_starter",
+      "source": "Transfermarkt / Flashscore (Mar 23, 2026)"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
