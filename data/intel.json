@@ -90,7 +90,9 @@
     "seasonStats": "U21 DEBUT made Mar 17 vs Man City U21s (27 mins sub, 2-0 loss). 4 starts at U17 World Cup. Senegal reached R32",
     "clubStanding": "Liverpool FC U21s under Rob Page. Fee ~£1m + add-ons",
     "notes": "Left-footed CB, 188cm. Compared to Kalidou Koulibaly. Rob Page: 'absolute class'. Didn't concede while on pitch on debut. Composed on ball, impressive forward passing. Expected to feature regularly now. Talk of first-team pre-season tour to USA.",
-    "status": "confirmed"
+    "status": "confirmed",
+    "lastActivityDate": "Mar 17, 2026",
+    "debuted": true
   },
   "11": {
     "height": "—",
@@ -192,6 +194,9 @@
     "notes": "Known as 'Jude'. DOB: 10 Jan 2009. WATFORD BID €500K (Mar 2026) — club official flew to Senegal. Leading race ahead of Marseille, Fenerbahçe & ES Sétif. Represented by Asfan Sports Management (UK). Can't move to England until Jan 2027 (turns 18). Aims to beat Niane's 19-goal season record.",
     "status": "active",
     "currentStatus": "actively_pursued_by_PL_club",
-    "latestRumorDate": "Mar 16, 2026"
+    "latestRumorDate": "Mar 16, 2026",
+    "lastActivityDate": "Mar 16, 2026",
+    "topScorer": true,
+    "goalCount": 9
   }
 }

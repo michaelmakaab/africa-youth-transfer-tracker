@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 23, 2026",
-    "sweepNumber": 27,
+    "lastSweep": "Mar 25, 2026",
+    "sweepNumber": 28,
     "playerCount": 21
   },
   "players": [
@@ -415,6 +415,16 @@
         {
           "date": "Mar 17, 2026",
           "club": "Liverpool FC U21s",
+          "detail": "Made U21s debut vs Man City (LCB sub). Rob Page: 'absolute class'",
+          "source": "This Is Anfield",
+          "sourceUrl": "https://www.thisisanfield.com/2026/03/mor-talla-ndiaye-liverpool-debut-man-city-rob-page-2026/",
+          "tier": 2,
+          "status": "confirmed",
+          "recent": true
+        },
+        {
+          "date": "Mar 17, 2026",
+          "club": "Liverpool FC U21s",
           "detail": "Made U21s debut vs Man City as LCB substitute. Rob Page praised adjustment as absolute class",
           "source": "This Is Anfield",
           "sourceUrl": "https://www.thisisanfield.com/2026/03/mor-talla-ndiaye-liverpool-debut-man-city-rob-page-2026/",
@@ -806,6 +816,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Mar 16, 2026",
+          "club": "Watford FC",
+          "detail": "Watford formal €500k bid. Work permit blocks Jan 2027+ move only",
+          "source": "Sport Witness / Wiwsport",
+          "sourceUrl": "https://wiwsport.com/2026/03/12/mercato-watford-a-fond-sur-lactuel-meilleur-buteur-de-la-ligue-1-mouhamed-diop-ajel/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Mar 14, 2026",
           "club": "Burnley",
