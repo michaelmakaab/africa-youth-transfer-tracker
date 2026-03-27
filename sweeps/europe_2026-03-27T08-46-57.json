@@ -1,0 +1,96 @@
+{
+  "sweepDate": "Mar 27, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 25,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Mar 27, 2026",
+        "headline": "Diomande in Ivory Coast World Cup squad; faces Germany March 30 in Stuttgart",
+        "source": "PanAfricaFootball.com",
+        "sourceUrl": "https://panafricafootball.com/ivory-coast-world-cup-2026",
+        "type": "call_up",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "World Cup 2026 call-up for Ivory Coast is new; not previously in existing news items dated through Mar 23"
+    },
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Mar 27, 2026",
+        "headline": "Diomande in Sporting squad for Champions League QF vs Arsenal, April 7, 2026",
+        "source": "UEFA.com",
+        "sourceUrl": "https://www.uefa.com/uefachampionsleague/",
+        "type": "appearance",
+        "league": "Liga Portugal",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "April 7 UCL QF squad confirmation is new forward-looking information beyond existing Mar 17 stats"
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Mar 23, 2026",
+        "headline": "Faye reaches 20 Ligue 1 appearances; loan expires June 2026, returns to Leverkusen",
+        "source": "Transfermarkt",
+        "sourceUrl": "https://www.transfermarkt.com/abdoulaye-faye/profil/spieler/",
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Updated appearance count (20 apps vs previous 7) as of Mar 23 is genuinely new data; shows injury recovery complete and playing regularly"
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Mar 23, 2026",
+        "headline": "Faye: 20 Ligue 1 apps, 574 mins, 5 yellows. Market value €4.7M. Loan expires Jun 2026.",
+        "source": "Flashscore",
+        "sourceUrl": "https://www.flashscore.com/player/abdoulaye-faye/",
+        "type": "media",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Mar 23 season statistics update (20 apps, 574 mins) is new; previous news dated Mar 1-Mar 23 showed 7 apps; confirms full recovery and regular playing time"
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "Mar 27, 2026",
+        "headline": "Campbell market value updated to €1.6M; continuing development at Club Brugge",
+        "source": "FotMob",
+        "sourceUrl": "https://www.fotmob.com/players/",
+        "type": "media",
+        "league": "Belgian Pro League",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Market value update to €1.6M (vs previous €1M) is new; indicates growth in valuation post-AFCON and recent match appearances"
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Transfermarkt, Flashscore (Mar 23, 2026)"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diao",
+    "Rayann Capo Chichi"
+  ]
+}
