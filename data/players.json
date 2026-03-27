@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Mar 25, 2026",
-    "sweepNumber": 28,
+    "lastSweep": "Mar 27, 2026",
+    "sweepNumber": 29,
     "playerCount": 21
   },
   "players": [
@@ -816,6 +816,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Mar 16, 2026",
+          "club": "Watford FC",
+          "detail": "Formal €500k bid confirmed. UK work permit restricts move until Jan 2027.",
+          "source": "Sport Witness",
+          "sourceUrl": "https://www.sporwitness.co.uk/watford-mouhamed-diop-500k-bid/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Mar 16, 2026",
           "club": "Watford FC",
