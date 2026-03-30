@@ -1,0 +1,22 @@
+{
+  "sweepDate": "Mar 30, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 26,
+  "playersSearched": 5,
+  "newNews": [],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Wiwsport / Transfermarkt / Flashscore - Multiple reports confirm full return to competitive play with 20 Ligue 1 appearances and 574 minutes in 2025/26 season as of Mar 23, 2026"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
