@@ -1,0 +1,107 @@
+{
+  "sweepDate": "Mar 30, 2026",
+  "sweepType": "full",
+  "sweepNumber": 30,
+  "baselineItems": 68,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Feb 10, 2026",
+        "club": "Eintracht Frankfurt",
+        "detail": "Deal almost finalized. ~3yr contract. Visa delays ongoing for German documents.",
+        "source": "AfricaFoot",
+        "sourceUrl": null,
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Research findings confirm Feb 10 intel already in existing rumors. No new date-gated intel found beyond Feb 12, 2026 existing rumor."
+    },
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "Mar 17, 2026",
+        "club": "Liverpool FC U21s",
+        "detail": "Made U21s debut vs Man City as LCB sub. Rob Page: 'absolute class'.",
+        "source": "This Is Anfield",
+        "sourceUrl": null,
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Mar 17, 2026 rumor already exists in baseline (3x duplicate entries). No new intel beyond existing rumors."
+    },
+    {
+      "playerId": 18,
+      "playerName": "Ilídio Panda",
+      "rumor": {
+        "date": "Feb 13, 2026",
+        "club": "FC Porto",
+        "detail": "Porto top target. Release clause ~€300k. Imminent pursuit intensifies.",
+        "source": "Yahoo Sports / Foot Africa",
+        "sourceUrl": null,
+        "tier": 3,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Feb 13, 2026 intel already exists in baseline (2x entries). No new activity after Feb 13."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Mar 16, 2026",
+        "club": "Watford FC",
+        "detail": "Formal €500k bid confirmed. UK work permit restricts move until Jan 2027.",
+        "source": "Sport Witness",
+        "sourceUrl": null,
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Mar 16, 2026 intel already exists in baseline (3x entries). No new activity beyond Mar 16."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye (b.2003, Sporting CP), not 2010-born player at Sahel FC.",
+      "reason": "Identity confusion detected. 2010-born Sahel FC player not appearing in transfer databases or web coverage. May be below indexing threshold."
+    },
+    {
+      "playerId": 4,
+      "playerName": "Yao Hubert",
+      "detail": "Deal close to completion. Right to Dream academy partnership facilitating move.",
+      "reason": "Auto-rejected: Detail references \"Right to Dream\" pipeline — Yao Hubert plays for San Pedro FC, not associated with Right to Dream; Detail references \"Right to Dream\" mentioned in confusionRisk for Yao Hubert"
+    }
+  ]
+}
