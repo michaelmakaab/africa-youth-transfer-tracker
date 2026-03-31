@@ -64,7 +64,7 @@ if (!fs.existsSync(PLAYERS_PATH) || !fs.existsSync(INTEL_PATH)) {
   process.exit(1);
 }
 
-const MODEL = process.env.SWEEP_MODEL || "claude-sonnet-4-5-20251001";
+const MODEL = process.env.SWEEP_MODEL || "claude-sonnet-4-5-20250929";
 const MODEL_PHASE2 = process.env.SWEEP_MODEL_PHASE2 || "claude-haiku-4-5-20251001";
 
 // ── Load current data ─────────────────────────────────────────────────────
