@@ -64,7 +64,7 @@ if (!fs.existsSync(PLAYERS_PATH) || !fs.existsSync(INTEL_PATH)) {
   process.exit(1);
 }
 
-const MODEL = process.env.SWEEP_MODEL || "claude-haiku-4-5-20251001";
+const MODEL = process.env.SWEEP_MODEL || "claude-sonnet-4-5-20251001";
 const MODEL_PHASE2 = process.env.SWEEP_MODEL_PHASE2 || "claude-haiku-4-5-20251001";
 
 // ── Load current data ─────────────────────────────────────────────────────
@@ -188,6 +188,7 @@ START SEARCHING NOW. Use web_search for the first player immediately. Do not wri
       max_tokens: 4000,
       system: "You are a football career news research agent. Search for performance updates, injuries, call-ups, and career news. Do NOT produce JSON — just describe findings for each player.",
       tools: [{ type: "web_search_20250305", name: "web_search", max_uses: maxSearches }],
+      tool_choice: { type: "any" },
       messages: [{ role: "user", content: searchPrompt }]
     });
 
@@ -492,6 +493,7 @@ START SEARCHING NOW. Use web_search for the first player immediately. Do not wri
           max_uses: maxSearches
         }
       ],
+      tool_choice: { type: "any" },
       messages: [{ role: "user", content: searchPrompt }]
     });
 
