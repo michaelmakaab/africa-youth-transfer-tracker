@@ -188,7 +188,6 @@ START SEARCHING NOW. Use web_search for the first player immediately. Do not wri
       max_tokens: 4000,
       system: "You are a football career news research agent. Search for performance updates, injuries, call-ups, and career news. Do NOT produce JSON — just describe findings for each player.",
       tools: [{ type: "web_search_20250305", name: "web_search", max_uses: maxSearches }],
-      tool_choice: { type: "any" },
       messages: [{ role: "user", content: searchPrompt }]
     });
 
@@ -493,7 +492,6 @@ START SEARCHING NOW. Use web_search for the first player immediately. Do not wri
           max_uses: maxSearches
         }
       ],
-      tool_choice: { type: "any" },
       messages: [{ role: "user", content: searchPrompt }]
     });
 
