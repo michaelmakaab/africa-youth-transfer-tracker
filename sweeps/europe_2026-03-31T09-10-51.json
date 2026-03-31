@@ -1,0 +1,30 @@
+{
+  "sweepDate": "Mar 31, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 29,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Mar 19, 2026",
+        "headline": "Midtjylland eliminated from Europa League after penalty loss to Nottingham",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com",
+        "type": "appearance",
+        "league": "Europa League",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "New competition development: Midtjylland's Europa League campaign ended Mar 19 after losing 2-1 in home leg and falling to penalties. This elimination result is not in existing news (which only covers the Mar 12 first leg win)."
+    }
+  ],
+  "statusChanges": [],
+  "noChange": [
+    "Ousmane Diomande",
+    "Rayann Capo Chichi",
+    "Abdoulaye Faye",
+    "Shandre Campbell"
+  ]
+}
