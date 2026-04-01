@@ -2,88 +2,76 @@ Now searching for Ousmane Diao:
 Now searching for Rayann Capo Chichi:
 Now searching for Abdoulaye Faye:
 Now searching for Shandre Campbell:
-I have completed searches for all five players. Let me compile my findings now:
-
-## FINDINGS FOR AFRICAN PLAYERS AT EUROPEAN CLUBS
+## FINDINGS FOR EACH PLAYER:
 
 ### Player #101: Ousmane Diomande (Ivory Coast, CB, Sporting CP)
 
-**NEW FINDINGS:**
-
-
-The Germany vs Ivory Coast friendly scheduled for March 30, 2026 in Stuttgart was CANCELLED after the World Cup draw placed both teams in the same group; Germany now faces Ghana instead
-. 
-At the 2026 World Cup, Germany faces Curaçao, Ivory Coast and Ecuador in Group E
-.
-
-
-Arsenal's Champions League quarter-final first leg against Sporting CP is scheduled for Tuesday, April 7, 2026 at 8pm BST in Lisbon, with the second leg on Wednesday, April 15 at Emirates Stadium
-.
-
-**Status Update:** No new injuries or match performances beyond existing news. The player's World Cup call-up opponent has changed from the originally scheduled Germany friendly (now cancelled) to the actual World Cup group match in June 2026.
-
----
+**No genuinely new findings beyond the existing 25 news items.** The searches confirmed information already in the existing news:
+- The Champions League QF vs Arsenal on April 7, 2026 is confirmed
+- Transfer speculation continues with Arsenal, Chelsea remaining interested
+- Stats confirmed: 7 UCL matches, 1 goal, 1,048 Liga Portugal minutes, 7.2 FotMob rating
+- All recent articles (Feb-Mar 2026) are already documented
 
 ### Player #102: Ousmane Diao (Senegal, CB, FC Midtjylland)
 
-**NEW FINDINGS:**
+
+**[Mar 12, 2026] assist:** Diao provided a crucial assist in Midtjylland's 1-0 Europa League Round of 16 win at Nottingham Forest (Wiwsport)
 
 
-March 12, 2026 - ASSIST: Diao provided the decisive assist for Cho Gue-sung's goal in Midtjylland's 1-0 Europa League Round of 16 first leg win at Nottingham Forest
-. Source: Wiwsport.com
+
+**[Mar 19, 2026] appearance:** Midtjylland eliminated from Europa League after losing on penalties to Nottingham Forest despite winning the first leg 1-0 (Wiwsport)
 
 
-March 19, 2026 - ELIMINATION: Midtjylland eliminated from Europa League after losing 2-1 in the home leg and falling to penalties against Nottingham Forest
-. Source: Wiwsport.com
+
+**[Current Season Stats]:** In the 2025/26 Superligaen season, Diao has recorded 1 goal, 1 assist, 1,112 minutes, an average FotMob rating of 7.35, 1 yellow card (FotMob)
 
 
-Season statistics updated: 7 Europa League matches, 545 minutes, 2 goals, 81.43% passing accuracy
-. Source: UEFA.com
 
----
+**[Europa League Stats]:** Diao played 7 Europa League matches, 545 minutes, scored 2 goals with an 81.43% passing accuracy (UEFA.com)
+
+
+
+**[Transfer Interest]:** Liverpool are monitoring Diao with "genuine intent rather than casual interest" according to Danish outlet PL BOLD; the 21-year-old has emerged as a top defensive target after Manchester City secured Marc Guehi (Empire of the Kop / Yahoo Sports, Jan 16-17, 2026)
+
 
 ### Player #103: Rayann Capo Chichi (Ivory Coast, CB, FC Midtjylland)
 
-**NO NEW FINDINGS BEYOND EXISTING NEWS:**
 
-All sources confirm the player signed a five-year contract through 2031 in late December 2025 and 
-started training with FC Midtjylland U19 in spring 2026
-. No first-team appearances or other developments found for March 2026.
-
----
-
-### Player #104: Abdoulaye Faye (Senegal, CB, FC Lorient on loan from Bayer Leverkusen)
-
-**NO NEW MATCH APPEARANCES FOUND IN MARCH 2026:**
-
-Player's existing status shows he returned from injury in early 2026. 
-Season statistics: 574 Ligue 1 minutes, 0 goals, 0 assists, 5 yellow cards, 6.31 FotMob rating
-. Source: FotMob
+**[Current Status]:** Capo Chichi started with FC Midtjylland's U19 team when they began spring season preparations in early 2026 (FC Midtjylland Official, Dec 23, 2025)
 
 
-Updated stats show 7 Ligue 1 appearances, 573 minutes in 2025-26 season
-. Source: FBref
 
-No genuinely new news beyond stat updates already in existing records.
+**[Background]:** Confirmed as Ivory Coast U20 international; played several matches including CAF Cup fixtures for FC San Pedro before his transfer (Sport-Ivoire.ci, Dec 23, 2025)
 
----
+
+**No new match appearances or senior team news found** - player remains with U19 squad as expected.
+
+### Player #104: Abdoulaye Faye (Senegal, CB, Lorient on loan from Bayer Leverkusen)
+
+**CRITICAL STATUS UPDATE - RECOVERY FROM INJURY:**
+
+The existing news shows Faye's status as "injury" with a foot injury setback in October 2025. However, searches reveal **he has now returned to playing**:
+
+
+**[Recent Appearances - RECOVERED]:** Faye has made multiple appearances in 2026 including: Feb 22 (90 mins away at Silkeborg, 7.8 rating), Feb 15 (90 mins away at OB, 7.7 rating), Feb 12 (90 mins away at AGF, 7.1 rating, 1 yellow), Feb 8 (90 mins vs FC København, 7.5 rating) (FotMob)
+
+
+**NOTE:** The search results appear to have mixed up player data - these February 2026 matches showing "away at Silkeborg," "OB," and "AGF" are Danish clubs, but Faye plays for Lorient in France. This suggests a **data error in the source** - these appear to be Ousmane Diao's matches erroneously attributed to Faye in my notes above.
+
+Searching more carefully through the Faye-specific results:
+
+The searches did NOT find evidence of recent 2026 match appearances for Faye at Lorient. The most recent injury information from October 2025 states he would not feature before 2026, but no confirmed return-to-play dates were found in March/April 2026 sources.
+
+**Status remains unclear** - existing injury news from Oct 2025 says he wouldn't return until 2026, but no March/April 2026 sources confirm his return.
 
 ### Player #105: Shandre Campbell (South Africa, LW, Club Brugge)
 
-**NO NEW FINDINGS BEYOND EXISTING NEWS:**
+
+**[Feb 18, 2026] appearance:** Campbell came on in the 82nd minute as Club Brugge drew 3-3 with Atletico Madrid in the UEFA Champions League knockout play-off first leg at Jan Breydel Stadium; he proved "influential" off the bench (SA People)
 
 
-Current season totals: 7 Pro League A apps (61 min), 5 Pro League B apps (412 min, 2 goals, 1 assist), 2 Champions League apps (16 min)
-. Source: FBref
-
-The February 18, 2026 Champions League appearance vs Atletico Madrid is already in existing news. No March 2026 appearances or developments found.
+**No genuinely new information beyond existing news** - the Feb 18 Atletico Madrid match (listed in existing news as "Feb 18, 2026: appearance") is confirmed. The red card vs Charleroi on Jan 13, 2026 is already documented.
 
 ---
 
-## SUMMARY
-
-**GENUINELY NEW FINDINGS (not already in existing news):**
-- **Diomande**: Germany friendly cancelled; World Cup group details confirmed
-- **Diao**: March 12 assist vs Nottingham; March 19 Europa League elimination
-
-**NO NEW NEWS:** Capo Chichi, Faye (only stat updates), Campbell (only stat updates)
+**SUMMARY:** Most players' recent news is already well-documented in the existing records. Key new finding is Ousmane Diao's continued strong Europa League form (assist Mar 12, elimination Mar 19) and Liverpool's intensified transfer interest. Abdoulaye Faye's injury recovery status remains unclear - no confirmed 2026 match appearances found despite injury expected to clear by 2026.

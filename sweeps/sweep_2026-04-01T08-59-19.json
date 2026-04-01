@@ -1,0 +1,72 @@
+{
+  "sweepDate": "Apr 1, 2026",
+  "sweepType": "full",
+  "sweepNumber": 34,
+  "baselineItems": 68,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 8,
+      "playerName": "Souleymane Doumbia",
+      "rumor": {
+        "date": "Oct 31, 2025",
+        "club": "Mali U17 NT",
+        "detail": "Named in Mali's final 21-man squad for 2025 FIFA U17 World Cup in Qatar",
+        "source": "AfricaSoccer",
+        "sourceUrl": "https://africasoccer.com/mali-names-final-squad-for-2025-u17-world-cup-in-qatar/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New intel: Mali U17 World Cup squad selection. Date Oct 31, 2025 is after player's previous (no_rumours status) and represents genuine tournament milestone."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Mar 16, 2026",
+        "club": "Watford FC",
+        "detail": "Watford formal €500k bid confirmed. UK work permit blocks move until Jan 2027",
+        "source": "Sport Witness",
+        "sourceUrl": "https://sportwitness.co.uk/details-of-watfords-bid-for-signing-explained-player-to-evaluate-hornets-offer/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New intel: Formal €500k bid with work permit clarification dated Mar 16, 2026. Latest existing rumor dated Mar 16, 2026 (same date but from different source), so this provides official confirmation + work permit details not yet in database."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "detail": "Multiple Sport Witness / Wiwsport / Foot Mercato reports on Mar 12-16, 2026 all covering Watford €500k bid and club visit",
+      "reason": "Same date range (Mar 12-16) with overlapping details across sources. Latest existing rumor also dated Mar 16, 2026. Included only the Sport Witness confirmation with work permit clarification as genuinely new angle."
+    }
+  ]
+}
