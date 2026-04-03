@@ -1,0 +1,80 @@
+{
+  "sweepDate": "Apr 3, 2026",
+  "sweepType": "full",
+  "sweepNumber": 35,
+  "baselineItems": 69,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Feb 10, 2026",
+        "club": "Eintracht Frankfurt",
+        "detail": "Deal almost finalized ~3yr contract. Visa delays ongoing. Frankfurt U17 move imminent.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/mahamadou-traore-en-passe-de-sengager-avec-leintracht-francfort/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Date Feb 10, 2026 is NEW (latest existing rumor Feb 12, 2026 is LATER but this is the earlier source confirming same deal). Adds clarity on finalization status pre-visa completion."
+    },
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "Mar 2, 2026",
+        "club": "Aarhus GF",
+        "detail": "Scored penalty goal for AGF U19 vs FC København U19 (60th min, 1-1 draw).",
+        "source": "agf.dk (AGF Official)",
+        "sourceUrl": "https://agf.dk/nyheder/2026/marts/young-guns-u19-delte-med-fck",
+        "tier": 1,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "NEW match performance data post-Feb 26 injury. Latest existing rumor is Feb 26, 2026 injury setback. This Mar 2 goal represents fitness return confirmation and competitive action."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Apr 1, 2026",
+        "club": "Watford FC / Marseille",
+        "detail": "Marseille relaunching pursuit. ~€1M agreement reportedly reached between AJEL & Watford.",
+        "source": "Wiwsport / Match 360",
+        "sourceUrl": null,
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Date Apr 1, 2026 is AFTER latest existing rumor (Mar 16, 2026 Watford €500k bid). New development: Marseille counter-offer and reported Watford agreement escalation to ~€1M."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": []
+}

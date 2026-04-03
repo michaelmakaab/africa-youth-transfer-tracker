@@ -1,0 +1,30 @@
+{
+  "sweepDate": "Apr 3, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 31,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 103,
+      "playerName": "Rayann Capo Chichi",
+      "newsItem": {
+        "date": "Feb 25, 2026",
+        "headline": "Capo Chichi substitute appearance for FC Midtjylland U19 vs AGF",
+        "source": "KSDH.dk",
+        "sourceUrl": "https://ksdh.dk/nyheder/u19-foraarspremiere-mod-fcm-en-sevaerdig-kamp-med-hoejt-niveau/",
+        "type": "appearance",
+        "league": "Danish U19",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "Genuine new finding: First documented competitive appearance for Capo Chichi at U19 level post-contract signing. No prior appearance news existed in his 4-item history. Confirms his integration into club's development pathway."
+    }
+  ],
+  "statusChanges": [],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Abdoulaye Faye",
+    "Shandre Campbell"
+  ]
+}
