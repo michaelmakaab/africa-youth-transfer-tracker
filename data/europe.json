@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 1, 2026",
-    "sweepNumber": 30,
+    "lastSweep": "Apr 3, 2026",
+    "sweepNumber": 31,
     "playerCount": 5
   },
   "players": [
@@ -501,6 +501,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Feb 25, 2026",
+          "headline": "Capo Chichi substitute appearance for FC Midtjylland U19 vs AGF",
+          "source": "KSDH.dk",
+          "sourceUrl": "https://ksdh.dk/nyheder/u19-foraarspremiere-mod-fcm-en-sevaerdig-kamp-med-hoejt-niveau/",
+          "type": "appearance",
+          "league": "Danish U19",
+          "tier": 3,
+          "recent": true
+        },
         {
           "date": "Jan 7, 2026",
           "headline": "Started with FC Midtjylland U19 team for spring season preparations",
