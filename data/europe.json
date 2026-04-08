@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 3, 2026",
-    "sweepNumber": 31,
+    "lastSweep": "Apr 8, 2026",
+    "sweepNumber": 32,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Apr 7, 2026",
+          "headline": "90 mins UCL QF L1 vs Arsenal 0-1; pinpoint pass set up Araujo crossbar shot. Havertz late winner",
+          "source": "ESPN / Football Today",
+          "sourceUrl": "https://footballtoday.com/2026/04/07/sporting-cp-0-1-arsenal-kai-havertz-nets-late-winner/",
+          "type": "appearance",
+          "league": "UEFA Champions League",
+          "tier": 1,
+          "recent": true
+        },
         {
           "date": "Mar 27, 2026",
           "headline": "Diomande in Sporting squad for Champions League QF vs Arsenal, April 7, 2026",
