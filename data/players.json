@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 8, 2026",
-    "sweepNumber": 37,
+    "lastSweep": "Apr 10, 2026",
+    "sweepNumber": 38,
     "playerCount": 21
   },
   "players": [
@@ -867,6 +867,26 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 1, 2026",
+          "club": "Guingamp",
+          "detail": "Player expected for trial at EA Guingamp. Club lacks funds for transfer offer",
+          "source": "Wiwsport",
+          "sourceUrl": "https://wiwsport.com/2026/04/01/mercato-olympique-de-marseille-relance-la-piste-mouhamed-diop/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
+        {
+          "date": "Apr 1, 2026",
+          "club": "Marseille",
+          "detail": "OM relaunching pursuit, preparing to overbid Watford's ~€1M offer",
+          "source": "Wiwsport",
+          "sourceUrl": "https://wiwsport.com/2026/04/01/mercato-olympique-de-marseille-relance-la-piste-mouhamed-diop/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
         {
           "date": "Apr 1, 2026",
           "club": "Marseille",
