@@ -1,0 +1,66 @@
+{
+  "sweepDate": "Apr 10, 2026",
+  "sweepType": "full",
+  "sweepNumber": 38,
+  "baselineItems": 75,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Apr 1, 2026",
+        "club": "Marseille",
+        "detail": "OM relaunching pursuit, preparing to overbid Watford's ~€1M offer",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/04/01/mercato-olympique-de-marseille-relance-la-piste-mouhamed-diop/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Apr 1, 2026 publication is after latest existing rumor (Apr 1, 2026 Watford agreement). Marseille's late overbid attempt is new tactical development not previously documented."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Apr 1, 2026",
+        "club": "Guingamp",
+        "detail": "Player expected for trial at EA Guingamp. Club lacks funds for transfer offer",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/04/01/mercato-olympique-de-marseille-relance-la-piste-mouhamed-diop/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Apr 1, 2026 is same date as latest existing rumor but Guingamp trial detail is new intel not previously documented in Guingamp context."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": []
+}

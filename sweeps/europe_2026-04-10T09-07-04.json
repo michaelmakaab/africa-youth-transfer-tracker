@@ -1,0 +1,65 @@
+{
+  "sweepDate": "Apr 10, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 33,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Apr 2, 2026",
+        "headline": "Sporting CP open to Diomande summer exit; Palace, Newcastle join Arsenal, Chelsea",
+        "source": "The Hard Tackle",
+        "sourceUrl": "https://thehardtackle.com/transfer-news/2026/04/02/sporting-cp-open-to-ousmane-diomande-negotiations/",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New transfer development from Apr 2, 2026 not in existing news. Confirms Sporting willingness to negotiate and adds Palace/Newcastle interest."
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "Mar 19, 2026",
+        "headline": "Midtjylland eliminated from Europa League; lost 0-3 on penalties to Nottingham Forest",
+        "source": "All Football",
+        "sourceUrl": "https://m.allfootballapp.com/news/Headline/Midtjylland-1-2-Nottingham-Forest-(agg-2-2-0-3-on-pens)-Visitors-into-quarters/4388308",
+        "type": "appearance",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New news item from Mar 19, 2026. Existing news only mentioned elimination result without penalty shootout detail or Diao's starting role confirmation."
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "Feb 18, 2026",
+        "headline": "Campbell off bench 82nd min in Brugge 3-3 UCL draw vs Atletico Madrid; tied game",
+        "source": "SA People",
+        "sourceUrl": "https://www.sapeople.com/sport/south-africans-abroad-campbells-club-brugge-hold-atleti/",
+        "type": "appearance",
+        "league": "Belgian Pro League",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "New appearance detail from Feb 18, 2026. Existing news mentions 8 mins in 3-2 UCL draw vs Atletico but this source confirms 82nd min substitution in 3-3 game with specific context (trailing 3-2 when entered, equalized 89th min)."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Transfermarkt / Flashscore"
+    }
+  ],
+  "noChange": [
+    "Rayann Capo Chichi"
+  ]
+}
