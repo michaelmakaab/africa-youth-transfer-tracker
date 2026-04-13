@@ -1,0 +1,67 @@
+{
+  "sweepDate": "Apr 13, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 34,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Apr 9, 2026",
+        "headline": "Diomande 8 UCL matches, 526 mins, 1 goal in 2025/26 campaign",
+        "source": "UEFA.com",
+        "sourceUrl": "https://www.uefa.com/uefachampionsleague/clubs/players/250169685--ousmane-diomande/",
+        "type": "media",
+        "league": "UEFA Champions League",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "Updated UCL statistics not previously in existing news (8 matches, 526 minutes). Prior news from Mar 17 showed 7 matches, 436 mins. This reflects progression through QF."
+    },
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Apr 13, 2026",
+        "headline": "Diomande scheduled for Champions League QF second leg vs Arsenal, April 15",
+        "source": "UEFA.com",
+        "sourceUrl": "https://www.uefa.com/uefachampionsleague/",
+        "type": "appearance",
+        "league": "UEFA Champions League",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "Upcoming match fixture confirmed. Not previously recorded in existing news. Relevant as active player in ongoing UCL competition."
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Apr 12, 2026",
+        "headline": "Faye included in Lorient lineup vs Lyon; confirmed return to action post-injury",
+        "source": "Flashscore / Dailysports.net",
+        "sourceUrl": "https://dailysports.net/predictions/lyon-vs-lorient-can-lyon-end-their-poor-run-at-home/",
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Confirms Faye has fully recovered and returned to competitive action. Prior existing news showed injury status through March 3, 2026. This is fresh evidence of return to playing status."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Flashscore / Dailysports.net (April 12, 2026) - Faye included in Lorient starting lineup vs Lyon"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}

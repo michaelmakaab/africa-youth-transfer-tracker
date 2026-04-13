@@ -1,0 +1,121 @@
+{
+  "sweepDate": "Apr 13, 2026",
+  "sweepType": "full",
+  "sweepNumber": 39,
+  "baselineItems": 77,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 8,
+      "playerName": "Souleymane Doumbia",
+      "rumor": {
+        "date": "Apr 11, 2026",
+        "club": "Slavia Prague",
+        "detail": "Slavia Prague actively pursuing 18yo DF after U17 World Cup observation",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/souleymane-doumbia-cible-par-le-slavia-prague/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New club entry dated Apr 11, 2026 (after latest Oct 31, 2025 rumor). Identity verified: Souleymane Doumbia, b.2008, DF, Derby Academy, Mali. Slavia Prague previously untracked. Multiple prior clubs (Villarreal, Sturm Graz, Monaco, Sporting Lisbon, Reims, Anderlecht) also confirmed in same source."
+    },
+    {
+      "playerId": 11,
+      "playerName": "El Hadj Yamar Ndiaye",
+      "rumor": {
+        "date": "Oct 18, 2025",
+        "club": "Senegal U17 NT",
+        "detail": "Scored opening goal (header, 34th min) vs Sierra Leone at UFOA-A U17",
+        "source": "Seneweb",
+        "sourceUrl": "https://www.seneweb.com/en/news/Sport/tournoi-ufoa-a-u17-le-senegal-decroche-une-double-qualification_n_471174.html",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": false
+      },
+      "intelUpdates": null,
+      "reasoning": "New intel for player with zero existing rumors. Identity verified: El Hadj Yamar Ndiaye, b.2009, FW, Challenge F.C, Senegal. National team performance documented at UFOA-A U17 tournament. Dated Oct 18, 2025 — valid sweep finding."
+    },
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "Apr 11, 2026",
+        "club": "Aarhus GF",
+        "detail": "Made senior debut vs Nordsjælland (83rd min sub, 1-1 draw). First Superliga app",
+        "source": "Kawowo Sports",
+        "sourceUrl": "https://kawowo.com/2026/04/11/james-bogere-makes-senior-debut-at-agf-aarhus/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "confirmed",
+        "milestone": "senior_debut"
+      },
+      "reasoning": "New milestone dated Apr 11, 2026 (after latest Apr 6, 2026 rumor). Identity verified: James Bogere, b.2008, FW, Aarhus GF U19→Senior pathway. First competitive senior appearance represents escalation from U19 integration. Recent and significant."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Apr 1, 2026",
+        "club": "Olympique Marseille",
+        "detail": "OM relaunching pursuit, preparing to overbid Watford's ~€1M agreement",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/04/01/mercato-olympique-de-marseille-relance-la-piste-mouhamed-diop/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New club escalation dated Apr 1, 2026 (after latest Apr 1, 2026 rumor bundle). OM newly entering race with overbid strategy against Watford €1M agreement. Represents competitive development not previously documented. Marseille not in prior rumors."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Apr 1, 2026",
+        "club": "EA Guingamp",
+        "detail": "Expected for trial at Guingamp. Club lacks funds for transfer offer",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/04/01/mercato-olympique-de-marseille-relance-la-piste-mouhamed-diop/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New trial development dated Apr 1, 2026. Guingamp previously untracked in Diop rumors. Expected trial represents new pathway exploration. Club acknowledged as underfunded vs Watford/OM competition."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "Ettienne Mendy",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 4,
+      "playerName": "Yao Hubert",
+      "detail": "AfricaFoot article dated Jan 14, 2026 reports FC Nordsjælland close to signing",
+      "reason": "Same rumor as existing Jan 15, 2026 entry — likely same source/timeline, one-day discrepancy. Appears to be duplicate/pre-publication mention rather than genuinely new intel."
+    }
+  ]
+}

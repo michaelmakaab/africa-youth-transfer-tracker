@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 10, 2026",
-    "sweepNumber": 38,
+    "lastSweep": "Apr 13, 2026",
+    "sweepNumber": 39,
     "playerCount": 21
   },
   "players": [
@@ -270,6 +270,16 @@
       ],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 11, 2026",
+          "club": "Slavia Prague",
+          "detail": "Slavia Prague actively pursuing 18yo DF after U17 World Cup observation",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/souleymane-doumbia-cible-par-le-slavia-prague/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
         {
           "date": "Oct 31, 2025",
           "club": "Mali U17 NT",
@@ -564,7 +574,18 @@
       "sweepTier": "C",
       "altSpellings": [],
       "confusionRisk": null,
-      "rumors": []
+      "rumors": [
+        {
+          "date": "Oct 18, 2025",
+          "club": "Senegal U17 NT",
+          "detail": "Scored opening goal (header, 34th min) vs Sierra Leone at UFOA-A U17",
+          "source": "Seneweb",
+          "sourceUrl": "https://www.seneweb.com/en/news/Sport/tournoi-ufoa-a-u17-le-senegal-decroche-une-double-qualification_n_471174.html",
+          "tier": 2,
+          "status": "confirmed",
+          "recent": false
+        }
+      ]
     },
     {
       "id": 12,
@@ -643,6 +664,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 11, 2026",
+          "club": "Aarhus GF",
+          "detail": "Made senior debut vs Nordsjælland (83rd min sub, 1-1 draw). First Superliga app",
+          "source": "Kawowo Sports",
+          "sourceUrl": "https://kawowo.com/2026/04/11/james-bogere-makes-senior-debut-at-agf-aarhus/",
+          "tier": 2,
+          "status": "confirmed",
+          "recent": true
+        },
         {
           "date": "Apr 6, 2026",
           "club": "Aarhus GF",
@@ -867,6 +898,26 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 1, 2026",
+          "club": "EA Guingamp",
+          "detail": "Expected for trial at Guingamp. Club lacks funds for transfer offer",
+          "source": "Wiwsport",
+          "sourceUrl": "https://wiwsport.com/2026/04/01/mercato-olympique-de-marseille-relance-la-piste-mouhamed-diop/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
+        {
+          "date": "Apr 1, 2026",
+          "club": "Olympique Marseille",
+          "detail": "OM relaunching pursuit, preparing to overbid Watford's ~€1M agreement",
+          "source": "Wiwsport",
+          "sourceUrl": "https://wiwsport.com/2026/04/01/mercato-olympique-de-marseille-relance-la-piste-mouhamed-diop/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
         {
           "date": "Apr 1, 2026",
           "club": "Guingamp",
