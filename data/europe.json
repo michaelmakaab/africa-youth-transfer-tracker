@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 10, 2026",
-    "sweepNumber": 33,
+    "lastSweep": "Apr 13, 2026",
+    "sweepNumber": 34,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,26 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Apr 13, 2026",
+          "headline": "Diomande scheduled for Champions League QF second leg vs Arsenal, April 15",
+          "source": "UEFA.com",
+          "sourceUrl": "https://www.uefa.com/uefachampionsleague/",
+          "type": "appearance",
+          "league": "UEFA Champions League",
+          "tier": 1,
+          "recent": true
+        },
+        {
+          "date": "Apr 9, 2026",
+          "headline": "Diomande 8 UCL matches, 526 mins, 1 goal in 2025/26 campaign",
+          "source": "UEFA.com",
+          "sourceUrl": "https://www.uefa.com/uefachampionsleague/clubs/players/250169685--ousmane-diomande/",
+          "type": "media",
+          "league": "UEFA Champions League",
+          "tier": 1,
+          "recent": true
+        },
         {
           "date": "Apr 2, 2026",
           "headline": "Sporting CP open to Diomande summer exit; Palace, Newcastle join Arsenal, Chelsea",
@@ -599,6 +619,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Apr 12, 2026",
+          "headline": "Faye included in Lorient lineup vs Lyon; confirmed return to action post-injury",
+          "source": "Flashscore / Dailysports.net",
+          "sourceUrl": "https://dailysports.net/predictions/lyon-vs-lorient-can-lyon-end-their-poor-run-at-home/",
+          "type": "appearance",
+          "league": "Ligue 1",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Mar 23, 2026",
           "headline": "Faye: 20 Ligue 1 apps, 574 mins, 5 yellows. Market value €4.7M. Loan expires Jun 2026.",
