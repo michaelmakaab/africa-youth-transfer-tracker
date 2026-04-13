@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "Apr 13, 2026",
-    "sweepNumber": 39,
+    "sweepNumber": 40,
     "playerCount": 21
   },
   "players": [
@@ -667,10 +667,10 @@
         {
           "date": "Apr 11, 2026",
           "club": "Aarhus GF",
-          "detail": "Made senior debut vs Nordsjælland (83rd min sub, 1-1 draw). First Superliga app",
-          "source": "Kawowo Sports",
+          "detail": "SUPERLIGA DEBUT — on 83rd min vs FC Nordsjælland. AGF equalised 1 min later (Tingager header, 1-1).",
+          "source": "Kawowo / Campo.dk / AGF Official",
           "sourceUrl": "https://kawowo.com/2026/04/11/james-bogere-makes-senior-debut-at-agf-aarhus/",
-          "tier": 2,
+          "tier": 1,
           "status": "confirmed",
           "recent": true
         },

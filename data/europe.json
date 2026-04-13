@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "Apr 13, 2026",
-    "sweepNumber": 34,
+    "sweepNumber": 35,
     "playerCount": 5
   },
   "players": [
@@ -325,6 +325,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Apr 12, 2026",
+          "headline": "Goal at Brøndby (2-0, 81') then RED CARD for provocative celebration towards Slisz. FCM won 2-1. Suspended 1 match.",
+          "source": "TV2 / Tipsbladet",
+          "sourceUrl": "https://tv2.dk/sport/reel/2026-04-12-fcm-scorer--hoverer-og-faar-roedt-kort-6392974835112",
+          "type": "red_card",
+          "league": "Danish Superliga",
+          "tier": 1,
+          "recent": true
+        },
         {
           "date": "Mar 19, 2026",
           "headline": "Midtjylland eliminated from Europa League; lost 0-3 on penalties to Nottingham Forest",
