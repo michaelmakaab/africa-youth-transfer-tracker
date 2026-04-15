@@ -1,0 +1,83 @@
+{
+  "sweepDate": "Apr 15, 2026",
+  "sweepType": "full",
+  "sweepNumber": 41,
+  "baselineItems": 82,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 8,
+      "playerName": "Souleymane Doumbia",
+      "rumor": {
+        "date": "Apr 11, 2026",
+        "club": "Slavia Prague",
+        "detail": "Slavia Prague actively pursuing 18yo DF post-U17 AFCON. Multiple elite clubs tracking.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/souleymane-doumbia-cible-par-le-slavia-prague/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Apr 11, 2026 finding (4 days old) reports escalation from 'monitoring' to active pursuit post-U17 AFCON. Latest existing rumor was Oct 31, 2025. Passes date gate and provides material update on club interest intensity."
+    },
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "Apr 11, 2026",
+        "club": "Aarhus GF",
+        "detail": "Made senior Superliga debut (83rd min vs FC Nordsjælland). AGF equalized 1min later.",
+        "source": "Kawowo",
+        "sourceUrl": "https://kawowo.com/2026/04/11/james-bogere-makes-senior-debut-at-agf-aarhus/",
+        "tier": 1,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "confirmed"
+      },
+      "reasoning": "Apr 11, 2026 finding (4 days old, T1 source Kawowo) confirms senior debut occurred. Escalates from Apr 6 squad call-up rumor to confirmed appearance. Dates after all existing rumors. Official confirmation of pathway progression."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "field": "status",
+      "oldValue": "confirmed",
+      "newValue": "confirmed",
+      "source": "Kawowo (Apr 11, 2026 senior debut confirmation)"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 8,
+      "playerName": "Souleymane Doumbia",
+      "detail": "Pre-selected Mali U20 UFOA-A 2026 qualification. Elite clubs tracking development.",
+      "reason": "Auto-rejected: Club name too long (73 chars, max 60)"
+    }
+  ]
+}

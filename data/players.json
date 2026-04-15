@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 13, 2026",
-    "sweepNumber": 40,
+    "lastSweep": "Apr 15, 2026",
+    "sweepNumber": 41,
     "playerCount": 21
   },
   "players": [
@@ -270,6 +270,16 @@
       ],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 11, 2026",
+          "club": "Slavia Prague",
+          "detail": "Slavia Prague actively pursuing 18yo DF post-U17 AFCON. Multiple elite clubs tracking.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/souleymane-doumbia-cible-par-le-slavia-prague/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
         {
           "date": "Apr 11, 2026",
           "club": "Slavia Prague",
@@ -664,6 +674,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 11, 2026",
+          "club": "Aarhus GF",
+          "detail": "Made senior Superliga debut (83rd min vs FC Nordsjælland). AGF equalized 1min later.",
+          "source": "Kawowo",
+          "sourceUrl": "https://kawowo.com/2026/04/11/james-bogere-makes-senior-debut-at-agf-aarhus/",
+          "tier": 1,
+          "status": "confirmed",
+          "recent": true
+        },
         {
           "date": "Apr 11, 2026",
           "club": "Aarhus GF",
