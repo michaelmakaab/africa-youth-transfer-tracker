@@ -1,0 +1,67 @@
+{
+  "sweepDate": "Apr 17, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 37,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Apr 15, 2026",
+        "headline": "Diomande started vs Arsenal UCL QF2; Sporting held 0-0, eliminated on aggregate",
+        "source": "ESPN",
+        "sourceUrl": "https://www.espn.com/soccer/report/_/gameId/401862890",
+        "type": "appearance",
+        "league": "UEFA Champions League",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Apr 15 UCL QF2 vs Arsenal result and Diomande's confirmed starting role is new; not previously in news items dated only through Apr 14"
+    },
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Apr 15, 2026",
+        "headline": "Diomande rated 6.6 FotMob in Emirates 0-0 draw vs Arsenal; defensive display",
+        "source": "DASFootball",
+        "sourceUrl": "https://www.dasfootball.com",
+        "type": "media",
+        "league": "UEFA Champions League",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "Specific match performance rating from Apr 15 UCL fixture; not previously recorded in existing news"
+    },
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Apr 15, 2026",
+        "headline": "Man Utd, Chelsea, Newcastle join Arsenal monitoring Diomande—Record",
+        "source": "Record / Yahoo Sports",
+        "sourceUrl": "https://sports.yahoo.com/articles/ousmane-diomande-united-plan-sporting-051000384.html",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Updated transfer interest list including Man Utd, Chelsea, Newcastle on Apr 15; existing Apr 2 news covered Arsenal, Chelsea, Palace, Newcastle but not Man Utd explicitly"
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Flashscore / Apr 12, 2026 match confirmation"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
