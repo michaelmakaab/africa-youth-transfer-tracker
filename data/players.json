@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 15, 2026",
-    "sweepNumber": 41,
+    "lastSweep": "Apr 17, 2026",
+    "sweepNumber": 42,
     "playerCount": 21
   },
   "players": [
@@ -272,6 +272,36 @@
       "rumors": [
         {
           "date": "Apr 11, 2026",
+          "club": "Mali U20",
+          "detail": "Preselected for Mali U20 squad ahead of UFOA A Mali 2026 qualifying tournament.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/souleymane-doumbia-cible-par-le-slavia-prague/",
+          "tier": 2,
+          "status": "confirmed",
+          "recent": true
+        },
+        {
+          "date": "Apr 11, 2026",
+          "club": "Multiple",
+          "detail": "Multiple elite clubs tracking: Villarreal, Sturm Graz, Monaco, Sporting, Reims, Anderlecht.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/souleymane-doumbia-cible-par-le-slavia-prague/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
+        {
+          "date": "Apr 11, 2026",
+          "club": "Slavia Prague",
+          "detail": "Slavia Prague now passing to offensive on Doumbia. Czech club determined to secure signature.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/souleymane-doumbia-cible-par-le-slavia-prague/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
+        {
+          "date": "Apr 11, 2026",
           "club": "Slavia Prague",
           "detail": "Slavia Prague actively pursuing 18yo DF post-U17 AFCON. Multiple elite clubs tracking.",
           "source": "AfricaFoot",
@@ -318,6 +348,16 @@
       ],
       "confusionRisk": "Mamadou Traoré (b.1994, Dalian Yingbo)",
       "rumors": [
+        {
+          "date": "Apr 15, 2026",
+          "club": "Randers FC",
+          "detail": "Now close to signing first professional contract with Randers FC in Denmark. Frankfurt deal shifted.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/mahamadou-traore-devrait-signer-au-randers-fc/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Feb 10, 2026",
           "club": "Eintracht Frankfurt",
@@ -674,6 +714,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 11, 2026",
+          "club": "Aarhus GF",
+          "detail": "SUPERLIGA DEBUT on Apr 11 at 83rd min vs FC Nordsjælland (1-1). AGF equalized 1 min later.",
+          "source": "Kawowo",
+          "sourceUrl": "https://kawowo.com/2026/04/11/james-bogere-makes-senior-debut-at-agf-aarhus/",
+          "tier": 1,
+          "status": "confirmed",
+          "recent": true
+        },
         {
           "date": "Apr 11, 2026",
           "club": "Aarhus GF",

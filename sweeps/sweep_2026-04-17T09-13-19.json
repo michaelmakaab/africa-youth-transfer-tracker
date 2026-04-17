@@ -1,0 +1,137 @@
+{
+  "sweepDate": "Apr 17, 2026",
+  "sweepType": "full",
+  "sweepNumber": 42,
+  "baselineItems": 84,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 8,
+      "playerName": "Souleymane Doumbia",
+      "rumor": {
+        "date": "Apr 11, 2026",
+        "club": "Slavia Prague",
+        "detail": "Slavia Prague now passing to offensive on Doumbia. Czech club determined to secure signature.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/souleymane-doumbia-cible-par-le-slavia-prague/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Published Apr 11, 2026 — after latest existing rumor (Apr 11, 2026 in current data). Shows escalation from tracking to active offensive push now that player turned 18."
+    },
+    {
+      "playerId": 8,
+      "playerName": "Souleymane Doumbia",
+      "rumor": {
+        "date": "Apr 11, 2026",
+        "club": "Multiple",
+        "detail": "Multiple elite clubs tracking: Villarreal, Sturm Graz, Monaco, Sporting, Reims, Anderlecht.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/souleymane-doumbia-cible-par-le-slavia-prague/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Expands scope of existing Slavia Prague rumor with comprehensive list of competing clubs. New detail showing market expansion."
+    },
+    {
+      "playerId": 8,
+      "playerName": "Souleymane Doumbia",
+      "rumor": {
+        "date": "Apr 11, 2026",
+        "club": "Mali U20",
+        "detail": "Preselected for Mali U20 squad ahead of UFOA A Mali 2026 qualifying tournament.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/souleymane-doumbia-cible-par-le-slavia-prague/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New national team selection intel as of Apr 11, 2026. After latest existing rumor date. Relevant to player status/visibility."
+    },
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Apr 15, 2026",
+        "club": "Randers FC",
+        "detail": "Now close to signing first professional contract with Randers FC in Denmark. Frankfurt deal shifted.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/mahamadou-traore-devrait-signer-au-randers-fc/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "currentClub": "Randers FC",
+        "contract": "Expected first professional deal with Randers FC"
+      },
+      "reasoning": "Published Apr 15, 2026 — after latest existing rumor (Feb 12, 2026). Major development showing Eintracht Frankfurt deal appears to have fallen through or been abandoned in favor of Randers FC move."
+    },
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "Apr 11, 2026",
+        "club": "Aarhus GF",
+        "detail": "SUPERLIGA DEBUT on Apr 11 at 83rd min vs FC Nordsjælland (1-1). AGF equalized 1 min later.",
+        "source": "Kawowo",
+        "sourceUrl": "https://kawowo.com/2026/04/11/james-bogere-makes-senior-debut-at-agf-aarhus/",
+        "tier": 1,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Official senior debut confirmation published Apr 11, 2026 after latest existing rumor (Apr 11, 2026). Escalates player from potential to confirmed senior debut participant."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "field": "primaryClub",
+      "oldValue": "Players Dreams (pending Frankfurt transfer)",
+      "newValue": "Randers FC (imminent signing)"
+    },
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "field": "competitionLevel",
+      "oldValue": "Aarhus GF U19 / Superliga squad candidate",
+      "newValue": "Aarhus GF Superliga senior debut complete"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "All search results returned Souleymane Faye (b.2003, Sporting CP). No player matching b.2010 at Sahel FC found.",
+      "reason": "Potential identity confusion or database error. The 2010-born Souleymane Faye at Sahel FC may not exist or may use different name variant."
+    }
+  ]
+}

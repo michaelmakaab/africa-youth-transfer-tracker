@@ -1,101 +1,126 @@
-Now I'll continue with searches for the remaining players. Let me search for Rayann Capo Chichi, Abdoulaye Faye, and Shandre Campbell.
-Based on my searches, I have gathered sufficient information about all the players. Let me now compile the findings for each player:
+Now I'll search for the remaining players. Let me continue with Ousmane Diao.
+I see the search results are confusing Assane Diao (Como player) with Ousmane Diao (Midtjylland player). Let me search for the other players now.
+Now let me search for Shandre Campbell:
+Now I have completed searches for all players. Let me compile the findings:
 
 ---
 
-## PLAYER #101: OUSMANE DIOMANDE (Sporting CP)
+## PLAYER #101: Ousmane Diomande (Ivory Coast, CB, Sporting CP)
 
 **NEW FINDINGS:**
 
 
-**[Apr 14, 2026] appearance**: Diomande rested during Sporting's weekend league match vs Estrela Amadora (benched alongside Inacio), but both defenders expected to start Wednesday April 15 vs Arsenal in UCL QF second leg (O Jogo / Daily Cannon)
+**[Apr 15, 2026] appearance:** Diomande started in Sporting's confirmed lineup for the Champions League QF second leg vs Arsenal on April 15, 2026 (Sporting Gambler / Bolavip)
 
 
 
-**[Apr 14, 2026] media**: Diomande on 4 yellow cards in Liga Portugal, one away from suspension; slate not wiped after Gameweek 19 in Portugal (Daily Cannon)
-
-
-**NOTE**: The April 15 Champions League match vs Arsenal (2nd leg) is scheduled for today. 
-Arsenal lead 1-0 on aggregate from first leg
-. Match scheduled for 19:00 UTC at Emirates Stadium.
-
-**SOURCES**: 
-- Daily Cannon (Apr 14, 2026): https://dailycannon.com/2026/04/sporting-injury-arsenal-2nd-leg/
-- ESPN (Apr 15, 2026): https://www.espn.com/soccer/match/_/gameId/401862890/sporting-cp-arsenal
-
----
-
-## PLAYER #102: OUSMANE DIAO (FC Midtjylland)
-
-**CRITICAL STATUS UPDATE - RECOVERY FROM RED CARD:**
-
-
-**[Apr 12, 2026] red_card**: Diao sent off for second bookable offense at 81st minute after mocking Brondby's Slisz following an own goal in 2-1 away victory (PanAfricaFootball.com / Flashscore)
+**[Apr 15, 2026] appearance:** Sporting held Arsenal to a 0-0 draw at the Emirates Stadium in the Champions League quarter-final second leg; Arsenal advanced 1-0 on aggregate (ESPN / ESPN)
 
 
 
-**[Apr 12, 2026] goal**: Diao scored an own goal (assisted) at 81' before red card; Midtjylland won 2-1 at Brondby (PanAfricaFootball.com)
+**[Apr 15, 2026] media:** Diomande received a 6.6 FotMob rating in the Arsenal match (DASFootball)
 
 
-**NOTE**: This contradicts existing red card news from April 12 which stated "Goal at Brøndby (2-0, 81') then RED CARD." The actual sequence was: Midtjylland scored via own goal to make it 2-0, Diao mocked opposition player Slisz, then received second yellow. Brondby scored late penalty to make it 2-1 final.
 
-**SOURCES**:
-- PanAfricaFootball.com (Apr 12, 2026): https://www.panafricafootball.com/post/fc-midtjylland-franculino-returns/
-- Flashscore (Apr 13, 2026): https://www.flashscore.com/news/soccer-superliga-10-man-midtjylland-narrow-gap-to-league-leaders-agf-with-fortunate-win-in-brondby/GSWrBBbf/
+**[Apr 15, 2026] transfer_link:** Manchester United, Chelsea, Newcastle United and Arsenal all closely monitoring Diomande according to Portuguese outlet Record (Yahoo Sports)
+
+
+
+**[Apr 14, 2026] appearance:** Diomande dropped to the bench during Sporting's league match vs Estrela Amadora but expected to start vs Arsenal on April 15; both Diomande and Inacio at 4 yellow cards in Liga Portugal (Daily Cannon / O Jogo)
+
+
+
+**[Apr 12, 2026] media:** Diomande has 4 yellow cards in 13 Liga Portugal matches this season; still one away from suspension (FUTBIN)
+
+
+**IMPORTANT STATUS UPDATE:** 
+Diomande has 1,049 Liga Portugal minutes and 4 yellow cards in the 2025/26 season (FotMob)
+. The existing news stated he was "on 4 yellows" and "one match from suspension" — this remains current.
+
+**ARTICLE SOURCES:**
+- https://www.sportsgambler.com/betting-tips/football/arsenal-vs-sporting-prediction-lineups-odds-2026-04-15/ (Apr 15, 2026)
+- https://www.espn.com/soccer/report/_/gameId/401862890 (Apr 15, 2026)
+- https://sports.yahoo.com/articles/ousmane-diomande-united-plan-sporting-051000384.html (Apr 15, 2026)
+- https://dailycannon.com/2026/04/sporting-injury-arsenal-2nd-leg/ (Apr 15, 2026)
 
 ---
 
-## PLAYER #103: RAYANN CAPO CHICHI (FC Midtjylland)
+## PLAYER #102: Ousmane Diao (Senegal, CB, FC Midtjylland)
+
+**NEW FINDINGS:**
+
+Note: The search results mostly confused Ousmane Diao (FC Midtjylland, b. 2004) with Assane Diao (Como, b. 2005) who was ruled out of AFCON 2025. This is a different player.
+
+
+**[Current Season] media:** Diao has recorded 1 goal, 1 assist, 1,112 Superligaen minutes, 7.35 FotMob rating, and 1 yellow card in 2025/26 (FotMob)
+
+
+
+**[Current Season] media:** Diao has played 7 Europa League matches, 545 minutes, scored 2 goals with 81.43% passing accuracy (UEFA.com)
+
+
+**RECOVERY STATUS NOTE:** The existing news listed a red card suspension from April 12, 2026. However, there are no recent reports confirming he has returned from that suspension or any subsequent match appearances post-red card.
+
+**ARTICLE SOURCES:**
+- https://www.fotmob.com/players/1525187/ousmane-diao (current season stats)
+- https://www.uefa.com/uefaeuropaleague/clubs/players/250197261--ousmane-diao/ (current season Europa League stats)
+
+---
+
+## PLAYER #103: Rayann Capo Chichi (Ivory Coast, CB, FC Midtjylland)
 
 **NEW FINDINGS:**
 
 
-**[Apr 13, 2026] media**: Capo Chichi mentioned as one of FC Midtjylland's recent signings on five-year deal through 2031 (Tipsbladet)
+**[Feb 25, 2026] appearance:** Capo Chichi came on as a substitute for FC Midtjylland U19 vs AGF in the 46th minute, replacing Sebastian Lodberg Oppenhagen (KSDH.dk)
 
 
-No new match appearances or significant developments beyond contract signing in late December 2025. Player remains with U19 squad.
+The contract signing and U19 assignment information from December 2025 / January 2026 remains the most recent significant news. He continues with the U19 squad.
 
-**SOURCES**:
-- Tipsbladet (Apr 13, 2026): https://www.tipsbladet.dk/nyhed/generelle/steinlein-aergrer-sig-over-fcm-indkoeb
-
----
-
-## PLAYER #104: ABDOULAYE FAYE (FC Lorient, on loan from Bayer Leverkusen)
-
-**CRITICAL STATUS UPDATE - FULLY RECOVERED FROM INJURY:**
-
-
-**[Current Status] appearance**: Faye has accumulated 574 minutes in Ligue 1 2025/26, with 0 goals, 0 assists, 5 yellow cards, average FotMob rating 6.31 (FotMob)
-
-
-
-**[Jan 6, 2026] injury**: Faye returned to collective training at Lorient after over two months absence due to foot injury since Oct 19, 2025; underwent rehabilitation in Germany (Wiwsport)
-
-
-**IMPORTANT**: Existing news shows "injury" status from Oct 2025, but Faye has FULLY RECOVERED and returned to playing. He has accumulated 574 minutes across 20 Ligue 1 appearances this season, confirming he is back in action.
-
-**SOURCES**:
-- Wiwsport (Jan 6, 2026): https://wiwsport.com/2026/01/06/fc-lorient-abdoulaye-faye-de-retour-a-lentrainement-apres-plus-de-deux-mois-dabsence/
-- FotMob (current): https://www.fotmob.com/players/1555492/abdoulaye-faye
+**ARTICLE SOURCES:**
+- https://ksdh.dk/nyheder/u19-foraarspremiere-mod-fcm-en-sevaerdig-kamp-med-hoejt-niveau/ (Feb 25, 2026)
+- https://www.fcm.dk/nyheder/fc-midtjylland-henter-talentfuld-stopper-fra-elfenbenskysten/ (Dec 31, 2025 contract confirmation)
 
 ---
 
-## PLAYER #105: SHANDRE CAMPBELL (Club Brugge)
+## PLAYER #104: Abdoulaye Faye (Senegal, CB, Bayer Leverkusen / on loan at FC Lorient)
 
 **NEW FINDINGS:**
 
 
-**[Feb 18, 2026] appearance**: Campbell came off bench (82nd min) in Club Brugge's 3-3 Champions League draw vs Atletico Madrid; proved influential in final third as Brugge equalized 89th min through Tzolis (SA People)
+**[Current Status] injury:** Faye injured from January 15 to March 3, 2026 with a foot injury; currently has 11 Ligue 1 appearances with a 6.6 rating in 2025/26 (Flashscore)
 
 
+**IMPORTANT RECOVERY STATUS:** The existing news from April 12, 2026 stated "Faye included in Lorient lineup vs Lyon; confirmed return to action post-injury." This indicates 
+he has recovered from the foot injury that sidelined him from mid-January to early March 2026 and is back playing (Flashscore)
+.
 
-**[Current Stats] media**: Campbell has 2 goals, 1 assist in 416 minutes (First Division B 2025/26); FotMob rating 7.15, 1 yellow card (FotMob)
+The existing news already covers his recovery journey comprehensively (returned to training Jan 6, featured in Coupe de France Jan 10, back in Ligue 1 squad Feb 7).
+
+**ARTICLE SOURCES:**
+- https://www.flashscore.fr/joueur/abdoulaye-faye/nTW39FD2/ (season stats and injury history)
+- https://wiwsport.com/2026/01/06/fc-lorient-abdoulaye-faye-de-retour-a-lentrainement-apres-plus-de-deux-mois-dabsence/ (Jan 6, 2026)
+
+---
+
+## PLAYER #105: Shandre Campbell (South Africa, LW, Club Brugge)
+
+**NEW FINDINGS:**
 
 
+**[Feb 18, 2026] appearance:** Campbell came off the bench in the 82nd minute as Club Brugge drew 3-3 with Atletico Madrid in Champions League knockout playoff first leg; proved influential after entering with team trailing 3-2 (SA People)
 
-**[Apr 2026] media**: Market value updated to €1.6M (FotMob)
+
+The red card incident from January 13, 2026 (existing news) was his most recent significant development before this Champions League appearance.
 
 
-**SOURCES**:
-- SA People (Feb 19, 2026): https://www.sapeople.com/sport/south-africans-abroad-campbells-club-brugge-hold-atleti/
-- FotMob (current): https://www.fotmob.com/players/1599319/shandre-campbell
+**[Current Season] media:** Campbell has played 3 Champions League matches totaling 25 minutes with 0 goals and 0 assists (UEFA.com)
+
+
+**ARTICLE SOURCES:**
+- https://www.sapeople.com/sport/south-africans-abroad-campbells-club-brugge-hold-atleti/ (Feb 19, 2026)
+- https://www.uefa.com/uefachampionsleague/clubs/players/250200314--shandre-campbell/ (current season stats)
+
+---
+
+**SEARCH COMPLETE FOR ALL 5 PLAYERS**
