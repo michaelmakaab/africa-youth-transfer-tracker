@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 17, 2026",
-    "sweepNumber": 42,
+    "lastSweep": "Apr 20, 2026",
+    "sweepNumber": 43,
     "playerCount": 21
   },
   "players": [
@@ -715,6 +715,16 @@
       "confusionRisk": null,
       "rumors": [
         {
+          "date": "Apr 20, 2026",
+          "club": "Aarhus GF",
+          "detail": "In AGF starting XI vs FCM (title race game). AGF top of Superliga, 4pts ahead of FCM.",
+          "source": "Sofascore / BeSoccer",
+          "sourceUrl": "https://www.besoccer.com/match/midtjylland/agf-aarhus/20262846",
+          "tier": 1,
+          "status": "confirmed",
+          "recent": true
+        },
+        {
           "date": "Apr 11, 2026",
           "club": "Aarhus GF",
           "detail": "SUPERLIGA DEBUT on Apr 11 at 83rd min vs FC Nordsjælland (1-1). AGF equalized 1 min later.",
@@ -968,6 +978,26 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 11, 2026",
+          "club": "AJEL Rufisque",
+          "detail": "Scored 66' in AJEL 1-0 win vs US Ouakam (Round 22). AJEL 1st in L1.",
+          "source": "Sofascore / Wiwsport",
+          "sourceUrl": "https://www.sofascore.com/football/match/ajel-de-rufisque-us-ouakam/DWJsELdd",
+          "tier": 1,
+          "status": "confirmed",
+          "recent": true
+        },
+        {
+          "date": "Apr 2026",
+          "club": "AJEL Rufisque",
+          "detail": "Sunu Foot Local — Player of the Month award. L1 top scorer.",
+          "source": "Leral.net",
+          "sourceUrl": "https://www.leral.net/Ligue-1-Mouhamed-Diop-AJEL-sacre-joueur-du-mois-par-Sunu-Foot-Local_a397304.html",
+          "tier": 2,
+          "status": "confirmed",
+          "recent": true
+        },
         {
           "date": "Apr 1, 2026",
           "club": "EA Guingamp",

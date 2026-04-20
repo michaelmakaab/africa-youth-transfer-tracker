@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 17, 2026",
-    "sweepNumber": 37,
+    "lastSweep": "Apr 20, 2026",
+    "sweepNumber": 38,
     "playerCount": 5
   },
   "players": [
@@ -25,10 +25,10 @@
       "confusionRisk": null,
       "news": [
         {
-          "date": "Apr 15, 2026",
-          "headline": "Man Utd, Chelsea, Newcastle join Arsenal monitoring Diomande—Record",
-          "source": "Record / Yahoo Sports",
-          "sourceUrl": "https://sports.yahoo.com/articles/ousmane-diomande-united-plan-sporting-051000384.html",
+          "date": "Apr 19, 2026",
+          "headline": "Man Utd interest intensifies post-UCL tie; Arsenal, Chelsea, Bayern still interested",
+          "source": "The Peoples Person",
+          "sourceUrl": "https://thepeoplesperson.com/2026/04/19/ousmane-diomande-why-united-have-intensified-interest-in-sporting-defender-309056/",
           "type": "transfer_link",
           "league": "Liga Portugal",
           "tier": 2,
@@ -36,21 +36,21 @@
         },
         {
           "date": "Apr 15, 2026",
-          "headline": "Diomande rated 6.6 FotMob in Emirates 0-0 draw vs Arsenal; defensive display",
-          "source": "DASFootball",
-          "sourceUrl": "https://www.dasfootball.com",
-          "type": "media",
+          "headline": "90 mins UCL QF 2nd leg Arsenal 0-0 Sporting (Arsenal thru 1-0 agg). 6.5 FotMob. Man Utd scouts at Emirates",
+          "source": "UEFA / Bolavip",
+          "sourceUrl": "https://www.uefa.com/uefachampionsleague/news/02a4-2065cdff8df4-f1dfb42342fd-1000--arsenal-0-0-sporting-cp-agg-1-0-highlights-draw-enough-for-/",
+          "type": "appearance",
           "league": "UEFA Champions League",
-          "tier": 3,
+          "tier": 1,
           "recent": true
         },
         {
           "date": "Apr 15, 2026",
-          "headline": "Diomande started vs Arsenal UCL QF2; Sporting held 0-0, eliminated on aggregate",
-          "source": "ESPN",
-          "sourceUrl": "https://www.espn.com/soccer/report/_/gameId/401862890",
-          "type": "appearance",
-          "league": "UEFA Champions League",
+          "headline": "Man Utd, Chelsea, Newcastle join Arsenal monitoring Diomande (Record)",
+          "source": "Record / Yahoo Sports",
+          "sourceUrl": "https://sports.yahoo.com/articles/ousmane-diomande-united-plan-sporting-051000384.html",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
           "tier": 2,
           "recent": true
         },
@@ -375,6 +375,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Apr 20, 2026",
+          "headline": "Misses FCM vs AGF (title race) + Sønderjyske Apr 23 due to red card ban. Tullberg defends him",
+          "source": "Campo.dk",
+          "sourceUrl": "https://campo.dk/2026/04/19/poulsen-ligeglad-med-fcms-afbud-hvad-skulle-jeg-goere/",
+          "type": "injury",
+          "league": "Danish Superliga",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Apr 12, 2026",
           "headline": "Goal at Brøndby (2-0, 81') then RED CARD for provocative celebration towards Slisz. FCM won 2-1. Suspended 1 match.",
