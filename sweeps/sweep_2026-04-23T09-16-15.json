@@ -1,0 +1,68 @@
+{
+  "sweepDate": "Apr 23, 2026",
+  "sweepType": "full",
+  "sweepNumber": 44,
+  "baselineItems": 92,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 8,
+      "playerName": "Souleymane Doumbia",
+      "rumor": {
+        "date": "Apr 18, 2026",
+        "club": "Le Havre AC",
+        "detail": "Expected in France next week for trial. If successful, sign first pro contract.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/le-havre-ac-pret-a-doubler-le-slavia-prague-pour-souleymane-doumbia/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New club pursuit (Le Havre AC trial) dated Apr 18, 2026 — after latest existing rumor (Apr 11, 2026 Slavia Prague). Passes date gating and identity verification (Mali DF b.2008)."
+    },
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Apr 15, 2026",
+        "club": "Randers FC",
+        "detail": "Now close to signing first professional contract with Randers FC in Denmark.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/mahamadou-traore-devrait-signer-au-randers-fc/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "active",
+        "currentClub": "Randers FC (expected)"
+      },
+      "reasoning": "Major development: Randers FC shift supersedes Frankfurt interest. Dated Apr 15, 2026 — after latest Frankfurt update (Feb 12, 2026). Confirms identity (Mali MF b.2009, Players Dreams academy)."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": []
+}

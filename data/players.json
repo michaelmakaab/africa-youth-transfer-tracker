@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 20, 2026",
-    "sweepNumber": 43,
+    "lastSweep": "Apr 23, 2026",
+    "sweepNumber": 44,
     "playerCount": 21
   },
   "players": [
@@ -270,6 +270,16 @@
       ],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 18, 2026",
+          "club": "Le Havre AC",
+          "detail": "Expected in France next week for trial. If successful, sign first pro contract.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/le-havre-ac-pret-a-doubler-le-slavia-prague-pour-souleymane-doumbia/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
         {
           "date": "Apr 11, 2026",
           "club": "Mali U20",

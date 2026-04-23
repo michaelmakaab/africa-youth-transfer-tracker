@@ -1,0 +1,38 @@
+{
+  "sweepDate": "Apr 23, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 39,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Apr 19, 2026",
+        "headline": "Faye starred as Lorient dominated Marseille 2-0; back to consistent play",
+        "source": "AfricaTopSports",
+        "sourceUrl": "https://www.africatopsports.com/2026/04/19/ligue-1-lorient-fc-frappe-fort-abdoulaye-faye-affiche-ses-ambitions/",
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "New match performance update showing Faye is back playing regularly after long injury absence. Performance and quote not in existing news dated up to Apr 12."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "AfricaTopSports / Getty Images / FotMob match data Apr 2026"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
