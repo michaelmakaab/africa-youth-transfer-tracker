@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 20, 2026",
-    "sweepNumber": 38,
+    "lastSweep": "Apr 23, 2026",
+    "sweepNumber": 39,
     "playerCount": 5
   },
   "players": [
@@ -689,6 +689,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Apr 19, 2026",
+          "headline": "Faye starred as Lorient dominated Marseille 2-0; back to consistent play",
+          "source": "AfricaTopSports",
+          "sourceUrl": "https://www.africatopsports.com/2026/04/19/ligue-1-lorient-fc-frappe-fort-abdoulaye-faye-affiche-ses-ambitions/",
+          "type": "appearance",
+          "league": "Ligue 1",
+          "tier": 3,
+          "recent": true
+        },
         {
           "date": "Jan 6, 2026",
           "headline": "Faye returns to collective training after two-month foot injury absence",
