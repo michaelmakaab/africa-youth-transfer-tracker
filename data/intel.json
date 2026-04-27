@@ -79,8 +79,8 @@
     "seasonStats": "U17 AFCON 2025 — scored in semi-final vs Burkina Faso (header, 74th min, 2-0 win). Mali reached final. Also starred at U17 World Cup in Qatar",
     "clubStanding": "Players Dreams — rising Malian academy. Frankfurt move pending visa resolution",
     "notes": "Versatile midfielder known for above-average football intelligence. Frankfurt deal agreed (~3yr) but visa delays persist — still in Africa (playing U17 AFCON confirms this). Villarreal, Monaco, Randers also interested.",
-    "status": "active",
-    "currentClub": "Randers FC"
+    "status": "advanced",
+    "currentClub": "Randers FC (expected)"
   },
   "10": {
     "height": "188cm",
@@ -121,7 +121,8 @@
     "clubStanding": "Aarhus GF — Danish Superliga leaders. Transfer officially registered Feb 2, 2026",
     "notes": "SENIOR AFCON 2025 HISTORY MAKER — 2nd youngest EVER at AFCON (17y 10m). Made 2+ sub appearances (vs Tunisia & Tanzania). Coach Put: 'great talent with huge potential.' Youngest Ugandan at AFCON since 1974. Hat-trick on AGF debut. Injury setback in Feb but recovered.",
     "status": "confirmed",
-    "milestone": "senior_debut"
+    "milestone": "senior_debut",
+    "latestRumorDate": "Apr 20, 2026"
   },
   "14": {
     "height": "—",
@@ -196,7 +197,7 @@
     "notes": "Known as 'Jude'. DOB: 10 Jan 2009. WATFORD BID €500K (Mar 2026) — club official flew to Senegal. Leading race ahead of Marseille, Fenerbahçe & ES Sétif. Represented by Asfan Sports Management (UK). Can't move to England until Jan 2027 (turns 18). Aims to beat Niane's 19-goal season record.",
     "status": "active",
     "currentStatus": "actively_pursued_by_PL_club",
-    "latestRumorDate": "Mar 16, 2026",
+    "latestRumorDate": "Apr 1, 2026",
     "lastActivityDate": "Mar 16, 2026",
     "topScorer": true,
     "goalCount": 9

@@ -1,0 +1,52 @@
+{
+  "sweepDate": "Apr 27, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 40,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Apr 19, 2026",
+        "headline": "Benfica 2-1 Sporting: Diomande 90 mins, 6.9 rating in defeat",
+        "source": "Sofascore",
+        "sourceUrl": null,
+        "type": "appearance",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New match appearance not in existing news. Apr 19 Benfica fixture is fresh data."
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Apr 19, 2026",
+        "headline": "Lorient 2-0 Marseille: Faye 90 mins, 3 tackles, clean sheet",
+        "source": "RotoWire",
+        "sourceUrl": null,
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New match appearance with detailed performance stats. Demonstrates full recovery and consistent playing time post-injury."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Apr 19, 2026 appearance vs Marseille; full 90 mins, consistent playing in Apr 2026 fixtures"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
