@@ -1,111 +1,101 @@
-Now searching for Player #102: Ousmane Diao
-Now searching for Player #103: Rayann Capo Chichi
-Now searching for Player #104: Abdoulaye Faye
-Now searching for Player #105: Shandre Campbell
-## PLAYER #101: OUSMANE DIOMANDE (Sporting CP)
-
-**SOURCE:** The Hard Tackle (April 20, 2026)  
-**URL:** https://thehardtackle.com/transfer-news/2026/04/20/manchester-united-newcastle-united-front-runners-to-sign-ousmane-diomande/  
-**KEY FINDING:** 
-Man Utd and Newcastle United have intensified their interest after his exceptional performance against Arsenal in the UCL quarter-finals
-. 
-Sporting are willing to sell for €50 million despite an €80M release clause
-.
-
-**SOURCE:** FotMob (April 23, 2026)  
-**URL:** https://www.fotmob.com/players/1425182/ousmane-diomande  
-**KEY FINDING:** 
-In 2025/26 Liga Portugal: 0 goals, 0 assists, 1,109 minutes, 7.18 FotMob rating, 4 yellow cards
-. 
-Next match is April 22, 2026 when Sporting face FC Porto in Taca de Portugal
-.
-
-**SOURCE:** Daily Cannon (April 14, 2026)  
-**URL:** https://dailycannon.com/2026/04/sporting-injury-arsenal-2nd-leg/  
-**KEY FINDING:** 
-Diomande is on 4 yellow cards in Liga Portugal, one away from a one-game ban
-.
+I have completed all the required searches for the players. Let me now compile the findings for each player.
 
 ---
 
-## PLAYER #102: OUSMANE DIAO (FC Midtjylland)
+## PLAYER #101: OUSMANE DIOMANDE (Ivory Coast, CB, Sporting CP)
 
-**SOURCE:** MightyTips (April 20, 2026)  
-**URL:** https://www.mightytips.com/football-predictions/fc-midtjylland-vs-agf-prediction-20-04-2026/  
-**KEY FINDING:** 
-Head coach Tullberg will be forced into at least one change to his starting XI on Monday, with Ousmane Diao suspended after his red card in last week's win at Brøndby
-. **NOTE: Status update—Diao was previously marked as suspended from the April 12 red card. This confirms he missed the AGF match on April 20 and will also miss the Sønderjyske match on April 23.**
+**NEW FINDINGS:**
 
-**SOURCE:** LiveSoccerTV (April 13, 2026)  
-**URL:** https://www.livesoccertv.com/competitions/denmark/super-ligaen/  
-**KEY FINDING:** 
-FC Midtjylland ran away with a fortunate 2-1 win away against Brondby, despite having Ousmane Diao sent off for a second bookable offence
-.
 
-**SOURCE:** FotMob (March 2026)  
-**URL:** https://www.fotmob.com/players/1525187/ousmane-diao  
-**KEY FINDING:** 
-In 2025/26 Superligaen: 1 goal, 1 assist, 1,112 minutes, 7.35 FotMob rating, 1 yellow card
-. 
+**[Apr 20, 2026] transfer_link:** Manchester United and Newcastle United have intensified interest after his Champions League QF performances against Arsenal; both clubs now front-runners to sign Diomande. Sporting willing to accept €50M despite €80M release clause (The Hard Tackle / A Bola)
+
+
+
+**[Apr 2026] appearance:** Season stats: 0 goals, 0 assists, 1,109 Liga Portugal minutes, 7.18 FotMob rating, 4 yellow cards in 2025/26 (FotMob)
+
+
+
+**[Apr 19, 2026] appearance:** 90 mins vs Benfica; Sporting lost 1-2. Diomande received 6.9 Sofascore rating (Sofascore)
+
+
+**IMPORTANT STATUS UPDATE:** Diomande is NOT currently suspended. His yellow card count (4 in Liga Portugal) was mentioned on Apr 14 as being one match from suspension, but there is no evidence he received a 5th yellow or is currently banned. He remains available.
 
 ---
 
-## PLAYER #103: RAYANN CAPO CHICHI (FC Midtjylland)
+## PLAYER #102: OUSMANE DIAO (Senegal, CB, FC Midtjylland)
 
-**SOURCE:** KSDH.dk (February 25, 2026)  
-**URL:** https://ksdh.dk/nyheder/u19-foraarspremiere-mod-fcm-en-sevaerdig-kamp-med-hoejt-niveau/  
-**KEY FINDING:** 
-FCM U19 starting lineup vs AGF included: Chichi Yohann Rayann Junior Capo as a 46th-minute substitute
-. **Note: This confirms Capo Chichi is now playing for FCM U19 after joining in January 2026.**
+**NEW FINDINGS:**
 
-**No significant new findings** beyond what was already documented in existing news. Capo Chichi continues to develop with FCM U19 team.
 
----
+**[Apr 12, 2026] red_card + suspension:** Diao received second yellow card (RED CARD) at Brøndby after provocative celebration following FCM's goal. Suspended from matches vs AGF (Apr 20) and Sønderjyske (Apr 23). Midtjylland won 2-1 (Brøndby.com / Campo.dk)
 
-## PLAYER #104: ABDOULAYE FAYE (FC Lorient, on loan from Bayer Leverkusen)
 
-**SOURCE:** AfricaTopSports (April 19, 2026)  
-**URL:** https://www.africatopsports.com/2026/04/19/ligue-1-lorient-fc-frappe-fort-abdoulaye-faye-affiche-ses-ambitions/  
-**KEY FINDING:** 
-Lorient dominated Olympique de Marseille 2-0 in a complete performance
-. 
-After the match, Abdoulaye Faye expressed satisfaction and ambitions: "We worked for this since the start of the season. We're here to win and get maximum points." Lorient now sits in 9th position with 41 points after 30 matches
-. **NOTE: This is a major performance update—Faye is back playing regularly after his long injury absence.**
 
-**SOURCE:** Getty Images (Multiple dates in March-April 2026)  
-**URL:** https://www.gettyimages.com/photos/abdoulaye-faye  
-**KEY FINDING:** 
-Photos show Abdoulaye Faye playing for FC Lorient in Ligue 1 matches on April 5, 2026 (vs Paris FC), March 21, 2026 (vs Toulouse), and March 14, 2026 (vs Lens)
-. **NOTE: Confirms Faye has returned from injury and is playing consistently.**
+**[Apr 17, 2026] media:** Coach Mike Tullberg defends Diao after red card, says "things happened in the game" that provoked his reaction; gave player support rather than criticism (Campo.dk)
 
-**SOURCE:** FotMob (Current)  
-**URL:** https://www.fotmob.com/players/1555492/abdoulaye-faye  
-**KEY FINDING:** 
-In 2025/26 Ligue 1: 0 goals, 0 assists, 574 minutes, 6.31 FotMob rating, 5 yellow cards
-.
+
+**IMPORTANT STATUS UPDATE:** Diao WAS suspended and unavailable for matches on April 20 and April 23 due to red card ban. This is PAST his existing Apr 20 news about the suspension.
 
 ---
 
-## PLAYER #105: SHANDRE CAMPBELL (Club Brugge)
+## PLAYER #103: RAYANN CAPO CHICHI (Ivory Coast, CB, FC Midtjylland)
 
-**SOURCE:** SA People (February 18, 2026)  
-**URL:** https://www.sapeople.com/sport/south-africans-abroad-campbells-club-brugge-hold-atleti/  
-**KEY FINDING:** 
-Shandre Campbell came off the bench in the 82nd minute with Club Brugge trailing 3-2 against Atletico Madrid in the UCL knockout play-off. Campbell proved influential as Club Brugge equalised 3-3 in the 89th minute through Christos Tzolis
-. This repeats the existing Feb 18 news about the same match.
+**NEW FINDINGS:**
 
-**SOURCE:** FBref (2025/26 season)  
-**URL:** https://fbref.com/en/players/79fc3546/Shandre-Campbell  
-**KEY FINDING:** 
-2025-2026 season totals: Pro League A (7 matches, 61 minutes, 1 goal, 0 assists), Pro League B (5 matches, 412 minutes, 2 goals, 1 assist), Champions League (2 matches, 16 minutes, 0 goals, 0 assists)
-.
 
-**SOURCE:** FotMob (Current)  
-**URL:** https://www.fotmob.com/players/1599319/shandre-campbell  
-**KEY FINDING:** 
-In 2025/26 First Division B season: 2 goals, 1 assist, 416 minutes, 7.15 FotMob rating, 1 yellow card
-. 
-Campbell has won 2 titles: Belgian Cup (2024/25) and Super Cup (2025/26) with Club Brugge
-.
+**[Feb 25, 2026] appearance:** Capo Chichi came off the bench (46th minute substitute) in Midtjylland U19's 2-1 loss vs AGF U19 in U19 League spring premiere (KSDH.dk)
 
-**No additional groundbreaking news** beyond what was already documented.
+
+**NOTE:** No new activity found in April 2026. Player continues with U19 team as previously reported. Still in development phase.
+
+---
+
+## PLAYER #104: ABDOULAYE FAYE (Senegal, CB, Bayer Leverkusen - on loan at FC Lorient)
+
+**NEW FINDINGS:**
+
+
+**[Apr 19, 2026] appearance:** Faye delivered strong 90-minute performance in Lorient's 2-0 victory over Marseille. Recorded 3 tackles (2 won), 8 clearances, 1 interception. First clean sheet with him on pitch (RotoWire)
+
+
+
+**[Apr 5, 2026] appearance:** Featured for Lorient in Ligue 1 match vs Paris FC at Stade du Moustoir (Getty Images)
+
+
+
+**[Mar 21, 2026] appearance:** Played vs Toulouse FC in Ligue 1 at Stadium de Toulouse (Getty Images)
+
+
+
+**[Mar 14, 2026] appearance:** Played full match for Lorient vs RC Lens at Stade du Moustoir in Ligue 1 (Getty Images)
+
+
+**IMPORTANT STATUS UPDATE:** Faye has FULLY RECOVERED from his previous foot injury. He is now playing regularly and delivering strong performances. His last injury report was January 2026; he has since returned to consistent action.
+
+---
+
+## PLAYER #105: SHANDRE CAMPBELL (South Africa, LW, Club Brugge)
+
+**NEW FINDINGS:**
+
+
+**[Feb 18, 2026] appearance:** 8 minutes off bench in Club Brugge's 3-3 UCL draw vs Atletico Madrid (FotMob)
+
+
+
+**[Feb 15, 2026] appearance:** 23 minutes in 2-1 away win at Cercle Brugge; 6.1 FotMob rating (FotMob)
+
+
+
+**[2025/26 Season] stats:** Playing for Club Brugge NXT (reserve team): 2 goals, 1 assist, 416 minutes, 7.15 FotMob rating, 1 yellow card in First Division B (FotMob)
+
+
+
+**[Career] award:** Won Belgian Cup (2024/25) and Super Cup (2025/26) with Club Brugge (FotMob)
+
+
+**NOTE:** Campbell continues in squad rotation role with occasional first-team appearances but primarily plays for Club NXT reserves in Belgian second division.
+
+---
+
+**SEARCH COMPLETION:** All 5 players searched with minimum 2 searches each. Key findings include transfer developments (Diomande), disciplinary issues (Diao red card), injury recovery (Faye fully fit), development progress (Capo Chichi), and performance updates (Campbell).

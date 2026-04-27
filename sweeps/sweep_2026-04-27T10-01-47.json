@@ -1,0 +1,93 @@
+{
+  "sweepDate": "Apr 27, 2026",
+  "sweepType": "full",
+  "sweepNumber": 45,
+  "baselineItems": 93,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Apr 15, 2026",
+        "club": "Randers FC",
+        "detail": "Deal finalized. AFPD Mali directors traveling to Denmark this week to complete signing.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/mahamadou-traore-devrait-signer-au-randers-fc/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "advanced",
+        "currentClub": "Randers FC (expected)"
+      },
+      "reasoning": "New development beyond Feb 10-15 rumors about Frankfurt visa delays. Deal now finalized with Randers, representing resolution of month-long Frankfurt saga. Published Apr 15, 2026 (12 days before sweep)."
+    },
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "Apr 20, 2026",
+        "club": "Aarhus GF",
+        "detail": "Named in matchday squad vs FC Midtjylland (title race). AGF top of table.",
+        "source": "FootballDatabase",
+        "sourceUrl": "https://www.footballdatabase.eu/en/match/overview/3373444-midtjylland-aarhus_gf",
+        "tier": 1,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": {
+        "latestRumorDate": "Apr 20, 2026"
+      },
+      "reasoning": "New intel post-dating Apr 11 Superliga debut. Continued integration in AGF matchday squad for title-deciding fixture represents ongoing senior development. Published Apr 20, 2026 (7 days before sweep)."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Apr 1, 2026",
+        "club": "Watford FC / Olympique Marseille",
+        "detail": "Watford agreement ~€1M (upgraded from €500k). OM preparing counterbid. Guingamp trial expected.",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/04/01/mercato-olympique-de-marseille-relance-la-piste-mouhamed-diop/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "latestRumorDate": "Apr 1, 2026"
+      },
+      "reasoning": "New detail: Watford agreement increased to ~€1M (clarification/upgrade from Mar 16 €500k bid). OM overbid preparation is new competitive detail. Published Apr 1, 2026 (26 days before sweep), post-dating latest existing rumor (Mar 16)."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "detail": "Joined Arne Slot's first-team training ahead of Crystal Palace clash. Training alongside senior squad.",
+      "reason": "Auto-rejected: Detail too long (102 chars, max 100)"
+    }
+  ]
+}

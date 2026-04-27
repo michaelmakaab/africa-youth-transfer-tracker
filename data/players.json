@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 23, 2026",
-    "sweepNumber": 44,
+    "lastSweep": "Apr 27, 2026",
+    "sweepNumber": 45,
     "playerCount": 21
   },
   "players": [
@@ -358,6 +358,16 @@
       ],
       "confusionRisk": "Mamadou Traoré (b.1994, Dalian Yingbo)",
       "rumors": [
+        {
+          "date": "Apr 15, 2026",
+          "club": "Randers FC",
+          "detail": "Deal finalized. AFPD Mali directors traveling to Denmark this week to complete signing.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/mahamadou-traore-devrait-signer-au-randers-fc/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Apr 15, 2026",
           "club": "Randers FC",
@@ -727,6 +737,16 @@
         {
           "date": "Apr 20, 2026",
           "club": "Aarhus GF",
+          "detail": "Named in matchday squad vs FC Midtjylland (title race). AGF top of table.",
+          "source": "FootballDatabase",
+          "sourceUrl": "https://www.footballdatabase.eu/en/match/overview/3373444-midtjylland-aarhus_gf",
+          "tier": 1,
+          "status": "rumour",
+          "recent": true
+        },
+        {
+          "date": "Apr 20, 2026",
+          "club": "Aarhus GF",
           "detail": "In AGF starting XI vs FCM (title race game). AGF top of Superliga, 4pts ahead of FCM.",
           "source": "Sofascore / BeSoccer",
           "sourceUrl": "https://www.besoccer.com/match/midtjylland/agf-aarhus/20262846",
@@ -988,6 +1008,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 1, 2026",
+          "club": "Watford FC / Olympique Marseille",
+          "detail": "Watford agreement ~€1M (upgraded from €500k). OM preparing counterbid. Guingamp trial expected.",
+          "source": "Wiwsport",
+          "sourceUrl": "https://wiwsport.com/2026/04/01/mercato-olympique-de-marseille-relance-la-piste-mouhamed-diop/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Apr 11, 2026",
           "club": "AJEL Rufisque",

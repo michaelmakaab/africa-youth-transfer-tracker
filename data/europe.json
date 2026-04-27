@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 23, 2026",
-    "sweepNumber": 39,
+    "lastSweep": "Apr 27, 2026",
+    "sweepNumber": 40,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Apr 19, 2026",
+          "headline": "Benfica 2-1 Sporting: Diomande 90 mins, 6.9 rating in defeat",
+          "source": "Sofascore",
+          "sourceUrl": null,
+          "type": "appearance",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Apr 19, 2026",
           "headline": "Man Utd interest intensifies post-UCL tie; Arsenal, Chelsea, Bayern still interested",
@@ -689,6 +699,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Apr 19, 2026",
+          "headline": "Lorient 2-0 Marseille: Faye 90 mins, 3 tackles, clean sheet",
+          "source": "RotoWire",
+          "sourceUrl": null,
+          "type": "appearance",
+          "league": "Ligue 1",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Apr 19, 2026",
           "headline": "Faye starred as Lorient dominated Marseille 2-0; back to consistent play",
