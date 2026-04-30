@@ -1,101 +1,123 @@
-I have completed all the required searches for the players. Let me now compile the findings for each player.
+---
+
+## **PLAYER #101: OUSMANE DIOMANDE**
+
+**Source URLs Checked:**
+- https://www.thehardtackle.com/transfer-news/2026/04/20/manchester-united-newcastle-united-front-runners-to-sign-ousmane-diomande/
+- https://thepeoplesperson.com/2026/04/19/ousmane-diomande-why-united-have-intensified-interest-in-sporting-defender-309056/
+- https://www.transfermarkt.us/ousmane-diomande/profil/spieler/974982
+- https://www.fotmob.com/players/1425182/ousmane-diomande
+
+**Recent Findings (April 2026):**
+
+
+Manchester United and Newcastle United have intensified their interest in Diomande after his exceptional performance against Arsenal in the UEFA Champions League quarter-final
+ (April 20, 2026 — The Hard Tackle). 
+Even though Diomande has a release clause worth €80 million in his contract with Sporting CP, Sporting are happy to sell him for €50 million
+.
+
+
+United most recently watched Diomande against Arsenal in the second leg of the Champions League quarter-finals at the Emirates, and the reaction to Diomande's display against Arsenal was immediate, as the Red Devils have now intensified their interest in him
+ (April 19, 2026 — A BOLA via Sport Witness).
+
+**Season Performance:** 
+In the 2025/2026 Liga Portugal season, Ousmane Diomande has recorded 0 goals, 0 assists, 1,109 minutes, an average FotMob rating of 7.18, 4 yellow cards
+.
+
+**Injury Status:** No current injury; fully fit. 
+On 23 January 2026, Diomande extended his contract with Sporting CP until June 2030
+.
 
 ---
 
-## PLAYER #101: OUSMANE DIOMANDE (Ivory Coast, CB, Sporting CP)
+## **PLAYER #102: OUSMANE DIAO**
 
-**NEW FINDINGS:**
+**Source URLs Checked:**
+- https://www.transfermarkt.us/ousmane-diao/profil/spieler/1099668
+- https://www.fotmob.com/players/1525187/ousmane-diao
+- https://en.wikipedia.org/wiki/Ousmane_Diao
 
-
-**[Apr 20, 2026] transfer_link:** Manchester United and Newcastle United have intensified interest after his Champions League QF performances against Arsenal; both clubs now front-runners to sign Diomande. Sporting willing to accept €50M despite €80M release clause (The Hard Tackle / A Bola)
-
-
-
-**[Apr 2026] appearance:** Season stats: 0 goals, 0 assists, 1,109 Liga Portugal minutes, 7.18 FotMob rating, 4 yellow cards in 2025/26 (FotMob)
+**Recent Findings (April 2026):**
 
 
+In the 2025/2026 Superligaen season, Ousmane Diao has recorded 1 goal, 1 assist, 1,112 minutes, an average FotMob rating of 7.35, 1 yellow card
+.
 
-**[Apr 19, 2026] appearance:** 90 mins vs Benfica; Sporting lost 1-2. Diomande received 6.9 Sofascore rating (Sofascore)
+**Red Card Status - IMPORTANT UPDATE:** The existing news from April 20, 2026 noted a red card for provocative celebration on April 12. Diao is currently serving suspension and will miss matches while banned. This is consistent with the existing records.
 
-
-**IMPORTANT STATUS UPDATE:** Diomande is NOT currently suspended. His yellow card count (4 in Liga Portugal) was mentioned on Apr 14 as being one match from suspension, but there is no evidence he received a 5th yellow or is currently banned. He remains available.
-
----
-
-## PLAYER #102: OUSMANE DIAO (Senegal, CB, FC Midtjylland)
-
-**NEW FINDINGS:**
-
-
-**[Apr 12, 2026] red_card + suspension:** Diao received second yellow card (RED CARD) at Brøndby after provocative celebration following FCM's goal. Suspended from matches vs AGF (Apr 20) and Sønderjyske (Apr 23). Midtjylland won 2-1 (Brøndby.com / Campo.dk)
-
-
-
-**[Apr 17, 2026] media:** Coach Mike Tullberg defends Diao after red card, says "things happened in the game" that provoked his reaction; gave player support rather than criticism (Campo.dk)
-
-
-**IMPORTANT STATUS UPDATE:** Diao WAS suspended and unavailable for matches on April 20 and April 23 due to red card ban. This is PAST his existing Apr 20 news about the suspension.
+**Europa League Performance:** 
+In UEFA Europa League, Diao played 7 matches with 545 minutes played, 2 goals, 8 tackles, and 34 balls recovered
+.
 
 ---
 
-## PLAYER #103: RAYANN CAPO CHICHI (Ivory Coast, CB, FC Midtjylland)
+## **PLAYER #103: RAYANN CAPO CHICHI**
 
-**NEW FINDINGS:**
+**Source URLs Checked:**
+- http://www.sport-ivoire.ci/football-transferts/chichi-capo-sest-engag%C3%A9-avec-le-fc-midtjylland
+- https://bold.dk/fodbold/klubber/fc-midtjylland/nyheder/bekraeftet-chichi-capo-pa-plads-i-fcm
+- https://www.fcm.dk/nyheder/fc-midtjylland-henter-talentfuld-stopper-fra-elfenbenskysten/
 
-
-**[Feb 25, 2026] appearance:** Capo Chichi came off the bench (46th minute substitute) in Midtjylland U19's 2-1 loss vs AGF U19 in U19 League spring premiere (KSDH.dk)
-
-
-**NOTE:** No new activity found in April 2026. Player continues with U19 team as previously reported. Still in development phase.
-
----
-
-## PLAYER #104: ABDOULAYE FAYE (Senegal, CB, Bayer Leverkusen - on loan at FC Lorient)
-
-**NEW FINDINGS:**
+**Recent Findings (December 2025–Present):**
 
 
-**[Apr 19, 2026] appearance:** Faye delivered strong 90-minute performance in Lorient's 2-0 victory over Marseille. Recorded 3 tackles (2 won), 8 clearances, 1 interception. First clean sheet with him on pitch (RotoWire)
+The 18-year-old midtstopper has signed a five-year contract with FC Midtjylland
+ (December 23, 2025 — Bold.dk). 
+Chichi Capo started with FC Midtjylland's U19 team when they began preparations for the spring season in the new year
+ (FC Midtjylland Official).
 
 
+According to FC Midtjylland's sporting director Jacob Larsen, "Chichi is one of the most exciting African central defenders of his generation. From the very first sessions on the pitch, his athleticism impressed us: a combination of height, agility and top speed, plus a confident and aggressive approach that makes him particularly suited to our style of play"
+ (December 22, 2025 — Campo.dk).
 
-**[Apr 5, 2026] appearance:** Featured for Lorient in Ligue 1 match vs Paris FC at Stade du Moustoir (Getty Images)
-
-
-
-**[Mar 21, 2026] appearance:** Played vs Toulouse FC in Ligue 1 at Stadium de Toulouse (Getty Images)
-
-
-
-**[Mar 14, 2026] appearance:** Played full match for Lorient vs RC Lens at Stade du Moustoir in Ligue 1 (Getty Images)
-
-
-**IMPORTANT STATUS UPDATE:** Faye has FULLY RECOVERED from his previous foot injury. He is now playing regularly and delivering strong performances. His last injury report was January 2026; he has since returned to consistent action.
+**Academy Development:** Capo Chichi is developing with the U19 team and is part of Midtjylland's long-term project. No senior team appearances yet.
 
 ---
 
-## PLAYER #105: SHANDRE CAMPBELL (South Africa, LW, Club Brugge)
+## **PLAYER #104: ABDOULAYE FAYE**
 
-**NEW FINDINGS:**
+**Source URLs Checked:**
+- https://wiwsport.com/2026/01/06/fc-lorient-abdoulaye-faye-de-retour-a-lentrainement-apres-plus-de-deux-mois-dabsence/
+- https://www.africatopsports.com/2026/04/19/ligue-1-lorient-fc-frappe-fort-abdoulaye-faye-affiche-ses-ambitions/
+- https://wiwsport.com/2026/04/28/abdoulaye-faye-defendre-les-couleurs-du-senegal-cest-un-reve/
 
+**Recent Findings (April 2026):**
 
-**[Feb 18, 2026] appearance:** 8 minutes off bench in Club Brugge's 3-3 UCL draw vs Atletico Madrid (FotMob)
+**RECOVERY FROM INJURY - CONFIRMED PLAYING:** 
+After the Lorient 2-0 victory over Marseille, Abdoulaye Faye expressed satisfaction with the team's work: "We worked for this, since the beginning of the season. We are not point distributors, we are here to win and get the maximum points"
+ (April 19, 2026 — Africa Top Sports). This confirms Faye has returned to regular playing action.
 
+**Career Ambitions:** 
+Faye stated his future ambitions: "After this loan, I dream of playing at Bayer Leverkusen, especially if they are in the Champions League. I want to seize my chance"
+ (April 28, 2026 — Wiwsport). 
+He also expressed his commitment to the national team: "Defending the colors of your country is a beautiful thing"
+.
 
-
-**[Feb 15, 2026] appearance:** 23 minutes in 2-1 away win at Cercle Brugge; 6.1 FotMob rating (FotMob)
-
-
-
-**[2025/26 Season] stats:** Playing for Club Brugge NXT (reserve team): 2 goals, 1 assist, 416 minutes, 7.15 FotMob rating, 1 yellow card in First Division B (FotMob)
-
-
-
-**[Career] award:** Won Belgian Cup (2024/25) and Super Cup (2025/26) with Club Brugge (FotMob)
-
-
-**NOTE:** Campbell continues in squad rotation role with occasional first-team appearances but primarily plays for Club NXT reserves in Belgian second division.
+**Loan Status:** 
+Abdoulaye Faye signed with FC Lorient on a season-long loan for the 2025-2026 campaign
+ (July 29, 2025 — Yahoo Sports). The loan expires June 2026.
 
 ---
 
-**SEARCH COMPLETION:** All 5 players searched with minimum 2 searches each. Key findings include transfer developments (Diomande), disciplinary issues (Diao red card), injury recovery (Faye fully fit), development progress (Capo Chichi), and performance updates (Campbell).
+## **PLAYER #105: SHANDRE CAMPBELL**
+
+**Source URLs Checked:**
+- https://en.wikipedia.org/wiki/Shandre_Campbell
+- https://www.sapeople.com/sport/south-africans-abroad-campbells-club-brugge-hold-atleti/
+- https://www.fotmob.com/players/1599319/shandre_campbell
+
+**Recent Findings (April 2026):**
+
+**Champions League Performance:** 
+Campbell's Club Brugge came from behind twice to hold Atletico Madrid 3-3 in the UEFA Champions League. Campbell made an appearance in the 82nd minute with his team trailing 3-2, and proved influential as he came off the bench to cause havoc in the final third
+ (February 19, 2026 — SA People).
+
+**Season Stats:** 
+In the 2025/2026 First Division B season, Shandre Campbell has recorded 2 goals, 1 assist, 416 minutes, an average FotMob rating of 7.15, 1 yellow card
+.
+
+**Red Card Status - RESOLVED:** 
+Campbell received a red card on January 13, 2026 in a 0-2 loss away at Sporting Charleroi (4 minutes, 1 red card)
+, but has since returned to action and is playing regularly off the bench in Champions League and appearing for the NXT team.
+
+**Development Path:** Campbell is primarily playing for Club Brugge NXT (second team) but is being integrated into first-team Champions League fixtures, demonstrating squad rotation at the club.
