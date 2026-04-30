@@ -1,0 +1,30 @@
+{
+  "sweepDate": "Apr 30, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 41,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Apr 28, 2026",
+        "headline": "Faye dreams of playing Champions League football at Bayer Leverkusen",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/04/28/abdoulaye-faye-defendre-les-couleurs-du-senegal-cest-un-reve/",
+        "type": "media",
+        "league": "Ligue 1",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "New media interview from Apr 28, 2026 where Faye discusses future ambitions at Leverkusen and commitment to Senegal. Not in existing news."
+    }
+  ],
+  "statusChanges": [],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
