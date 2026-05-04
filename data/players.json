@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Apr 30, 2026",
-    "sweepNumber": 46,
+    "lastSweep": "May 4, 2026",
+    "sweepNumber": 47,
     "playerCount": 21
   },
   "players": [
@@ -516,6 +516,16 @@
         {
           "date": "Apr 27, 2026",
           "club": "Liverpool FC",
+          "detail": "Included in first-team squad vs Crystal Palace (3-1 win). First senior matchday.",
+          "source": "This Is Anfield",
+          "sourceUrl": "https://www.thisisanfield.com/2026/04/mor-talla-ndiaye-liverpool-training-squad-update-2026/",
+          "tier": 2,
+          "status": "confirmed",
+          "recent": true
+        },
+        {
+          "date": "Apr 27, 2026",
+          "club": "Liverpool FC",
           "detail": "Included in senior squad vs Crystal Palace. Progressed from U21s.",
           "source": "This Is Anfield",
           "sourceUrl": "https://www.thisisanfield.com/2026/04/mor-talla-ndiaye-liverpool-squad-debut-crystal-palace-2026/",
@@ -744,6 +754,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "May 3, 2026",
+          "club": "Aarhus GF",
+          "detail": "Scored in extra time vs Sønderjyske (2-1 win). Senior impact confirmed.",
+          "source": "TV2 Sport",
+          "sourceUrl": "https://sport.tv2.dk/live/fodbold/2026-05-03-vanvild-i-aarhus-agf-vinder-til-allersidst",
+          "tier": 1,
+          "status": "confirmed",
+          "recent": true
+        },
         {
           "date": "Apr 20, 2026",
           "club": "Aarhus GF",
