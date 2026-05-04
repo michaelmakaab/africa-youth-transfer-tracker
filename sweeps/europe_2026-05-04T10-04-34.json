@@ -1,0 +1,52 @@
+{
+  "sweepDate": "May 4, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 42,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Apr 20, 2026",
+        "headline": "Man Utd, Newcastle intensify Diomande interest; €50M fee acceptable to Sporting",
+        "source": "The Hard Tackle",
+        "sourceUrl": "https://thehardtackle.com/transfer-news/2026/04/20/manchester-united-newcastle-united-front-runners-to-sign-ousmane-diomande/",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New transfer update showing Man Utd and Newcastle as primary contenders with €50M fee; differs from Apr 19 report which mentioned multiple suitors post-UCL. This represents evolved interest with specific fee guidance."
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Apr 19, 2026",
+        "headline": "Faye delivers dominant 90-min display: 3 tackles, clean sheet vs Marseille",
+        "source": "RotoWire",
+        "sourceUrl": "https://www.rotowire.com/soccer/headlines/abdoulaye-faye-news-decent-defensive-outing-against-om-511095",
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Detailed performance analysis distinguishes this from Apr 19 generic appearance record. Provides tactical context (high line positioning, 8 clearances, 1 interception) not in existing news."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "RotoWire, Wikipedia (Apr 19, 2026) — Faye completed rehabilitation in January 2026 and has returned to consistent competitive appearances with clean sheets. Current data shows full 90-minute performances and defensive contributions in Ligue 1."
+    }
+  ],
+  "noChange": [
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
