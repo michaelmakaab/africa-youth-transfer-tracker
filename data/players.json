@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "May 4, 2026",
-    "sweepNumber": 47,
+    "lastSweep": "May 7, 2026",
+    "sweepNumber": 48,
     "playerCount": 21
   },
   "players": [
@@ -125,6 +125,16 @@
       ],
       "confusionRisk": "Right to Dream pipeline players (FCN's Ghana academy — Yao Hubert is from San Pedro FC, Ivory Coast)",
       "rumors": [
+        {
+          "date": "May 5, 2026",
+          "club": "FC Nordsjælland",
+          "detail": "Transfer confirmed for Jan 2028 when he turns 18. Skilled offensive player from San Pedro",
+          "source": "FC Nordsjælland Official",
+          "sourceUrl": "https://fcn.dk/nyheder/2026/maj/hubert-yao",
+          "tier": 1,
+          "status": "confirmed",
+          "recent": true
+        },
         {
           "date": "Jan 15, 2026",
           "club": "FC Nordsjælland",
@@ -270,6 +280,16 @@
       ],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 17, 2026",
+          "club": "Le Havre AC",
+          "detail": "Expected to arrive in France for trial with Le Havre. If successful, sign first pro contract",
+          "source": "AfricaFoot",
+          "sourceUrl": null,
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Apr 18, 2026",
           "club": "Le Havre AC",
@@ -754,6 +774,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "May 3, 2026",
+          "club": "Aarhus GF",
+          "detail": "Scored 90+4 winner vs Sønderjyske (2-1). Senior impact confirmed. AGF moved top of 3F.",
+          "source": "TV2 Sport",
+          "sourceUrl": null,
+          "tier": 1,
+          "status": "confirmed",
+          "recent": true
+        },
         {
           "date": "May 3, 2026",
           "club": "Aarhus GF",
