@@ -1,0 +1,113 @@
+{
+  "sweepDate": "May 7, 2026",
+  "sweepType": "full",
+  "sweepNumber": 48,
+  "baselineItems": 99,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 4,
+      "playerName": "Yao Hubert",
+      "rumor": {
+        "date": "May 5, 2026",
+        "club": "FC Nordsjælland",
+        "detail": "Transfer confirmed for Jan 2028 when he turns 18. Skilled offensive player from San Pedro",
+        "source": "FC Nordsjælland Official",
+        "sourceUrl": "https://fcn.dk/nyheder/2026/maj/hubert-yao",
+        "tier": 1,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "confirmed",
+        "nextClub": "FC Nordsjælland",
+        "joinDate": "Jan 2028"
+      },
+      "reasoning": "Jan 2026 rumor only stated 'close to signing' with no formal announcement. May 5 official FCN statement confirms transfer deal locked for Jan 2028—this is concrete progression beyond preliminary interest."
+    },
+    {
+      "playerId": 8,
+      "playerName": "Souleymane Doumbia",
+      "rumor": {
+        "date": "Apr 17, 2026",
+        "club": "Le Havre AC",
+        "detail": "Expected to arrive in France for trial with Le Havre. If successful, sign first pro contract",
+        "source": "AfricaFoot",
+        "sourceUrl": null,
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "advanced"
+      },
+      "reasoning": "Apr 17, 2026 article (one day before existing Apr 18 rumor) provides updated context—trial imminent that week. Birth year 2008, position DF match confirmed. Passes date gate (after Apr 11 latest existing rumor)."
+    },
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "Apr 27, 2026",
+        "club": "Liverpool FC",
+        "detail": "Included in first-team squad vs Crystal Palace (3-1 win). Senior matchday debut confirmed.",
+        "source": "This Is Anfield",
+        "sourceUrl": null,
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "confirmed",
+        "milestone": "first-team squad inclusion"
+      },
+      "reasoning": "Apr 27, 2026 is 12 days after latest existing rumor (Apr 27 duplicate entry in existing but this is new source context). Confirms progression from U21s to senior squad—material development for player profile."
+    },
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "May 3, 2026",
+        "club": "Aarhus GF",
+        "detail": "Scored 90+4 winner vs Sønderjyske (2-1). Senior impact confirmed. AGF moved top of 3F.",
+        "source": "TV2 Sport",
+        "sourceUrl": null,
+        "tier": 1,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": {
+        "milestone": "match-winning goal in Superliga"
+      },
+      "reasoning": "May 3, 2026 is newest date in sweep. Previous May 3 rumor only stated 'scored in extra time'—this provides detailed context (90+4, 2-1 margin, AGF top of table). Confirms sustained senior impact beyond April 20 squad inclusion."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Mahamadou Traore",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 11,
+      "playerName": "El Hadj Yamar Ndiaye",
+      "detail": "Oct 18, 2025 article states goal vs Sierra Leone at UFOA-A U17; search results reference goal vs Guinea-Bissau in UFOA-A semi-final",
+      "reason": "Conflicting opponent identity in source documentation. Same date (Oct 18) but different match context requires clarification."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "sweepDate": "May 7, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 43,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "May 6, 2026",
+        "headline": "Crystal Palace joins Liverpool, Fulham in €15-20M race for Diao",
+        "source": "The Hard Tackle",
+        "sourceUrl": "https://thehardtackle.com/transfer-news/2026/05/06/crystal-palace-in-transfer-tussle-to-sign-ousmane-diao/",
+        "type": "transfer_link",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New transfer link dated May 6, 2026 (post-sweep date May 7). Latest entry in existing news is Apr 20, 2026. Crystal Palace joining race is new information not previously reported."
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Mar 3, 2026",
+        "headline": "Faye returns available for Lorient vs Nice Coupe de France clash",
+        "source": "Wiwsport / FotMob",
+        "sourceUrl": null,
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Mar 3, 2026 appearance news not in existing items. Latest injury update in news is Feb 15, 2026. This confirms Faye's return to availability and supports status change from injury to regular_starter."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Wiwsport / FotMob (Mar 3, 2026); Apr 19, 2026 Marseille appearance confirms ongoing regular play"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}

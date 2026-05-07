@@ -33,7 +33,10 @@
     "previousClub": "San Pedro FC (Ivory Coast)",
     "seasonStats": "Featured at 2025 FIFA U17 World Cup for Ivory Coast",
     "clubStanding": "San Pedro FC — Ivorian Ligue 1 club",
-    "notes": "Explosive, direct winger who attacks his marker with both feet. Brother of Gervinho (ex-Arsenal, Roma). Modern winger profile — can cut inside, cross, and shoot from either side."
+    "notes": "Explosive, direct winger who attacks his marker with both feet. Brother of Gervinho (ex-Arsenal, Roma). Modern winger profile — can cut inside, cross, and shoot from either side.",
+    "status": "confirmed",
+    "nextClub": "FC Nordsjælland",
+    "joinDate": "Jan 2028"
   },
   "5": {
     "height": "—",
@@ -69,7 +72,8 @@
     "previousClub": "Derby Academy (Mali)",
     "seasonStats": "—",
     "clubStanding": "Derby Academy — Malian formation centre",
-    "notes": "Defender on watchlist. Limited public intel available."
+    "notes": "Defender on watchlist. Limited public intel available.",
+    "status": "advanced"
   },
   "9": {
     "height": "—",
@@ -121,7 +125,7 @@
     "clubStanding": "Aarhus GF — Danish Superliga leaders. Transfer officially registered Feb 2, 2026",
     "notes": "SENIOR AFCON 2025 HISTORY MAKER — 2nd youngest EVER at AFCON (17y 10m). Made 2+ sub appearances (vs Tunisia & Tanzania). Coach Put: 'great talent with huge potential.' Youngest Ugandan at AFCON since 1974. Hat-trick on AGF debut. Injury setback in Feb but recovered.",
     "status": "confirmed",
-    "milestone": "senior_debut",
+    "milestone": "match-winning goal in Superliga",
     "latestRumorDate": "Apr 20, 2026"
   },
   "14": {
