@@ -1,0 +1,73 @@
+{
+  "sweepDate": "May 11, 2026",
+  "sweepType": "full",
+  "sweepNumber": 50,
+  "baselineItems": 103,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 11,
+      "playerName": "El Hadj Yamar Ndiaye",
+      "rumor": {
+        "date": "May 1, 2026",
+        "club": "Stade Brestois",
+        "detail": "Trial expected to lead to first pro contract with Breton club",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/waly-sarr-et-el-hadji-yamar-ndiaye-pressentis-au-stade-brestois/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "active"
+      },
+      "reasoning": "NEW: Post-dated latest existing rumor (Oct 18, 2025). First concrete European club link for this player with trial opportunity leading to contract."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "field": "status",
+      "oldValue": "confirmed",
+      "newValue": "active",
+      "source": "Kawowo Sports (May 10, 2026) — AGF Aarhus won Danish Superliga title"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "Ettienne Mendy",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye (b.2003, Sporting CP, signed Jan 21, 2026) — different player entirely from listed b.2010 at Sahel F.C",
+      "reason": "Identity confusion risk flagged in rules. Two different players share name. No data found on b.2010 Sahel F.C player."
+    },
+    {
+      "playerId": 20,
+      "playerName": "Pape Sémou Sané",
+      "detail": "Contract expires June 2026 per existing records. No transfer activity detected in May 2026 sweep despite imminent free agency.",
+      "reason": "Player status approaching contract expiration but no pre-agreement rumors emerged. Monitoring required for summer free transfer window."
+    }
+  ]
+}
