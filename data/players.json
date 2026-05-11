@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "May 11, 2026",
-    "sweepNumber": 49,
+    "sweepNumber": 50,
     "playerCount": 21
   },
   "players": [
@@ -696,6 +696,16 @@
       "confusionRisk": null,
       "rumors": [
         {
+          "date": "May 1, 2026",
+          "club": "Stade Brestois",
+          "detail": "Trial expected to lead to first pro contract with Breton club",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/waly-sarr-et-el-hadji-yamar-ndiaye-pressentis-au-stade-brestois/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
+        {
           "date": "Oct 18, 2025",
           "club": "Senegal U17 NT",
           "detail": "Scored opening goal (header, 34th min) vs Sierra Leone at UFOA-A U17",
@@ -779,7 +789,7 @@
       "position": "FW",
       "birthYear": 2008,
       "currentClub": "Aarhus GF U19",
-      "status": "confirmed",
+      "status": "active",
       "sweepTier": "A",
       "altSpellings": [],
       "confusionRisk": null,

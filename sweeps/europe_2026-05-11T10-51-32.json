@@ -1,0 +1,67 @@
+{
+  "sweepDate": "May 11, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 45,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "May 5, 2026",
+        "headline": "RB Leipzig reject €12M bid for Diao; Liverpool, Everton keen on summer move",
+        "source": "SportsBoom",
+        "sourceUrl": "https://www.sportsboom.co.uk/football/transfer-news/exclusive-ousmane-diao-midtjylland-sets-the-price",
+        "type": "transfer_link",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New transfer development: RB Leipzig bid rejected and price bracket revealed (€15-20M). Earlier news capped at May 8 RB Leipzig link with €8M; this confirms higher valuation and rejected bid."
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "May 10, 2026",
+        "headline": "Liverpool and Everton eye Midtjylland defender Ousmane Diao this summer",
+        "source": "The Football Faithful",
+        "sourceUrl": "https://www.thefootballfaithful.com/liverpool-and-everton-eye-midtjylland-defender-ousmane-diao/",
+        "type": "transfer_link",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New transfer update dated May 10, 2026. Confirms Liverpool and Everton interest with context that Midtjylland would accept €15-20M. Not previously listed; most recent transfer news was May 8."
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "May 2, 2026",
+        "headline": "Faye starts vs PSG in Lorient 2-2 Ligue 1 draw; 574 mins this season",
+        "source": "Transfermarkt",
+        "sourceUrl": "https://www.transfermarkt.com/abdoulaye-faye/",
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Most recent appearance record shows 574 total minutes (previously capped at May 2). Confirms full return to active play post-foot injury; latest existing news was May 2."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "FotMob / Sofascore - confirmed active play May 2026"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
