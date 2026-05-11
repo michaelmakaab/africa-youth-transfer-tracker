@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "May 7, 2026",
-    "sweepNumber": 48,
+    "lastSweep": "May 11, 2026",
+    "sweepNumber": 49,
     "playerCount": 21
   },
   "players": [
@@ -281,6 +281,16 @@
       "confusionRisk": null,
       "rumors": [
         {
+          "date": "May 2, 2026",
+          "club": "Le Havre AC",
+          "detail": "Le Havre AC joins Slavia Prague race; Villarreal, Monaco, Anderlecht also tracking.",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/le-havre-ac-pret-a-doubler-le-slavia-prague-pour-souleymane-doumbia/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
+        {
           "date": "Apr 17, 2026",
           "club": "Le Havre AC",
           "detail": "Expected to arrive in France for trial with Le Havre. If successful, sign first pro contract",
@@ -534,11 +544,11 @@
       "confusionRisk": "Multiple Ndiaye players in Senegalese football",
       "rumors": [
         {
-          "date": "Apr 27, 2026",
+          "date": "May 11, 2026",
           "club": "Liverpool FC",
-          "detail": "Included in first-team squad vs Crystal Palace (3-1 win). First senior matchday.",
+          "detail": "Named in senior matchday squad vs Manchester United — made bench again.",
           "source": "This Is Anfield",
-          "sourceUrl": "https://www.thisisanfield.com/2026/04/mor-talla-ndiaye-liverpool-training-squad-update-2026/",
+          "sourceUrl": "https://www.thisisanfield.com/2026/04/mor-talla-ndiaye-liverpool-squad-debut-crystal-palace-2026/",
           "tier": 2,
           "status": "confirmed",
           "recent": true
@@ -546,9 +556,9 @@
         {
           "date": "Apr 27, 2026",
           "club": "Liverpool FC",
-          "detail": "Included in senior squad vs Crystal Palace. Progressed from U21s.",
+          "detail": "First senior matchday: included in squad vs Crystal Palace (3-1 win). Progressed from U21s.",
           "source": "This Is Anfield",
-          "sourceUrl": "https://www.thisisanfield.com/2026/04/mor-talla-ndiaye-liverpool-squad-debut-crystal-palace-2026/",
+          "sourceUrl": "https://www.thisisanfield.com/2026/04/mor-talla-ndiaye-liverpool-training-squad-update-2026/",
           "tier": 2,
           "status": "confirmed",
           "recent": true
@@ -775,11 +785,11 @@
       "confusionRisk": null,
       "rumors": [
         {
-          "date": "May 3, 2026",
+          "date": "May 10, 2026",
           "club": "Aarhus GF",
-          "detail": "Scored 90+4 winner vs Sønderjyske (2-1). Senior impact confirmed. AGF moved top of 3F.",
-          "source": "TV2 Sport",
-          "sourceUrl": null,
+          "detail": "WON DANISH SUPERLIGA TITLE 2-0 vs Brondby — AGF first title in 40 years.",
+          "source": "Kawowo Sports",
+          "sourceUrl": "https://kawowo.com/2026/05/11/bogeres-agf-aarhus-clinch-first-danish-superliga-in-40-years/",
           "tier": 1,
           "status": "confirmed",
           "recent": true
@@ -787,9 +797,9 @@
         {
           "date": "May 3, 2026",
           "club": "Aarhus GF",
-          "detail": "Scored in extra time vs Sønderjyske (2-1 win). Senior impact confirmed.",
-          "source": "TV2 Sport",
-          "sourceUrl": "https://sport.tv2.dk/live/fodbold/2026-05-03-vanvild-i-aarhus-agf-vinder-til-allersidst",
+          "detail": "Match-winner: on 88th min vs Sonderjyske, pressure forced own goal in 90+4 for 2-1 win. AGF top of 3F.",
+          "source": "PanAfricaFootball / TV2 Sport",
+          "sourceUrl": "https://www.panafricafootball.com/post/superliga-bogere-gives-agf-big-win/",
           "tier": 1,
           "status": "confirmed",
           "recent": true

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "May 7, 2026",
-    "sweepNumber": 43,
+    "lastSweep": "May 11, 2026",
+    "sweepNumber": 44,
     "playerCount": 5
   },
   "players": [
@@ -396,6 +396,16 @@
       "confusionRisk": null,
       "news": [
         {
+          "date": "May 8, 2026",
+          "headline": "RB Leipzig linked with €8m move for Diao; Liverpool, Everton still tracking",
+          "source": "AfricaSoccer",
+          "sourceUrl": "https://africasoccer.com/ousmane-diao-rb-leipzig-linked-with-e8m-move-for-midtjylland-defender/",
+          "type": "transfer_link",
+          "league": "Danish Superliga",
+          "tier": 2,
+          "recent": true
+        },
+        {
           "date": "May 6, 2026",
           "headline": "Crystal Palace joins Liverpool, Fulham in €15-20M race for Diao",
           "source": "The Hard Tackle",
@@ -720,20 +730,10 @@
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
         {
-          "date": "Mar 3, 2026",
-          "headline": "Faye returns available for Lorient vs Nice Coupe de France clash",
-          "source": "Wiwsport / FotMob",
-          "sourceUrl": null,
-          "type": "appearance",
-          "league": "Ligue 1",
-          "tier": 2,
-          "recent": true
-        },
-        {
-          "date": "Apr 19, 2026",
-          "headline": "Faye delivers dominant 90-min display: 3 tackles, clean sheet vs Marseille",
-          "source": "RotoWire",
-          "sourceUrl": "https://www.rotowire.com/soccer/headlines/abdoulaye-faye-news-decent-defensive-outing-against-om-511095",
+          "date": "May 2, 2026",
+          "headline": "Started in Lorient 2-2 vs PSG in Ligue 1; 7 apps, 574 mins on the season",
+          "source": "VAVEL / Transfermarkt",
+          "sourceUrl": "https://www.vavel.com/en-us/soccer/2026/05/02/1259377-psg-vs-lorient-live-score-ligue-1.html",
           "type": "appearance",
           "league": "Ligue 1",
           "tier": 2,
@@ -1025,6 +1025,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "May 7, 2026",
+          "headline": "Club Brugge won 12th Belgian Cup, beat Anderlecht 2-1; Campbell in squad",
+          "source": "Yahoo Sports / Kick Off",
+          "sourceUrl": "https://www.kickoff.com/sa-news/lifestyle/shandre-campbell-celebrates-win-with-brugge",
+          "type": "award",
+          "league": "Belgian Pro League",
+          "tier": 1,
+          "recent": true
+        },
         {
           "date": "Feb 18, 2026",
           "headline": "Campbell off bench 82nd min in Brugge 3-3 UCL draw vs Atletico Madrid; tied game",
