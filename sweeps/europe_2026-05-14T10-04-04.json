@@ -1,0 +1,64 @@
+{
+  "sweepDate": "May 14, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 46,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "May 13, 2026",
+        "headline": "Sporting CP in advanced talks with FC Famalicão for CB Ibrahima Ba; €12-15M deal",
+        "source": "OneFootball",
+        "sourceUrl": "https://www.onefootball.com",
+        "type": "media",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New development regarding Sporting's potential CB reinforcement. Indicates club preparing for Diomande's likely summer departure amid Man Utd/Newcastle interest."
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "May 10, 2026",
+        "headline": "Eintracht Frankfurt, Porto, Benfica, Fulham join race for Midtjylland's Diao",
+        "source": "The Football Faithful",
+        "sourceUrl": "https://www.thefootballfaithful.com",
+        "type": "transfer_link",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New clubs added to Diao pursuit: Frankfurt, Porto, Benfica, Fulham, Bournemouth now tracking. RB Leipzig bid rejected at €12M; Midtjylland valuing at €20M. Not in existing news."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "TV2/Tipsbladet (Apr 12, 2026) + active play through May 2026"
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "FotMob/Transfermarkt (May 2026 recent appearances + 1,356 mins played)"
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "oldStatus": "suspended",
+      "newStatus": "squad_rotation",
+      "source": "FotMob (Feb-May 2026 continued appearances post-red card)"
+    }
+  ],
+  "noChange": [
+    "Rayann Capo Chichi"
+  ]
+}
