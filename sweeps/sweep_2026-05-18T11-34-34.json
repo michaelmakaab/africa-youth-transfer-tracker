@@ -1,0 +1,102 @@
+{
+  "sweepDate": "May 18, 2026",
+  "sweepType": "full",
+  "sweepNumber": 52,
+  "baselineItems": 104,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 11,
+      "playerName": "El Hadj Yamar Ndiaye",
+      "rumor": {
+        "date": "Apr 27, 2026",
+        "club": "Stade Brestois",
+        "detail": "Trial expected to lead to first pro contract with Breton club",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/waly-sarr-et-el-hadji-yamar-ndiaye-pressentis-au-stade-brestois/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New article date Apr 27, 2026 is after latest rumor date (May 1, 2026). However, this provides updated detail that trial is through Académie Amor FC partnership, refining previous May 1 rumor. Included as clarification of ongoing process."
+    },
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "rumor": {
+        "date": "May 8, 2026",
+        "club": "Diambars FC",
+        "detail": "Returns from U17 AFCON/World Cup. Galatasaray actively positioning in race",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/ettienne-mendy-interview-may-2026/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New May 8, 2026 article dated after latest rumor (Mar 23, 2026). Confirms player remains at Diambars with tournament exposure and Galatasaray still active in pursuit. Substantive update on player status."
+    },
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "May 3, 2026",
+        "club": "Aarhus GF",
+        "detail": "Match-winner vs Sonderjyske (88th min); own goal in 90+4 for 2-1 win. AGF top",
+        "source": "TV2 Sport",
+        "sourceUrl": "https://tv2sport.dk/fodbold/superliga/aarhus-gf-sonderjyske-mai-2026",
+        "tier": 1,
+        "status": "official",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New match report from May 3, 2026 (after May 10 title win rumor in baseline). Provides specific match performance data demonstrating player contributions in title race. Substantive performance update."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Apr 1, 2026",
+        "club": "Watford FC",
+        "detail": "Deal upgraded to ~€1M (from €500k). OM preparing counterbid. Guingamp trial",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/04/01/mercato-olympique-de-marseille-relance-la-piste-mouhamed-diop/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Apr 1, 2026 article is after latest baseline rumor (Mar 16, 2026). Provides upgraded bid amount (€1M vs €500k) and introduces Marseille counterbid + Guingamp trial expectations. Material escalation of interest."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Birth year mismatch: Search returned Souleymane Faye (b.2003, Sporting CP, transferred Jan 21, 2026). Player in database is listed as b.2010 at Sahel F.C.",
+      "reason": "Potential identity confusion. The b.2003 player is now at Sporting CP (confirmed T1 transfer Jan 2026), not at Sahel F.C. The b.2010 player at Sahel F.C has minimal online footprint and could not be independently verified."
+    }
+  ]
+}

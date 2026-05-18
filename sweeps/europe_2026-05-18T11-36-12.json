@@ -1,0 +1,52 @@
+{
+  "sweepDate": "May 18, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 47,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "May 17, 2026",
+        "headline": "Chelsea, Bayern Munich, PSG approach Diomande; Sporting demand €60M",
+        "source": "The Hard Tackle",
+        "sourceUrl": "https://thehardtackle.com/transfer-news/2026/05/17/chelsea-bayern-munich-psg-make-approach-for-ousmane-diomande/",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Most recent transfer news dated May 17, 2026. Three new clubs (Chelsea, Bayern Munich, PSG) making active approaches; revised fee of €60M is new information not in existing news. Last transfer news in existing list is from Apr 20, 2026."
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "May 11, 2026",
+        "headline": "Everton firmly in race for Diao; Midtjylland want €15-20M for Senegalese CB",
+        "source": "The 4th Official",
+        "sourceUrl": "https://the4thofficial.net/2026/05/everton-to-sign-the-next-guehi-in-shock-e20m-summer-deal-will-he-solve-their-defensive-headache/",
+        "type": "transfer_link",
+        "league": "Danish Superliga",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New transfer news dated May 11, 2026 with specific Everton interest and valuation details (€15-20M asking price). Last transfer news in existing list is from May 10, 2026, but this represents more recent and detailed reporting on Everton's position."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Sofascore match schedule showing FCM vs Brøndby May 17, 2026; existing news shows red card suspension ended and player returned to action post-Apr 20 ban"
+    }
+  ],
+  "noChange": [
+    "Rayann Capo Chichi",
+    "Abdoulaye Faye",
+    "Shandre Campbell"
+  ]
+}
