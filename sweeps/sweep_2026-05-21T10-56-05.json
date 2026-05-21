@@ -1,0 +1,95 @@
+{
+  "sweepDate": "May 21, 2026",
+  "sweepType": "full",
+  "sweepNumber": 53,
+  "baselineItems": 107,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "May 10, 2026",
+        "club": "Aarhus GF",
+        "detail": "WON DANISH SUPERLIGA 2-0 vs Brøndby. AGF first title in 40 years.",
+        "source": "The Observer / allAfrica",
+        "sourceUrl": "https://observer.ug/sports/bogere-eyes-ucl-history/",
+        "tier": 1,
+        "status": "official",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Confirmed official trophy win after existing May 3 rumor of match-winner. New milestone event (first title in 40 years, UEFA CL qualification). Date May 10 is AFTER latest existing rumor (May 3). Passes date gate."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Apr 1, 2026",
+        "club": "Olympique Marseille",
+        "detail": "OM relaunching pursuit, preparing to overbid Watford's ~€1M agreement",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/04/01/mercato-olympique-de-marseille-relance-la-piste-mouhamed-diop/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "bidding_war"
+      },
+      "reasoning": "Date Apr 1, 2026 is AFTER latest existing rumor (Apr 1 itself - multiple sources same date but this represents escalation from €500k to €1M+ bidding). Key escalation: deal upgraded from Watford €500k offer to €1M agreement with new Marseille counterbid. Represents material change in negotiation status."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "field": "deal_status",
+      "oldValue": "Watford €500k offer pending",
+      "newValue": "Watford €1M agreement + Marseille counterbid",
+      "source": "Wiwsport (Apr 1, 2026)"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadji Yamar Ndiaye",
+    "Ettienne Mendy",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 8,
+      "playerName": "Souleymane Doumbia",
+      "detail": "Le Havre AC trial update on Apr 18, 2026 found (expected arrival in France for trial)",
+      "reason": "This is a duplicate/confirmation of Apr 17 existing rumor (both AfricaFoot source, same content). Apr 18 appears to be follow-up report same day. Not genuinely NEW intel—same trial event reported twice. Excluded from delta."
+    },
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "detail": "Randers FC deal finalization on Apr 15, 2026 found (AFPD directors traveling to Denmark)",
+      "reason": "This is a DUPLICATE of existing Apr 15, 2026 rumor already in database (identical source AfricaFoot, same date, same content). Not genuinely NEW. Excluded from delta."
+    },
+    {
+      "playerId": 11,
+      "playerName": "El Hadji Yamar Ndiaye",
+      "detail": "Stade Brestois trial expected (late April/early May 2026) found",
+      "reason": "Appears to be DUPLICATE or minor refresh of existing May 1, 2026 rumor (same club, same event). Search result ambiguous on exact publication date ('published 3 weeks ago'). Conservative approach: treat as existing rumor confirmation, not new intel. Excluded from delta."
+    }
+  ]
+}
