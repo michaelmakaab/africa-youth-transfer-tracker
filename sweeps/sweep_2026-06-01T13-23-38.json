@@ -1,0 +1,67 @@
+{
+  "sweepDate": "Jun 1, 2026",
+  "sweepType": "full",
+  "sweepNumber": 58,
+  "baselineItems": 110,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 11,
+      "playerName": "El Hadj Yamar Ndiaye",
+      "rumor": {
+        "date": "Apr 27, 2026",
+        "club": "Stade Brestois",
+        "detail": "Trial expected to lead to first pro contract with Breton club",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/waly-sarr-et-el-hadji-yamar-ndiaye-pressentis-au-stade-brestois/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "active"
+      },
+      "reasoning": "New development not in existing rumors (May 1 Brestois trial is older reference). Apr 27 article confirms fresh trial arrangement with pathway to first pro deal. Passes date gate (Apr 27 > May 1 existing rumor is earlier—correction: May 1 is later. This is DUPLICATE of existing May 1 rumor. REJECT."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "field": "club_achievement",
+      "oldValue": "Active at Aarhus GF in Superliga",
+      "newValue": "Danish Superliga Champion 2025-26 (first title in 40 years)",
+      "source": "Kawowo Sports / Nile Post / AGF Official"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "Ettienne Mendy",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye (b.2003, Sporting CP winger) not the 2010-born Sahel F.C player",
+      "reason": "Identity mismatch. The 2010-born player at Sahel F.C could not be located in transfer databases or news sources. May not exist in tracked transfer market or may use different spelling."
+    }
+  ]
+}
