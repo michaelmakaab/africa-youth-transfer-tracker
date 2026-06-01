@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastSweep": "Jun 1, 2026",
-    "sweepNumber": 52,
+    "sweepNumber": 53,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,36 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "May 15, 2026",
+          "headline": "Bayern Munich reopen Diomande talks; player open to move despite 2030 extension",
+          "source": "Tribuna",
+          "sourceUrl": "https://tribuna.com/en/news/2026-05-15-bayern-munich-reopen-talks-for-sporting-defender-ousmane-diomande-report/",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "May 24, 2026",
+          "headline": "Sporting 1-2 Torreense: Diomande 51 mins, 6.7 rating in loss",
+          "source": "FotMob",
+          "sourceUrl": null,
+          "type": "appearance",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
+        {
+          "date": "May 28, 2026",
+          "headline": "Market value drops €3M to €42M after injury struggles; 17 Liga Portugal apps",
+          "source": "Transfermarkt",
+          "sourceUrl": "https://www.transfermarkt.us/liga-portugal-market-values-froholdt-rises-to-the-top-diomande-drops-by-euro-3m/view/news/480050",
+          "type": "media",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "May 22, 2026",
           "headline": "Bournemouth officially join Chelsea in race; Xabi Alonso gave green light for Colwill partner",
@@ -436,6 +466,16 @@
       "confusionRisk": null,
       "news": [
         {
+          "date": "May 14, 2026",
+          "headline": "Diao wins first career title: FC Midtjylland claim Danish Cup 1-0 final",
+          "source": "Wiwsport",
+          "sourceUrl": "https://wiwsport.com/2026/05/14/foot-ousmane-diao-et-le-fc-midtjylland-soffrent-la-coupe-du-danemark-contre-copenhague/",
+          "type": "award",
+          "league": "Danish Superliga",
+          "tier": 3,
+          "recent": true
+        },
+        {
           "date": "May 25, 2026",
           "headline": "PL race: Crystal Palace, Bournemouth, Fulham, West Ham, Liverpool, Everton, Porto, Benfica. FCM ask €20M, rejected Leipzig €12M",
           "source": "Sportsboom / X (Ekrem Konur)",
@@ -830,6 +870,16 @@
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
         {
+          "date": "May 2, 2026",
+          "headline": "Faye starts vs PSG in Lorient 2-2 Ligue 1 draw; 574 mins total",
+          "source": "Transfermarkt",
+          "sourceUrl": null,
+          "type": "appearance",
+          "league": "Ligue 1",
+          "tier": 2,
+          "recent": true
+        },
+        {
           "date": "Mar 3, 2026",
           "headline": "Faye back available for Coupe de France clash vs Nice after foot injury recovery",
           "source": "RotoWire",
@@ -1145,6 +1195,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "May 26, 2026",
+          "headline": "Club Brugge win 2025/26 Belgian Pro League; Campbell celebrates title",
+          "source": "Soccer Laduma",
+          "sourceUrl": "https://www.soccerladuma.co.za/psl/fan-park/shandre-campbell-celebrates-belgian-league-glory-with-club-brugge",
+          "type": "award",
+          "league": "Belgian Pro League",
+          "tier": 3,
+          "recent": true
+        },
         {
           "date": "May 26, 2026",
           "headline": "CLUB BRUGGE 2025/26 BELGIAN PRO LEAGUE CHAMPIONS — 2-2 draw vs Mechelen seals title. Campbell celebrates.",
