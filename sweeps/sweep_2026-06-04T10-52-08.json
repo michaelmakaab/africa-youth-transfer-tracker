@@ -1,0 +1,72 @@
+{
+  "sweepDate": "Jun 4, 2026",
+  "sweepType": "full",
+  "sweepNumber": 59,
+  "baselineItems": 110,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 11,
+      "playerName": "El Hadj Yamar Ndiaye",
+      "rumor": {
+        "date": "Apr 27, 2026",
+        "club": "Stade Brestois",
+        "detail": "Expected trial at Stade Brestois leading to first pro contract",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/waly-sarr-et-el-hadji-yamar-ndiaye-pressentis-au-stade-brestois/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Article dated Apr 27, 2026 is after latest rumour date (May 1, 2026). However, this actually contradicts timeline. Latest existing rumour is May 1, 2026. This finding is OLDER and should not be included. Filtering out."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Apr 16, 2026",
+        "club": "FC Lausanne-Sport",
+        "detail": "FC Lausanne-Sport closely monitoring player; considering move in upcoming window",
+        "source": "Foot Africa",
+        "sourceUrl": "https://foot-africa.com/en/news/mouhamed-diop-faces-interest-from-lausanne-sport-1168289/",
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Article dated Apr 16, 2026 is BEFORE latest rumour date (Apr 1, 2026 exists multiple times). This finding predates existing intel. Does not pass delta test."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye (b.2003, Sporting CP, LW) — birth year mismatch with database (b.2010)",
+      "reason": "Identity confusion risk flagged. Unclear if 2010-born Sahel FC player exists in public sources or if database contains incorrect birth year."
+    }
+  ]
+}

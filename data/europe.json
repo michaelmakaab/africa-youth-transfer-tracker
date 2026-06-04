@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Jun 1, 2026",
-    "sweepNumber": 53,
+    "lastSweep": "Jun 4, 2026",
+    "sweepNumber": 54,
     "playerCount": 5
   },
   "players": [
@@ -465,6 +465,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "May 26, 2026",
+          "headline": "FC Midtjylland win 2025/26 Danish Superliga title; Diao celebrates",
+          "source": "Soccer Laduma",
+          "sourceUrl": null,
+          "type": "award",
+          "league": "Danish Superliga",
+          "tier": 3,
+          "recent": true
+        },
         {
           "date": "May 14, 2026",
           "headline": "Diao wins first career title: FC Midtjylland claim Danish Cup 1-0 final",

@@ -1,0 +1,58 @@
+{
+  "sweepDate": "Jun 4, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 54,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "May 2, 2026",
+        "headline": "Faye starts vs PSG in Lorient 2-2 Ligue 1 draw; 574 mins total",
+        "source": "Transfermarkt",
+        "sourceUrl": "https://www.transfermarkt.us/abdoulaye-faye/profil/spieler/1182738",
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Research confirms Faye played on May 2, 2026 vs PSG. This appearance is already in existing news but confirms current playing status post-injury recovery."
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "May 26, 2026",
+        "headline": "FC Midtjylland win 2025/26 Danish Superliga title; Diao celebrates",
+        "source": "Soccer Laduma",
+        "sourceUrl": null,
+        "type": "award",
+        "league": "Danish Superliga",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "May 26, 2026 title win not explicitly in existing news items. Award for league championship is new achievement news distinct from May 14 Danish Cup award."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Transfermarkt appearance data May 2, 2026"
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "oldStatus": "suspended",
+      "newStatus": "squad_rotation",
+      "source": "Transfermarkt season data showing 10 Pro League appearances in 2025/26"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Rayann Capo Chichi"
+  ]
+}
