@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Jun 1, 2026",
-    "sweepNumber": 58,
+    "lastSweep": "Jun 4, 2026",
+    "sweepNumber": 59,
     "playerCount": 21
   },
   "players": [
@@ -716,6 +716,16 @@
       "confusionRisk": null,
       "rumors": [
         {
+          "date": "Apr 27, 2026",
+          "club": "Stade Brestois",
+          "detail": "Expected trial at Stade Brestois leading to first pro contract",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/waly-sarr-et-el-hadji-yamar-ndiaye-pressentis-au-stade-brestois/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
+        {
           "date": "May 1, 2026",
           "club": "Stade Brestois",
           "detail": "Trial expected to lead to first pro contract with Breton club",
@@ -1138,6 +1148,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 16, 2026",
+          "club": "FC Lausanne-Sport",
+          "detail": "FC Lausanne-Sport closely monitoring player; considering move in upcoming window",
+          "source": "Foot Africa",
+          "sourceUrl": "https://foot-africa.com/en/news/mouhamed-diop-faces-interest-from-lausanne-sport-1168289/",
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
         {
           "date": "Apr 1, 2026",
           "club": "Watford FC",
