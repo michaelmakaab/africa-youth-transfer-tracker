@@ -1,0 +1,65 @@
+{
+  "sweepDate": "Jun 8, 2026",
+  "sweepType": "full",
+  "sweepNumber": 60,
+  "baselineItems": 112,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 11,
+      "playerName": "El Hadj Yamar Ndiaye",
+      "rumor": {
+        "date": "Apr 27, 2026",
+        "club": "Stade Brestois",
+        "detail": "Trial expected to lead to first pro contract with Breton club",
+        "source": "AfricaFoot",
+        "sourceUrl": null,
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New date (Apr 27, 2026) is after latest existing rumor (May 1, 2026). Actually, May 1 is later. This entry is redundant with existing May 1 entry. Excluded."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "field": "status",
+      "oldValue": "active",
+      "newValue": "confirmed",
+      "source": "AfricaFoot (Apr 15, 2026)"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mor Talla Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Web search returned Souleymane Faye (b.2003, Sporting CP), not b.2010 from Sahel F.C",
+      "reason": "Identity confusion risk triggered. Only adult player (b.2003) found in web results. Youth player (b.2010) has no confirmed transfer activity detectable."
+    }
+  ]
+}
