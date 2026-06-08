@@ -1,0 +1,81 @@
+{
+  "sweepDate": "Jun 8, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 55,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "May 15, 2026",
+        "headline": "Diomande integrated into Ivory Coast 2026 World Cup squad by coach Emerse Fae",
+        "source": "Ivory Coast Football Federation",
+        "sourceUrl": null,
+        "type": "call_up",
+        "league": "Liga Portugal",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "New call-up to 2026 World Cup squad not previously in existing news. Prior call-up (May 27, 2026) was for World Cup qualifiers/friendlies. This is the final squad confirmation."
+    },
+    {
+      "playerId": 102,
+      "playerName": "Ousmane Diao",
+      "newsItem": {
+        "date": "May 22, 2026",
+        "headline": "Senegal international Diao excluded from 2026 World Cup squad despite AFCON call-up",
+        "source": "Senegal Football Federation",
+        "sourceUrl": null,
+        "type": "media",
+        "league": "Danish Superliga",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "New information: Diao was called up for AFCON 2025 but did not make Senegal's 2026 World Cup squad. This represents a significant status development not previously documented."
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "May 2, 2026",
+        "headline": "Faye starts vs PSG in Lorient 2-2 draw; confirms full recovery and regular playing status",
+        "source": "Transfermarkt",
+        "sourceUrl": "https://www.transfermarkt.com",
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "While an appearance vs PSG on May 2 appears in existing news, the research confirms Faye's full reintegration and status change from injury to regular_starter. This validates the status correction needed."
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "May 22, 2026",
+        "headline": "Campbell left out of Hugo Broos' Bafana Bafana 2026 World Cup squad despite title win",
+        "source": "South African Football Association",
+        "sourceUrl": null,
+        "type": "media",
+        "league": "Belgian Pro League",
+        "tier": 1,
+        "recent": true
+      },
+      "reasoning": "New information: Campbell missed out on 2026 World Cup squad selection. Existing news shows AFCON call-up and non-appearance, but this represents the next competitive disappointment and is newly confirmed as of Jun 8 sweep."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Transfermarkt / Wiwsport / RotoWire - Multiple May 2026 appearance confirmations show full recovery and consistent playing time"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande (existing transfer link and appearance news current)",
+    "Rayann Capo Chichi (U19 academy player, no new competitive action)"
+  ]
+}

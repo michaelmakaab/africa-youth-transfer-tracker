@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Jun 4, 2026",
-    "sweepNumber": 59,
+    "lastSweep": "Jun 8, 2026",
+    "sweepNumber": 60,
     "playerCount": 21
   },
   "players": [
@@ -390,7 +390,7 @@
       "position": "MF",
       "birthYear": 2009,
       "currentClub": "Players Dreams",
-      "status": "active",
+      "status": "confirmed",
       "sweepTier": "B",
       "altSpellings": [
         "Mamadou Traoré",
