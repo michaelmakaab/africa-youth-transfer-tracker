@@ -1,0 +1,37 @@
+{
+  "sweepDate": "Jun 11, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 56,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Jun 10, 2026",
+        "headline": "Leeds United join race for Diomande; prepare club-record £43.1M bid",
+        "source": "Yahoo Sports",
+        "sourceUrl": "https://sports.yahoo.com/articles/leeds-united-join-race-ousmane-170500732.html",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New transfer development: Leeds United joining pursuit with opening bid of £43.1M (eclipsing their previous £36M record). This is genuinely new and not previously reported in existing news."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Transfermarkt / May 2, 2026 appearance data"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}

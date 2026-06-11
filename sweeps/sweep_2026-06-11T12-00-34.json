@@ -1,0 +1,98 @@
+{
+  "sweepDate": "Jun 11, 2026",
+  "sweepType": "full",
+  "sweepNumber": 61,
+  "baselineItems": 112,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "May 15, 2026",
+        "club": "Liverpool FC",
+        "detail": "Handed place in matchday squad vs Aston Villa. Senior progression",
+        "source": "Liverpool.com",
+        "sourceUrl": "https://www.liverpool.com/liverpool-fc-news/transfer-news/who-mor-ndiaye-january-liverpool-33174991",
+        "tier": 1,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New senior squad inclusion dated May 15, 2026, after latest existing rumor (May 11 bench). Confirms progression trajectory and competitive integration."
+    },
+    {
+      "playerId": 11,
+      "playerName": "El Hadj Yamar Ndiaye",
+      "rumor": {
+        "date": "Apr 27, 2026",
+        "club": "Stade Brestois",
+        "detail": "Trial with Stade Brestois expected to lead to pro contract. Updated club",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/waly-sarr-et-el-hadji-yamar-ndiaye-pressentis-au-stade-brestois/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "currentClub": "Académie Amor FC (not Challenge F.C)"
+      },
+      "reasoning": "Later source date (Apr 27) than existing rumors confirms club identity correction and trial progression. Club reference needs update from Challenge F.C to Académie Amor FC."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Apr 1, 2026",
+        "club": "Olympique Marseille",
+        "detail": "OM relaunched pursuit, preparing to overbid Watford's ~€1M offer",
+        "source": "Wiwsport",
+        "sourceUrl": "https://www.wiwsport.com/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Apr 1, 2026 report of OM counter-bid activity is within existing date range but represents escalation in competitive bidding. Watford deal had been reported at €1M by Mar 16; this shows Marseille re-entry with intent to outbid as of Apr 1."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 11,
+      "playerName": "El Hadj Yamar Ndiaye",
+      "field": "currentClub",
+      "oldValue": "Challenge F.C",
+      "newValue": "Académie Amor FC de Dakar",
+      "source": "AfricaFoot (Apr 27, 2026)"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye (b.Feb 8, 2003, RW, Sporting CP as of Jan 2026). Database lists b.2010 player at Sahel F.C.",
+      "reason": "Birth year mismatch suggests identity collision. The b.2010 Sahel F.C player cannot be confirmed via public sources; older b.2003 player is well-documented at Sporting CP. Recommend verifying correct player identity and birth date in database."
+    }
+  ]
+}
