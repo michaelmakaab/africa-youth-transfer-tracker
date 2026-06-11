@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Jun 8, 2026",
-    "sweepNumber": 60,
+    "lastSweep": "Jun 11, 2026",
+    "sweepNumber": 61,
     "playerCount": 21
   },
   "players": [
@@ -564,6 +564,16 @@
       "confusionRisk": "Multiple Ndiaye players in Senegalese football",
       "rumors": [
         {
+          "date": "May 15, 2026",
+          "club": "Liverpool FC",
+          "detail": "Handed place in matchday squad vs Aston Villa. Senior progression",
+          "source": "Liverpool.com",
+          "sourceUrl": "https://www.liverpool.com/liverpool-fc-news/transfer-news/who-mor-ndiaye-january-liverpool-33174991",
+          "tier": 1,
+          "status": "confirmed",
+          "recent": true
+        },
+        {
           "date": "May 11, 2026",
           "club": "Liverpool FC",
           "detail": "Named in senior matchday squad vs Manchester United — made bench again.",
@@ -715,6 +725,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 27, 2026",
+          "club": "Stade Brestois",
+          "detail": "Trial with Stade Brestois expected to lead to pro contract. Updated club",
+          "source": "AfricaFoot",
+          "sourceUrl": "https://africafoot.com/waly-sarr-et-el-hadji-yamar-ndiaye-pressentis-au-stade-brestois/",
+          "tier": 2,
+          "status": "advanced",
+          "recent": true
+        },
         {
           "date": "Apr 27, 2026",
           "club": "Stade Brestois",
