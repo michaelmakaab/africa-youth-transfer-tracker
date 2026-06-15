@@ -1,0 +1,52 @@
+{
+  "sweepDate": "Jun 15, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 57,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Apr 19, 2026",
+        "headline": "Faye stars in Lorient 2-0 win; consolidates top-10 position after injury recovery",
+        "source": "Wiwsport",
+        "sourceUrl": null,
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "Research confirms Faye returned to full competitive status post-injury with strong performance on Apr 19, 2026. Existing news only showed recovery progress; this represents actual match performance confirming return to regular play."
+    },
+    {
+      "playerId": 105,
+      "playerName": "Shandre Campbell",
+      "newsItem": {
+        "date": "May 26, 2026",
+        "headline": "Club Brugge win 2025/26 Belgian Pro League title; Campbell celebrates third career trophy",
+        "source": "Soccer Laduma",
+        "sourceUrl": null,
+        "type": "award",
+        "league": "Belgian Pro League",
+        "tier": 3,
+        "recent": true
+      },
+      "reasoning": "While existing news from May 26 mentions title win, research clarifies this is Campbell's THIRD career title (Belgian Cup 2024/25, Pro League 2025/26, Super Cup 2025/26). Distinction from existing news which did not specify three titles total."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Wiwsport / Transfermarkt / Match performance data (Apr 19, 2026)"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi"
+  ]
+}

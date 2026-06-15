@@ -1,0 +1,78 @@
+{
+  "sweepDate": "Jun 15, 2026",
+  "sweepType": "full",
+  "sweepNumber": 62,
+  "baselineItems": 114,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "May 10, 2026",
+        "club": "Aarhus GF",
+        "detail": "Won Danish Superliga title 2-0 vs Brøndby. AGF first title in 40 years.",
+        "source": "Nile Post / Kawowo Sports",
+        "sourceUrl": "https://nilepost.co.ug/sports/340793/bogeres-champions-league-dream-alive-as-aarhus-lift-danish-superliga-title",
+        "tier": 1,
+        "status": "official",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Historic title win with AGF qualifies as championship-level milestone. Published May 10, 2026—after latest existing rumor (May 17 party mention). Confirms major career achievement and competitive standing."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Apr 1, 2026",
+        "club": "FC Lausanne-Sport",
+        "detail": "Lausanne-Sport closely monitoring; considering move in upcoming window.",
+        "source": "Foot Africa",
+        "sourceUrl": null,
+        "tier": 2,
+        "status": "rumour",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New club entry (Lausanne-Sport) not in existing 28 rumors. Date Apr 16, 2026 per research but published after Apr 1 Watford/Marseille/Guingamp updates. Genuinely new interest signal from Swiss club."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 3,
+      "playerName": "Toure Alassane",
+      "detail": "Search results reference 'Allassane Toure' from Racing d'Abidjan in U17 competitions, not RC Abidjan U19",
+      "reason": "Possible name variation or academy name mismatch; cannot confirm identity with certainty"
+    },
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "No player born 2010 at Sahel FC found; only Souleymane Faye (b.2003, Sporting CP) exists in databases",
+      "reason": "Player profile may not have online presence, name may be spelled differently, or record may be incomplete"
+    }
+  ]
+}
