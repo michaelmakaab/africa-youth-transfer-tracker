@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Jun 11, 2026",
-    "sweepNumber": 61,
+    "lastSweep": "Jun 15, 2026",
+    "sweepNumber": 62,
     "playerCount": 21
   },
   "players": [
@@ -1168,6 +1168,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "Apr 1, 2026",
+          "club": "FC Lausanne-Sport",
+          "detail": "Lausanne-Sport closely monitoring; considering move in upcoming window.",
+          "source": "Foot Africa",
+          "sourceUrl": null,
+          "tier": 2,
+          "status": "rumour",
+          "recent": true
+        },
         {
           "date": "Apr 16, 2026",
           "club": "FC Lausanne-Sport",
