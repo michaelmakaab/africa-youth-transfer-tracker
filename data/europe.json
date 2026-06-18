@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Jun 15, 2026",
-    "sweepNumber": 57,
+    "lastSweep": "Jun 18, 2026",
+    "sweepNumber": 58,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Jun 9, 2026",
+          "headline": "Leeds United push £43m record bid for Diomande; Sporting firm on €50m",
+          "source": "OneFootball",
+          "sourceUrl": null,
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Jun 10, 2026",
           "headline": "Leeds United join race for Diomande; prepare club-record £43.1M bid",
@@ -909,6 +919,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "May 2, 2026",
+          "headline": "Faye confirmed fit and available; returned to regular play at Lorient",
+          "source": "Transfermarkt",
+          "sourceUrl": null,
+          "type": "appearance",
+          "league": "Ligue 1",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Apr 19, 2026",
           "headline": "Faye stars in Lorient 2-0 win; consolidates top-10 position after injury recovery",

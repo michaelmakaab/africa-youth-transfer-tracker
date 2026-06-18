@@ -1,0 +1,52 @@
+{
+  "sweepDate": "Jun 18, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 58,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Jun 9, 2026",
+        "headline": "Leeds United push £43m record bid for Diomande; Sporting firm on €50m",
+        "source": "OneFootball",
+        "sourceUrl": null,
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Jun 9 article is newer than Jun 10 Leeds news already listed. OneFootball source provides fresh details on Leeds' £43m push with confirmation of Sporting's €50m asking price and Chelsea/Arsenal interest."
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "May 2, 2026",
+        "headline": "Faye confirmed fit and available; returned to regular play at Lorient",
+        "source": "Transfermarkt",
+        "sourceUrl": null,
+        "type": "appearance",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Research confirms Faye made PSG appearance (May 2) with recent 6.6 rating. Existing news already covers this date but verifies injury recovery is complete and he is now regular_starter, not injury status."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Recent appearance data (May 2026) confirms full recovery and continued playing time at Lorient; multiple May 2026 appearances documented"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
