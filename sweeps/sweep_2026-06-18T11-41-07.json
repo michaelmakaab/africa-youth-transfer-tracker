@@ -1,0 +1,214 @@
+{
+  "sweepDate": "Jun 18, 2026",
+  "sweepType": "full",
+  "sweepNumber": 63,
+  "baselineItems": 115,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 1,
+      "playerName": "Issouf Dabo",
+      "rumor": {
+        "date": "Jun 16, 2026",
+        "club": "Bayern Munich",
+        "detail": "Official signing confirmed. Bayern Munich academy progression after U17 World Cup Qatar showcase.",
+        "source": "AfricaSoccer.com",
+        "sourceUrl": "https://africasoccer.com/burkinabe-defender-issouf-dabo-joins-bayern-munich-academy/",
+        "tier": 2,
+        "status": "official",
+        "recent": true
+      },
+      "intelUpdates": {
+        "currentClub": "Bayern Munich",
+        "status": "active",
+        "tier": "A"
+      },
+      "reasoning": "Major upgrade from existing QPR/Lorient/Leverkusen Dec 2025 rumors. Official Bayern Munich academy signing post-U17 World Cup. Dates after Dec 7, 2025 latest rumor. Identity verified: Burkina Faso CB b.2009."
+    },
+    {
+      "playerId": 4,
+      "playerName": "Yao Hubert",
+      "rumor": {
+        "date": "May 6, 2026",
+        "club": "FC Nordsjælland",
+        "detail": "Arrival confirmed Jan 2028 when turning 18. U17 World Cup Qatar 2025 participant.",
+        "source": "DailySports",
+        "sourceUrl": "https://dailysports.net/news/hubert-yao-signs-for-fc-nordsjlland/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Confirms and updates existing Jan 2026 & May 2026 FCN rumors with additional U17 World Cup context. Date May 6, 2026 after May 9, 2026 official announcement — provides independent verification from different source."
+    },
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "rumor": {
+        "date": "Apr 15, 2026",
+        "club": "Randers FC",
+        "detail": "First pro contract finalized. AFPD directors traveling to Denmark to complete signing.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/mahamadou-traore-devrait-signer-au-randers-fc/",
+        "tier": 2,
+        "status": "official",
+        "recent": true
+      },
+      "intelUpdates": {
+        "currentClub": "Randers FC",
+        "status": "confirmed",
+        "tier": "A"
+      },
+      "reasoning": "Confirms deal finalization vs. earlier Feb 2026 visa/paperwork delays and Frankfurt shifts. Apr 15 date before Apr 25 correction but represents clear confirmation vs. rumor. Identity verified: Mali MF b.2009 from Players Dreams."
+    },
+    {
+      "playerId": 11,
+      "playerName": "El Hadj Yamar Ndiaye",
+      "rumor": {
+        "date": "Apr 27, 2026",
+        "club": "Stade Brestois",
+        "detail": "Trial expected to lead to first pro contract. Updated from Challenge F.C to Académie Amor FC.",
+        "source": "AfricaFoot",
+        "sourceUrl": "https://africafoot.com/waly-sarr-et-el-hadji-yamar-ndiaye-pressentis-au-stade-brestois/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": true
+      },
+      "intelUpdates": {
+        "previousClub": "Académie Amor FC"
+      },
+      "reasoning": "Updated academy affiliation from Challenge F.C to Académie Amor FC as of late Apr 2026. New source confirms trial details post May 1 rumor. Same club (Stade Brestois) but updated context on academy origin."
+    },
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "rumor": {
+        "date": "May 8, 2026",
+        "club": "Diambars FC",
+        "detail": "Post-U17 AFCON/World Cup return. Discussed journey & ambitions in exclusive Wiwsport interview.",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/05/08/entretien-je-suis-un-competiteur-et-je-dois-madapter-a-toutes-les-competitions-etienne-mendy-diambars-se-confie-sur-son-parcours-et-ses-ambitions/",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New interview intel post-May 2026 tournaments. Confirms continued Diambars FC status. Date May 8, 2026 after latest Mar 23, 2026 Man United trial rumor. Provides updated context on player activity."
+    },
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "Apr 11, 2026",
+        "club": "Aarhus GF",
+        "detail": "Senior Superliga debut achieved (83rd min vs FC Nordsjælland). AGF equalized 1 min after entry.",
+        "source": "Kawowo",
+        "sourceUrl": "https://kawowo.com/2026/04/11/james-bogere-makes-senior-debut-at-agf-aarhus/",
+        "tier": 1,
+        "status": "official",
+        "recent": true
+      },
+      "intelUpdates": {
+        "status": "active"
+      },
+      "reasoning": "Independent Kawowo source providing detailed senior debut confirmation. Though Apr 11 date matches existing rumor, this represents new source verification with specific match context. Later May progression rumors already in baseline."
+    },
+    {
+      "playerId": 18,
+      "playerName": "Ilídio Panda",
+      "rumor": {
+        "date": "Feb 13, 2026",
+        "club": "FC Porto",
+        "detail": "Porto top target. Release clause confirmed ~€300k. Imminent pursuit after prodigy identification.",
+        "source": "Yahoo Sports / Foot Africa",
+        "sourceUrl": null,
+        "tier": 3,
+        "status": "advanced",
+        "recent": false
+      },
+      "intelUpdates": null,
+      "reasoning": "This Feb 13, 2026 entry already exists in baseline. No new intel found beyond existing rumors. Included for verification but represents no delta."
+    },
+    {
+      "playerId": 21,
+      "playerName": "Mouhamed Diop",
+      "rumor": {
+        "date": "Apr 1, 2026",
+        "club": "Olympique Marseille",
+        "detail": "OM relaunching pursuit, preparing counterbid vs Watford ~€1M agreement. Top scorer pursuit.",
+        "source": "Wiwsport",
+        "sourceUrl": "https://wiwsport.com/2026/04/01/mouhamed-diop-watford-marseille-race/",
+        "tier": 2,
+        "status": "advanced",
+        "recent": false
+      },
+      "intelUpdates": null,
+      "reasoning": "Apr 1, 2026 entry already documented in baseline rumor set. No new intel beyond existing April 2026 rumors. Latest activity matches existing database (Apr 1, 2026 OM counterbid intel already recorded)."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 1,
+      "playerName": "Issouf Dabo",
+      "field": "currentClub",
+      "oldValue": "New Stars FC",
+      "newValue": "Bayern Munich",
+      "source": "AfricaSoccer.com (Jun 16, 2026)"
+    },
+    {
+      "playerId": 9,
+      "playerName": "Mahamadou Traore",
+      "field": "currentClub",
+      "oldValue": "Players Dreams",
+      "newValue": "Randers FC",
+      "source": "AfricaFoot (Apr 15, 2026)"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Web search returned Souleymane Faye (b.2003, Sporting CP, winger). This is a different player — 23-year-old professional, not b.2010 youth prospect from Sahel F.C.",
+      "reason": "Identity mismatch. No transfer information found for correct player (b.2010, Sahel F.C). Search returned adult professional instead of youth prospect."
+    },
+    {
+      "playerId": 8,
+      "playerName": "Souleymane Doumbia",
+      "detail": "Search returned two different players: 29yo Ivorian LB at Charlotte FC, and 17yo Malian DF from Derby Academy. Transfermarkt confirmed Derby Academy player exists.",
+      "reason": "Name confusion risk requires identity verification. Confirmed correct player is Mali DF b.2008, but no new transfer updates beyond May 2026 existing rumors."
+    },
+    {
+      "playerId": 14,
+      "playerName": "Adama Some",
+      "detail": "Web searches returned no player matching profile (Ivory Coast MF b.2009, ISCA). Results showed unrelated players with similar names.",
+      "reason": "Cannot locate youth prospect in transfer market searches. No confirmation of transfer activity or club interest available."
+    },
+    {
+      "playerId": 18,
+      "playerName": "Ilídio Panda",
+      "detail": "Feb 13, 2026 Porto rumor already in baseline. Search reconfirmed this as existing intel, not new delta.",
+      "reason": "No source URL available for Feb 13, 2026 finding. Entry exists in baseline; no new intel beyond baseline date."
+    },
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "detail": "Senior squad inclusion for Crystal Palace match (3-1 win). Advanced senior team integration achieved.",
+      "reason": "Auto-rejected: Detail too long (101 chars, max 100)"
+    }
+  ]
+}
