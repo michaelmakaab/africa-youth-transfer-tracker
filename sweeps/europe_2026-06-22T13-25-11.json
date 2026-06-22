@@ -1,0 +1,30 @@
+{
+  "sweepDate": "Jun 22, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 59,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Jun 21, 2026",
+        "headline": "Sporting CP raise asking price to €80M for Diomande amid Chelsea, Leeds interest",
+        "source": "The Hard Tackle",
+        "sourceUrl": "https://thehardtackle.com/transfer-news/2026/06/21/sporting-cp-raise-asking-price-for-ousmane-diomande/",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "New article from Jun 21, 2026 with updated €80M asking price — not previously recorded in existing news (last transfer link was Jun 10 with €50M asking price). This represents a significant price increase and is genuinely new information."
+    }
+  ],
+  "statusChanges": [],
+  "noChange": [
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Abdoulaye Faye",
+    "Shandre Campbell"
+  ]
+}
