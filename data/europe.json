@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Jun 18, 2026",
-    "sweepNumber": 58,
+    "lastSweep": "Jun 22, 2026",
+    "sweepNumber": 59,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Jun 21, 2026",
+          "headline": "Sporting CP raise asking price to €80M for Diomande amid Chelsea, Leeds interest",
+          "source": "The Hard Tackle",
+          "sourceUrl": "https://thehardtackle.com/transfer-news/2026/06/21/sporting-cp-raise-asking-price-for-ousmane-diomande/",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Jun 9, 2026",
           "headline": "Leeds United push £43m record bid for Diomande; Sporting firm on €50m",

@@ -1,0 +1,57 @@
+{
+  "sweepDate": "Jun 22, 2026",
+  "sweepType": "full",
+  "sweepNumber": 64,
+  "baselineItems": 120,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 10,
+      "playerName": "Mor Talla Ndiaye",
+      "rumor": {
+        "date": "May 15, 2026",
+        "club": "Liverpool FC",
+        "detail": "Handed place in senior matchday squad vs Aston Villa. Senior progression milestone.",
+        "source": "Liverpool.com",
+        "sourceUrl": "https://www.liverpool.com/liverpool-fc-news/transfer-news/who-mor-ndiaye-january-liverpool-33174991/",
+        "tier": 1,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Date gating passed: May 15, 2026 is after latest existing rumor (May 15, 2026 already exists). However, this matches existing data. No NEW intel beyond what's already recorded. Filtering out as duplicate."
+    }
+  ],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye b.2003 (Sporting CP), not b.2010 (Sahel FC)",
+      "reason": "Identity mismatch - birth year discrepancy (2003 vs 2010). Sahel FC Senegal player could not be verified in transfer databases."
+    }
+  ]
+}
