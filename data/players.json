@@ -12,8 +12,8 @@
       "flag": "🇧🇫",
       "position": "CB",
       "birthYear": 2009,
-      "currentClub": "Bayern Munich (Pathway)",
-      "status": "confirmed",
+      "currentClub": "Bayern Munich (Pathway) — unconfirmed",
+      "status": "rumour",
       "sweepTier": "B",
       "altSpellings": [
         "Issouf Dabo"
@@ -23,11 +23,11 @@
         {
           "date": "Jun 17, 2026",
           "club": "Bayern Munich",
-          "detail": "OFFICIAL: signed with Bayern Munich, joining FC Bayern Pathway programme. U17 WC performances key to move.",
-          "source": "AfricaSoccer / Pravda Burkina Faso",
+          "detail": "Reported to have joined the FC Bayern Pathway development program (global talent-ID/development, NOT a confirmed pro contract). U17 WC performances cited. No official Bayern, Romano, or Transfermarkt confirmation — regional sources only.",
+          "source": "AfricaSoccer / Pravda Burkina Faso (regional, unconfirmed)",
           "sourceUrl": "https://africasoccer.com/burkinabe-defender-issouf-dabo-joins-bayern-munich-academy/",
-          "tier": 1,
-          "status": "official",
+          "tier": 3,
+          "status": "advanced",
           "recent": true
         },
         {
