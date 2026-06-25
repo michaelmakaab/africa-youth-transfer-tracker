@@ -1,0 +1,84 @@
+{
+  "sweepDate": "Jun 25, 2026",
+  "sweepType": "full",
+  "sweepNumber": 66,
+  "baselineItems": 123,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "rumor": {
+        "date": "Jun 25, 2026",
+        "club": "AS Saint-Étienne",
+        "detail": "OFFICIAL: Signed with ASSE (Ligue 2). 17yo RW from Diambars.",
+        "source": "Peuple Vert / Morning Foot",
+        "sourceUrl": "https://peuple-vert.fr/asse-actualite/mercato-asse-signe-le-senegalais-etienne-mendy/",
+        "tier": 1,
+        "status": "official",
+        "recent": true
+      },
+      "intelUpdates": {
+        "currentClub": "AS Saint-Étienne",
+        "status": "confirmed"
+      },
+      "reasoning": "Completed signing post-trial at Man Utd. Date gates past May 30, 2026 rumor. Official confirmation from club sources (Peuple Vert & Morning Foot). Tier 1 credibility."
+    },
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "May 22, 2026",
+        "club": "Aarhus GF",
+        "detail": "Danish Superliga title winner. Key scorer in AGF's championship.",
+        "source": "Wikipedia / Observer Uganda",
+        "sourceUrl": "https://en.wikipedia.org/wiki/James_Bogere",
+        "tier": 2,
+        "status": "confirmed",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "Confirms existing senior integration. May 22 Wikipedia update verifies title win participation & senior status already documented in existing rumors (May 10, 2026). No new transfer development but confirms recent achievement milestone."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "field": "status",
+      "oldValue": "active",
+      "newValue": "confirmed",
+      "source": "Peuple Vert / Morning Foot (Jun 25, 2026)"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye (b.2003, Sporting CP winger) — different player",
+      "reason": "Confusion risk materialized. The b.2010 Sahel F.C. player has no public profile on major databases. Unable to verify identity match or locate any transfer activity."
+    }
+  ]
+}
