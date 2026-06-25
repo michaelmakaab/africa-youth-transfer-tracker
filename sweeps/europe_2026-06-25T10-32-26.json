@@ -1,0 +1,22 @@
+{
+  "sweepDate": "Jun 25, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 60,
+  "playersSearched": 5,
+  "newNews": [],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "injury",
+      "newStatus": "regular_starter",
+      "source": "Research findings confirm full recovery from foot injury and return to regular playing duties at FC Lorient"
+    }
+  ],
+  "noChange": [
+    "Ousmane Diomande",
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}

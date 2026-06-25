@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Jun 22, 2026",
-    "sweepNumber": 65,
+    "lastSweep": "Jun 25, 2026",
+    "sweepNumber": 66,
     "playerCount": 21
   },
   "players": [
@@ -813,6 +813,16 @@
       "confusionRisk": "Édouard Mendy (b.1992, Al-Ahli). Also: 'Victor Étienne Mendy' (AS Bambey → Fenerbahçe) is a DIFFERENT player",
       "rumors": [
         {
+          "date": "Jun 25, 2026",
+          "club": "AS Saint-Étienne",
+          "detail": "OFFICIAL: Signed with ASSE (Ligue 2). 17yo RW from Diambars.",
+          "source": "Peuple Vert / Morning Foot",
+          "sourceUrl": "https://peuple-vert.fr/asse-actualite/mercato-asse-signe-le-senegalais-etienne-mendy/",
+          "tier": 1,
+          "status": "official",
+          "recent": true
+        },
+        {
           "date": "May 30, 2026",
           "club": "AS Saint-Étienne",
           "detail": "OFFICIAL: signed with ASSE (Ligue 2). 17yo right winger from Diambars. Bypassed Man Utd trial offer.",
@@ -904,6 +914,16 @@
       "altSpellings": [],
       "confusionRisk": null,
       "rumors": [
+        {
+          "date": "May 22, 2026",
+          "club": "Aarhus GF",
+          "detail": "Danish Superliga title winner. Key scorer in AGF's championship.",
+          "source": "Wikipedia / Observer Uganda",
+          "sourceUrl": "https://en.wikipedia.org/wiki/James_Bogere",
+          "tier": 2,
+          "status": "confirmed",
+          "recent": true
+        },
         {
           "date": "May 17, 2026",
           "club": "Aarhus GF",
