@@ -1,0 +1,99 @@
+{
+  "sweepDate": "Jun 29, 2026",
+  "sweepType": "full",
+  "sweepNumber": 67,
+  "baselineItems": 125,
+  "playersSearched": 21,
+  "newIntel": [
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "rumor": {
+        "date": "Jun 25, 2026",
+        "club": "AS Saint-Étienne",
+        "detail": "OFFICIAL: signed with ASSE (Ligue 2). 17yo RW from Diambars.",
+        "source": "Peuple Vert / Morning Foot",
+        "sourceUrl": "https://peuple-vert.fr/asse-actualite/mercato-asse-signe-le-senegalais-etienne-mendy/",
+        "tier": 1,
+        "status": "official",
+        "recent": true
+      },
+      "intelUpdates": {
+        "currentClub": "AS Saint-Étienne",
+        "status": "confirmed"
+      },
+      "reasoning": "New official signing confirmation dated Jun 25, 2026 (post Jun 25 existing rumor). Confirms ASSE transfer."
+    },
+    {
+      "playerId": 13,
+      "playerName": "James Bogere",
+      "rumor": {
+        "date": "May 10, 2026",
+        "club": "Aarhus GF",
+        "detail": "WON DANISH SUPERLIGA TITLE 2-0 vs Brøndby. AGF first title in 40yrs.",
+        "source": "Kawowo Sports / All Africa",
+        "sourceUrl": "https://allafrica.com/stories/202605110936.html",
+        "tier": 1,
+        "status": "official",
+        "recent": true
+      },
+      "intelUpdates": null,
+      "reasoning": "New confirmation of May 10 Superliga title win (most recent existing rumor was May 3). Validates championship achievement with official confirmation."
+    },
+    {
+      "playerId": 18,
+      "playerName": "Ilídio Panda",
+      "rumor": {
+        "date": "Feb 13, 2026",
+        "club": "FC Porto",
+        "detail": "Porto actively pursuing 17yo FW. Release clause ~€300k. Top prospect.",
+        "source": "Yahoo Sports / Foot Africa",
+        "sourceUrl": "https://football-espana.net/category/porto",
+        "tier": 3,
+        "status": "rumour",
+        "recent": false
+      },
+      "intelUpdates": null,
+      "reasoning": "Feb 13 article already in existing rumors. No NEW intel beyond existing duplicate entries. Excluded from delta."
+    }
+  ],
+  "escalations": [
+    {
+      "playerId": 12,
+      "playerName": "Ettienne Mendy",
+      "field": "status",
+      "oldValue": "confirmed",
+      "newValue": "confirmed",
+      "source": "Peuple Vert (Jun 25, 2026)"
+    }
+  ],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Toure Alassane",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Souleymane Faye",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye (b.2003, Sporting CP winger) instead of b.2010 Sahel FC player.",
+      "reason": "Identity confusion risk flagged. Unable to locate transfer news for correct birth year (2010). Possible name spelling variation or very limited online presence."
+    }
+  ]
+}
