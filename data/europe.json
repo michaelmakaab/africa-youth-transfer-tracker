@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastSweep": "Jun 29, 2026",
-    "sweepNumber": 61,
+    "lastSweep": "Jul 1, 2026",
+    "sweepNumber": 62,
     "playerCount": 5
   },
   "players": [
@@ -24,6 +24,16 @@
       ],
       "confusionRisk": null,
       "news": [
+        {
+          "date": "Jun 24, 2026",
+          "headline": "Crystal Palace ready to revisit Diomande (fear losing Lacroix to Chelsea); Chelsea have funds to meet ~EUR80M valuation, Leeds' ~GBP43M now short. Diomande at 2026 World Cup with Ivory Coast.",
+          "source": "Yahoo Sports / The Hard Tackle",
+          "sourceUrl": "https://sports.yahoo.com/",
+          "type": "transfer_link",
+          "league": "Liga Portugal",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "Jun 21, 2026",
           "headline": "Sporting CP raise asking price to €80M for Diomande amid Chelsea, Leeds interest",
@@ -929,6 +939,16 @@
       ],
       "confusionRisk": "Abdoulaye Faye (b.1978, retired Senegalese CB — different player)",
       "news": [
+        {
+          "date": "Jun 30, 2026",
+          "headline": "Loan at Lorient expired; Faye returned to Bayer Leverkusen. Full loan tally ~1,446 Ligue 1 mins, 0G/0A, 8 yellows. No confirmed new 2026/27 loan/transfer yet.",
+          "source": "FotMob / Transfermarkt",
+          "sourceUrl": null,
+          "type": "appearance",
+          "league": "Bundesliga",
+          "tier": 2,
+          "recent": true
+        },
         {
           "date": "May 2, 2026",
           "headline": "Faye confirmed fit and available; returned to regular play at Lorient",
