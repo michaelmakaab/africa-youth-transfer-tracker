@@ -1,0 +1,45 @@
+{
+  "sweepDate": "Jul 2, 2026",
+  "sweepType": "full",
+  "sweepNumber": 69,
+  "baselineItems": 136,
+  "playersSearched": 21,
+  "newIntel": [],
+  "escalations": [],
+  "tierChanges": [],
+  "noChange": [
+    "Issouf Dabo",
+    "El Hadj Malick Cissé",
+    "Yao Hubert",
+    "Asharaf Loukmane Tapsoba",
+    "Cheick Malo",
+    "Souleymane Doumbia",
+    "Mahamadou Traore",
+    "Mor Talla Ndiaye",
+    "El Hadj Yamar Ndiaye",
+    "Ettienne Mendy",
+    "James Bogere",
+    "Adama Some",
+    "Delfim Luwawu",
+    "Prince Hamed Ouedraogo",
+    "Vincent Gomis",
+    "Ilídio Panda",
+    "Ysso Donatien Bama",
+    "Pape Sémou Sané",
+    "Mouhamed Diop"
+  ],
+  "needsReview": [
+    {
+      "playerId": 3,
+      "playerName": "Toure Alassane",
+      "detail": "Search results returned Bazoumana Touré (b.2006, Hoffenheim) instead of RC Abidjan U19 player (b.2009)",
+      "reason": "Name collision — unable to verify correct player identity or new transfer activity"
+    },
+    {
+      "playerId": 6,
+      "playerName": "Souleymane Faye",
+      "detail": "Search returned Souleymane Faye (b.Feb 8, 2003 | Sporting CP winger) — different player from Sahel FC (b.2010)",
+      "reason": "Birth year mismatch (2003 vs 2010) — clarify which Souleymane Faye is in tracker; existing rumor may reference wrong player"
+    }
+  ]
+}
