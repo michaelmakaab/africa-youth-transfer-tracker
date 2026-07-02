@@ -1,0 +1,53 @@
+{
+  "sweepDate": "Jul 2, 2026",
+  "sweepType": "europe",
+  "sweepNumber": 63,
+  "playersSearched": 5,
+  "newNews": [
+    {
+      "playerId": 101,
+      "playerName": "Ousmane Diomande",
+      "newsItem": {
+        "date": "Jun 30, 2026",
+        "headline": "AC Milan emerge as new suitor for Diomande; €80M release clause",
+        "source": "Football Insider",
+        "sourceUrl": "https://www.footballinsider.com",
+        "type": "transfer_link",
+        "league": "Liga Portugal",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "AC Milan interest is genuinely new — not mentioned in 48 existing news items. June 30 date is after last transfer update (Jun 24)."
+    },
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "newsItem": {
+        "date": "Jun 30, 2026",
+        "headline": "Faye loan at Lorient expired; returned to Bayer Leverkusen after season",
+        "source": "Transfermarkt",
+        "sourceUrl": "https://www.transfermarkt.com",
+        "type": "loan_update",
+        "league": "Ligue 1",
+        "tier": 2,
+        "recent": true
+      },
+      "reasoning": "Status change critical: Faye's loan ended Jun 30, 2026. Most recent existing news is Jun 30 (same day), but this confirms formal loan expiration and return. Reflects current reality as of today (Jul 2, 2026)."
+    }
+  ],
+  "statusChanges": [
+    {
+      "playerId": 104,
+      "playerName": "Abdoulaye Faye",
+      "oldStatus": "regular_starter",
+      "newStatus": "loan",
+      "source": "Transfermarkt / FC Lorient Official records",
+      "reasoning": "Loan from Bayer Leverkusen to FC Lorient officially expired Jun 30, 2026. Player has now returned to parent club. Status reflects he is no longer on active loan assignment."
+    }
+  ],
+  "noChange": [
+    "Ousmane Diao",
+    "Rayann Capo Chichi",
+    "Shandre Campbell"
+  ]
+}
